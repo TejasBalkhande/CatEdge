@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "cf-build": "npx @cloudflare/next-on-pages@1",
     "start": "next start",
     "lint": "next lint"
   },
@@ -29,6 +30,7 @@
     "react-katex": "^3.1.0"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.13",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/bcryptjs": "^2.4.6",
