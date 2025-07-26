@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\[ \\left| \\frac{45 - x}{3} \\right| < 5 \\], then find the correct range of \\( x \\).",
+    "options": {
+      "a": "\\( 10 < x < 20 \\)",
+      "b": "\\( 30 < x < 60 \\)",
+      "c": "\\( 10 < x < 40 \\)",
+      "d": "\\( x \\geq 50 \\)"
+    },
+    "answer": "b",
+    "explanation": "\\[ |45 - x| < 15 \\rightarrow -15 < 45 - x < 15 \\rightarrow -60 < -x < -30 \\rightarrow 30 < x < 60 \\]",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 2,
+    "passage": "",
+    "ImageID": "",
+    "question": "The geometric mean proportion between \\( 30 + \\sqrt{200} \\) and \\( 54 - \\sqrt{648} \\) is:",
+    "options": {
+      "a": "\\( 6\\sqrt{2} \\)",
+      "b": "\\( 4\\sqrt{5} \\)",
+      "c": "\\( 6\\sqrt{35} \\)",
+      "d": "\\( 5\\sqrt{6} \\)"
+    },
+    "answer": "c",
+    "explanation": "Numbers: \\( 10(3 + \\sqrt{2}) \\), \\( 18(3 - \\sqrt{2}) \\). GM = \\( \\sqrt{180 \\times (9 - 2)} = \\sqrt{1260} = 6\\sqrt{35} \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 3,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the number of real number solutions for the equation \\( \\alpha^2 + |\\alpha| - 56 = 0 \\).",
+    "options": {
+      "a": "4",
+      "b": "3",
+      "c": "2",
+      "d": "1"
+    },
+    "answer": "c",
+    "explanation": "Let \\( u = |\\alpha| \\). Then \\( u^2 + u - 56 = 0 \\rightarrow (u - 7)(u + 8) = 0 \\rightarrow u = 7 \\). Thus \\( \\alpha = \\pm 7 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 4,
+    "passage": "",
+    "ImageID": "",
+    "question": "For how many integral values of \\( x \\) does the inequality \\( x^2 - 16x + 28 < 0 \\) hold true?",
+    "options": {
+      "a": "12",
+      "b": "8",
+      "c": "7",
+      "d": "11"
+    },
+    "answer": "d",
+    "explanation": "\\( (x - 2)(x - 14) < 0 \\rightarrow x \\in (2, 14) \\). Integers: 3 to 13 inclusive → 11 values",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 5,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the set of values of \\( x \\) for which \\((x + 2)(x - 7) > -20\\).",
+    "options": {
+      "a": "\\( x > 12 \\) or \\( x < 3 \\)",
+      "b": "\\( x < 2 \\) or \\( x > 3 \\)",
+      "c": "\\( x = 2 \\) or \\( x = 3 \\)",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "explanation": "\\( x^2 - 5x - 14 > -20 \\rightarrow x^2 - 5x + 6 > 0 \\rightarrow (x - 2)(x - 3) > 0 \\rightarrow x < 2 \\) or \\( x > 3 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 6,
+    "passage": "",
+    "ImageID": "",
+    "question": "How many integer solutions of the form (P, Q) satisfy \\( |P| + |Q| = 7 \\)?",
+    "options": {
+      "a": "12",
+      "b": "14",
+      "c": "24",
+      "d": "28"
+    },
+    "answer": "c",
+    "explanation": "Pairs: (±1,±6), (±2,±5), (±3,±4), (±4,±3), (±5,±2), (±6,±1). Each gives 4 solutions → 24 total",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 7,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( x < -4 \\) and \\( y > 3 \\), which is definitely true for real \\( x, y \\)?",
+    "options": {
+      "a": "\\( x + 3y < -1 \\)",
+      "b": "\\( 2x + 5y > 0 \\)",
+      "c": "\\( 3x - 2y < 0 \\)",
+      "d": "\\( 5x + 2y > 0 \\)"
+    },
+    "answer": "c",
+    "explanation": "\\( x \\) negative, \\( y \\) positive → \\( 3x < 0 \\), \\( -2y < 0 \\). Thus \\( 3x - 2y < 0 \\) always holds",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 8,
+    "passage": "",
+    "ImageID": "",
+    "question": "What is the largest integral value of \\( x \\) satisfying \\( (|x| - 4)(x - 3) < 0 \\)?",
+    "options": {
+      "a": "\\( -7 \\)",
+      "b": "\\( -2 \\)",
+      "c": "\\( -5 \\)",
+      "d": "\\( -6 \\)"
+    },
+    "answer": "c",
+    "explanation": "Critical points: \\( x = \\pm 4, 3 \\). Solution: \\( x \\in (-\\infty, -4) \\cup (3, 4) \\). Largest integer: -5",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 9,
+    "passage": "",
+    "ImageID": "",
+    "question": "How many ordered triplets of positive integers \\( k, l, m \\) satisfy \\( \\frac{k}{l} + \\frac{l}{m} + \\frac{m}{k} = 2 \\)?",
+    "options": {
+      "a": "7",
+      "b": "5",
+      "c": "3",
+      "d": "None of these"
+    },
+    "answer": "d",
+    "explanation": "By AM-GM: \\( \\frac{k}{l} + \\frac{l}{m} + \\frac{m}{k} \\geq 3 \\sqrt[3]{1} = 3 > 2 \\). No solutions exist",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 10,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( |x - 5| \\leq 10 \\) and \\( |3y - 6| \\leq 12 \\), find the maximum value of \\( |x| - |y| \\).",
+    "options": {
+      "a": "12",
+      "b": "13",
+      "c": "15",
+      "d": "9"
+    },
+    "answer": "c",
+    "explanation": "\\( -5 \\leq x \\leq 15 \\), \\( -2 \\leq y \\leq 6 \\). Max when \\( |x| = 15 \\), \\( |y| = 0 \\). Value: 15",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 11,
+    "passage": "",
+    "ImageID": "",
+    "question": "How many integer values of \\( x \\) satisfy \\( (x - 7)(x - 8) - 4(3x - 21) \\leq 0 \\)?",
+    "options": {
+      "a": "11",
+      "b": "13",
+      "c": "14",
+      "d": "15"
+    },
+    "answer": "c",
+    "explanation": "Simplify: \\( x^2 - 27x + 140 \\leq 0 \\rightarrow (x - 7)(x - 20) \\leq 0 \\). Integers: 7 to 20 → 14 values",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 12,
+    "passage": "",
+    "ImageID": "",
+    "question": "For what values of \\( k \\) is \\( x^2 - 5kx + 6k^2 + 9 > 0 \\)?",
+    "options": {
+      "a": "\\( (-\\infty, -6) \\)",
+      "b": "\\( (6, \\infty) \\)",
+      "c": "\\( (-6, 6) \\)",
+      "d": "\\( (-\\infty, -6) \\cup (6, \\infty) \\)"
+    },
+    "answer": "c",
+    "explanation": "Discriminant < 0: \\( 25k^2 - 4(6k^2 + 9) < 0 \\rightarrow k^2 < 36 \\rightarrow |k| < 6 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 13,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( P, Q, R, S \\) are distinct natural numbers summing to 70, find the maximum value of their product.",
+    "options": {
+      "a": "90000",
+      "b": "92000",
+      "c": "93024",
+      "d": "95000"
+    },
+    "answer": "c",
+    "explanation": "Numbers near 17.5: 16,17,18,19. Product: \\( 16 \\times 17 \\times 18 \\times 19 = 93,024 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 14,
+    "passage": "",
+    "ImageID": "",
+    "question": "Which solutions satisfy \\( |x^2 + 3x + 1| + 2x + 5 = 0 \\)?",
+    "options": {
+      "a": "\\( -2 \\) and \\( \\frac{-1+\\sqrt{17}}{2} \\)",
+      "b": "\\( -3 \\) and \\( \\frac{-1+\\sqrt{17}}{2} \\)",
+      "c": "\\( -3 \\) and \\( \\frac{-1-\\sqrt{17}}{2} \\)",
+      "d": "\\( -2 \\) and \\( \\frac{-1-\\sqrt{17}}{2} \\)"
+    },
+    "answer": "c",
+    "explanation": "Case 1: \\( x^2 + 3x + 1 \\geq 0 \\) → \\( x = -3 \\) (valid). Case 2: \\( x^2 + 3x + 1 < 0 \\) → \\( x = \\frac{-1 \\pm \\sqrt{17}}{2} \\), only \\( \\frac{-1 - \\sqrt{17}}{2} \\) valid",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 15,
+    "passage": "",
+    "ImageID": "",
+    "question": "The solution set for \\( (2x^2 + 3x + 1)^x < 1 \\) is:",
+    "options": {
+      "a": "\\( (-\\infty, -1) \\)",
+      "b": "\\( (-\\infty, -1/2) \\)",
+      "c": "\\( (-\\infty, 0) \\)",
+      "d": "\\( (-\\infty, 1) \\)"
+    },
+    "answer": "a",
+    "explanation": "Expression undefined at \\( x = -1, -0.5 \\). For \\( x < -1 \\), base positive and exponent negative → result < 1",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 16,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( |p + q| = |p| + |q| \\), \\( |R + S| < |R| + |S| \\), and \\( |T + U| < |T| + |U| \\), what is \\( P \\times Q \\times R \\times S \\times T \\times U \\)?",
+    "options": {
+      "a": "Positive",
+      "b": "Negative",
+      "c": "Zero",
+      "d": "Cannot be determined"
+    },
+    "answer": "a",
+    "explanation": "\\( P,Q \\) same sign → \\( P \\times Q > 0 \\). \\( R,S \\) opposite signs → \\( R \\times S < 0 \\). \\( T,U \\) opposite signs → \\( T \\times U < 0 \\). Product: positive × negative × negative = positive",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 17,
+    "passage": "",
+    "ImageID": "",
+    "question": "What is the maximum value of \\( (5x - 6)(15 - 5x) \\)?",
+    "options": {
+      "a": "40.25",
+      "b": "20.25",
+      "c": "60.15",
+      "d": "15.25"
+    },
+    "answer": "b",
+    "explanation": "Sum of factors constant (9). Max when \\( 5x - 6 = 15 - 5x \\rightarrow x = 2.1 \\). Value: \\( (4.5)(4.5) = 20.25 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 18,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the sum of all possible values of \\( x \\) satisfying \\( |x + 5| + |x - 6| = 14 \\).",
+    "options": {
+      "a": "0.5",
+      "b": "2",
+      "c": "1",
+      "d": "-2"
+    },
+    "answer": "c",
+    "explanation": "Solutions: \\( x = 7.5 \\) and \\( x = -6.5 \\). Sum: \\( 7.5 + (-6.5) = 1 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 19,
+    "passage": "",
+    "ImageID": "",
+    "question": "\\( |x - 5| \\leq 13 \\) and \\( |3y - 12| \\leq 18 \\). Find the minimum possible value of \\( |x| - |y| \\).",
+    "options": {
+      "a": "-10",
+      "b": "-15",
+      "c": "-18",
+      "d": "-23"
+    },
+    "answer": "a",
+    "explanation": "\\( -8 \\leq x \\leq 18 \\), \\( -2 \\leq y \\leq 10 \\). Min when \\( |x| = 0 \\), \\( |y| = 10 \\). Value: \\( 0 - 10 = -10 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 20,
+    "passage": "",
+    "ImageID": "",
+    "question": "How many integral values of \\( x \\) satisfy both \\( |x - 2| \\leq 4 \\) and \\( |x - 1| \\geq 2 \\)?",
+    "options": {
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "7"
+    },
+    "answer": "c",
+    "explanation": "\\( -2 \\leq x \\leq 6 \\) and \\( x \\leq -1 \\) or \\( x \\geq 3 \\). Solutions: \\( \\{-2, -1, 3, 4, 5, 6\\} \\) → 6 values",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 21,
+    "passage": "",
+    "ImageID": "",
+    "question": "How many integers satisfy \\( (x - 2)(x + 3)(x - 4) \\leq (x + 2)(x - 3)(x + 4) \\)?",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "answer": "c",
+    "explanation": "Simplify: \\( 6x^2 \\leq 48 \\rightarrow x^2 \\leq 8 \\). Integers: \\( \\{-2, -1, 0, 1, 2\\} \\) → 5 values",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 22,
+    "passage": "",
+    "ImageID": "",
+    "question": "For how many values of \\( x \\) does \\( \\|x - 5\\| + 4| - 3| = 0 \\) hold?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "None of these"
+    },
+    "answer": "d",
+    "explanation": "Leads to \\( |x - 5| = -1 \\), impossible. No solutions",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 23,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( 4P + 12Q + 3R = 32 \\) (\\( P,Q,R > 0 \\)), what is the maximum of \\( P^2Q^3R^3 \\)?",
+    "options": {
+      "a": "200",
+      "b": "256",
+      "c": "300",
+      "d": "324"
+    },
+    "answer": "b",
+    "explanation": "By AM-GM: \\( \\frac{2P + 2P + 4Q + 4Q + 4Q + R + R + R}{8} \\geq \\sqrt[8]{(2P)^2 (4Q)^3 (R)^3} \\). Solve: max = 256",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 24,
+    "passage": "",
+    "ImageID": "",
+    "question": "For \\( -3 \\leq x \\leq -1 \\), \\( -4 \\leq y \\leq 4 \\), \\( -6 \\leq z \\leq -2 \\), find the range of \\( u = \\frac{xy}{z} \\).",
+    "options": {
+      "a": "\\( -6 \\leq u \\leq 18 \\)",
+      "b": "\\( -12 \\leq u \\leq 12 \\)",
+      "c": "\\( -24 \\leq u \\leq 12 \\)",
+      "d": "\\( -6 \\leq u \\leq 6 \\)"
+    },
+    "answer": "d",
+    "explanation": "Min \\( u = \\frac{(-12)}{-2} = 6 \\), max \\( u = \\frac{12}{-2} = -6 \\). Thus \\( -6 \\leq u \\leq 6 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 25,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( P > 4 \\), what is the minimum value of \\( P - 5 + \\frac{9}{P - 4} \\)?",
+    "options": {
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "7"
+    },
+    "answer": "b",
+    "explanation": "Let \\( t = P - 4 \\). Expression: \\( (t) + \\frac{9}{t} - 1 \\). By AM-GM: \\( t + \\frac{9}{t} \\geq 6 \\). Min: \\( 6 - 1 = 5 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 26,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( a,b,c,d > 0 \\) and \\( abc + abd + acd + bcd = 864 \\), what is the maximum of \\( a \\times b \\times c \\times d \\)?",
+    "options": {
+      "a": "1200",
+      "b": "1296",
+      "c": "1300",
+      "d": "1400"
+    },
+    "answer": "b",
+    "explanation": "By GM-HM: \\( \\sqrt[4]{abcd} \\geq \\frac{4}{\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d}} = \\frac{4abcd}{abc + abd + acd + bcd} \\). Solve: max = 1296",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 27,
+    "passage": "",
+    "ImageID": "",
+    "question": "What is the least and greatest possible value of \\( \\left| \\frac{a + b}{a + b} \\right| + \\left| \\frac{b + c}{b + c} \\right| + \\left| \\frac{c + d}{c + d} \\right| \\)?",
+    "options": {
+      "a": "0 and 3",
+      "b": "0 and 1",
+      "c": "1 and 3",
+      "d": "1 and 2"
+    },
+    "answer": "c",
+    "explanation": "Each term ≤ 1. Minimum 1 (e.g., \\( a=b=-c \\), \\( d \\) arbitrary: two terms undefined → value 1). Maximum 3 (all denominators ≠ 0)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 28,
+    "passage": "",
+    "ImageID": "",
+    "question": "What values can \\( a \\) take if \\( \\left| \\frac{a - 6}{a + 5} \\right| > 1 \\)?",
+    "options": {
+      "a": "\\( a < 3 \\), except \\( a = -5 \\)",
+      "b": "\\( a < \\frac{1}{4} \\), except \\( a = -5 \\)",
+      "c": "\\( a < \\frac{1}{2} \\), except \\( a = -5 \\)",
+      "d": "\\( a < 2 \\), except \\( a = -5 \\)"
+    },
+    "answer": "c",
+    "explanation": "Solve: \\( \\frac{a-6}{a+5} > 1 \\) or \\( < -1 \\). Solutions: \\( a < \\frac{1}{2} \\) excluding \\( a = -5 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 29,
+    "passage": "",
+    "ImageID": "",
+    "question": "In a right triangle with perpendicular sides \\( p,b \\) and hypotenuse \\( h \\), find the minimum of \\( \\left\\{ \\sqrt{2} \\left( \\frac{h}{p} + \\frac{h}{b} \\right) \\right\\} \\).",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5"
+    },
+    "answer": "c",
+    "explanation": "\\( \\frac{h}{p} + \\frac{h}{b} = \\frac{\\sqrt{p^2 + b^2}}{p} + \\frac{\\sqrt{p^2 + b^2}}{b} \\). By AM-GM: \\( \\geq 2\\sqrt{2} \\). Min value: \\( \\sqrt{2} \\times 2\\sqrt{2} = 4 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  },
+  {
+    "id": 30,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( 4x + 3|y| + y = 8 \\) and \\( x + |x| + 4y = 2 \\), find \\( x \\times 5y \\).",
+    "options": {
+      "a": "2",
+      "b": "\\( -3 \\)",
+      "c": "\\( -3.6 \\)",
+      "d": "\\( -7.5 \\)"
+    },
+    "answer": "c",
+    "explanation": "Solve for regions. Valid solution: \\( x > 0 \\), \\( y < 0 \\) → \\( 4x - 2y = 8 \\), \\( 2x + 4y = 2 \\). Solution: \\( x = 1.8 \\), \\( y = -0.4 \\). Thus \\( 5xy = -3.6 \\)",
+    "topic": "Inequalities",
+    "section": "QA"
+  }
+]

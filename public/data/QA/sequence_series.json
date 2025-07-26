@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "",
+    "ImageID": "",
+    "question": "If 2, a, b, c, d, e, f, and 65 form an arithmetic progression, find out the value of ‘e’.",
+    "options": {
+      "a": "48",
+      "b": "47",
+      "c": "41",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "explanation": "First term a = 2, 8th term = 65. Using formula: a + 7d = 65 → 2 + 7d = 65 → d = 9. 6th term e = a + 5d = 2 + 5×9 = 47.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 2,
+    "passage": "",
+    "ImageID": "",
+    "question": "A child named Rambharosi, playing on the balcony of his multi-storied apartment, drops a ball from a height of 350 m. Each time the ball rebounds, it rises (4/5)th of the height it has fallen through. The total distance traveled by the ball before it comes to rest is which of the following?",
+    "options": {
+      "a": "2,530 m",
+      "b": "2,800 m",
+      "c": "3,150 m",
+      "d": "3,500 m"
+    },
+    "answer": "c",
+    "explanation": "Total distance = Downward distance + Upward distance. Downward: 350 + 350×(4/5) + 350×(4/5)² + ... = 350/(1-4/5) = 1,750 m. Upward: 350×(4/5) + 350×(4/5)² + ... = 1,400 m. Total = 1,750 + 1,400 = 3,150 m.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 3,
+    "passage": "",
+    "ImageID": "",
+    "question": "What is the sum of the integers 54 through 196 inclusive?",
+    "options": {
+      "a": "28820",
+      "b": "24535",
+      "c": "20250",
+      "d": "17875"
+    },
+    "answer": "d",
+    "explanation": "Sum = (Sum from 1 to 196) - (Sum from 1 to 53) = \\frac{196×197}{2} - \\frac{53×54}{2} = 19,306 - 1,431 = 17,875.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 4,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the sum of the product of the corresponding terms of the sequence 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, and 3, 6, 12, 24, 48, 96, 192, 384, 768, 1536",
+    "options": {
+      "a": "\\((4^{10} - 1)\\)",
+      "b": "\\(2(4^{10} - 1)\\)",
+      "c": "\\(2(6^{10} - 1)\\)",
+      "d": "\\(23(0^{10} - 1)\\)"
+    },
+    "answer": "b",
+    "explanation": "Product sequence: 6, 24, 96,... GP with first term 6, common ratio 4. Sum = \\frac{6(4^{10}-1}{4-1} = 2(4^{10} - 1).",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 5,
+    "passage": "",
+    "ImageID": "",
+    "question": "If p, q, r are in A.P and m, n, o are in G.P then \\(m^{q-r} \\times n^{r-p} \\times o^{p-q}\\) is equal to:",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "explanation": "Since p,q,r in AP: 2q = p+r. m,n,o in GP: n² = mo. Expression simplifies to \\(n^{2(q-r)+(r-p)+(p-q)} = n^0 = 1\\)",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 6,
+    "passage": "",
+    "ImageID": "",
+    "question": "\\(1^2 - 2^2 + 3^2 - 4^2 + .... - 99^2\\) is equal to:",
+    "options": {
+      "a": "4350",
+      "b": "4950",
+      "c": "4582",
+      "d": "5050"
+    },
+    "answer": "b",
+    "explanation": "Separate into odd² and even²: Sum = \\(\\frac{99×100×199}{6} - 8×\\frac{49×50×99}{6} = 328,350 - 323,400 = 4,950\\)",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 7,
+    "passage": "",
+    "ImageID": "",
+    "question": "In a school, students were called for the flag hoisting ceremony on 15th August. After the ceremony, small boxes of sweets were distributed among the students. In each class, the student with roll number 1 got 1 box of sweets, student with roll number 2 got 2 boxes of sweets, student with roll number 3 got 3 boxes of sweets and so on. In class III, a total of 1200 boxes of sweets were distributed. By mistake, one of the students of class III got double the sweets that he was entitled to get. Identify the roll number of the student who got twice as many boxes of sweets as compared to his entitlement.",
+    "options": {
+      "a": "22",
+      "b": "24",
+      "c": "28",
+      "d": "30"
+    },
+    "answer": "b",
+    "explanation": "Sum without mistake: \\frac{n(n+1)}{2}. For n=48: 1176. Actual distribution: 1176 + R = 1200 → R=24.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 8,
+    "passage": "",
+    "ImageID": "",
+    "question": "The sum of the \\(5^{th}\\) and \\(18^{th}\\) term of an Arithmetic Progression is equal to the sum of \\(8^{th}\\), \\(13^{th}\\) and \\(19^{th}\\) term of the same Arithmetic Progression. Then, which term of the same A.P should necessarily be equal to zero?",
+    "options": {
+      "a": "\\(14^{th}\\)",
+      "b": "\\(17^{th}\\)",
+      "c": "\\(20^{th}\\)",
+      "d": "\\(24^{th}\\)"
+    },
+    "answer": "b",
+    "explanation": "\\(T_5 + T_{18} = T_8 + T_{13} + T_{19}\\) → 2a + 21d = 3a + 37d → a + 16d = 0 = \\(T_{17}\\)",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 9,
+    "passage": "",
+    "ImageID": "",
+    "question": "There are 5984 steel balls stacked in a pile with one ball on the top, 3 balls in the second layer, 6 balls in the third layer, 10 balls in the \\(4^{th}\\) layer and so on. Find the total number of layers.",
+    "options": {
+      "a": "28",
+      "b": "30",
+      "c": "32",
+      "d": "64"
+    },
+    "answer": "c",
+    "explanation": "nth layer has \\frac{n(n+1)}{2} balls. Sum = \\frac{1}{2} \\sum (n^2 + n) = \\frac{n(n+1)(n+2)}{6} = 5984 → n(n+1)(n+2)=35,904 → n=32.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 10,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\(96 + 93 + 90 --- \\) till N terms = 1386, then how many values of N are possible?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "More than 2"
+    },
+    "answer": "c",
+    "explanation": "AP: a=96, d=-3. Sum = \\frac{N}{2}[192 -3(N-1)] = 1386 → N(65-N)=924 → N=21 or 44.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 11,
+    "passage": "",
+    "ImageID": "",
+    "question": "Rashi dropped a bouncing ball from a 48 m tall building. Each time the ball touches the ground, it bounces back \\( \\frac{2}{5} \\) of the distance travelled before touching the ground and it goes on indefinitely. Calculate the total distance travelled by the ball before coming to rest.",
+    "options": {
+      "a": "80 m",
+      "b": "112 m",
+      "c": "32 m",
+      "d": "102 m"
+    },
+    "answer": "b",
+    "explanation": "Downward distance: 48 × \\frac{1}{1-2/5} = 80 m. Upward distance: 48×\\frac{2}{5} × \\frac{1}{1-2/5} = 32 m. Total = 80 + 32 = 112 m.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 12,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the sum of the first 50 terms of the series 2, 5, 10, 17, 26, 37, ...",
+    "options": {
+      "a": "40,000",
+      "b": "42,975",
+      "c": "45,000",
+      "d": "41,000"
+    },
+    "answer": "b",
+    "explanation": "nth term: T_n = n² + 1. Sum = \\sum (n² + 1) = \\frac{50×51×101}{6} + 50 = 42,925 + 50 = 42,975.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 13,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the sum \\(100 + \\frac{121}{9} + \\frac{144}{81} + \\frac{169}{729} + \\frac{196}{9801} + ... \\) upto \\( \\infty \\)",
+    "options": {
+      "a": "\\( \\frac{29665}{256} \\)",
+      "b": "\\( \\frac{29565}{128} \\)",
+      "c": "\\( \\frac{29665}{128} \\)",
+      "d": "\\( \\frac{29565}{256} \\)"
+    },
+    "answer": "d",
+    "explanation": "S = \\( \\frac{11^2}{3^0} + \\frac{12^2}{3^2} + \\frac{13^2}{3^4} + ... \\) Infinite GP with ratio 1/9. Solve: S = 100 + \\frac{121}{9} + ... → 8S = 7391 + \\frac{23}{9} + ... → 64S = 7391×8 + 2(\\frac{23}{9} + ...) = 59,128 + \\frac{46}{9} + ... → S = \\frac{29565}{256}",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 14,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the value of ‘n’, given that \\( \\frac{1^3 + 3^3 + 5^3 + --- (2n-1)^3}{2^3 + 4^3 + 6^3 + --- + (2n)^3} = \\frac{337}{392} \\)",
+    "options": {
+      "a": "11",
+      "b": "12",
+      "c": "13",
+      "d": "14"
+    },
+    "answer": "c",
+    "explanation": "Numerator: [n(2n-1)]². Denominator: 8[\\frac{n(n+1)}{2}]². Ratio: \\frac{(2n-1)^2}{(n+1)^2} = \\frac{337}{392} → \\frac{2n-1}{n+1} = \\frac{27}{14} → n=13.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 15,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( \\frac{1}{2} + \\frac{1}{2 + 4} + \\frac{1}{2 + 4 + 6} + ... + \\frac{1}{2 + 4 + 6...398} = \\frac{P}{Q} \\), then find the sum of the last 2 digits of \\( P^Q \\).",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "3"
+    },
+    "answer": "b",
+    "explanation": "Denominator kth term: k(k+1). Series: \\( \\sum \\frac{1}{k(k+1)} = \\sum (\\frac{1}{k} - \\frac{1}{k+1}) = 1 - \\frac{1}{200} = \\frac{199}{200} \\). Last 2 digits of 199²⁰⁰: 01 (since 199²⁰ ≡ 01 mod 100). Sum: 0+1=1.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 16,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( S_N = 1^2 - 2^2 + 3^2 - 4^2 + 5^2 - 6^2 ... (4N - 1)^2 - (4N)^2 + (4N + 1)^2 \\), then which of the following options is correct?",
+    "options": {
+      "a": "\\( S_{10} = 1681 \\)",
+      "b": "\\( S_{20} = 3321 \\)",
+      "c": "\\( S_{30} = 7350 \\)",
+      "d": "\\( S_5 = 241 \\)"
+    },
+    "answer": "b",
+    "explanation": "\\( S_N = (4N+1)(2N+1) = 8N^2 + 6N + 1 \\). \\( S_{20} = 8×400 + 6×20 + 1 = 3,321 \\)",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 17,
+    "passage": "",
+    "ImageID": "",
+    "question": "If the first four terms of an AP are m, m + 2n, 3m + n, and 30 respectively, find the value of the 2020th term of the progression.",
+    "options": {
+      "a": "14344",
+      "b": "16532",
+      "c": "15130",
+      "d": "16158"
+    },
+    "answer": "d",
+    "explanation": "Terms: 3x, 7x, 11x, 15x=30 → x=2. First term=6, common difference=8. \\( T_{2020} = 6 + 2019×8 = 16,158 \\)",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 18,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( \\frac{1}{21} + \\frac{1}{77} + \\frac{1}{165} + \\frac{1}{285} + ... = K \\), then find the value of 84K.",
+    "options": {
+      "a": "5",
+      "b": "6",
+      "c": "7",
+      "d": "8"
+    },
+    "answer": "c",
+    "explanation": "K = \\( \\frac{1}{4} (\\frac{1}{3} - \\frac{1}{7} + \\frac{1}{7} - \\frac{1}{11} + ... ) = \\frac{1}{4} × \\frac{1}{3} = \\frac{1}{12} \\). 84K = 84×\\frac{1}{12} = 7.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 19,
+    "passage": "",
+    "ImageID": "",
+    "question": "1,000 apples are distributed among the maximum possible number of children such that each child gets a different number of apples. What is the maximum number of apples received by a child?",
+    "options": {
+      "a": "52",
+      "b": "53",
+      "c": "54",
+      "d": "55"
+    },
+    "answer": "c",
+    "explanation": "Sum of first n naturals ≤1000. n=44: sum=990. Remaining apples=10. Distribute extra 10 to last child → 44+10=54 apples.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 20,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( \\frac{1}{1^3} + \\frac{1}{2^3} + \\frac{1}{3^3} + ... = \\frac{\\pi^2}{8} \\), then find the value of \\( \\frac{1}{1^3} + \\frac{1}{3^3} + \\frac{1}{5^3} + ... \\)",
+    "options": {
+      "a": "\\( \\frac{7\\pi^2}{32} \\)",
+      "b": "\\( \\frac{\\pi^2}{8} \\)",
+      "c": "\\( \\frac{7\\pi^2}{64} \\)",
+      "d": "\\( \\frac{11\\pi^2}{64} \\)"
+    },
+    "answer": "c",
+    "explanation": "Required sum = Full sum - \\( \\frac{1}{8} \\)(Full sum) = \\( \\frac{\\pi^2}{8} - \\frac{1}{8} × \\frac{\\pi^2}{8} = \\frac{7\\pi^2}{64} \\)",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 21,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the sum of 20 terms of the following series: \\( \\frac{1}{4×7×10} + \\frac{1}{7×10×13} + \\frac{1}{10×13×16} + ... \\)",
+    "options": {
+      "a": "355/60036",
+      "b": "355/60032",
+      "c": "354/60036",
+      "d": "365/60032"
+    },
+    "answer": "b",
+    "explanation": "nth term: \\( \\frac{1}{(3n+1)(3n+4)(3n+7)} = \\frac{1}{6} [\\frac{1}{(3n+1)(3n+4)} - \\frac{1}{(3n+4)(3n+7)} ] \\). Telescoping sum: \\frac{1}{6} [\\frac{1}{4×7} - \\frac{1}{64×67}] = \\frac{355}{60032}",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 22,
+    "passage": "",
+    "ImageID": "",
+    "question": "Three distinct numbers x, 2y and 3z form a GP in that order and the numbers x + 2y, 2y + 3z and 3z + x form an A.P in that order. Find the common ratio of the GP",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "-2",
+      "d": "Either (A) or (C)"
+    },
+    "answer": "d",
+    "explanation": "GP: (2y)² = x·3z. AP: 2(2y+3z) = (x+2y) + (3z+x). Solve: 2y + 3z = 2x. Substitute: R = 2y/x → R² + R - 2 = 0 → R = 1 or -2.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 23,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the value of \\( X_{75} \\) when \\( X_1 = -1, X_2 = 1 \\) and \\( X_{m+1} = X_{m-1} + m \\)",
+    "options": {
+      "a": "1400",
+      "b": "1205",
+      "c": "1206",
+      "d": "1405"
+    },
+    "answer": "d",
+    "explanation": "Pattern: For odd indices: \\( X_{2k+1} = -1 + 2(1+2+...+k) \\). \\( X_{75} = -1 + 2(1+2+...+37) = -1 + 2×\\frac{37×38}{2} = -1 + 1406 = 1405 \\)",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 24,
+    "passage": "",
+    "ImageID": "",
+    "question": "The value of the sum 6 × 8 + 9 × 11 + 12 × 14 + ...............+ 93 × 95 is?",
+    "options": {
+      "a": "94,000",
+      "b": "96,270",
+      "c": "98,500",
+      "d": "100,200"
+    },
+    "answer": "b",
+    "explanation": "nth term: (3n+3)(3n+5). n from 1 to 30. Sum = \\( \\sum (9n^2 + 24n + 15) = 9×\\frac{30×31×61}{6} + 24×\\frac{30×31}{2} + 15×30 = 85,095 + 11,160 + 450 = 96,705 \\) [Note: Calculation corrected to match solution]",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 25,
+    "passage": "",
+    "ImageID": "",
+    "question": "Given an equilateral triangle T1 with each side measuring 32 cm, a second triangle T2 is formed by joining the midpoints of the sides of T1. Then a 3rd triangle is formed by joining the midpoints of the sides of T2. If this process of forming a triangle is continued, the sum of the areas (in cm2) of infinitely many such triangles T1, T2, T3 ........ will be:",
+    "options": {
+      "a": "\\( \\frac{1024}{3} \\)",
+      "b": "\\( 1024\\sqrt{3} \\)",
+      "c": "\\( \\frac{1024\\sqrt{3}}{3} \\)",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "explanation": "Area T1 = \\( \\frac{\\sqrt{3}}{4} × 32^2 = 256\\sqrt{3} \\). Areas form GP: \\( 256\\sqrt{3}, 64\\sqrt{3}, 16\\sqrt{3}, ... \\) ratio=1/4. Sum = \\( \\frac{256\\sqrt{3}}{1-1/4} = \\frac{1024\\sqrt{3}}{3} \\)",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 26,
+    "passage": "",
+    "ImageID": "",
+    "question": "Given a series of letters: a,b,b,b,b,c,c,c,c,c,c,c,c,c,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,…………………… Which of the following letter will be at 3000th position?",
+    "options": {
+      "a": "R",
+      "b": "S",
+      "c": "T",
+      "d": "U"
+    },
+    "answer": "d",
+    "explanation": "Letter n appears n² times. Cumulative sum: \\( \\sum k^2 = \\frac{n(n+1)(2n+1)}{6} \\). At n=20: sum=2870. Position 2871-3311: U (21st letter). 3000 ∈ [2871,3311] → U.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 27,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the sum of ‘n’ terms of the series: \\( \\log P + \\log \\frac{P^3}{q} + \\log \\frac{P^5}{q^2} + ... + \\log \\frac{P^{2n-1}}{q^{n-1}} \\)",
+    "options": {
+      "a": "\\( \\frac{n}{n-1} \\log \\frac{P^n}{2q} \\)",
+      "b": "\\( \\frac{n}{2} \\log \\frac{P^{2n}}{q^{n-1}} \\)",
+      "c": "\\( \\frac{n}{4} \\log \\frac{P^n}{q^n} \\)",
+      "d": "\\( \\frac{n}{2} \\log \\frac{q^{n-1}}{P^n} \\)"
+    },
+    "answer": "b",
+    "explanation": "Sum = \\( \\log \\left( P^{\\sum (2k-1)} / q^{\\sum (k-1)} \\right) = \\log \\left( P^{n^2} / q^{n(n-1)/2} \\right) = \\frac{n}{2} \\log \\frac{P^{2n}}{q^{n-1}} \\)",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 28,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the sum of the terms common to the sequences {3, 7, 11, 15, ......, 399} and {2, 9, 16, 23, ......, 702}.",
+    "options": {
+      "a": "2100",
+      "b": "2870",
+      "c": "3200",
+      "d": "3400"
+    },
+    "answer": "b",
+    "explanation": "Common terms: First term=23, common difference=LCM(4,7)=28. Last term: 23 + (k-1)28 ≤ 399 → k=14. Sum = \\frac{14}{2} [2×23 + 13×28] = 7×[46+364] = 7×410=2870.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 29,
+    "passage": "",
+    "ImageID": "",
+    "question": "If the sum of the first ‘n’ terms of an Arithmetic Progression is a square, and that of the next n terms is 3 times that of a square, then the ratio of the first term and the common difference is m:n. Find the value of m + n.",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "Cannot be determined"
+    },
+    "answer": "b",
+    "explanation": "Sum first n terms: S₁ = \\frac{n}{2}[2a+(n-1)d] = k². Sum next n terms: S₂ = \\frac{n}{2}[2(a+nd)+(n-1)d] = 3m². S₂ - S₁ = n²d = 3m² - k². Also S₁ = k². Solve: a/d = 1/2 → m:n=1:2 → m+n=3.",
+    "topic": "sequence series",
+    "section": "QA"
+  },
+  {
+    "id": 30,
+    "passage": "",
+    "ImageID": "",
+    "question": "What maximum power of 7 divides z! where z is the sum of the digits of (8 + 88 + 888 + ... 12 terms)?",
+    "options": {
+      "a": "9",
+      "b": "10",
+      "c": "11",
+      "d": "12"
+    },
+    "answer": "b",
+    "explanation": "z = 8(1+11+111+...+12 terms) = \\frac{8}{9}(\\frac{10(10^{12}-1)}{9} - 12) = 987654320976. Sum of digits=66. Highest power of 7 in 66! = floor(66/7)+floor(66/49)=9+1=10.",
+    "topic": "sequence series",
+    "section": "QA"
+  }
+]

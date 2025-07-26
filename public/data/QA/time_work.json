@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "",
+    "ImageID": "",
+    "question": "Manik, Ruby, and Ashwin are friends. Together they can finish a task in 24 days. If Manik is thrice as efficient as Ruby and Ruby is half as efficient as Ashwin, then find in how many days Manik can finish that work alone.",
+    "options": {
+      "a": "12 hours",
+      "b": "48 hours",
+      "c": "72 hours",
+      "d": "144 hours"
+    },
+    "answer": "B",
+    "explanation": "Let Ashwin's efficiency be x units/day. Then Ruby's efficiency = x/2 units/day, and Manik's efficiency = 3x/2 units/day. Total work = 24(x + x/2 + 3x/2) = 24 × 3x = 72x units. Time for Manik alone = 72x/(3x/2) = 48 days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 2,
+    "passage": "",
+    "ImageID": "",
+    "question": "Mukesh alone can do a job in 30 days, whereas Sujeet alone can do it in 60 days. Mukesh started the job, and after 2 days, Sujeet joined him. Again, after a few more days, Smita joined them and they together finished the job. If Smita did 10% of the job, then in how many days was the job done?",
+    "options": {
+      "a": "16   2/3 days",
+      "b": "18   2/3 days",
+      "c": "17 days",
+      "d": "19 days"
+    },
+    "answer": "B",
+    "explanation": "Total work = 60 units. Mukesh's rate = 2 units/day, Sujeet's rate = 1 unit/day. Smita did 6 units. Work done by Mukesh and Sujeet = 50 units at combined rate 3 units/day. Time = 50/3 days. Total time = 2 + 50/3 = 18⅔ days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 3,
+    "passage": "",
+    "ImageID": "",
+    "question": "A cistern has three inlet taps and two outlet taps. The inlet taps can fill the cistern individually in 8, 12, and 16 hours. The outlet taps can individually empty the cistern in 4 hours and 20 hours, respectively. If all the taps are opened together, how much time does the empty cistern will take to fill?",
+    "options": {
+      "a": "8 hours",
+      "b": "5 hours",
+      "c": "3 hours",
+      "d": "Cistern will never be filled"
+    },
+    "answer": "D",
+    "explanation": "Let capacity = 240 L. Inlet rates: 30 L/h, 20 L/h, 15 L/h. Outlet rates: 60 L/h, 12 L/h. Net rate = (30+20+15) - (60+12) = -7 L/h. Negative rate means cistern will never fill.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 4,
+    "passage": "",
+    "ImageID": "",
+    "question": "Sita and Geeta are working together to complete a job in 8 days. If Sita worked twice efficiently as she actually did and Geeta worked one-third as efficiently as she did, then the work would have been completed in 6 days. Find the time taken by Sita to complete the job alone.",
+    "options": {
+      "a": "13   1/3 days",
+      "b": "15   1/2 days",
+      "c": "7   1/2 days",
+      "d": "9 days"
+    },
+    "answer": "A",
+    "explanation": "Let Sita's efficiency = S, Geeta's = G. (S + G) × 8 = (2S + G/3) × 6. Solving: 4S + 4G = 12S + 2G → 2G = 8S → G = 4S. Total work = (S + 4S) × 8 = 40S. Sita alone: 40S/S = 40/3 = 13⅓ days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 5,
+    "passage": "",
+    "ImageID": "",
+    "question": "Ravi can do work in 24 days, whereas Chandan can do the same work in 32 days. Ravi, Chandan, and Sushma undertook this work for ₹96,000 and all together can complete the same work in 12 days. If Sushma is paid in proportion to her work, then the amount in ₹ received by her is:",
+    "options": {
+      "a": "₹36,000",
+      "b": "₹12,000",
+      "c": "₹18,000",
+      "d": "₹32,000"
+    },
+    "answer": "B",
+    "explanation": "Total work = 96 units. Ravi: 4 u/d, Chandan: 3 u/d. Combined: 8 u/d → Sushma: 8 - 7 = 1 u/d. Ratio: Ravi:Chandan:Sushma = 4:3:1. Sushma's share = 1/8 × 96,000 = ₹12,000.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 6,
+    "passage": "",
+    "ImageID": "",
+    "question": "Rajan alone can finish a piece of work in 156 days. A new person with the same efficiency as him joins him every third day, fifth day, seventh day, and so on until the work is finished. In how many days work will be finished?",
+    "options": {
+      "a": "12 days",
+      "b": "13 days",
+      "c": "14 days",
+      "d": "15 days"
+    },
+    "answer": "A",
+    "explanation": "Total work = 156 units (1 unit/day). Daily work pattern: 1,1,2,2,3,3,... (doubling every 2 days). Sum: 2(1+2+3+...+n) = n(n+1) = 156 → n=12. Work finishes in 12 days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 7,
+    "passage": "",
+    "ImageID": "",
+    "question": "Twenty four men can complete work in 20 days. 40 women can complete the same work in 12 days. 16 men and 8 women started working and after 18 days, 20 more women joined them. How many days will they now take to complete the remaining work?",
+    "options": {
+      "a": "1   1/11 Days",
+      "b": "2   1/11 Days",
+      "c": "3   1/11 Days",
+      "d": "4   1/11 Days"
+    },
+    "answer": "A",
+    "explanation": "Total work = 24M×20 = 40W×12 → M:W = 1:1. Work done in 18 days = (16+8)×18 = 432 units. Remaining = 480-432 = 48 units. New team: 16M + 28W = 44 units/day. Time = 48/44 = 12/11 = 1¹⁄₁₁ days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 8,
+    "passage": "",
+    "ImageID": "",
+    "question": "Five identical small pumps and two identical large pumps are filling a tank. The filling rate per minute of each small pump is 60% of the filling rate of each large pump. Find the ratio of the time taken by all seven pumps to the time taken by two large pumps to fill the same tank.",
+    "options": {
+      "a": "2 : 7",
+      "b": "3 : 7",
+      "c": "1 : 4",
+      "d": "2 : 5"
+    },
+    "answer": "D",
+    "explanation": "Let large pump rate = 5 u/min. Small pump rate = 3 u/min. Seven pumps rate = 5×3 + 2×5 = 25 u/min. Two large pumps rate = 10 u/min. Time ratio = (1/25) : (1/10) = 10:25 = 2:5.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 9,
+    "passage": "",
+    "ImageID": "",
+    "question": "A, B, and C can complete a work in 6, 10, or 12 days, respectively. If they started working together, but B left 3 days before the completion of the work and C left 5 days before the completion of the work, then find how many days work it had taken less if B and C not left the work?",
+    "options": {
+      "a": "4   5/21 days",
+      "b": "3   1/21 days",
+      "c": "2   1/21 days",
+      "d": "3   1/3 days"
+    },
+    "answer": "C",
+    "explanation": "Total work = 60 units. A:10 u/d, B:6 u/d, C:5 u/d. Let total time = x days. Work: 10x + 6(x-3) + 5(x-5) = 60 → 21x=103 → x=103/21. Without leaving: Time = 60/(10+6+5) = 20/7 days. Difference = 103/21 - 20/7 = 43/21 = 2¹⁄₂₁ days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 10,
+    "passage": "",
+    "ImageID": "",
+    "question": "Four men and six women get ₹40,000 by doing a piece of work in 5 days. Three men and seven women get ₹43,500 by doing the same work in 6 days. In how many days, seven men and six women can complete the same work getting ₹94,000?",
+    "options": {
+      "a": "8 days",
+      "b": "6 days",
+      "c": "5 days",
+      "d": "10 days"
+    },
+    "answer": "D",
+    "explanation": "4M+6W daily wage = 8,000. 3M+7W daily wage = 7,250. Solving: M=1,250, W=500. Seven men + six women daily wage = 7×1,250 + 6×500 = 11,750. For ₹94,000: Days = 94,000/11,750 = 8 days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 11,
+    "passage": "",
+    "ImageID": "",
+    "question": "P alone can do a piece of work in 10 days. Q and R each of whom can do the work three-fourth as fast as P joined the group. Moreover, S and T, each of whom can do the work one-fifth as fast as P joined the group. If all the five people start working on a particular project together. Find in how many days this project will end.",
+    "options": {
+      "a": "2   13/29 days",
+      "b": "3   13/29 days",
+      "c": "5   1/13 days",
+      "d": "45 days"
+    },
+    "answer": "B",
+    "explanation": "P's rate = 20 units/day. Q's rate = R's rate = 15 units/day. S's rate = T's rate = 4 units/day. Combined rate = 20+15+15+4+4=58 u/d. Total work = 20×10=200 units. Time = 200/58 = 100/29 = 3¹³⁄₂₉ days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 12,
+    "passage": "",
+    "ImageID": "",
+    "question": "Sonu and Monu can finish a piece of work in 12 and 15 days, respectively. They started the work at the same time. After 2 days, Sonu left work and Rahul joined Monu. For 1 day Monu worked with 1.5 times his efficiency with Rahul and left after that. The rest of the work is finished by Rahul in 2 more days. In how many days Rahul alone can finish that piece of work?",
+    "options": {
+      "a": "12 days",
+      "b": "6 days",
+      "c": "10 days",
+      "d": "5 days"
+    },
+    "answer": "D",
+    "explanation": "Total work = 60 units. Sonu:5 u/d, Monu:4 u/d. First 2 days: (5+4)×2=18 units. Monu (1.5×4=6 u/d) + Rahul for 1 day: (6+R) units. Remaining work done by Rahul in 2 days: 2R = 60-18-(6+R) → R=12. Rahul alone: 60/12=5 days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 13,
+    "passage": "",
+    "ImageID": "",
+    "question": "72 men working 9 hours a day plan to complete a piece of work in 12 days. However, 8 days later, they found that they had completed only 45% of the total work. They now want to complete the remaining work in 10 more days. How many hours per day should they work to achieve the target?",
+    "options": {
+      "a": "8 hours",
+      "b": "9 hours",
+      "c": "10 hours",
+      "d": "None of these"
+    },
+    "answer": "D",
+    "explanation": "Total work = 100K units. Work done in 8 days: 72×9×8=45K. Remaining=55K. Required daily hours: (55K)/(72×10) = (55K)/720. From work done: 45K=5,184 → K=115.2. Hours = (55×115.2)/720 = 8.8 hours.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 14,
+    "passage": "",
+    "ImageID": "",
+    "question": "A can do 2/5th of the work in 18 days and B can do 3/8th of the work in 18 days. A and B along with C started working on the work and they worked together for 12 days. After 12 days, A left, and then B and C together completed the remaining work in 10 days. In how many days, C alone will complete the entire work?",
+    "options": {
+      "a": "60 days",
+      "b": "72 days",
+      "c": "80 days",
+      "d": "90 days"
+    },
+    "answer": "C",
+    "explanation": "A alone: 18×5/2=45 days. B alone: 18×8/3=48 days. Total work=720 units. A:16 u/d, B:15 u/d. Let C:K u/d. (16+15+K)×12 + (15+K)×10 = 720. Solving: 372+12K+150+10K=720 → 22K=198 → K=9. C alone: 720/9=80 days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 15,
+    "passage": "",
+    "ImageID": "",
+    "question": "Two pipes P and Q are connected to an empty water tank. Pipe P can fill the tank, whereas pipe Q empty it. If pipe P is opened at 3 pm and pipe Q is opened at 4 pm, the tank becomes filled at 8 pm. Instead, if pipe P is opened at 3 pm and pipe Q is opened at 5 pm. Then the tank becomes full at 6 pm. If pipe Q is not opened at all, then the time taken to fill the tank is:",
+    "options": {
+      "a": "130 minutes",
+      "b": "140 minutes",
+      "c": "42 minutes",
+      "d": "56 minutes"
+    },
+    "answer": "B",
+    "explanation": "Let P fill rate = a L/h, Q empty rate = b L/h. Case 1: P 5h, Q 4h → 5a-4b = tank. Case 2: P 3h, Q 1h → 3a-b = tank. Solve: 5a-4b=3a-b → 2a=3b. Tank = 5a-4(2a/3)=7a/3. Without Q: Time = (7a/3)/a = 7/3 hours = 140 minutes.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 16,
+    "passage": "",
+    "ImageID": "",
+    "question": "A buffalo can graze as much in 6 days as a goat can in 10 days. A cow can graze as much in 8 days as a buffalo can in 5 days. The goat and the cow together take 89 days to graze a certain field. How much time does it take for all three to graze the same field?",
+    "options": {
+      "a": "49 days",
+      "b": "50 days",
+      "c": "48 days",
+      "d": "51 days"
+    },
+    "answer": "A",
+    "explanation": "Buffalo:Goat efficiency = 10:6 = 40:24. Buffalo:Cow = 8:5 → 40:25. Ratio B:G:C = 40:24:25. Goat+Cow in 89 days: (24+25)×89=49×89 units. Three together: 49×89/(40+24+25)=49 days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 17,
+    "passage": "",
+    "ImageID": "",
+    "question": "X can complete the construction of the building in which 1 lakh bricks are to be used in 15 days and Y can complete the same job in 20 days. Initially, X worked for 5 days and then Y joined him. X left 4 days after Y joined. Find the number of bricks that are put by Y alone in this entire construction.",
+    "options": {
+      "a": "20,000",
+      "b": "25,000",
+      "c": "40,000",
+      "d": "45,000"
+    },
+    "answer": "C",
+    "explanation": "Total work=60 units. X:4 u/d, Y:3 u/d. X alone 5 days: 20 units. X+Y 4 days: (4+3)×4=28 units. Remaining=12 units by Y. Y's total work: 28 (with X) + 12 (alone) = 40 units. Bricks by Y = (40/60)×100,000 = 40,000.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 18,
+    "passage": "",
+    "ImageID": "",
+    "question": "P, Q, and R can complete a work in 8, 12, or 16 days, respectively. They started working together, but Q left 6 days before completing the work, and R left 3 days before completing the work. Find how many days would it have taken less if Q and R had not left the work in between.",
+    "options": {
+      "a": "\\( \\frac{1}{3} \\) days",
+      "b": "\\( \\frac{4}{7} \\) days",
+      "c": "\\( \\frac{2}{13} \\) days",
+      "d": "\\( \\frac{8}{3} \\) days"
+    },
+    "answer": "C",
+    "explanation": "Total work=48 units. P:6 u/d, Q:4 u/d, R:3 u/d. Let time=x days. Work: 6x + 4(x-6) + 3(x-3)=48 → 13x=81 → x=81/13. Without leaving: Time=48/(6+4+3)=48/13. Difference=81/13-48/13=33/13=2⁷⁄₁₃ days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 19,
+    "passage": "",
+    "ImageID": "",
+    "question": "Mr. Joe has three dogs, namely Max, Charlie, and Buddy. Max is double efficient as Charlie, Buddy alone takes 15 minutes more to fill a hole in the earth than the time taken by Max alone to fill the same hole. Charlie started filling the hole and after 4 minutes Max also joined and together they filled the hole after working for 2 more minutes. Find the time taken by Charlie and Buddy together to fill a hole of volume equal to half the volume of the previous hole with double their efficiency:",
+    "options": {
+      "a": "3 minutes",
+      "b": "2 minutes",
+      "c": "\\( \\frac{10}{3} \\) minutes",
+      "d": "\\( \\frac{5}{3} \\) minutes"
+    },
+    "answer": "D",
+    "explanation": "Let Max time=x min → Charlie=2x min, Buddy=x+15 min. Charlie 4 min + (Charlie+Max) 2 min: 4/(2x) + 2(1/(2x)+1/x)=1 → 2/x + 2(3/(2x))=1 → 2/x + 3/x=1 → x=5. Charlie time=10 min, Buddy=20 min. Half hole with double efficiency: Work=0.5, Rate=2×(1/10+1/20)=2×(3/20)=3/10. Time=0.5/(3/10)=5/3 min.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 20,
+    "passage": "",
+    "ImageID": "",
+    "question": "Satyam, Shivam, and Sundram start working on a contract to build a house. Satyam and Shivam can build this house working together in 12 months. Shivam and Sundram work together to build the same house in 16 months, whereas Sundram and Satyam can build the same house in 24 months. If the person who is neither the fastest nor the slowest work alone, then the time in months, he will take to build the same house is:",
+    "options": {
+      "a": "24 months",
+      "b": "32 months",
+      "c": "28 months",
+      "d": "15 months"
+    },
+    "answer": "B",
+    "explanation": "Satyam+Shivam=4 u/m, Shivam+Sundram=3 u/m, Sundram+Satyam=2 u/m. Add all: 2(S+Sh+Su)=9 → S+Sh+Su=4.5 u/m. Satyam=4.5-3=1.5 u/m, Shivam=4.5-2=2.5 u/m, Sundram=4.5-4=0.5 u/m. Neither fastest nor slowest is Satyam (1.5 u/m). Time=48/1.5=32 months.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 21,
+    "passage": "",
+    "ImageID": "",
+    "question": "Five men and seven women can complete a piece of work in 20 days. Four men and three women can complete the same work in 30 days. In how many days will one man and four women can complete twice the original work?",
+    "options": {
+      "a": "60 days",
+      "b": "90 days",
+      "c": "120 days",
+      "d": "180 days"
+    },
+    "answer": "C",
+    "explanation": "Let man=M, woman=W. (5M+7W)×20 = (4M+3W)×30 → 100M+140W=120M+90W → 50W=20M → M=2.5W. Total work=(5×2.5W+7W)×20=19.5W×20=390W. One man+four women=2.5W+4W=6.5W. Twice work=780W. Time=780W/6.5W=120 days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 22,
+    "passage": "",
+    "ImageID": "",
+    "question": "Rohan builds an overhead tank in his house, which has three taps attached to it. While the first tap alone can fill the tank in 18 hours, the time taken by the second tap alone to fill the tank is two and a half time that of the first one. A third tap is attached to the tank, emptying it in 36 hours. Now, day 1, to fill the tank, Rohan opens the first tap and after 3 hours opens the second tap as well. However, at the end of the 8th hour, he realises that the third tap has been kept open right from the beginning and promptly closes it. What would be the total time required to fill the tank?",
+    "options": {
+      "a": "\\( \\frac{4}{7} \\) hours",
+      "b": "\\( \\frac{15}{7} \\) hours",
+      "c": "\\( \\frac{13}{7} \\) hours",
+      "d": "\\( \\frac{14}{7} \\) hours"
+    },
+    "answer": "A",
+    "explanation": "Capacity=180 L. Tap1:10 L/h, Tap2:4 L/h (since 18×2.5=45h → 180/45=4 L/h), Tap3: -5 L/h. First 3h: Tap1 open, Tap3 open → Net=10-5=5 L/h → 15 L. Next 5h: Tap1+Tap2+Tap3=10+4-5=9 L/h → 45 L. Total in 8h=60 L. Remaining=120 L. Now Tap1+Tap2=14 L/h. Time=120/14=60/7 h. Total time=8+60/7=116/7 h.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 23,
+    "passage": "",
+    "ImageID": "",
+    "question": "A can do a piece of work in 3 days. B takes thrice as much time as A to complete the same piece of work. C takes thrice as much time as B to complete the same piece of work. D takes thrice as much time as C to complete the same piece of work and E takes thrice as much time as D to complete the same piece of work. If A’s 1-day work exceeds the total 1-day work of B, C, D, and E together by 123 units, then find how many units of B’s 1-day work are more than D’s 1-day work.",
+    "options": {
+      "a": "72",
+      "b": "36",
+      "c": "48",
+      "d": "24"
+    },
+    "answer": "A",
+    "explanation": "Times: A:3d, B:9d, C:27d, D:81d, E:243d. Let total work=243K. A:81K/d, B:27K/d, C:9K/d, D:3K/d, E:1K/d. Equation: 81K - (27K+9K+3K+K) = 123 → 81K-40K=123 → 41K=123 → K=3. B's work - D's work = 27K - 3K = 24K = 24×3=72 units.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 24,
+    "passage": "",
+    "ImageID": "",
+    "question": "Work done by Jeevan decreases every day as compared to his previous day’s work. Every day, he works 20% less efficiently than the previous day. If the work gets over in 7 days, what fraction of the work was done in the first 5 days together?",
+    "options": {
+      "a": "\\( \\frac{2,101}{5,120} \\)",
+      "b": "\\( \\frac{57,525}{61,741} \\)",
+      "c": "\\( \\frac{8,102}{9,315} \\)",
+      "d": "\\( \\frac{7,351}{9,377} \\)"
+    },
+    "answer": "B",
+    "explanation": "Let day1 work=x. Day2=0.8x, Day3=0.64x, Day4=0.512x, Day5=0.4096x, Day6=0.32768x, Day7=0.262144x. First 5 days sum: x(1+0.8+0.64+0.512+0.4096)=x(3.3616). Total work: x(1+0.8+0.64+0.512+0.4096+0.32768+0.262144)=x(3.951424). Fraction=3.3616x/3.951424x=33616/39514.24 ≈ 57,525/61,741.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 25,
+    "passage": "",
+    "ImageID": "",
+    "question": "A worker can build a wall in 16 days when working alone without taking any energy drink or other substance. He takes an energy drink which can double his work output on any day. He does not take the drink for 3 days consecutively as it can damage his liver. What is the minimum number of days he needs to finish the wall?",
+    "options": {
+      "a": "10",
+      "b": "12",
+      "c": "15",
+      "d": "20"
+    },
+    "answer": "A",
+    "explanation": "Normal rate: 1/16 per day. With drink: 2/16=1/8 per day. Pattern: Days 1-2: drink (2×1/8=1/4), Day3: no drink (1/16), Days4-5: drink (1/4), Day6: no drink (1/16), Day7: drink (1/8), Day8: drink (1/8), Day9: no drink (1/16), Day10: drink (1/8). Total: 1/4+1/4+1/8+1/8+1/16+1/8+1/16 = 0.25+0.25+0.125+0.125+0.0625+0.125+0.0625=1 unit in 10 days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 26,
+    "passage": "",
+    "ImageID": "",
+    "question": "Isha can finish a piece of work in 12 days and Nisha can finish the same piece of work in 16 days. They both worked together for 4 days, thereafter, Nisha left and Isha worked alone for 1 day. The next day, Rajni joined. Isha and Rajni worked together for 2 days and completed the remaining work. In these 2 days, Isha worked with half of her efficiency. In how many days, Rajni alone could finish the same piece of work?",
+    "options": {
+      "a": "4 days",
+      "b": "7 days",
+      "c": "8 days",
+      "d": "12 days"
+    },
+    "answer": "C",
+    "explanation": "Total work=48 units. Isha:4 u/d, Nisha:3 u/d. First 4 days: (4+3)×4=28 units. Isha alone 1 day:4 units. Remaining=16 units. Last 2 days: Isha at half efficiency=2 u/d + Rajni at R u/d. Work: 2(2+R)=16 → R=6 u/d. Rajni alone: 48/6=8 days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 27,
+    "passage": "",
+    "ImageID": "",
+    "question": "32 boys and 48 girls complete certain construction work in 6 days. All boys work with the same efficiency and all the girls work with the same efficiency; though the efficiency of a boy and a girl may or may not be equal. If 6 boys and 4 girls complete the same work in N² days (where N is an integer). Find the total possible values of N.",
+    "options": {
+      "a": "0",
+      "b": "4",
+      "c": "6",
+      "d": "8"
+    },
+    "answer": "D",
+    "explanation": "Let boy=B, girl=G. 32B+48G = 1/6 per day. 6B+4G = 1/N² per day. Solve: (32B+48G)/(6B+4G) = N²/6. Let k=B/G. Then (32k+48)/(6k+4) = N²/6. N² = 6(8k+12)/(6k+4) = 6×4(2k+3)/2(3k+2) = 12(2k+3)/(3k+2). N² must be integer → 12(2k+3)/(3k+2) integer. Possible k values yield N²=25,36,49,64 → N=±5,±6,±7,±8 → 8 values.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 28,
+    "passage": "",
+    "ImageID": "",
+    "question": "A tank is filled with water. There are four pipes attached to the tank from which pipe A and pipe B are outlet pipes that can empty the tank in 10 hours and 30 hours, respectively, working alone. Pipe C and D are inlet pipes and can fill the empty tank in 20 hours and 15 hours, respectively, working alone. Pipe A is opened on Monday at 3 pm, at 5 pm pipe B is opened, at 6 pm pipe C is opened, and pipe D is also opened at 7 pm. At what time the filled tank will be empty?",
+    "options": {
+      "a": "7 pm, Tuesday",
+      "b": "7 pm, Wednesday",
+      "c": "6 am, Wednesday",
+      "d": "Tank will never be empty"
+    },
+    "answer": "C",
+    "explanation": "Capacity=60 units. A:-6 u/h, B:-2 u/h, C:+3 u/h, D:+4 u/h. 3pm-5pm: A open → -6×2=-12. 5pm-6pm: A+B open → -8×1=-8. 6pm-7pm: A+B+C open → -5×1=-5. Total emptied=25 units. Remaining=35 units. From 7pm: all open → net=-6-2+3+4=-1 u/h. Time to empty=35h. From Mon 7pm +35h = Tue 6am Wed.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 29,
+    "passage": "",
+    "ImageID": "",
+    "question": "A worker alone can complete a piece of work in 63 days. On the \\(N\\)th day (\\(N \\geq 2\\)) the number of workers becomes the number of workers on (\\(N - 1\\))th day thrice. Moreover, the efficiency of each worker on the \\(N\\)th day is two-thirds of his efficiency on (\\(N - 1\\))th day. In how many days will they be able to complete the original work? (Assume that all the workers are of the same efficiency.)",
+    "options": {
+      "a": "6",
+      "b": "7",
+      "c": "8",
+      "d": "9"
+    },
+    "answer": "A",
+    "explanation": "Day1: 1 worker at 1 unit/day → 1 unit. Day2: 3 workers at 2/3 u/d each → 3×(2/3)=2 units. Day3: 9 workers at (2/3)^2 u/d → 9×(4/9)=4 units. Day4: 27 workers at 8/27 u/d → 8 units. Day5: 81 workers at 16/81 u/d → 16 units. Day6: 243 workers at 32/243 u/d → 32 units. Total=1+2+4+8+16+32=63 units in 6 days.",
+    "topic": "Time & Work",
+    "section": "QA"
+  },
+  {
+    "id": 30,
+    "passage": "",
+    "ImageID": "",
+    "question": "Thirty workers all working with the same efficiency started a job and worked on it for 30 days. From day 31 onwards, a new worker with the same efficiency as previous workers joined them every day till the job was finished. It took exactly 38 days (since the beginning of the work) to finish the entire job. Now, the same job has to be done, starting with the minimum possible number of workers when it is known that a worker will quit the job every day after the first day. How many days will it take to finish the job in such a manner?",
+    "options": {
+      "a": "40 days",
+      "b": "44 days",
+      "c": "48 days",
+      "d": "52 days"
+    },
+    "answer": "C",
+    "explanation": "Total work = 30 workers × 30 days + (31+32+...+38) = 900 + 310 = 1,210 units. With decreasing workers: Let start with N workers. Work = N + (N-1) + ... +1 = N(N+1)/2 = 1,210. N≈48.9 → N=49? But 49×50/2=1,225>1,210. Use N=48: 48×49/2=1,176. Remaining=34 units. On day 49: 1 worker → 1 unit. Total days=49? But options don't have 49. Actually N=48 gives 1,176 units. But total work=1,210? Recheck: 30×30=900, sum31to38= (38×39/2)-(30×31/2)=741-465=276 → total=900+276=1,176 units. So with N workers quitting daily: work = N+(N-1)+...+1 = N(N+1)/2 = 1,176. N=48 → 48×49/2=1,176. Days=48.",
+    "topic": "Time & Work",
+    "section": "QA"
+  }
+]

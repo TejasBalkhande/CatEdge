@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "Is a ball point pen costlier than an ink pen?\nI. The cost of 5 sets of 4 ball point and 3 ink pens equals the cost of 4 sets of 3 ball point and 5 ink pens.\nII. The cost of 6 sets of 6 ball point and 4 ink pens equals the cost of 12 sets of 3 ball point and 2 ink pens.",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "a",
+    "explanation": "Statement I establishes the price ratio (ball point : ink pen = 5:3), proving ball point is costlier. Statement II simplifies to 0=0 and gives no useful information.",
+    "topic": "Cost Comparison",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 2,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "Can we exactly measure X cm using three distinct integer-length rods?\nI. L₁ + L₂ = 100 cm\nII. L₂ + L₃ = 201 cm",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "c",
+    "explanation": "Using both: L₃ - L₁ = 1 cm. Any integer length can be measured since the length difference is 1 cm.",
+    "topic": "Measurement",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 3,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "image/DILR/five/1.png",
+    "question": "Is ΔPQR right-angled?\nI. ∠Q - ∠P > 0\nII. (∠P + ∠Q)/∠R = 1",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "b",
+    "explanation": "Statement II: ∠P + ∠Q = ∠R. Since ∠P + ∠Q + ∠R = 180°, then 2∠R = 180° ⇒ ∠R = 90°.",
+    "topic": "Triangle Properties",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 4,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "If m and n are consecutive positive integers, is m > n?\nI. m–1 and n+1 are consecutive\nII. m is even",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "a",
+    "explanation": "Statement I forces n = m-1, so m > n. Statement II doesn't determine order (n could be m-1 or m+1).",
+    "topic": "Number Properties",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 5,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "For integers a,b,c, is (a–b+c) > (a+b–c)?\nI. b > 0\nII. c < 0",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "c",
+    "explanation": "The inequality simplifies to c > b. Both statements together imply c < 0 < b, so c < b.",
+    "topic": "Inequality",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 6,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "Harpu eats chicken only on Tue/Sat/Sun. Did he eat chicken today?\nI. He ate chicken yesterday\nII. He ate chicken two days before yesterday",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "c",
+    "explanation": "Statement I: Today = Sun/Mon/Wed. Statement II: Today = Tue/Wed/Fri. Combining: Only Wednesday satisfies both → No chicken today.",
+    "topic": "Logical Scheduling",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 7,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "What is X in three-digit number XEN?\nI. Sum of squares of first X naturals is 55\nII. X² + 2X - 15 = 0",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "b",
+    "explanation": "Statement I: X=5 (1²+2²+3²+4²+5²=55). Statement II: X=3 or -5 → X=3 (positive digit). Both give different answers but each provides a definite value.",
+    "topic": "Number Properties",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 8,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "image/DILR/five/8.png",
+    "question": "Find area of shaded region between concentric circles\nI. R - r = 2 cm\nII. Chord AB=6 cm of bigger circle, tangent to smaller circle",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "d",
+    "explanation": "Neither statement gives exact radii. Combining gives geometric relationship but not sufficient to calculate radii or area.",
+    "topic": "Circle Geometry",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 9,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "Find area of rectangle ABCD with P,Q on diagonal BD\nI. Perp from P to AD=2cm, to BC=4cm; Perp from Q to BC=3cm, to CD=4cm\nII. Perp from P to CD=1cm, to AD=2cm; Perp from Q to BC=4cm, to CD=3cm",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "b",
+    "explanation": "Statement II: Using similar triangles, length=10cm, breadth=5cm → area=50cm². Statement I gives length but insufficient breadth.",
+    "topic": "Coordinate Geometry",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 10,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "For integers A<B<C, is C-A even?\nI. A×B×C is odd\nII. AB+BC+CA is even",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "a",
+    "explanation": "Statement I: All odd → C-A even. Statement II: At least two even → C-A could be even or odd (e.g., 2,3,4: even; 1,2,3: even).",
+    "topic": "Number Parity",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 11,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "What is area bounded by lines L,M and axes in first quadrant?\nI. L and M intersect at point on 3x-4y=1 and 7x-8y=5\nII. L and M perpendicular; one has y-intercept 4",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "c",
+    "explanation": "Statement I gives intersection (3,2). Statement II gives perpendicularity and intercept. Combining provides equations of both lines to compute area.",
+    "topic": "Coordinate Geometry",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 12,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "What is minimum length of chord AB where PQ intersects AB at N?\nI. PN = NQ = 6 units\nII. AB diameter; ∠PNA=90°; NQ=6 units",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "b",
+    "explanation": "Statement II: Minimum AB=12 when PQ through center. Statement I: By secant theorem, min AB=12 when AN=NB=6.",
+    "topic": "Circle Geometry",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 13,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "image/DILR/five/13.png",
+    "question": "What is perimeter of window (semicircle on rectangle)?\nI. Rectangle perimeter=142 ft\nII. Rectangle diagonal=61 ft",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "d",
+    "explanation": "Combining gives rectangle sides 60ft and 11ft, but semicircle could be on either side → perimeter indeterminate.",
+    "topic": "Perimeter Calculation",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 14,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "Marked price=₹250. Find net profit %\nI. Successive discounts 20% and 25%\nII. Sold at ₹200",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "d",
+    "explanation": "Cost price unknown in both statements → profit % cannot be determined.",
+    "topic": "Profit Percentage",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 15,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "What is a²+b²+c² for integers a,b,c?\nI. 4a+3b+2c=27; 1<a<b<c<8\nII. a+b+c=9; 0<a<b<c",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "a",
+    "explanation": "Statement I: Unique solution a=2,b=3,c=5 → 38. Statement II: Multiple solutions (e.g., 1,2,6 or 1,3,5).",
+    "topic": "Algebra",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 16,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "Is x > y?\nI. (x-y)² > 0\nII. (x+y)(1/x + 1/y) = 4",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "b",
+    "explanation": "Statement II: (x+y)² = 4xy → (x-y)² = 0 → x=y. Statement I is always true unless x=y.",
+    "topic": "Inequality",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 17,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "What is least value of 21x+14y?\nI. 1/x + 1/y + 1/(xy) = 1; x,y prime\nII. xy=6; x,y positive integers",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "b",
+    "explanation": "Statement II: Minimum 84 at (x,y)=(2,3). Statement I also gives min 84, but II is sufficient alone.",
+    "topic": "Minimization",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 18,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "India trailed by 2 goals with 5min left. Did they win?\nI. India scored 3 goals in last 5min\nII. Korea scored total 3 goals",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "d",
+    "explanation": "Unknown initial score: Could be 0-2 → draw (3-3), or 1-3 → win (4-3).",
+    "topic": "Logical Reasoning",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 19,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "After adding 4 students, can teacher divide into teams of 8?\nI. Adding 12 students makes total divisible by 8\nII. Current students not divisible by 8",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "a",
+    "explanation": "Statement I: Current students ≡ 4 mod 8 → adding 4 makes divisible by 8. Statement II: Insufficient (could be 4,12,etc).",
+    "topic": "Divisibility",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 20,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "Boat ferried 1500 passengers in 12hr. How many round trips?\nI. Boat capacity=200 passengers\nII. 40min each way + 20min waiting per terminal",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "b",
+    "explanation": "Statement II: Round trip time=100min → max trips=12×60/100=7.2 → 7 trips. Statement I gives capacity but not time.",
+    "topic": "Time-Distance",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 21,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "What is download time for software?\nI. Transfer rate=6 kB/s\nII. Size=4.5 MB",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "c",
+    "explanation": "Both needed: Time = (4.5 × 1024 kB) / (6 kB/s) ≈ 768 seconds.",
+    "topic": "Rate Calculation",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 22,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "Difference between circle area and square area?\nI. Circle diameter=25√2 cm\nII. Square side=25 cm",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "b",
+    "explanation": "Either sufficient: Diameter = diagonal → circle area = π(12.5√2)², square area = 25² or from II: diagonal=25√2 → circle area calculable.",
+    "topic": "Area Difference",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 23,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "How many apples did Ram and Gopal buy?\nI. Ram bought half of Gopal's\nII. Dealer had 500 apples",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "d",
+    "explanation": "No relation to dealer's stock → total apples cannot be determined.",
+    "topic": "Quantity Determination",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 24,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "Number of students? (Average weight=50kg)\nI. Heaviest=60kg, lightest=40kg\nII. Excluding heaviest/lightest doesn't change average",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "d",
+    "explanation": "No total weight or individual data → number cannot be found.",
+    "topic": "Average",
+    "section": "Data Sufficiency"
+  },
+  {
+    "id": 25,
+    "passage": "Directions: Each question is followed by two statements. Determine if they provide sufficient data to answer the question.",
+    "ImageID": "",
+    "question": "What is storage volume of spherical tank?\nI. Wall thickness=1cm\nII. Immersion overflows 20L units water",
+    "options": {
+      "a": "Statement I alone is sufficient but Statement II alone is not sufficient",
+      "b": "Statement II alone is sufficient but Statement I alone is not sufficient",
+      "c": "Both statements together are sufficient but neither alone is sufficient",
+      "d": "Even both statements together are not sufficient"
+    },
+    "answer": "c",
+    "explanation": "Statement II gives external volume. Statement I gives thickness → internal radius and storage volume can be calculated.",
+    "topic": "Volume Calculation",
+    "section": "Data Sufficiency"
+  }
+]

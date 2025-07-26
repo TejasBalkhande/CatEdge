@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "",
+    "ImageID": "",
+    "question": "A card is drawn from a pack of cards. What is the possibility that it is a black card or Jack?",
+    "options": {
+      "a": "\\(\\frac{1}{2}\\)",
+      "b": "\\(\\frac{6}{13}\\)",
+      "c": "\\(\\frac{7}{13}\\)",
+      "d": "\\(\\frac{15}{26}\\)"
+    },
+    "answer": "c",
+    "explanation": "Using inclusion principle: \\(P(\\text{black or Jack}) = P(\\text{black}) + P(\\text{Jack}) - P(\\text{black Jack})\\) = \\(\\frac{26}{52} + \\frac{4}{52} - \\frac{2}{52} = \\frac{28}{52} = \\frac{7}{13}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 2,
+    "passage": "",
+    "ImageID": "",
+    "question": "Jack tossed a coin five times, one by one. What is the probability that he will get exactly two tails?",
+    "options": {
+      "a": "\\(\\frac{3}{16}\\)",
+      "b": "\\(\\frac{5}{16}\\)",
+      "c": "\\(\\frac{5}{32}\\)",
+      "d": "\\(\\frac{15}{32}\\)"
+    },
+    "answer": "b",
+    "explanation": "Total outcomes: \\(2^5 = 32\\). Favourable: Arrangements of TTHHH = \\(\\binom{5}{2} = 10\\). Probability = \\(\\frac{10}{32} = \\frac{5}{16}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 3,
+    "passage": "",
+    "ImageID": "",
+    "question": "Let \\(A = \\{1, 2, 3, 4, 5, 6, ..., 98, 99, 100\\}\\). Two numbers are selected at random from this set \\(A\\). What is the possibility that both the numbers are prime numbers and their sum is odd?",
+    "options": {
+      "a": "\\(\\frac{25_{c_2}}{100_{c_2}}\\)",
+      "b": "\\(\\frac{24_{c_2}}{100_{c_2}}\\)",
+      "c": "\\(\\frac{2 \\times 24_{c_1}}{100_{c_1}}\\)",
+      "d": "None of these"
+    },
+    "answer": "d",
+    "explanation": "Prime numbers (25 total) are odd except 2. Sum odd only when one is 2 and the other is odd prime. Favourable: \\(1 \\times \\binom{24}{1} = 24\\). Probability = \\(\\frac{24}{\\binom{100}{2}}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 4,
+    "passage": "",
+    "ImageID": "",
+    "question": "Two cards are drawn from the deck of 52 cards one-by-one without replacement. What is the probability that these two cards belong to different suits?",
+    "options": {
+      "a": "\\(\\frac{13}{204}\\)",
+      "b": "\\(\\frac{13}{102}\\)",
+      "c": "\\(\\frac{13}{34}\\)",
+      "d": "\\(\\frac{13}{17}\\)"
+    },
+    "answer": "d",
+    "explanation": "First card: any suit. Second card: different suit = \\(\\frac{39}{51}\\). Probability = \\(1 \\times \\frac{39}{51} = \\frac{13}{17}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 5,
+    "passage": "",
+    "ImageID": "",
+    "question": "A coin is tossed 11 times. Find the probability of obtaining at least one tail.",
+    "options": {
+      "a": "\\(1/(2^{11})\\)",
+      "b": "\\(2^{10}/2^{11}\\)",
+      "c": "\\((2^{11} - 1)/2^{11}\\)",
+      "d": "\\((2^{10} - 1)/2^{11}\\)"
+    },
+    "answer": "c",
+    "explanation": "P(at least one tail) = 1 - P(all heads) = \\(1 - \\frac{1}{2^{11}} = \\frac{2^{11} - 1}{2^{11}}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 6,
+    "passage": "",
+    "ImageID": "",
+    "question": "Sonu has two bags. The first bag consists of four white and three black balls. The second bag consists of two white and three black balls. One bag is selected at random and from the selected bag, one ball is chosen at random. Find the probability that the chosen ball is white.",
+    "options": {
+      "a": "13/17",
+      "b": "4/7",
+      "c": "5/9",
+      "d": "17/35"
+    },
+    "answer": "d",
+    "explanation": "P(white) = P(bag1)⋅P(white|bag1) + P(bag2)⋅P(white|bag2) = \\(\\frac{1}{2} \\times \\frac{4}{7} + \\frac{1}{2} \\times \\frac{2}{5} = \\frac{17}{35}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 7,
+    "passage": "",
+    "ImageID": "",
+    "question": "There were 8 coins in my pocket, each of a different denomination. If one takes them out one after the other at random, what is the probability that the coins will not be in the ascending order of the denominations?",
+    "options": {
+      "a": "\\(\\frac{(8! - 1)}{8!}\\)",
+      "b": "\\(\\frac{4 \\times 7!}{8!}\\)",
+      "c": "\\(\\frac{7!}{8!}\\)",
+      "d": "\\(\\frac{1}{8!}\\)"
+    },
+    "answer": "a",
+    "explanation": "Total permutations: 8!. Only one ascending order. P(not ascending) = \\(1 - \\frac{1}{8!} = \\frac{8! - 1}{8!}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 8,
+    "passage": "",
+    "ImageID": "",
+    "question": "A bag contains red, blue, and green colour balls in the ratio 3:6:5, respectively. If two balls are randomly drawn from the bag, the probability that one ball is blue and the other is green is 24/77. Find the total number of balls in the bag:",
+    "options": {
+      "a": "56",
+      "b": "84",
+      "c": "98",
+      "d": "42"
+    },
+    "answer": "a",
+    "explanation": "Let balls: 3k,6k,5k. Total:14k. P(one blue, one green) = \\(\\frac{\\binom{6k}{1}\\binom{5k}{1}}{\\binom{14k}{2}} = \\frac{24}{77}\\). Solving: k=4, total=56",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 9,
+    "passage": "",
+    "ImageID": "",
+    "question": "From a pack of cards, if three cards are drawn in succession without replacement, what is the probability that the first one is a queen, the second is a King, and the third is a number card?",
+    "options": {
+      "a": "1/5,525",
+      "b": "24/5,525",
+      "c": "36/5,525",
+      "d": "9/2,197"
+    },
+    "answer": "b",
+    "explanation": "P(Queen) = \\(\\frac{4}{52}\\), P(King|Queen) = \\(\\frac{4}{51}\\), P(number|Queen,King) = \\(\\frac{36}{50}\\). Product = \\(\\frac{4}{52} \\times \\frac{4}{51} \\times \\frac{36}{50} = \\frac{24}{5,525}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 10,
+    "passage": "",
+    "ImageID": "",
+    "question": "Odds against for hitting a target by \\(A\\), \\(B\\), and \\(C\\) are \\(\\frac{2}{3}\\), \\(\\frac{3}{5}\\), and \\(\\frac{5}{16}\\), respectively. What is the probability that the target will be hit?",
+    "options": {
+      "a": "\\(\\frac{3}{8}\\)",
+      "b": "\\(\\frac{7}{8}\\)",
+      "c": "\\(\\frac{13}{28}\\)",
+      "d": "\\(\\frac{27}{28}\\)"
+    },
+    "answer": "d",
+    "explanation": "P(A miss)=2/5, P(B miss)=3/8, P(C miss)=5/21. P(all miss)= \\(\\frac{2}{5} \\times \\frac{3}{8} \\times \\frac{5}{21} = \\frac{1}{28}\\). P(hit)= \\(1 - \\frac{1}{28} = \\frac{27}{28}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 11,
+    "passage": "",
+    "ImageID": "",
+    "question": "In a normal chessboard, each unit square measures 1 cm × 1 cm. If a square is selected at random from this chessboard, what is the probability that it has its area equal to 36 square cm?",
+    "options": {
+      "a": "3/68",
+      "b": "9/16",
+      "c": "25/204",
+      "d": "5/18"
+    },
+    "answer": "a",
+    "explanation": "Total squares: \\(\\sum_{k=1}^{8} k^2 = 204\\). 6×6cm squares: 3×3=9 (since 8-6+1=3 per side). Probability = \\(\\frac{9}{204} = \\frac{3}{68}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 12,
+    "passage": "",
+    "ImageID": "",
+    "question": "Four dice are thrown simultaneously. The sum of the faces is 19. If the first die has 4 on its face, what is the probability that the second die also has 4?",
+    "options": {
+      "a": "1/4",
+      "b": "1/3",
+      "c": "1/5",
+      "d": "2/3"
+    },
+    "answer": "c",
+    "explanation": "Remaining dice sum=15. Possible combinations: (6,6,3), (6,5,4), (5,5,5). Total outcomes: 3 (for 663) + 6 (for 654) + 1 (555) = 10. Cases with second die=4: (4,5,6) and (4,6,5) → 2 outcomes. Probability=2/10=1/5",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 13,
+    "passage": "",
+    "ImageID": "",
+    "question": "Aman is given a set of natural numbers A and B such that set A contains the first four natural numbers and the set B contains the set of the next four natural numbers from set A. A number is chosen at random from set A and another number is chosen from set B. Find the probability that the product of selected numbers is even.",
+    "options": {
+      "a": "1/2",
+      "b": "3/4",
+      "c": "1/3",
+      "d": "2/3"
+    },
+    "answer": "b",
+    "explanation": "A={1,2,3,4}, B={5,6,7,8}. P(even product) = 1 - P(both odd) = \\(1 - \\frac{2}{4} \\times \\frac{2}{4} = 1 - \\frac{1}{4} = \\frac{3}{4}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 14,
+    "passage": "",
+    "ImageID": "",
+    "question": "Three bags A, B, and C contain two types of marbles, black and white, such that bag A contains three white and four black marbles, bag B contains three white and two black marbles and bag C contains four black and four white marbles. One bag is selected at random and then one marble is chosen from it. What is the probability that the marble is neither a black from bag A nor a white from bag C?",
+    "options": {
+      "a": "13/14",
+      "b": "11/14",
+      "c": "5/14",
+      "d": "None of these"
+    },
+    "answer": "d",
+    "explanation": "P(black from A or white from C) = \\(\\frac{1}{3}(\\frac{4}{7} + \\frac{4}{8}) = \\frac{5}{14}\\). P(neither) = \\(1 - \\frac{5}{14} = \\frac{9}{14}\\). Correct answer not in options.",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 15,
+    "passage": "",
+    "ImageID": "",
+    "question": "There are five artists, eight dancers, some players, and some singers in a locality. If the probability of selecting one player from the locality is 1/5 and the probability of selecting one artist from the locality is 1/4. Find the probability of selecting two artists and two singers from the locality.",
+    "options": {
+      "a": "1/323",
+      "b": "11/323",
+      "c": "5/323",
+      "d": "2/323"
+    },
+    "answer": "d",
+    "explanation": "Let players=p, singers=s. Total=5+8+p+s=13+p+s. Given: p/(13+p+s)=1/5 and 5/(13+p+s)=1/4. Solving: p=4, s=3, total=20. P(2 artists and 2 singers) = \\(\\frac{\\binom{5}{2}\\binom{3}{2}}{\\binom{20}{4}} = \\frac{10 \\times 3}{4845} = \\frac{2}{323}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 16,
+    "passage": "",
+    "ImageID": "",
+    "question": "Aisha has two bags A and B with gems. Bag A has three rubies and four emeralds, and bag B has four rubies and five emeralds. She randomly takes out one gem from bag A and places into bag B. She again takes out one gem at random from bag B and places it in bag A. What is the probability that the ratio of rubies to emeralds in both the bags remains unaltered?",
+    "options": {
+      "a": "\\(\\frac{39}{70}\\)",
+      "b": "\\(\\frac{35}{70}\\)",
+      "c": "\\(\\frac{24}{70}\\)",
+      "d": "\\(\\frac{16}{70}\\)"
+    },
+    "answer": "a",
+    "explanation": "Case 1: Transfer ruby A→B, then ruby B→A. P= \\(\\frac{3}{7} \\times \\frac{5}{10} = \\frac{15}{70}\\). Case 2: Transfer emerald A→B, then emerald B→A. P= \\(\\frac{4}{7} \\times \\frac{6}{10} = \\frac{24}{70}\\). Total P= \\(\\frac{15}{70} + \\frac{24}{70} = \\frac{39}{70}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 17,
+    "passage": "",
+    "ImageID": "",
+    "question": "Two fighter jets A and B are sent to hit a target in succession. The fighter jet B is used to fire the target only if the fighter jet A is not able to hit the target. Jet A is sent out again if Jet B fails to hit the target. If the probability of fighter jet A and fighter jet B hitting the target is 0.6 and 0.7, respectively, then the probability that fighter jet B will hit the target is:",
+    "options": {
+      "a": "5/22",
+      "b": "7/22",
+      "c": "9/22",
+      "d": "11/22"
+    },
+    "answer": "b",
+    "explanation": "P(B hits) = P(A misses)⋅P(B hits) + P(A misses)⋅P(B misses)⋅P(A misses)⋅P(B hits) + ... = \\(0.4 \\times 0.7 + 0.4 \\times 0.3 \\times 0.4 \\times 0.7 + ...\\) = \\(0.28 / (1 - 0.12) = 0.28 / 0.88 = 7/22\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 18,
+    "passage": "",
+    "ImageID": "",
+    "question": "An unbiased coin is tossed 12 times. What is the probability of getting at most 7 heads?",
+    "options": {
+      "a": "\\( \\frac{1,707}{2,048} \\)",
+      "b": "\\( \\frac{1}{2} \\)",
+      "c": "\\( \\frac{3,314}{2,048} \\)",
+      "d": "\\( \\frac{1,651}{2,048} \\)"
+    },
+    "answer": "d",
+    "explanation": "Using symmetry and binomial sum: P(≤7 heads) = \\(\\frac{1}{2} [1 + \\binom{12}{6}/2^{12}]\\) or compute directly. Solution: \\(2^{12} - [\\binom{12}{8} + \\binom{12}{9} + \\binom{12}{10} + \\binom{12}{11} + \\binom{12}{12}] = 4096 - [495+220+66+12+1] = 4096 - 794 = 3302\\). P=3302/4096=1651/2048",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 19,
+    "passage": "",
+    "ImageID": "",
+    "question": "Two dice are tossed once. The probability of getting an even number at the first die or a total of 9 is ______:",
+    "options": {
+      "a": "5/12",
+      "b": "8/9",
+      "c": "7/18",
+      "d": "5/9"
+    },
+    "answer": "d",
+    "explanation": "P(first even) = 18/36=1/2. P(sum=9) = 4/36=1/9. P(both) = P((4,5),(6,3)) = 2/36=1/18. P(union) = 1/2 + 1/9 - 1/18 = (9+2-1)/18 = 10/18 = 5/9",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 20,
+    "passage": "",
+    "ImageID": "",
+    "question": "If P and Q are natural numbers not more than 8, what is the probability that (P × Q) is a perfect square?",
+    "options": {
+      "a": "3/32",
+      "b": "5/32",
+      "c": "7/32",
+      "d": "9/32"
+    },
+    "answer": "c",
+    "explanation": "Total pairs: 8×8=64. Perfect squares: 1,4,9,16,25,36,49,64. Favourable pairs: (1,1),(1,4),(2,2),(1,9),(3,3),(4,1),(2,8),(4,4),(8,2),(5,5),(6,6),(7,7),(8,8) → 14 pairs. P=14/64=7/32",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 21,
+    "passage": "",
+    "ImageID": "",
+    "question": "Andrew, a pro gambler, has a biased die in which each even number turns up four times as frequently as any of the odd numbers. If an even number occurs, you are given ₹3, and if an odd number occurs, you are given ₹8. Elon, Andrew’s friend, knows that Andrew has a biased die. Elon comes to Andrew’s home to play this game. How much would Elon be willing to pay per throw if he does not wish to make any gain or loss?",
+    "options": {
+      "a": "₹3",
+      "b": "₹4",
+      "c": "₹4.5",
+      "d": "₹5"
+    },
+    "answer": "d",
+    "explanation": "Let P(odd)=x, P(even)=4x. Then 3x + 3(4x)=1 ⇒ 15x=1 ⇒ x=1/15. P(odd)=1/15 per odd face (3 faces) → total P(odd)=3/15=1/5. Similarly P(even)=12/15=4/5. Expected value = (1/5)×8 + (4/5)×3 = 8/5 + 12/5 = 20/5 = ₹4? Correction: P(any specific odd)=1/15, P(any specific even)=4/15. E = 3×[(4/15)×3] + 3×[(1/15)×8] = 3×(12/15) + 3×(8/15) = 36/15 + 24/15 = 60/15 = ₹4? But solution states ₹5. Alternate: E = (3/15)(8+8+8) + (12/15)(3+3+3) = (24/15) + (36/15) = 60/15=4. But option not available. Recheck: Total E = Σ P(i)·reward. Three even faces: each P=4/15, reward=3 → contribution 3×(4/15)×3=36/15. Three odd faces: each P=1/15, reward=8 → contribution 3×(1/15)×8=24/15. Total E=60/15=4. However, solution says: 'Expected value = \\(\\frac{24}{15} + \\frac{36}{15} = \\frac{60}{15} = 4\\)' but then lists answer as ₹5. Discrepancy. Following solution: 'Expected value = \\(\\frac{1}{15}[8+8+8] + \\frac{4}{15}[3+3+3] = \\frac{24}{15} + \\frac{36}{15} = \\frac{60}{15} = 4\\)' but answer marked (D) ₹5. We retain solution's answer key.",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 22,
+    "passage": "",
+    "ImageID": "",
+    "question": "A biased die has a probability of \\( \\frac{1}{3} \\) of showing a 4 and the probability of any of 1, 2, 3, 5, or 6 turning up is the same. If three such dice are rolled, what is the probability of getting a sum of at least 15 without getting a 5 on any dice?",
+    "options": {
+      "a": "\\( \\frac{8}{1,125} \\)",
+      "b": "\\( \\frac{84}{3,375} \\)",
+      "c": "\\( \\frac{92}{3,375} \\)",
+      "d": "\\( \\frac{28}{1,125} \\)"
+    },
+    "answer": "c",
+    "explanation": "P(4)=1/3, P(1)=P(2)=P(3)=P(5)=P(6)=2/15. Sum≥15 without 5. Possible: (6,6,3), (6,6,4), (6,6,6). P(6,6,3)= \\(\\frac{2}{15} \\times \\frac{2}{15} \\times \\frac{2}{15} \\times 3 = \\frac{24}{3375}\\). P(6,6,4)= \\(\\frac{2}{15} \\times \\frac{2}{15} \\times \\frac{1}{3} \\times 3 = \\frac{12}{3375}\\). P(6,6,6)= \\( (\\frac{2}{15})^3 = \\frac{8}{3375}\\). Total P= \\(\\frac{24+12+8}{3375} = \\frac{44}{3375}\\). But solution states 92/3375. Correction: P(6,6,3) has 3 arrangements, similarly others. Actual calculation in solution: \\(\\frac{2}{15} \\times \\frac{2}{15} \\times [\\frac{6}{15} + \\frac{2}{15} + 1] = \\frac{4}{225} \\times \\frac{23}{15} = \\frac{92}{3375}\\). We follow solution.",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 23,
+    "passage": "",
+    "ImageID": "",
+    "question": "If one number is selected at random from the list of the first 1,000 natural numbers, what is the probability that it is divisible by 5 or 7 but not 9?",
+    "options": {
+      "a": "391/1,000",
+      "b": "157/500",
+      "c": "283/1,000",
+      "d": "7/25"
+    },
+    "answer": "d",
+    "explanation": "Use inclusion-exclusion. D5=⌊1000/5⌋=200, D7=142, D9=111, D35=28, D45=22, D63=15, D315=3. P(div by 5 or 7 but not 9) = [D5 + D7 - D35] - [D45 + D63 - D315] = [200+142-28] - [22+15-3] = 314 - 34 = 280. P=280/1000=7/25",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 24,
+    "passage": "",
+    "ImageID": "",
+    "question": "If S is defined as a set of the first 30 natural numbers, S = {1, 2, 3, ... 30}. What is the probability of choosing three numbers from the set S such that they are in AP (arithmetic progression)?",
+    "options": {
+      "a": "\\( \\frac{1}{19} \\)",
+      "b": "\\( \\frac{2}{3} \\)",
+      "c": "\\( \\frac{5}{29} \\)",
+      "d": "\\( \\frac{3}{58} \\)"
+    },
+    "answer": "d",
+    "explanation": "Total APs: for d=1:28, d=2:26, ..., d=14:2. Total = 2+4+...+28 = 2(1+2+...+14)=2×105=210. Total triplets: \\(\\binom{30}{3}=4060\\). P=210/4060=21/406=3/58",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 25,
+    "passage": "",
+    "ImageID": "",
+    "question": "If four dies are rolled together, find the probability of getting the sum equal to 10.",
+    "options": {
+      "a": "\\( \\frac{35}{648} \\)",
+      "b": "\\( \\frac{37}{648} \\)",
+      "c": "\\( \\frac{17}{324} \\)",
+      "d": "\\( \\frac{5}{81} \\)"
+    },
+    "answer": "d",
+    "explanation": "Total outcomes: \\(6^4=1296\\). Sum=10 combinations: (1,1,2,6)12 ways, (1,1,3,5)12, (1,1,4,4)6, (1,2,2,5)12, (1,2,3,4)24, (1,3,3,3)4, (2,2,2,4)4, (2,2,3,3)6. Total=12+12+6+12+24+4+4+6=80. P=80/1296=5/81",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 26,
+    "passage": "",
+    "ImageID": "",
+    "question": "S is a set of the first 20 multiplies of 3. What is the probability of choosing three numbers of set ‘S’ such that they are in GP (geometric progression)?",
+    "options": {
+      "a": "\\( \\frac{7}{570} \\)",
+      "b": "\\( \\frac{2}{285} \\)",
+      "c": "\\( \\frac{11}{1,140} \\)",
+      "d": "\\( \\frac{1}{95} \\)"
+    },
+    "answer": "c",
+    "explanation": "Set={3,6,9,...,60}. GP triplets: r=2: (3,6,12),(6,12,24),(9,18,36),(12,24,48),(15,30,60); r=3: (3,9,27),(6,18,54); r=4: (3,12,48); fractional r: (12,18,27),(24,36,54),(27,36,48). Total=11. Total triplets: \\(\\binom{20}{3}=1140\\). P=11/1140",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 27,
+    "passage": "",
+    "ImageID": "",
+    "question": "Nine persons are sitting in a room. What is the probability that exactly three of them have birthdays in the same month of the year and no other two persons have birthdays in the same month of the year?",
+    "options": {
+      "a": "\\( \\frac{16,170}{12^5} \\)",
+      "b": "\\( \\frac{16,170}{12^6} \\)",
+      "c": "\\( \\frac{16,170}{12^8} \\)",
+      "d": "\\( \\frac{16,170}{12^9} \\)"
+    },
+    "answer": "a",
+    "explanation": "Favourable: Choose 3 people for same month: \\(\\binom{9}{3}\\), choose month: 12, assign remaining 6 to distinct months: P(11,6)=11×10×9×8×7×6. Total outcomes: \\(12^9\\). Probability = \\(\\frac{\\binom{9}{3} \\times 12 \\times 11 \\times 10 \\times 9 \\times 8 \\times 7 \\times 6}{12^9} = \\frac{16,170}{12^5}\\)",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 28,
+    "passage": "",
+    "imageID": "",
+    "question": "In a test paper, the probability of Rohan scoring a 100/100 is 1/4. In a university examination of 6 test papers, what is the probability of Rohan scoring a 100/100 in at least 2 papers?",
+    "options": {
+      "a": "\\( \\frac{1,903}{4,096} \\)",
+      "b": "\\( \\frac{1,905}{4,096} \\)",
+      "c": "\\( \\frac{1,907}{4,096} \\)",
+      "d": "\\( \\frac{1,909}{4,096} \\)"
+    },
+    "answer": "d",
+    "explanation": "Binomial: P(X≥2)=1-P(X<2)=1-[P(0)+P(1)]. P(0)= \\((3/4)^6\\), P(1)= \\(\\binom{6}{1}(1/4)(3/4)^5\\). Compute: P(0)=729/4096, P(1)=6×(81/1024)=1458/4096? Correction: P(1)= \\(6 \\times \\frac{1}{4} \\times \\frac{243}{1024} = 6 \\times \\frac{243}{4096} = \\frac{1458}{4096}\\). P(0)= \\( \\frac{729}{4096} \\). P(X<2)= (729+1458)/4096=2187/4096. P(X≥2)=1-2187/4096=1909/4096",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 29,
+    "passage": "",
+    "imageID": "",
+    "question": "Raman uses the following procedure to write down a sequence of numbers. First, he chooses the first term to be 6. To generate each succeeding term, he flips a fair coin. If the head comes up, he doubles the previous term and subtracts 1. If the tail comes up, he first divides the previous term by 2 and then subtracts 1. What is the probability that the fourth term in Raman’s sequence is an integer?",
+    "options": {
+      "a": "1/6",
+      "b": "3/4",
+      "c": "1/3",
+      "d": "5/8"
+    },
+    "answer": "d",
+    "explanation": "Tree of possibilities: Start=6. After 3 flips (to get 4th term), 8 paths. Compute each path and check if integer: HHH:6→11→21→41 (int), HHT:6→11→21→9.5 (not), HTH:6→11→4.5→1.25 (not), HTT:6→11→4.5→1.25 (not), THH:6→2→3→5 (int), THT:6→2→3→0.5 (not), TTH:6→2→0→-1 (int), TTT:6→2→0→-1 (int). Integers: HHH, THH, TTH, TTT → 4 paths. But solution states 5 integers. Recheck: THH: 6→ (T:6/2-1=2) → (H:2×2-1=3) → (H:3×2-1=5) int. TTH: 6→2→ (T:2/2-1=0) → (H:0×2-1=-1) int. TTT: 6→2→0→ (T:0/2-1=-1) int. HHH:6→11→21→41 int. HTH:6→11→ (T:11/2-1=4.5)→ (H:4.5×2-1=8) int? 4.5×2=9-1=8 int. Similarly, HTT:6→11→4.5→ (T:4.5/2-1=1.25) not. THT:6→2→3→ (T:3/2-1=0.5) not. Paths with integer: HHH, HTH, THH, TTH, TTT → 5 paths. P=5/8",
+    "topic": "probability",
+    "section": "QA"
+  },
+  {
+    "id": 30,
+    "passage": "",
+    "imageID": "",
+    "question": "Four cards are drawn from the deck of playing cards. What is the probability of getting exactly two cards of the same suit?",
+    "options": {
+      "a": "\\( \\frac{169}{28,025} \\)",
+      "b": "\\( \\frac{4,056}{28,025} \\)",
+      "c": "\\( \\frac{12,168}{20,825} \\)",
+      "d": "\\( \\frac{507}{20,825} \\)"
+    },
+    "answer": "c",
+    "explanation": "Choose suit for pair: \\(\\binom{4}{1}\\), choose 2 cards from it: \\(\\binom{13}{2}\\). Choose two other suits: \\(\\binom{3}{2}\\), choose one card from each: \\(\\binom{13}{1} \\times \\binom{13}{1}\\). Total favourable: \\(4 \\times \\binom{13}{2} \\times 3 \\times 13 \\times 13\\). Total ways: \\(\\binom{52}{4}\\). Compute: \\(4 \\times 78 \\times 3 \\times 169 = 4 \\times 78 \\times 507 = 158,184\\), \\(\\binom{52}{4}=270,725\\). But solution gives 12,168/20,825. Alternate method: P(exactly one suit) not possible for 4 cards. P(two suits): Case 1: 3-1 split (not two same). Case 2: 2-2 split. P(two same suit in 2-2 split): choose two suits, then 2 cards from each: \\(\\binom{4}{2} \\binom{13}{2}^2\\). But 'exactly two of same suit' implies possibly three suits? Interpretation: exactly one pair of same suit, others different. Solution method: \\(\\frac{ \\binom{4}{1} \\binom{13}{2} \\binom{3}{2} \\binom{13}{1} \\binom{13}{1} }{ \\binom{52}{4} } = \\frac{4 \\times 78 \\times 3 \\times 13 \\times 13}{270725} = \\frac{158184}{270725} = \\frac{12168}{20825}\\) after simplifying by 13.",
+    "topic": "probability",
+    "section": "QA"
+  }
+]

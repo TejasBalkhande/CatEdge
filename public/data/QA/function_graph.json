@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( f(x) = \\frac{5x + 2}{3x - 5} \\) and \\( g(x) = 16x - 15 \\), then the value of \\( g(f(f(5))) \\) is:",
+    "options": {
+      "a": "33",
+      "b": "49",
+      "c": "65",
+      "d": "81"
+    },
+    "answer": "c",
+    "explanation": "\\( f(5) = \\frac{5(5) + 2}{3(5) - 5} = \\frac{27}{10} \\). \\( f(f(5)) = \\frac{5\\left(\\frac{27}{10}\\right) + 2}{3\\left(\\frac{27}{10}\\right) - 5} = 5 \\). \\( g(5) = 16(5) - 15 = 65 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 2,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( f(x) = px + q \\) and \\( f[f(f(x))] = 64x + 147 \\), the value of \\( 2p + 3q \\) is:",
+    "options": {
+      "a": "29",
+      "b": "35",
+      "c": "24",
+      "d": "31"
+    },
+    "answer": "a",
+    "explanation": "\\( f(f(f(x))) = p^3x + p^2q + pq + q = 64x + 147 \\). Solving: \\( p^3 = 64 \\) → \\( p = 4 \\), \\( q = 7 \\). \\( 2(4) + 3(7) = 29 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 3,
+    "passage": "",
+    "ImageID": "",
+    "question": "For a positive number \\( x \\), \\( [x] \\) = the largest integer less than \\( x \\) and \\( \\{ x \\} \\) = the smallest integer greater than \\( x \\), what is the value of \\( [7.2] + \\{8.3\\} - [4] - [6] + \\{8.7\\} - \\{9.5\\} - [8.1] \\)?",
+    "options": {
+      "a": "-3",
+      "b": "-7",
+      "c": "-5",
+      "d": "-1"
+    },
+    "answer": "d",
+    "explanation": "\\( [7.2] = 7, \\{8.3\\} = 9, [4] = 3, [6] = 5, \\{8.7\\} = 9, \\{9.5\\} = 10, [8.1] = 8 \\). Calculation: \\( 7 + 9 - 3 - 5 + 9 - 10 - 8 = -1 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 4,
+    "passage": "",
+    "ImageID": "",
+    "question": "Let \\( f(x) \\) be a function satisfying \\( f(x) f(y) = f(xy) \\) for all real values of \\( x \\) and \\( y \\). If \\( f(3) = 6 \\), then what is the value of \\( f\\left(\\frac{1}{3}\\right) \\)?",
+    "options": {
+      "a": "1",
+      "b": "\\( \\frac{1}{6} \\)",
+      "c": "\\( \\frac{1}{2} \\)",
+      "d": "6"
+    },
+    "answer": "b",
+    "explanation": "\\( f(3) = f\\left(3 \\cdot 1\\right) = f(3)f(1) \\) → \\( 6 = 6f(1) \\) → \\( f(1) = 1 \\). \\( f(1) = f\\left(3 \\cdot \\frac{1}{3}\\right) = f(3)f\\left(\\frac{1}{3}\\right) \\) → \\( 1 = 6f\\left(\\frac{1}{3}\\right) \\) → \\( f\\left(\\frac{1}{3}\\right) = \\frac{1}{6} \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 5,
+    "passage": "",
+    "ImageID": "",
+    "question": "For a positive integer \\( a \\), \\( f(a) \\) is such that \\( f(a + K) = f(a \\times K) \\), where \\( K \\) is an integer and \\( f(1) = 6 \\). If the value of \\( f(1,007) = K \\), the value of \\( K \\) will be.",
+    "options": {
+      "a": "6",
+      "b": "5",
+      "c": "4",
+      "d": "3"
+    },
+    "answer": "a",
+    "explanation": "Set \\( K = 0 \\): \\( f(a + 0) = f(a \\times 0) \\) → \\( f(a) = f(0) \\). Since \\( f(1) = 6 \\), \\( f(0) = 6 \\). Thus \\( f(1007) = f(0) = 6 = K \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 6,
+    "passage": "",
+    "ImageID": "",
+    "question": "A function \\( g(x) \\) is an even function, if \\( g(-x) = g(x) \\), where \\( x \\in \\mathbb{R} \\). A function \\( g(x) \\) is an odd function, if \\( g(-x) = -g(x) \\), where \\( x \\in \\mathbb{R} \\). If \\( g(x) = 4x^2 - 5x \\), then \\( g(x) + g(-x) \\) is:",
+    "options": {
+      "a": "Always odd",
+      "b": "Always even",
+      "c": "Always equal to 1",
+      "d": "Neither odd nor even"
+    },
+    "answer": "b",
+    "explanation": "\\( g(-x) = 4(-x)^2 - 5(-x) = 4x^2 + 5x \\). \\( g(x) + g(-x) = (4x^2 - 5x) + (4x^2 + 5x) = 8x^2 \\), which is even",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 7,
+    "passage": "",
+    "ImageID": "",
+    "question": "A function is defined as \\( f(x) = \\sin x (\\sin x - 4) + 3 \\) for all the real values of \\( x \\). Find the maximum value of \\( f(x) \\)",
+    "options": {
+      "a": "6",
+      "b": "7",
+      "c": "8",
+      "d": "9"
+    },
+    "answer": "c",
+    "explanation": "\\( f(x) = \\sin^2 x - 4\\sin x + 3 = (\\sin x - 2)^2 - 1 \\). Maximum when \\( \\sin x = -1 \\): \\( (-1 - 2)^2 - 1 = 8 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 8,
+    "passage": "",
+    "ImageID": "",
+    "question": "\\( f(x)f(y) = f(x) + f(y) + f(xy) - 2 \\) where \\( x \\) and \\( y \\) are positive real numbers. If \\( f(3) = 10 \\) and \\( f(2) = 5 \\), find \\( f(12) \\)",
+    "options": {
+      "a": "148",
+      "b": "150",
+      "c": "145",
+      "d": "140"
+    },
+    "answer": "a",
+    "explanation": "\\( f(3)f(2) = 10 \\times 5 = f(3) + f(2) + f(6) - 2 \\) → \\( 50 = 15 + f(6) - 2 \\) → \\( f(6) = 37 \\). \\( f(6)f(2) = 37 \\times 5 = f(6) + f(2) + f(12) - 2 \\) → \\( 185 = 42 + f(12) - 2 \\) → \\( f(12) = 145 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 9,
+    "passage": "",
+    "ImageID": "",
+    "question": "Given that \\( f(1) = 1 \\), \\( f(2x) = 4f(x) + 5 \\) and \\( f(x + 2) = f(x) + 3x + 5 \\) for all real values of \\( x \\). What is the value of \\( f(20) \\)?",
+    "options": {
+      "a": "390",
+      "b": "393",
+      "c": "400",
+      "d": "395"
+    },
+    "answer": "b",
+    "explanation": "\\( f(3) = f(1) + 3(1) + 5 = 9 \\), \\( f(5) = f(3) + 3(3) + 5 = 23 \\), \\( f(10) = 4f(5) + 5 = 97 \\), \\( f(20) = 4f(10) + 5 = 393 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 10,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the range of value of \\( x \\) for which \\( [x] + [2x] + [3x] = 8 \\), where \\( x \\) is a real number and \\( [x] \\) is the greatest integer less than or equal to \\( x \\)",
+    "options": {
+      "a": "\\( 1 \\leq x \\leq \\frac{4}{3} \\)",
+      "b": "\\( x < \\frac{5}{3} \\)",
+      "c": "\\( \\frac{3}{2} \\leq x < \\frac{5}{3} \\)",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "explanation": "For \\( \\frac{3}{2} \\leq x < \\frac{5}{3} \\), \\( [x] = 1 \\), \\( [2x] = 3 \\), \\( [3x] = 4 \\). Sum = 8",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 11,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( f(x) = \\frac{1}{x} \\) and \\( g(x) = x - \\frac{1}{x} \\), then which of the following is true?",
+    "options": {
+      "a": "\\( f(g(x)) \\cdot g(f(x)) = 1 \\)",
+      "b": "\\( f(g(x)) \\cdot g(f(x)) = -1 \\)",
+      "c": "\\( \\frac{f(g(x))}{g(f(x))} = 1 \\)",
+      "d": "\\( \\frac{f(g(x))}{g(f(x))} = -1 \\)"
+    },
+    "answer": "b",
+    "explanation": "\\( f(g(x)) = \\frac{x}{x^2 - 1} \\), \\( g(f(x)) = \\frac{1 - x^2}{x} \\). Product: \\( \\frac{x}{x^2 - 1} \\cdot \\frac{1 - x^2}{x} = -1 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 12,
+    "passage": "",
+    "ImageID": "",
+    "question": "For how many integral values of \\( x \\) the function \\( f(x) = \\frac{\\sqrt{16 - x^2}}{\\log_{x+2} \\left( \\frac{|x|}{5} \\right)} \\) is defined?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5"
+    },
+    "answer": "c",
+    "explanation": "Domain: \\( -4 \\leq x \\leq 4 \\), \\( x > -2 \\), \\( x \\neq -1,0 \\). Integral values: 1,2,3,4",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 13,
+    "passage": "",
+    "ImageID": "",
+    "question": "\\( f(x) \\) is function such that \\( f(a \\times b) = \\frac{f(a)}{f(b)} \\), \\( (a < b) \\) for all positive real values of \\( a \\) and \\( b \\). Find \\( f(0.125) \\), given that \\( f(8) = 0.5 \\)",
+    "options": {
+      "a": "0.125",
+      "b": "0.25",
+      "c": "0.50",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "explanation": "\\( f(1) = f(8 \\cdot 0.125) = \\frac{f(8)}{f(0.125)} \\) → \\( f(1) = \\frac{0.5}{f(0.125)} \\). Also \\( f(1) = f(1 \\cdot 1) = \\frac{f(1)}{f(1)} = 1 \\). Thus \\( 1 = \\frac{0.5}{f(0.125)} \\) → \\( f(0.125) = 0.5 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 14,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( f(x) = \\frac{1 - x^2}{1 + x^2} \\), then find the value of \\( f \\left( \\frac{1 - x^2}{1 + x^2} \\right) \\)",
+    "options": {
+      "a": "\\( x^2 \\)",
+      "b": "\\( \\frac{x^2 + 2x}{3 + x} \\)",
+      "c": "\\( \\frac{2}{x^2 + \\frac{1}{x^2}} \\)",
+      "d": "\\( \\frac{2x^2}{x^2 + 1} \\)"
+    },
+    "answer": "c",
+    "explanation": "\\( f\\left(\\frac{1-x^2}{1+x^2}\\right) = \\frac{1 - \\left(\\frac{1-x^2}{1+x^2}\\right)^2}{1 + \\left(\\frac{1-x^2}{1+x^2}\\right)^2} = \\frac{2}{x^2 + \\frac{1}{x^2}} \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 15,
+    "passage": "",
+    "ImageID": "",
+    "question": "The range of the function \\( g(a) = |a| - a \\) is:",
+    "options": {
+      "a": "\\( (-\\infty, \\infty) \\)",
+      "b": "\\( [-2, 0] \\)",
+      "c": "\\( [0, 1] \\)",
+      "d": "\\( [0, \\infty) \\)"
+    },
+    "answer": "d",
+    "explanation": "For \\( a \\geq 0 \\), \\( g(a) = 0 \\). For \\( a < 0 \\), \\( g(a) = -2a > 0 \\). Range: \\( [0, \\infty) \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 16,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find \\( x \\), when \\( f(x) = 3x - 1 \\) and \\( f(f(f(2x))) = 365 \\)",
+    "options": {
+      "a": "5",
+      "b": "7",
+      "c": "9",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "explanation": "\\( f(2x) = 6x - 1 \\), \\( f(f(2x)) = 18x - 4 \\), \\( f(f(f(2x))) = 54x - 13 = 365 \\) → \\( x = 7 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 17,
+    "passage": "",
+    "ImageID": "",
+    "question": "Let \\( g(x) \\) be a function such that \\( g(x + 1) + g(x - 1) = g(x) \\) for every real \\( x \\). Then, for what value of \\( p \\) is the relation \\( g(x + p) = g(x) \\) necessarily true for every real \\( x \\)?",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "2",
+      "d": "6"
+    },
+    "answer": "d",
+    "explanation": "From recurrence: \\( g(x+6) + g(x+3) = 0 \\) and \\( g(x+6) = g(x) \\). Period \\( p = 6 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 18,
+    "passage": "",
+    "ImageID": "",
+    "question": "Which of the following function is an even function?",
+    "options": {
+      "a": "\\( \\log \\left( \\frac{1 + x^5}{1 - x^5} \\right) \\)",
+      "b": "\\( \\frac{(1 + 3^x)^2}{3^x} \\)",
+      "c": "\\( e^{x^2} \\)",
+      "d": "All of these"
+    },
+    "answer": "c",
+    "explanation": "\\( e^{(-x)^2} = e^{x^2} \\). Options (A) and (B) are not even",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 19,
+    "passage": "",
+    "ImageID": "",
+    "question": "Let \\( f(x) \\) be a fourth-degree polynomial, the coefficient of whose highest power is 3. If \\( f(2) = 4 \\), \\( f(3) = 9 \\), \\( f(4) = 16 \\) and \\( f(5) = 25 \\), find \\( f(x) \\)",
+    "options": {
+      "a": "\\( 3x^4 + 14x^3 + 72x^2 + 154x + 120 \\)",
+      "b": "\\( 3x^4 + 42x^3 + 214x^2 + 462x + 360 \\)",
+      "c": "\\( 3x^4 - 14x^3 + 72x^2 - 154x + 120 \\)",
+      "d": "\\( 3x^4 - 42x^3 + 214x^2 - 462x + 360 \\)"
+    },
+    "answer": "d",
+    "explanation": "\\( f(x) = 3(x-2)(x-3)(x-4)(x-5) + x^2 \\). Expansion matches option (D)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 20,
+    "passage": "",
+    "ImageID": "",
+    "question": "The function \\( f(x) \\) denotes a parabola which cuts the \\( x \\)-axis at the points \\( x = -15 \\) and \\( x = -8 \\). If \\( f(a) = f(b) \\), then find the value of \\( a + b \\), if \\( b > a \\)",
+    "options": {
+      "a": "0",
+      "b": "-7",
+      "c": "23",
+      "d": "-23"
+    },
+    "answer": "d",
+    "explanation": "Vertex at midpoint of roots: \\( x = \\frac{-15-8}{2} = -11.5 \\). Symmetry implies \\( a + b = 2(-11.5) = -23 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 21,
+    "passage": "",
+    "ImageID": "",
+    "question": "\\( f(x) \\) is a function such that \\( f(2) = f(5) = f(8) = 1 \\) and \\( f(11) = 163 \\). Find \\( f(3) \\)",
+    "options": {
+      "a": "10",
+      "b": "11",
+      "c": "12",
+      "d": "13"
+    },
+    "answer": "b",
+    "explanation": "\\( f(x) = (x-2)(x-5)(x-8) + 1 \\). \\( f(3) = (1)(-2)(-5) + 1 = 11 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 22,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( f(a^2 - a) = a^4 - 2a^3 + 5a^2 - 4a - 5 \\), then find the approximate value of \\( \\frac{f(f(10))}{f(10)} \\)",
+    "options": {
+      "a": "139",
+      "b": "143",
+      "c": "150",
+      "d": "172"
+    },
+    "answer": "a",
+    "explanation": "\\( f(x) = x^2 + 4x - 5 \\). \\( f(10) = 135 \\), \\( f(f(10)) = f(135) = 135^2 + 4(135) - 5 = 18640 \\). Ratio \\( \\approx 138.96 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 23,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find \\( f(13) \\) where \\( f(x + 2) = 2f(x) - f(x + 1) \\) where \\( f(10) = 20 \\), \\( f(15) = 108 \\)",
+    "options": {
+      "a": "24",
+      "b": "28",
+      "c": "44",
+      "d": "Cannot be determined"
+    },
+    "answer": "c",
+    "explanation": "Recurrence: \\( f(13) = 3f(11) - 40 \\). Solve \\( f(15) = 11f(11) - 200 = 108 \\) → \\( f(11) = 28 \\). Thus \\( f(13) = 3(28) - 40 = 44 \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 24,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the sum \\( \\sqrt[3]{1} + \\sqrt[3]{2} + \\sqrt[3]{3} + \\sqrt[3]{4} + \\cdots + \\sqrt[3]{150} \\)",
+    "options": {
+      "a": "430",
+      "b": "130",
+      "c": "510",
+      "d": "530"
+    },
+    "answer": "d",
+    "explanation": "Sum by integer ranges: 1-7: 7×1=7, 8-26:19×2=38, 27-63:37×3=111, 64-124:61×4=244, 125-150:26×5=130. Total: 7+38+111+244+130=530",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 25,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( f(x) = \\log \\left( \\frac{1+x}{1-x} \\right) \\) and \\( g(x) = \\frac{3x+x^3}{1+3x^2} \\), then find the value of \\( fog(x) \\)",
+    "options": {
+      "a": "\\( 3f(x) \\)",
+      "b": "\\( -f(x) \\)",
+      "c": "\\( (-f(x))^2 \\)",
+      "d": "\\( -3f(x) \\)"
+    },
+    "answer": "a",
+    "explanation": "\\( fog(x) = f\\left(\\frac{3x+x^3}{1+3x^2}\\right) = \\log\\left(\\frac{1+\\frac{3x+x^3}{1+3x^2}}{1-\\frac{3x+x^3}{1+3x^2}}\\right) = \\log\\left(\\left(\\frac{1+x}{1-x}\\right)^3\\right) = 3f(x) \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 26,
+    "passage": "",
+    "ImageID": "",
+    "question": "Consider the function \\( f(x) = (x+5)(x+7)(x+9)\\cdots(x+97)(x+99) \\). The number of integers \\( x \\) for which \\( f(x) < 0 \\) is:",
+    "options": {
+      "a": "24",
+      "b": "23",
+      "c": "46",
+      "d": "48"
+    },
+    "answer": "a",
+    "explanation": "48 factors. Sign changes at each root. Negative when odd number of negative factors. 24 intervals where product is negative",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 27,
+    "passage": "",
+    "ImageID": "",
+    "question": "If \\( f(x) + f(1-x) = 8 \\), find the value of \\( f \\left( \\frac{1}{100} \\right) + f \\left( \\frac{2}{100} \\right) + f \\left( \\frac{3}{100} \\right) + \\cdots f \\left( \\frac{99}{100} \\right) \\)",
+    "options": {
+      "a": "400",
+      "b": "392",
+      "c": "396",
+      "d": "404"
+    },
+    "answer": "c",
+    "explanation": "49 pairs: \\( f\\left(\\frac{k}{100}\\right) + f\\left(\\frac{100-k}{100}\\right) = 8 \\). Middle term \\( f(0.5) = 4 \\). Sum: 49×8 + 4 = 396",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 28,
+    "passage": "",
+    "ImageID": "",
+    "question": "For two sets A and B, \\( n(A) = 6 \\) and \\( n(B) = 5 \\). Find the number of functions that are not onto that can be defined from A to B",
+    "options": {
+      "a": "13825",
+      "b": "15000",
+      "c": "12000",
+      "d": "10000"
+    },
+    "answer": "a",
+    "explanation": "Total functions: \\( 5^6 = 15625 \\). Onto functions: \\( 5^6 - \\binom{5}{1}4^6 + \\binom{5}{2}3^6 - \\binom{5}{3}2^6 + \\binom{5}{4}1^6 = 15625 - 13825 = 1800 \\). Non-onto: 15625 - 1800 = 13825",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 29,
+    "passage": "",
+    "ImageID": "",
+    "question": "A function \\( f(x) \\) exists for all the real values of \\( x \\) such that \\( f(3-x) = f(3+x) \\) and \\( f(10-x) = f(10+x) \\). If \\( f(3) = 0 \\), then what is the minimum number of roots for \\( f(x) = 0 \\), if \\( x \\) lies between -300 and 300 (both inclusive)?",
+    "options": {
+      "a": "40",
+      "b": "41",
+      "c": "42",
+      "d": "43"
+    },
+    "answer": "d",
+    "explanation": "Symmetric about x=3 and x=10. Period 14. Roots at \\( x = 3 + 14k \\), \\( x = -11 + 14k \\). For \\( -300 \\leq x \\leq 300 \\), k from -22 to 22. Total roots: 43",
+    "topic": "Function and graphs",
+    "section": "QA"
+  },
+  {
+    "id": 30,
+    "passage": "",
+    "ImageID": "",
+    "question": "\\( \\log_{\\frac{1}{4}} \\left( x^2 - 2x - 24 \\right) > \\log_{\\frac{1}{4}} \\frac{11}{4} \\). The range of \\( x \\) is:",
+    "options": {
+      "a": "(-5, 7)",
+      "b": "(-4, 6)",
+      "c": "(-5, -4) \\cup (6, 7)",
+      "d": "(-\\infty, -4) \\cup (6, \\infty)"
+    },
+    "answer": "c",
+    "explanation": "Since base < 1, inequality reverses: \\( 0 < x^2 - 2x - 24 < 11 \\). Solve: \\( x^2 - 2x - 24 > 0 \\) → \\( x < -4 \\) or \\( x > 6 \\); \\( x^2 - 2x - 35 < 0 \\) → \\( -5 < x < 7 \\). Intersection: \\( (-5, -4) \\cup (6, 7) \\)",
+    "topic": "Function and graphs",
+    "section": "QA"
+  }
+]

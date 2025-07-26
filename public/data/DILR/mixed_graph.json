@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "Three management institutes (PIM X, Y, Z) select students based on AT, GD, PI, and other parameters with given weights. PIM X offers top 2, Y top 3, Z top 3.",
+    "ImageID": "image/DILR/three/1-4.png",
+    "question": "Who will fail to get any admission offer?",
+    "options": {
+      "a": "Mukesh",
+      "b": "Deveshwar",
+      "c": "Azim",
+      "d": "Narayan"
+    },
+    "answer": "b",
+    "explanation": "Deveshwar has the lowest scores and isn't in top 3 for any PIM.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 2,
+    "passage": "Three management institutes (PIM X, Y, Z) select students based on AT, GD, PI, and other parameters with given weights. PIM X offers top 2, Y top 3, Z top 3.",
+        "ImageID": "image/DILR/three/1-4.png",
+    "question": "If Anil (96,26,34,31) joins, how many offers will he receive?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "3"
+    },
+    "answer": "b",
+    "explanation": "Anil gets only one offer from PIM X.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 3,
+    "passage": "Three management institutes (PIM X, Y, Z) select students based on AT, GD, PI, and other parameters with given weights. PIM X offers top 2, Y top 3, Z top 3.",
+        "ImageID": "image/DILR/three/1-4.png",
+    "question": "How can Narayan secure admission to PIM X?",
+    "options": {
+      "a": "1 mark in GD",
+      "b": "1 mark in PI",
+      "c": "2 marks in Other",
+      "d": "Any of the above"
+    },
+    "answer": "d",
+    "explanation": "Improving by 1 in GD, 1 in PI, or 2 in Other would all secure admission.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 4,
+    "passage": "Three management institutes (PIM X, Y, Z) select students based on AT, GD, PI, and other parameters with given weights. PIM X offers top 2, Y top 3, Z top 3.",
+        "ImageID": "image/DILR/three/1-4.png",
+    "question": "For which PIM are total student marks highest?",
+    "options": {
+      "a": "PIM X",
+      "b": "PIM Y",
+      "c": "PIM Z",
+      "d": "Data Insufficient"
+    },
+    "answer": "c",
+    "explanation": "Total marks are highest for PIM Z.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 5,
+    "passage": "Music cassette/CD buying behavior in Phoren city (2010-2014) by age and outlet type. Total buyers: 1000 in 2010, +100/year.",
+    "ImageID": "image/DILR/three/5-8.png",
+    "question": "Total buyers age 45+ (2010-2014)?",
+    "options": {
+      "a": "729",
+      "b": "789",
+      "c": "829",
+      "d": "879"
+    },
+    "answer": "c",
+    "explanation": "1000×0.12 + 1100×0.11 + 1200×0.15 + 1300×0.12 + 1400×0.18 = 829",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 6,
+    "passage": "Music cassette/CD buying behavior in Phoren city (2010-2014) by age and outlet type. Total buyers: 1000 in 2010, +100/year.",
+    "ImageID": "image/DILR/three/5-8.png",
+    "question": "Percentage change in difference between mail order and online stores (2010-2014)?",
+    "options": {
+      "a": "Decrease 15%",
+      "b": "Decrease 25%",
+      "c": "Increase 15%",
+      "d": "Increase 25%"
+    },
+    "answer": "d",
+    "explanation": "Difference: 8% (2010) → 10% (2014). Change: +2%/8% = +25%.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 7,
+    "passage": "Music cassette/CD buying behavior in Phoren city (2010-2014) by age and outlet type. Total buyers: 1000 in 2010, +100/year.",
+    "ImageID": "image/DILR/three/5-8.png",
+    "question": "Which outlet retained customers for 3 consecutive years?",
+    "options": {
+      "a": "Multi product shops",
+      "b": "Online stores",
+      "c": "Both",
+      "d": "Data Insufficient"
+    },
+    "answer": "d",
+    "explanation": "Cannot determine absolute numbers from percentages.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 8,
+    "passage": "Music cassette/CD buying behavior in Phoren city (2010-2014) by age and outlet type. Total buyers: 1000 in 2010, +100/year.",
+    "ImageID": "image/DILR/three/5-8.png",
+    "question": "Buyers (25-45 years) from music shops in 2010?",
+    "options": {
+      "a": "532",
+      "b": "322",
+      "c": "425",
+      "d": "380"
+    },
+    "answer": "b",
+    "explanation": "46% of buyers in 25-45 group, 70% from music shops: 1000 × 0.46 × 0.70 = 322",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 9,
+    "passage": "Demand-supply for products L,M,N,O,P. Pie chart shows April supply breakup.",
+    "ImageID": "image/DILR/three/9-12.png",
+    "question": "Month with highest demand-supply gap?",
+    "options": {
+      "a": "January",
+      "b": "February",
+      "c": "March",
+      "d": "April"
+    },
+    "answer": "b",
+    "explanation": "February had the highest excess demand.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 10,
+    "passage": "Demand-supply for products L,M,N,O,P. Pie chart shows April supply breakup.",
+    "ImageID": "image/DILR/three/9-12.png",
+    "question": "Units of 'L' sold in January?",
+    "options": {
+      "a": "1.8",
+      "b": "1.85",
+      "c": "1.92",
+      "d": "Data insufficient"
+    },
+    "answer": "d",
+    "explanation": "January percentage breakup not provided.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 11,
+    "passage": "Demand-supply for products L,M,N,O,P. Pie chart shows April supply breakup.",
+    "ImageID": "image/DILR/three/9-12.png",
+    "question": "Units of 'P' sold in April?",
+    "options": {
+      "a": "1.64",
+      "b": "1.68",
+      "c": "1.78",
+      "d": "1.80"
+    },
+    "answer": "b",
+    "explanation": "P's share=7% of 24 lakh units = 1.68 lakh",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 12,
+    "passage": "Demand-supply for products L,M,N,O,P. Pie chart shows April supply breakup.",
+    "ImageID": "image/DILR/three/9-12.png",
+    "question": "Additional 'O' units that could be sold in January?",
+    "options": {
+      "a": "0.64",
+      "b": "1.28",
+      "c": "0.32",
+      "d": "Data insufficient"
+    },
+    "answer": "d",
+    "explanation": "Insufficient data for product O in January.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 13,
+    "passage": "Selection process for software professionals: written test → technical interview → HR interview. Data for 2015 (upper) and 2016 (lower).",
+    "ImageID": "image/DILR/three/13-16.png",
+    "question": "Absolute difference in selection percentage (2015 vs 2016)?",
+    "options": {
+      "a": "13.33%",
+      "b": "0.03%",
+      "c": "0.3%",
+      "d": "1.33%"
+    },
+    "answer": "b",
+    "explanation": "2015: 0.22%, 2016: 0.25%, difference=0.03%.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 14,
+    "passage": "Selection process for software professionals: written test → technical interview → HR interview. Data for 2015 (upper) and 2016 (lower).",
+    "ImageID": "image/DILR/three/13-16.png",
+    "question": "Ratio: Graduates not called for tech interview (2015) vs Postgraduates (2015+2016)?",
+    "options": {
+      "a": "2:1",
+      "b": "3:4",
+      "c": "1:2",
+      "d": "2:3"
+    },
+    "answer": "c",
+    "explanation": "2000 graduates vs 4000 postgraduates = 1:2",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 15,
+    "passage": "Selection process for software professionals: written test → technical interview → HR interview. Data for 2015 (upper) and 2016 (lower).",
+    "ImageID": "image/DILR/three/13-16.png",
+    "question": "Total selections as % of postgraduates called for HR interview?",
+    "options": {
+      "a": "80%",
+      "b": "85%",
+      "c": "90%",
+      "d": "75%"
+    },
+    "answer": "b",
+    "explanation": "332 selections / 390 HR-called postgraduates ≈ 85%",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 16,
+    "passage": "Selection process for software professionals: written test → technical interview → HR interview. Data for 2015 (upper) and 2016 (lower).",
+    "ImageID": "image/DILR/three/13-16.png",
+    "question": "Ratio: Graduates selected (2015) vs Postgraduates selected (2016)?",
+    "options": {
+      "a": "1:1",
+      "b": "2:3",
+      "c": "27:50",
+      "d": "3:2"
+    },
+    "answer": "a",
+    "explanation": "94 graduates (2015) vs 94 postgraduates (2016) = 1:1",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 17,
+    "passage": "Cricket tournament batting performance. Diagrams show top scorers and percentage by top 3. R-index = highest-lowest, M-index = middle score.",
+    "ImageID": "image/DILR/three/17-19.png",
+    "question": "How many players can have exact M-index calculated?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "More than 2"
+    },
+    "answer": "c",
+    "explanation": "Exact M-index can be determined for 2 players.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 18,
+    "passage": "Cricket tournament batting performance. Diagrams show top scorers and percentage by top 3. R-index = highest-lowest, M-index = middle score.",
+    "ImageID": "image/DILR/three/17-19.png",
+    "question": "Who can have the lowest R-index?",
+    "options": {
+      "a": "Only Kaif, Rahul or Yuvraj",
+      "b": "Only Kaif or Rahul",
+      "c": "Only Kaif or Yuvraj",
+      "d": "Only Kaif"
+    },
+    "answer": "a",
+    "explanation": "Kaif, Rahul, or Yuvraj can have the lowest R-index.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 19,
+    "passage": "Cricket tournament batting performance. Diagrams show top scorers and percentage by top 3. R-index = highest-lowest, M-index = middle score.",
+    "ImageID": "image/DILR/three/17-19.png",
+    "question": "How many players definitely scored less than Yuvraj?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "More than 2"
+    },
+    "answer": "b",
+    "explanation": "Only 1 player definitely scored less.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 20,
+    "passage": "15 cocoa-producing states in 6 countries across 3 continents. Asia 40%, Europe 29%, North America 31%.",
+    "ImageID": "image/DILR/three/20-23.png",
+    "question": "Which country is in Europe?",
+    "options": {
+      "a": "C1",
+      "b": "C5",
+      "c": "C3",
+      "d": "Cannot be determined"
+    },
+    "answer": "b",
+    "explanation": "C5 is always in Europe based on distribution.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 21,
+    "passage": "15 cocoa-producing states in 6 countries across 3 continents. Asia 40%, Europe 29%, North America 31%.",
+    "ImageID": "image/DILR/three/20-23.png",
+    "question": "Which country can never be in North America?",
+    "options": {
+      "a": "C1",
+      "b": "C6",
+      "c": "C4",
+      "d": "C3"
+    },
+    "answer": "c",
+    "explanation": "C4 can never be in North America.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 22,
+    "passage": "15 cocoa-producing states in 6 countries across 3 continents. Asia 40%, Europe 29%, North America 31%.",
+    "ImageID": "image/DILR/three/20-23.png",
+    "question": "If continents have different country counts, max states in North America, then states in C3?",
+    "options": {
+      "a": "6",
+      "b": "5",
+      "c": "7",
+      "d": "Cannot be determined"
+    },
+    "answer": "a",
+    "explanation": "With constraints, C3 has 6 states.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 23,
+    "passage": "15 cocoa-producing states in 6 countries across 3 continents. Asia 40%, Europe 29%, North America 31%.",
+    "ImageID": "image/DILR/three/20-23.png",
+    "question": "Which states can never be in C3? (S8, S4, S12)",
+    "options": {
+      "a": "S8 only",
+      "b": "S8 and S4",
+      "c": "S8 and S12",
+      "d": "All can be in C3"
+    },
+    "answer": "d",
+    "explanation": "All states can be in C3 in some distributions.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 24,
+    "passage": "Interview calls from four institutes. Table shows students with 3/2 calls, bar graph shows total students/seats.",
+    "ImageID": "image/DILR/three/24-26.png",
+    "question": "Students with exactly one interview call?",
+    "options": {
+      "a": "1380",
+      "b": "980",
+      "c": "860",
+      "d": "1580"
+    },
+    "answer": "b",
+    "explanation": "80(A) + 310(B) + 190(C) + 400(L) = 980",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 25,
+    "passage": "Interview calls from four institutes. Table shows students with 3/2 calls, bar graph shows total students/seats.",
+    "ImageID": "image/DILR/three/24-26.png",
+    "question": "Total seats as % of total individuals with calls?",
+    "options": {
+      "a": "31.6%",
+      "b": "61.3%",
+      "c": "55.9%",
+      "d": "Data Insufficient"
+    },
+    "answer": "c",
+    "explanation": "950 seats / 1700 individuals ≈ 55.9%",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 26,
+    "passage": "Interview calls from four institutes. Table shows students with 3/2 calls, bar graph shows total students/seats.",
+    "ImageID": "image/DILR/three/24-26.png",
+    "question": "Max students with calls from both A and L?",
+    "options": {
+      "a": "420",
+      "b": "290",
+      "c": "270",
+      "d": "470"
+    },
+    "answer": "a",
+    "explanation": "Maximum possible: 150 (4 calls) + 130 (3 calls) + 140 (2 calls) = 420",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 27,
+    "passage": "Employee surveys on training days, bonus, and effectiveness score for 7 employees.",
+    "ImageID": "image/DILR/three/27-30.png",
+    "question": "Average bonus (Survey 1) for employees with >17 training days?",
+    "options": {
+      "a": "16-17 lacs",
+      "b": "17-18 lacs",
+      "c": "18-19 lacs",
+      "d": "19-20 lacs"
+    },
+    "answer": "d",
+    "explanation": "Two employees: ~18 and ~20 lacs → average ~19 lacs",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 28,
+    "passage": "Employee surveys on training days, bonus, and effectiveness score for 7 employees.",
+    "ImageID": "image/DILR/three/27-30.png",
+    "question": "Employees with effectiveness>7 (Survey 1) but bonus<20 (Survey 2)?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5"
+    },
+    "answer": "a",
+    "explanation": "Two employees satisfy both conditions.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 29,
+    "passage": "Employee surveys on training days, bonus, and effectiveness score for 7 employees.",
+    "ImageID": "image/DILR/three/27-30.png",
+    "question": "Employees with bonus decreased but training days increased?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "b",
+    "explanation": "Two employees show this pattern.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  },
+  {
+    "id": 30,
+    "passage": "Employee surveys on training days, bonus, and effectiveness score for 7 employees.",
+    "ImageID": "image/DILR/three/27-30.png",
+    "question": "Employees with increased training days AND effectiveness increase ≥1.0?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "7"
+    },
+    "answer": "a",
+    "explanation": "Two employees meet both criteria.",
+    "topic": "Pie Chart & Bar Graph",
+    "section": "LRDI"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "1. Since the very beginning of AI back in 1956, we’ve made this terrible error, a sort of original sin of the field, to believe that minds are like computers and vice versa.\n2. AI is made from vast amounts of natural resources, fuel, and human labour.\n3. It’s not able to discern things without extensive human training, and it has a completely different statistical logic for how meaning is made.\n4. And, it is not intelligent in any kind of human intelligence way.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1234",
+      "b": "1423",
+      "c": "2431",
+      "d": "3214"
+    },
+    "answer": "c",
+    "explanation": "Correct Answer: 2431. Explanation: Statements 3 and 4 are clearly not the opening sentences. Now, if we set 1 as the opener, it is hard to find a coherent follow-up. 1 is most likely the closing remark. Statement 2 should be the opening statement. Statement 3 says, ‘it has a completely different statistical logic for how meaning is made’. The question is –different from what or whom? We find that answer in statement 4, that AI is not intelligent in a human way. Rather it has a completely different statistical logic for how meaning is made. So, 43 is a pair. Hence, the logical sequence is 2431.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 2,
+    "passage": "1. As a community, we trust people to be honest about their vaccination status.\n2. While traditional vaccine registration is a powerful tool, the thing that makes it work is not tracking, it’s trust.\n3. Already we see fake COVID vaccination cards being sold online by scammers, while others pursue fraudulent vaccine exemptions.\n4. While trust may be eroding, the technology is no substitute.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "2143",
+      "b": "3412",
+      "c": "1324",
+      "d": "4231"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 2143. Explanation: Statement 2 sounds like the best opening statement here (for other sentences, it is hard to find a follow-up). Statement 2 says that vaccine registration is a powerful tool not because of technology but because of trust. Why and how? Because ‘We trust people to be honest about their status…’ (1) Though trust may be eroding…still technology is no substitute…(4) How and why? Because, ‘already we see fake COVID vaccination cards being sold online by scammers’ (3). Hence, the logical sequence is 2143.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 3,
+    "passage": "1. We have a regulation emergency: There are tools actually causing harm that are completely unregulated.\n2. But it comes with its own logic, its own politics, its own ideologies that people are rarely made aware of.\n3. And, we are relying on systems that do not have the sort of safety rails you would expect for something so influential in everyday life.\n4. Let’s be clear—statistical prediction is incredibly useful; so is an Excel spreadsheet.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1342",
+      "b": "2413",
+      "c": "3142",
+      "d": "4231"
+    },
+    "answer": "d",
+    "explanation": "Correct Answer: 4231. Explanation: Statement 2 says it comes with its own logic…the question is, what comes with its own logic? ‘The answer is statistical prediction’ (discussed in statement 4). So, Statements 4 and 2 make a logical pair. Statement 3 says we are relying on systems that do not have safety rails, and statement 1 emphasises the need for regulation to control these tools. So, 1 is a logical follow-up of 3. Hence, the logical sequence is 4231. Statistical prediction is useful…(4) but it comes with its own logic…(2) it might be unsafe…(2) so we need to regulate its use (1). Hence, the logical sequence is 4231.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 4,
+    "passage": "1. While the public is right to push back against the invasive and downright creepy new vaccine apps, the media must not conflate the technology with traditional vaccination registries, particularly for schools.\n2. America’s vaccine credentials debate is becoming more polarised by the day.\n3. More than half a dozen Republican-led states banned the technology. Some have even banned paper vaccine records as a means of access.\n4. Democratic strongholds like New York are expanding the use of vaccine apps to make them necessary for people to access almost everything.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1324",
+      "b": "4213",
+      "c": "2431",
+      "d": "3142"
+    },
+    "answer": "c",
+    "explanation": "Correct Answer: 2431. Explanation: Statement 2 talks about polarisation. Statements 3 and 4 contain those polarizing facts. 4 says Democrats support the vaccine drive, while 3 says Republicans are against the vaccine drive. So, 43 is a pair. 1 should follow 3, as statement 1 continues to talk of the public being against the vaccination drive. Hence, the logical sequence is 2431.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 5,
+    "passage": "1. In every sense, the company’s fortunes are deeply bound up with the same authoritarian forces surveilling people at home and abroad.\n2. Microsoft runs the New York Police Department’s Domain Awareness System, one of the largest municipal surveillance systems in the world, and does work for Immigration and Customs Enforcement.\n3. It was a recent runner-up—to Google and Amazon—in the sweepstakes for a contract to furnish cloud services to Israel’s government.\n4. It also has tens of billions of dollars in contracts with the Pentagon to provide cloud computing and augmented reality goggles for the Army.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "3142",
+      "b": "2431",
+      "c": "1423",
+      "d": "4321"
+    },
+    "answer": "b",
+    "explanation": "Correct Answer: 2431. Explanation: Microsoft is involved in this…it also has that…it was a runner-up in that…in every sense, the company’s fortune is linked with this and that… The passage goes with the same flow. 2 is a clear opener, 4 follows explaining how it also has other similar contracts; followed by statement 3, where it was a runner-up, after Google and Amazon, in similar contracts. Finally, statement 1 takes place wherein every sense of the company’s fortunes are linked with forces surveilling people at home and abroad. Hence, 2431 is the logical sequence here.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 6,
+    "passage": "1. Scientists are still uncovering the extent of the damage and starting to answer questions about the long-term legacy of radiation exposure.\n2. On this day in 1986, workers ran a safety test at the Chernobyl Nuclear Power Plant in northern Ukraine.\n3. Smoke from the fire and a second explosion launched radioactive elements into the atmosphere, scattering them over the surrounding fields and towns.\n4. The test went awry, starting a fire in a reactor and leading to one of the largest nuclear disasters in history.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "2431",
+      "b": "1342",
+      "c": "4213",
+      "d": "3124"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 2431. Explanation: This one is quite easy. Statement 2 is the opening statement as it talks of a random safety test. Statement 4 follows 2, stating how the test failed. 3 follows 4, explaining the effects of that failure. Finally, 1 states how scientists are still uncovering the facts related to that disaster. Therefore, the correct sequence is 2431.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 7,
+    "passage": "1. Shifting USDA policy to reimburse schools for every meal, instead of just those of certain students (and hopefully at the increased rates instituted last year) immediately reduces administrative burdens on both families and schools.\n2. It also saves time: It’s tough enough shuffling kids off to school in the morning without packing a lunch on top of it.\n3. Universal free lunch programmes are also stress relievers for families, whose budgets may be stretched beyond the blinkered presumptions of strict eligibility requirements.\n4. It also reduces the stigma placed on poor students by halting the most egregious practices for recouping debts, as well as by making the school lunch line function the same way for all children; with no one having to fork over a balance contingent on their family income or accepting a subpar lunch as a sanction for money owed.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1432",
+      "b": "3214",
+      "c": "4321",
+      "d": "2143"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 1432. Explanation: Clearly 1 is the opening statement here. Statement 4 starts with ‘It also reduces…’, while sentence 1 ends with, ‘…reduces administrative burdens’ Clearly, 14 is the coherent order. Statement 3 continues the benefits discussed in 4. And, the final benefit is given in statement 2. Hence, the coherent order is 1432.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 8,
+    "passage": "1. The first chapter on the ‘promise’ of sociology is routinely used to introduce students to the basic principles of the field.\n2. I learned that specific individuals are located historically, and also in relation to social structures that preceded and will survive them.\n3. As a Black student at a predominately white university, sociology provided a welcome home for me, and other students of colour, most of us fledgling activists eager to develop a framework to better understand and describe our alienated experiences.\n4. Early on, and in keeping with just about every introductory sociology course across North America, I was assigned C.W. Mills’s text The Sociological Imagination (1959).",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1243",
+      "b": "3412",
+      "c": "2134",
+      "d": "4321"
+    },
+    "answer": "b",
+    "explanation": "Correct Answer: 3412. Explanation: The third statement introduces us to the premise of the passage which describes how the author took to studying sociology. The fourth statement talks about the first text assigned to the author and this is followed by the first statement, which talks about the first chapter of the text. The second statement then further elaborates on the contents of the text. Therefore, the correct sequence will be 3412.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 9,
+    "passage": "1. Yet, patients often still consider this ‘part’ as ‘theirs’.\n2. For years after an amputation, patients’ ability to perform personal, work, and leisure activities can be heavily impacted, and their body satisfaction can diminish.\n3. Once amputated, the limb moves from being part of the bodily whole to being merely a ‘part’.\n4. Our limbs can be a crucial part of our sense of self and identity, so amputation is often traumatic to the emotional and psychological well-being of patients.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "4231",
+      "b": "1342",
+      "c": "3421",
+      "d": "2143"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 4231. Explanation: The fourth statement introduces the topic of discussion and the second statement lays down its possible effects, which is the problem talked about in the passage. Then the third statement further addresses the problem talked about in the second statement, which is then followed by the first statement. Therefore, the correct sequence is 4231.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 10,
+    "passage": "1. In collaboration with the MIT School of Science, the US filmmakers Sarah Klein and Tom Mason created a documentary, tracking how the US physicist Rai Weiss, now professor emeritus at MIT, stood on the shoulders of his field’s biggest giant to prove the existence of gravitational waves, a century after Einstein had predicted them.\n2. In 1916, shortly after publishing his theory of general relativity, Albert Einstein predicted the existence of gravitational waves – warps in space-time caused by accelerating matter that ripple outward at the speed of light.\n3. But following decades of scientific developments suggesting their existence, as well as technological innovations making their detection possible, in 2015 a team of researchers at the Massachusetts Institute of Technology (MIT) and the California Institute of Technology recorded humanity’s first direct observation of the phenomena.\n4. However, he believed these ripples would be so slight as to be undetectable, before eventually abandoning the concept altogether.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "3214",
+      "b": "1243",
+      "c": "2431",
+      "d": "4132"
+    },
+    "answer": "c",
+    "explanation": "Correct Answer: 2431. Explanation: The second statement introduces the passage by telling us about the discovery of gravitational waves by Einstein. This is followed by the fourth statement, which tells us how Einstein had little faith in his discovery and finally decided to abandon the concept. The third statement then describes how this concept was again brought to the surface and has finally been documented by some researchers. The first statement then tells us about the said documentation, which has been created by collaborating with two filmmakers. Therefore, the correct sequence will be 2431.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 11,
+    "passage": "1. Evidence shows that social buffering often involves ranking the minds and skills of our own group (including the largest set, the Homo sapiens) as higher than those of others.\n2. In other words, we see the minds of our own group as superior to the minds of those on the outside, and when we want to reinforce that—especially, if we feel under threat—we increase our beliefs in the superior judgment of our own centre of belonging, and can denigrate anyone or anything that contradicts this.\n3. Elsewhere, the work of the Italian psychologist, Jeroen Vaes, has demonstrated how fears and dangers prompt people to renew their group bonds, and this includes seeing group members as more human than those outside the group.\n4. Research by the Dutch psychologist, Carsten De Dreu, has revealed how some of the beliefs about the superior mental content of our own groups affect oxytocin, reinforcing our bonds with each other and increasing our commitment to the thoughts and feelings of our compatriots.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1432",
+      "b": "2341",
+      "c": "3214",
+      "d": "4123"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 1432. Explanation: Statements 2, 3, and 4 have a clear hint of sequencing. That helps in deciding that 1 is the opening statement. Statement 4 talks about research by a Dutch psychologist. Statement 3 talks about research being conducted elsewhere. Clearly, 3 will come after 4. Statement 3 says, “this includes seeing group members as more human than those outside the group”. Statement 2 says the same thing in other words, i.e., we see the minds of our own group as superior to the minds of those on the outside. Clearly, 32 is a pair. We get a sequence, 432. So, 1 becomes the obvious opener. Therefore, the correct sequence is 1432.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 12,
+    "passage": "1. Today, our thinking has shifted along with scientific evidence, incorporating the genetic insights of the past century. We now know we’re animals, related to all other life on our planet.\n2. We still live with the belief that humans, in some essential way, are not really animals.\n3. We’ve also learned much about cognition, including the uneasy separation between instinct and intention, and the investment of the whole body in thought and action.\n4. As such, we might expect attitudes to have changed. But that is not the case.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1342",
+      "b": "2431",
+      "c": "3214",
+      "d": "4123"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 1342. Explanation: The easiest link is in statement 3. It says, we have also learned much about cognition...which means we must have learned something before that. Only statement 1 can precede statement 3 in that regard. We now know we’re animals...(1) --- We’ve also learned much about cognition...(3). So, 13 will be a pair. Statement 4 says, ‘But that is not the case’. Statement 2 continues, ‘We still live with the belief that...’ So, 42 is another pair. Therefore, the correct sequence is 1342.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 13,
+    "passage": "1. All life possessed a special, non-physical essence.\n2. Humans were thought to have a superior soul within a hierarchy.\n3. In European classical thought, many also believed that every living thing had a soul.\n4. Early hunter-gatherer animist societies saw spirit everywhere.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "4132",
+      "b": "3241",
+      "c": "1324",
+      "d": "2413"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 4132. Explanation: Look closely, what could be the opening statement? Only statement 4 sounds like a good opener. It also makes sense, if we follow the rules of chronology, that what happened earlier should be discussed first and then what happened later should follow. There are two concepts discussed here. What early hunter-gatherer societies thought and what European classical thought was. Statement 4 opens the paragraph, 1 follows it, explaining that thought further. Then comes statement 3, talking of European classical thought, 2 follows 3, complementing statement 3. So, the logical sequence is 4132.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 14,
+    "passage": "1. They wrote manuals about the farming techniques they observed in Africa and Asia, and adapted them to land in Europe.\n2. A variety of rice from Vietnam ripened quickly and allowed farmers to harvest several crops during a single growing season.\n3. The Chinese also adapted farming tools and methods from nearby empires.\n4. As the Romans expanded their empire, they adopted the best agricultural methods of the people they conquered.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "4132",
+      "b": "2314",
+      "c": "3241",
+      "d": "1423"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 4132. Explanation: The passage needs to be split into two parts. The first part is about the Romans adopting the techniques from other countries. The second part is about the Chinese adopting the agricultural techniques from the neighbouring countries. First, the Romans adopted the agricultural practices of the countries they invaded (41). Then the Chinese adopted the agricultural practices of Vietnam (32). Hence, 4132 is a coherent sequence.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 15,
+    "passage": "1. The first domesticated animals were dogs, which were used for hunting.\n2. Most of these animals had once been hunted for hides and meat.\n3. People also domesticated cattle and pigs.\n4. Sheep and goats were probably domesticated next.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1432",
+      "b": "3214",
+      "c": "4321",
+      "d": "2143"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 1432. Explanation: The question is relatively very easy and can be answered at first sight. Dogs were the first to be domesticated. (1) Sheep and goats were probably the next. (4) Cattle and pigs were also domesticated. (3) Most of these were once hunted. (2) The highlighted words give an idea about the sequence of these sentences. Clearly, 1432 is a coherent sequence.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 16,
+    "passage": "1. This makes L’Estaritt the longest available uninterrupted oceanographic data time series in the Mediterranean.\n2. A meteorological and oceanographic coastal station in the small Spanish coastal town of L’Estaritt is a notable exception.\n3. A new NASA-funded study presents a detailed analysis of the site, revealing climate trends for its Mediterranean coastal environment spanning nearly a half-century.\n4. Located in the Catalan Costa Brava region of the northwest Mediterranean Sea, the L’Estaritt station has collected inland data on air temperature, precipitation, atmospheric pressure, and humidity since 1969, and has also made oceanographic observations at least weekly since 1973.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1324",
+      "b": "2413",
+      "c": "3241",
+      "d": "4132"
+    },
+    "answer": "b",
+    "explanation": "Correct Answer: 2413. Explanation: Statement 1 states: This makes L'Estartit the longest available uninterrupted oceanographic data time series... We need to find WHAT makes L'Estartit the longest available uninterrupted oceanographic data time series? Clearly, the answer is in statement 4. The L'Estartit station has collected inland data since 1969. This makes L'Estartit the longest available uninterrupted oceanographic data time series. Hence, 41 is a pair. Statement 2 introduces the town of L'Estartit and must come before statement 4. Statement 3 mentions analysis of the site which refers to L'Estartit and would come after 41. Thus, it can be concluded that 2413 is a logical sequence.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 17,
+    "passage": "1. Cotton, wool, and leather are all agricultural products.\n2. Agriculture is the art and science of cultivating the soil, growing crops, and raising livestock.\n3. Agriculture provides most of the world’s food and fabrics.\n4. Agriculture includes the preparation of plant and animal products for people to use and their distribution to markets.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "2431",
+      "b": "1324",
+      "c": "4213",
+      "d": "3142"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 2431. Explanation: Statement 2 defines agriculture as the art and science of cultivating the soil, growing crops, and raising livestock. Statement 4 elaborates on that definition. In a way, the author is exemplifying his definition of agriculture. Statement 3 adds further benefits of agriculture. Statement 1 exemplifies those benefits. Hence, 2431 is a coherent sequence.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 18,
+    "passage": "1. AsthelsraelipsychologistRuthFeldmanhas written, ‘Later attachments…repurpose the basic machinery established by the mother-offspring bond during early “sensitive periods”’.\n2. Some of the most important stages of life happen in the womb and in the early bonds with our carers in the weeks and months after birth.\n3. These crucial years in human development involve crosstalk between hormones, environment, and touch that influence how the baby’s neural networks are organised.\n4. And, the quality of those bonds and the well-being of our mothers can have lasting effects on us and the people we come to be.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "3241",
+      "b": "2413",
+      "c": "4132",
+      "d": "1324"
+    },
+    "answer": "b",
+    "explanation": "Correct Answer: 2413. Explanation: Statements 3 and 4 clearly cannot be the openers. Statement 1 sounds like an explanation in itself, which makes statement 2 the opening statement here. Statement 2 talks of early bonds with our carers. Statement 4 talks about the quality of those bonds. Statement 1 strengthens the arguments made in 2 and 4 through a quote. Statement 1 talks of early sensitive years. Statement 3 continues with these crucial years, referring to the early sensitive years discussed in statement 1. Hence, the correct sequence is 2413.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 19,
+    "passage": "1. That also becomes a feedback loop: Because we have emotion detection tools, people say we want to apply them in schools and courtrooms and to catch potential shoplifters.\n2. Emotion detection represents the fantasy that technology will finally answer questions that we have about human nature that are not technical questions at all.\n3. Recording people’s faces and correlating that to simple, predefined, emotional states works with machine learning—if you drop culture and context and that you might change the way you look and feel hundreds of times a day.\n4. This idea that’s so contested in the field of psychology made the jump into machine learning because it is a simple theory that fits the tools.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "2431",
+      "b": "1324",
+      "c": "4213",
+      "d": "3142"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 2431. Explanation: Statements 1 and 4 cannot be the openers. Now, out of 2 and 3, 2 sounds like an opening statement, as it sets forth a new concept for discussion (emotion detection). This idea discussed in statement 4 corresponds to the idea of emotion detection through technology which has been discussed in statement 2. So, 24 is a pair. Statements 4 discusses tools, and statement 3 has elaborated that tool. Statement 1 discusses the feedback loop, which is the effect of using technology (recording people’s faces) as a tool for detecting emotions. Hence, the correct sequence would be 2431.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 20,
+    "passage": "1. It also means behaving more compassionately as a result of connecting to others’ mental states.\n2. While art might be good for our well-being, can it also make us behave more empathically?\n3. The problem with the art-creates-empathy-claim is that it means more than connecting with the mind of the artist.\n4. If art connects us with the mind of the creator, is not that a form of empathy?",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "3142",
+      "b": "2431",
+      "c": "4213",
+      "d": "1324"
+    },
+    "answer": "b",
+    "explanation": "Correct Answer: 2431. Explanation: Two questions have been raised here. But the real question is: which question is to be raised first? Statement 2 contains the question—can art also make us behave more empathically? Statement 4 answers that question by asking another question - If art connects us with the mind of the creator, is not that a form of empathy? So, these statements complement each other. Statement 3 contains the phrase ‘it means...’, and statement 1 continues with ‘it also means...’, so, it is easy to connect them. Hence, the proper sequence is 2431.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 21,
+    "passage": "1. Scientists muse over origami.\n2. The ancient practice of folding flat paper into art scratches a fundamental itch to make something out of almost nothing.\n3. For inventive builders today, origami is less about paper swans and more about fitting useful structures in tiny spaces.\n4. And, according to Maslow’s pyramid ranking the hierarchy of needs, few things are more useful than shelter.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1234",
+      "b": "4321",
+      "c": "2413",
+      "d": "3142"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 1234. Explanation: Stand-alone sentences are often the opening sentences in such questions. Statement 1 here is the opening statement. Statement 2 continues elaborating on the term origami and how it amuses the scientists by scratching their fundamental itch of creating something out of nothing. Statement 3 continues to explain how the art of making origami is perceived today (by innovative builders). Statement 3 talks of useful structures, and statement 4 stresses that nothing could be a more useful structure than a shelter. (Indicating the use of origami in structure science.) Hence, 1234 is the correct sequence here.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 22,
+    "passage": "1. Understanding a tumour’s DNA can help create targeted gene therapies to combat it.\n2. Cancers are caused by mutations in human DNA.\n3. Sometimes those DNA changes are genetic—people inherit them from their parents—but sometimes they’re caused by environmental factors.\n4. A few lines of genetic code get deleted or mixed up and that change allows cells to proliferate and grow in abnormal ways.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "2431",
+      "b": "1324",
+      "c": "4213",
+      "d": "3142"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 2431. Explanation: Statement 2 is the opening statement here. It states that cancers are caused by mutations in human DNA. Statement 4 explains how. So, it follows 2. Statement 3 explains the different factors causing that mutation. Statement 1 contains a possible solution. So, the structure follows the simple pattern of: problem > illustration > causes > solution. Hence, the correct sequence is 2431.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 23,
+    "passage": "1. \"There is a future for fossil fuels, and let me tell you why. The Department of Energy and other entities are doing research on how to control carbon, carbon dioxide management\", she told KDKA Pittsburgh’s Jon Delano earlier this month, adding that fracking \"can be done safely\" so long as the right technology is in place.\n2. To date, the White House’s approach has mainly emphasised the investment and jobs opportunity that tackling the climate crisis could create, via industrial policy to scale up domestic clean energy production and manufacturing for low-carbon technologies like electric cars.\n3. Energy Secretary, Jennifer Granholm, has echoed these ideas, while largely picking up fossil fuel industry talking points that posit no contradiction between capping warming at 1.5 degrees Celsius and an indefinite future for oil and gas development.\n4. While recent news from Sacramento falls well short of what’s needed, Newsom has, under pressure, picked up a tool that the Biden administration has so far left on the table—policy to phase out fossil fuels directly.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "4231",
+      "b": "1324",
+      "c": "2413",
+      "d": "3142"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 4231. Explanation: To find out the correct sequence, reading all the sentences word for word is not necessary. Statement 1 contains the phrase ‘she told KDKA...’, which means we need to find the antecedent of this pronoun ‘she’. It’s easy to locate that ‘she’ in statement 3 (Energy Secretary Jennifer Granholm). So, 31 is a pair. Statement 3 begins with 'Energy Secretary Jennifer Granholm has echoed these ideas' which means we need to find ideas which she has echoed. Statement 2 contains those ideas. So, the sequence that can be reached is: 231. Statement 1 contains another idea that has been picked up under pressure (policy to phase out fossil fuels directly) which sets the stage for a discussion. Hence, it should be the opening statement. Hence, the correct sequence is 4231.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 24,
+    "passage": "1. Consistent with this, firms produce more research when it is used internally, but less research when it is used by rivals.\n2. As firms become more sensitive to rivals using their science, they are likely to reduce the share of research in R&D.\n3. Using data on 8,00,000 corporate publications and patent citations to these publications between 1980 and 2015, we study how corporate investment in research is linked to its use in the firm’s inventions, and to spillovers to rivals.\n4. We find that private returns to corporate research depend on the balance between two opposing forces: the benefits from the use of science in own downstream inventions, and the costs of spillovers to rivals.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "3421",
+      "b": "1243",
+      "c": "4312",
+      "d": "2134"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 3421. Explanation: Statement 3 will be the opening statement, as it introduces the subject of the paragraph, i.e., corporate investment in research. Statement 4 will follow 3, as it starts the description of the findings of that study. Statement 1 has the phrase ‘Consistent with this’, which mandates the mention of some kind of argument, to which ‘this’ refers. Statement 2 states that necessary argument, and thus, 21 forms a logical and meaningful pair. Statement 2 is an extension of what has been stated in statement 4. Therefore, the apt sequence will be 3421.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 25,
+    "passage": "1. Rodents can also cause diseases such as leptospirosis and typhus fever; they can also carry fleas or ticks that can harm pets and humans.\n2. Rodents are capable of destroying food grains and can cause widespread damage to domestic households, commercial businesses, farms, manufacturers, and livestock.\n3. As per Victoria’s health department, there are 2,200 species of rodents and Australia has more than 60 native rodent species and three introduced pest species.\n4. Rodents can not only gnaw through materials but can also ruin supplies by excreting on them.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "3241",
+      "b": "1324",
+      "c": "2413",
+      "d": "4132"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 3241. Explanation: Statement 3 introduces the population of rodents in Australia. Statement 2 explains the possible problems faced because of the large number of rodents. Statement 4 adds further problems created by rodents. And statement 1 adds a few more problems. Order of 41: 4 should come before 1, as it contains the correlative conjunction ‘not only ... but also’. It is a better way to express related ideas by putting the “not only ... but also” form first. And then, for further elaboration, the expression ‘can also’ should be used. Hence, 3241 is a logical sequence.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 26,
+    "passage": "1. This was done precisely for the purpose of underscoring the relevance of consolidating this field of knowledge and its growing importance.\n2. Biomathematics has evolved from Feldman’s simple ‘mathematical principles for biology students’ and is now established as one of the most promising tools for medicine or genetics.\n3. Today mathematics has become the quintessential academic choice, thanks in part to technological advances like quantum computing and big data, making it possible to blur traditional borders with other sciences.\n4. In fact, 2018 was proclaimed the International Year of Mathematical Biology by the European Mathematical Society (EMS) and the European Society for Mathematical and Theoretical Biology (ESMTB).",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "3241",
+      "b": "1423",
+      "c": "2314",
+      "d": "4132"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 3241. Explanation: Statement 3 will be the opening statement, as it talks about mathematics in general. Statement 2 brings the concept of biomathematics under the spotlight. Statement 4 is a continuation of what has been stated in statement 2. It is supporting the stated quintessential academic choice rationale. Thus, 4 will follow 2. Statement 1 has the word ‘This’, that refers to the proclamation of the year 2018 as the International Year of Mathematical Biology by the European Mathematical Society (EMS) and the European Society for Mathematical and Theoretical Biology (ESMTB). Therefore, the correct sequence is 3241.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 27,
+    "passage": "1. Life began in water, and every single function of life takes place in an aqueous environment.\n2. This is a fundamental principle which determines the organisation of biomolecules—from the folding of peptide chains into native structures of proteins, to the self-assembly of lipid and protein molecules into membranes.\n3. A profound way of classification in chemistry is the relation and interaction between molecules, or groups within molecules, and water.\n4. Molecules (or parts of molecules) can attract water in which case they are called hydrophilic.\n5. As the opposite extreme, they can strive to avoid water; these molecules or molecular parts are termed hydrophobic.\n6. Most biomolecules possess both these properties; they are amphiphilic.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "134562",
+      "b": "213456",
+      "c": "345621",
+      "d": "456123"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 134562. Explanation: Statement 1 will be the opening statement, as it is a generic assertion regarding the importance of water in the sustenance of life. Statement 3 brings in the context of the chemical properties of substances with regard to their interaction with water. 45 is a mandatory pair, as they describe two contrasting features of molecules. Statement 6 will follow 5, and statement 2 will follow 6 as ‘This is a fundamental principle’ refers to what has been stated in statement 6. Therefore, the correct sequence is 134562.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 28,
+    "passage": "1. In its concern with utterly abstract formal relationships, Op art is indirectly related to such other 20th-century styles as Orphism, Constructivism, Supermathism, and Futurism—particularly the latter because of its emphasis on pictorial movement and dynamism.\n2. Op art, also called optical art, is a branch of mid-20th-century geometric abstract art that deals with optical illusion.\n3. Achieved through the systematic and precise manipulation of shapes and colours, the effects of Op art can be based either on perspective illusion or on chromatic tension.\n4. The painters of this movement differed from earlier artists working in geometric styles, however, in their purposeful manipulation of formal relationships to evoke perceptual illusions, ambiguities, and contradictions in the viewer’s vision.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "2314",
+      "b": "4132",
+      "c": "3241",
+      "d": "1423"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 2314. Explanation: Statement 2 is an independent and general statement, as it simply introduces the subject of the paragraph, i.e., Op art. Statements 1 and 3 describe the Op art, which should follow the introduction. Statement 3 describes its features and should follow 2. Statement 1 states another aspect of Op art about its relationship with other art forms and should come after the description of the features. Statement 4 further shifts the focus to the artists of Op art and should follow statement 1. Hence, the correct sequence is 2314.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 29,
+    "passage": "1. Some people believe that confronting problem gamblers with the ‘reality’ of mathematics—a kind of mathematical counselling, often called ‘facing the odds’—can help them overcome it.\n2. Mathematics has its own language, and the extent to which we should trust mathematics depends on how we interpret these words, especially when applied to physical reality.\n3. After all, since our earliest school days, many of us have learned to trust mathematics as the provider of necessary and logical truths.\n4. But we also trust our senses, as well as the patterns we discern from our experiences and the words we use to communicate with one another.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "1342",
+      "b": "2431",
+      "c": "3214",
+      "d": "4123"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 1342. Explanation: Find the easiest link first. In statement 4, ‘but we also trust our senses...’ suggests that something else needs to be trusted before it. Statement 3 ('many of us have learned to trust mathematics') is that antecedent, so 34 is a pair. Statement 3 starts with 'After all' which suggests it's strengthening an argument made earlier. Statement 1 makes that argument about using mathematics to help gamblers, and statement 3 explains why it can help. Statement 2 contains the phrase ‘these words’ referring to 'the words we use to communicate' in statement 4. So clearly, 2 comes after 4. Hence, the coherent sequence is 1342.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  },
+  {
+    "id": 30,
+    "passage": "1. That included 60.32 mt under the National Food Security Act and other regular welfare schemes, besides 31.52 mt under the Pradhan Mantri Garib Kalyan Anna Yojana, Atmanirbhar Bharat Package and assorted programmes launched in the wake of the COVID-19-induced lockdown.\n2. Last fiscal –year ended on 31st March 2021 – a record 92 million tonnes (mt) of rice and wheat was distributed from the central pool.\n3. The total grain channelled through the public distribution system (PDS) in 2020–2021 was, in other words, nearly 50% higher than in normal years.\n4. Just for comparison, offtake of the two cereals averaged just 62.69 mt during the previous 5 years, while amounting to 62.19 mt in 2019–2020.",
+    "ImageID": "",
+    "question": "Arrange the sentences to form a coherent paragraph.",
+    "options": {
+      "a": "2143",
+      "b": "3412",
+      "c": "4231",
+      "d": "1324"
+    },
+    "answer": "a",
+    "explanation": "Correct Answer: 2143. Explanation: Statement 2 mentions the total amount of cereals distributed in the last fiscal year. Statement 1 mentions the various schemes through which those cereals were distributed. Statement 4 compares the distribution of two cereals in the previous 5 years with the distribution made in 2020-21. Statement 3 states that this distribution was about 50% higher than in normal years. Hence, 2143 is a logical sequence.",
+    "topic": "Para Jumbles",
+    "section": "Verbal Ability"
+  }
+]

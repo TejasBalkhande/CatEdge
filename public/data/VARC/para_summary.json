@@ -1,0 +1,724 @@
+[ 
+  { 
+    "id": 1,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. The Shveta-chattra or the ‘White Umbrella’ was a symbol of sovereign po litical authority placed over the mon arch’s head at the time of the coronation. The ruler so inaugurated was regarded not as a temporal autocrat but as the in strument of the protective and shelter ing firmament of supreme law. The white umbrella symbol is of great antiquity and its varied use illustrates the ultimate common basis of the non-theocratic na ture of states in the Indian tradition. As such, the umbrella is found, although not necessarily a white one, over the head of Lord Ram, the Mohammedan sultans, and Chhatrapati Shivaji. Which one of the following best summarises the above passage?",
+    "options": {
+      "a": "The placing of an umbrella over the ruler’s head was a common practice in the Indian subcontinent.",
+      "b": "The white umbrella represented the instrument of the firmament of the supreme law and the non-theocratic nature of Indian states.",
+      "c": "The umbrella, not necessarily a white one, was a symbol of sovereign polit ical authority.",
+      "d": "The varied use of the umbrella sym bolised the common basis of the non-theocratic nature of states in the Indian tradition."
+    },
+    "answer": "d",
+    "explanation": "Option A is very vague in its implica tion and misses the significance of the Shveta-chattra tradition explained in the given paragraph. Option B is a wordplay that is really hard to spot. It states that the white umbrella represented the in strument, but the paragraph has as cribed the quality of being an instrument of the supreme law to the ruler who was coronated. Option C misses out on the significance of the white umbrella tradi tion and is merely a reiteration of the first statement of the paragraph. Therefore, option D is the correct answer.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 2,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. It is not as if life can ever be risk-free, but it should not be fear-laden. The fear of not getting enough to get by tomor row is made worse by the fear of living an alienated life without family, made worse by the greatest fear of all, no med ical care. Then there are certain givens that do not need reiterating for their col our fades if left for long in the sun. It does not move anybody, any longer, to say that the poverty line is here, no here, no here, or that the minimum calorie in take should be 2,100 or 2,300 or 1,800. These numbers are just numbers on a continual scale, but there are other in dicators, more compelling than those on a sliding one. These are powered by the senses—visual, smell and the touch of a human crush. Now that we know that India is poor, let us move on; numbers cannot make this fact either respectable or condonable.",
+    "options": {
+      "a": "Poverty is a fact of life and should not cause discomfort for anyone, let alone those finding it a stressor.",
+      "b": "Poverty is not just full of risk but also full of fear, so better one should move on from looking at the data.",
+      "c": "Poverty can be studied by numbers and yet the other senses make sense of poverty more poignant, so it is better to just concentrate on other things.",
+      "d": "Poverty is made worse by focusing on numbers and data. So it is better to focus on sensory experiences."
+    },
+    "answer": "c",
+    "explanation": "A is incorrect as it mentions how pover ty should not discomfort anyone, which is the opposite of what is given in the passage. B is incorrect as it comes only from the first line of the passage and does not touch upon the key points of the passage. C is the correct answer as it mentions how poverty can be defined by numbers and yet it has a stronger senso ry experience and there is not much that can be done about it. D is incorrect as it creates a cause-effect relationship that is not mentioned in the passage.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 3,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Quite expectedly, this has generated a number of spurious small-scale units, many of which are actually hived off from larger enterprises. The intention here, as should be abundantly clear, is to masquerade as small to take advantage of the above-mentioned provisions. This is what prompts many entrepreneurs in India to game the system. In other words, they make themselves look ‘small’ to get cheaper inputs, and access to state-pi loted markets, over and above, winning an indulgent wink and nod from inspec tors. While all that may seem innocuous enough in the short run, Ramaswamy has convincingly demonstrated that small ness is strongly correlated with ineffi ciency and low productivity.",
+    "options": {
+      "a": "The advantage that some pretend ers gain by showing themselves to be small-scale units is lost in the in efficiency that is inherent in a small unit.",
+      "b": "The advantage that is gained by small scale units is magnified when they are efficient and highly productive.",
+      "c": "Many units, pretending to be small scale units, try to take advantage of the provisions. Therefore, small units are neither efficient nor productive.",
+      "d": "It is important that a unit be a small scale unit to take advantage of the available provisions."
+    },
+    "answer": "a",
+    "explanation": "A is the correct summary. B is incorrect as it mentions that the advantage is magni f ied when they are efficient, but the pas sage has not mentioned this; it can only be an inference. C shows a cause-effect rela tionship between the pretender units and their efficiency/size. D is also incorrect as it only mentions the size of the units.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 4,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. In preindustrial societies, cooperation represented a naked necessity for sur vival. Yet the realisation that a healthy whole is larger than its parts never stopped informing cultures. It embodies the pillars of Christianity as much as the Islamic Golden Age, the Enlightenment, or the New Deal. Amid a global depres sion, U.S. president Franklin D Roosevelt evoked an ‘industrial covenant’—a com mitment to living wages and a right to work for all. During the 1960s, Martin Luther King, Jr gave voice to the broader idea when he said that no one is free un til we are all free. On Earth Day 1970, U.S. senator Edmund Muskie proclaimed that the only society to survive is one that ‘will not tolerate slums for some and de cent houses for others, … clean air for some and filth for others.’. We should call these ideas what they are – central civi lisational insights.",
+    "options": {
+      "a": "The author talks about the scenarios owing to which a drastic change has been brought about in the society in which we reside.",
+      "b": "The author talks about a shift from the collective approach to a private approach, irrespective of the outlook adopted in the earlier years.",
+      "c": "The author talks about the perspec tive of the earlier generation, where in cooperation was promoted and appreciated.",
+      "d": "The author talks about legendary leaders and their ideologies, with the perspective of keeping humanity and society growing."
+    },
+    "answer": "c",
+    "explanation": "The paragraph clearly points to the idea that in earlier times, rights and privileges had to be for everyone, or else they were not rights or privileges. A is irrelevant as it talks about scenarios that brought about a drastic change but the paragraph does not mention that. B is the oppo site of what the paragraph mentions. D mentions only leaders and their ideolo gies while the paragraph also mentions various religions. So it is incomplete. Therefore, option C is the right answer.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 5,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Through spoofs, the Yes Men understood the power of the Internet as a new net worked terrain where battles over truth could be fought. They played with the ambiguity of authenticity at a time when most Internet users were already scep tical of online content. The ‘culture jam ming’ tactic used by the Yes Men took its cue from Guy Debord and the so-called situationists of the 1960s, who advanced social and political critique. In the 1980s and 1990s, culture jamming unified ac tivists around a common cause and set of tactics, such as making minor edits to an advertisement to drastically change its meaning. This form of ‘activism’ was championed by Adbusters, a Canadian magazine that ran numerous anti-corpo rate campaigns, most notably initiating the call to Occupy Wall Street in 2011.",
+    "options": {
+      "a": "The author discusses the introduc tion of the concept of revolting and protesting by using forms of activism and culture jamming.",
+      "b": "The author discusses the role of the internet in giving air to the practice of revolting and protesting by using the internet as the mode and medium.",
+      "c": "The author discusses the growth of the concept of revolting and pro testing by distortion of the real con tent and turning it into parodies and spoofs.",
+      "d": "The author discusses how the meth od of revolting and protesting was more effective a few years back due to the usage of the internet by a few populations to further their message."
+    },
+    "answer": "c",
+    "explanation": "The author is merely laying down the methods used during the 1980s and 1990s to revolt against certain organisations as well as certain commercial brands. Only option C aligns with this intent and tone of the author. Option A is incorrect, as the paragraph is concerned with the growth of the idea of revolting and pro testing, not their introduction. Option B is quite narrow, as it focuses solely on the internet. Option D is correct, as the paragraph does not compare the tradi tionally followed methods of revolt and the ones prevalent in the present time. 7. (C) The passage is merely a description of a scene from a particular street in San Francisco where hippies were celebrat ing a ‘summer of love’. The paragraph doesn’t talk about the introduction of the hippie movement. So options A and B can be eliminated. Between C and D, the former is the best summary as it encap sulates the cheer and celebration spirit mentioned in the paragraph.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 7,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Fundamental shifts in American views of the race were already underway be fore the COVID-19 disparities became clear and before the latest examples of police violence surfaced, but it is easy for one to see these shifts as the direct result of the horrifying events that have unfolded in 2020: a pandemic that has had a disproportionate effect on peo ple of colour; the video of George Floyd dying beneath the knee of an impassive Minneapolis police officer; the ghastly killing of Breonna Taylor, shot to death in her own home. What we are witnessing right now is the culmination of a longer process—a process that tracks closely with the political career of Donald Trump. The percentage of Americans who told Monmouth pollsters that racial and eth nic discrimination is a big problem made a greater leap from January 2015 (51 per cent) to July 2016 (68 percent) than from July 2016 to June 2020 (76 percent).",
+    "options": {
+      "a": "Racial inequalities stemming from the current circumstances have led to fundamental changes in America.",
+      "b": "A comparison of the old numbers with the new numbers of the poll leads to a conclusion that is not commonly accepted by the residents of America.",
+      "c": "Racial disparities in America are the consequence of a long, deep-seated process that can be seen evident in the country’s administration.",
+      "d": "A slight glimpse of the current sce narios in America is enough to pro vide a deep insight into the racial ine qualities brewing within the country."
+    },
+    "answer": "c",
+    "explanation": "The passage lays down an important ob servation with respect to the prevailing inequality in the country, qua the race of a person, wherein it is said that the ruling president and his ideologies have played a bigger role than the current cir cumstances. Option C incorporates all these aspects in a precise manner.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 8,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Whereas Aristotle saw all of existence, including human beings, as things we could classify and analyse to increase our understanding of the world, in Being and Time (1927) Heidegger argued that, be fore we start classifying Being, we should f irst ask the question: ‘Who or what is doing all this questioning’? Heidegger pointed out that we who are asking ques tions about Being are qualitatively differ ent to the rest of existence: the rocks, oceans, trees, birds, and insects that we are asking about. He invented a special word for this Being that asks, looks, and cares. He called it Dasein, which loosely translates as ‘being there’. He coined the term Dasein because he believed that we had become immune to words such as ‘person’, ‘human’, and ‘human being’, los ing our sense of wonder about our own consciousness. conflict that persisted between Aristotle and Heidegger’s ideologies with respect to the concept of Being.",
+    "options": {
+      "b": "The author tries to pen down his opinion on the concept of Being, fa vouring the ideologies forwarded by Aristotle of analysing existence and things to develop an understanding of the world.",
+      "c": "The author tries to pen down the development of Aristotle’s Being as made by Heidegger, with respect to the awareness which forms an in ane part of the human beings and separates Aristotle’s Being from Heidegger’s Dasein.",
+      "d": "The author tries to pen down the overlap between the concepts of Being and Dasein, wherein both for ward the idea of the inevitability of awareness as a trait in human beings."
+    },
+    "answer": "c",
+    "explanation": "The author starts the passage by com paring both ideologies but carries on with Heidegger’s ideology and explains it entirely, ending the passage by saying that Heidegger’s ideology stemmed from his belief that human beings should al ways wonder about their consciousness. Only option C encompasses this essence of the paragraph. Options A and B are narrow, missing out on the main idea of the paragraph.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 9,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. From the previous discussion, one can see the emergence of two contradicting narratives. On 2 October 2019, all the vil lages in the 36 states and union territo ries of India were declared ODF. The India map on the SBM (Grameen) website, which recorded progress towards the 100% ODF goal, turned entirely green, in dicating that the policy’s ambitious goal had been achieved. However, a survey re leased by the National Statistical Office (NSO) in November 2019 claimed that about 28.7% of rural households across India still lacked access to any form of latrines. Moreover, it stated that 3.5% of those who have access to latrines do not use it. The SBM data and the NSO data contradict each other; this may be be cause the SBM data does not account for behavioural changes, which are extreme ly hard to achieve. This raises the follow ing questions: Has the scheme also set in motion behavioural changes regarding sanitation practices and beliefs and myths around toilet usage in proportion to the provision of individual household latrines? Is this even remotely possible?",
+    "options": {
+      "a": "All of India became ODF in 2019, and yet some detractors say that this is false and also not possible in a coun try as large as India.",
+      "b": "SBM and NSO have opposing narra tives about the achievement of the Making India ODF goal, and this dif ference may be due to behavioural issues.",
+      "c": "India has become open defecation free and there are two nearly similar narratives going on that mention the behavioural changes that need to be inculcated in the people.",
+      "d": "Making India ODF is a necessity and the government has made many plans to make India ODF. These plans have been partially successful."
+    },
+    "answer": "b",
+    "explanation": "The passage talks about the following: A. The goal of making India ODF. B. SBM and NSO data are contradictory. C.  Behavioural issues have not been considered. Option B mentions all three, and so it is the correct answer. A is incorrect because it mentions ‘some detractors’ and not specifically NSO. C is incorrect because it mentions two nearly similar narratives. D is incorrect because it mentions that ODF’s goal is a necessity and that these plans are partially successful.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 10,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. In one early story, written before Chekhov imagined he could ever be a serious au thor, a cabman, Iona, tries time and time again to tell each of his fares about the death of his son, but everyone is in a hurry and no one pays any attention. He longs to share his grief, but he returns his horse to the stable as lonely as before. As the story ends, he at last address es someone who appears to listen: his horse. “That’s how it is old girl”, he ex plains. “He went and died for no reason… Now suppose, you had a little colt, and you were the mother to that little colt… And all at once that same little colt went and died… You’d be sorry, wouldn’t you”? The story ends: “The little mare munch es, listens, and breathes on her master’s hands. Iona is carried away and tells her all about it”.",
+    "options": {
+      "a": "According to Chekov, pets to people are equivalent to their own kids and this emotion is, once conveyed to the pet, reciprocated.",
+      "b": "According to Chekov, people long for understanding and try to confide in others, but more often than not, oth ers are too self-absorbed to care.",
+      "c": "According to Chekov, Iona’s grief of losing his son surpassed others’ will to converse with him and share his pain.",
+      "d": "According to Chekov, one can best confide in his family members."
+    },
+    "answer": "b",
+    "explanation": "The passage talks about Chekov’s writing about a sense of loneliness that Chekov felt at all times. It has been reflected in his earlier stories too. Only option B expresses the intent and central idea of the paragraph. Other options distort the central idea, that too, in a really decep tive manner.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 11,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Clearly to some degree the eternal im pulse among adolescents to ‘push it’ must be controlled on Zoom as anywhere else, but a humane reprimand is some thing quite distinct from an official dis ciplinary measure or, worse still, a crim inal complaint. When we turn from the school to the workplace, we find many companies now passing down explicit rules for at-home work, both during and outside of official video meetings. Law f irms have cracked down on employees tending to infants and school-age chil dren who are stuck at home with them. Some companies have been emboldened to extend the no-smoking policies that govern their official premises into the homes of their workers during at-home work hours.",
+    "options": {
+      "a": "The employers have taken this op portunity to turn the office-space rules into an overt instrument for controlling workers’ personal choices while they are working from home.",
+      "b": "Continuing enforcement of policies like no smoking outside the official premises of the workspace has be come a necessary measurement.",
+      "c": "Reprimanding employees for cater ing to their household needs dur ing work hours, irrespective of the emergency of the task, has led to the opposite of the preferred safe and friendly work environment.",
+      "d": "Employees of law firms and other companies implementing rules for the regulation of the work-from home environment need to be checked and corrected."
+    },
+    "answer": "a",
+    "explanation": "The passage observes the actions of the employers pertaining to the present shift towards technology reliance and com ments upon the unhindered power in the hands of the employers. Option A encap sulates this line of thought precisely.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 12,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. The proper study of mankind is the man. There is something more in man than is apparent in his ordinary consciousness and behaviour under a given environ ment system—something which frames the ideals and values of life. There is in him a finer spiritual presence that makes him dissatisfied with merely earthly pur suits. The ordinary condition of man is not his ultimate being. He has in him a deeper self, call it soul or spirit. In each being dwells a light and inspiration that no power can extinguish, which is be nign and tolerant, and which is the real man. It is our business to discover him, protect him, and see that he is utilised for his own and humanity’s welfare. It is the nature of this man to search for the truth, the good, and the beautiful in life, to esteem them properly and to strive for them continuously.",
+    "options": {
+      "a": "The true beauty of life is revealed when a man decides to relinquish his worldly possessions and desires.",
+      "b": "The idiosyncrasies of living a spiritual life are too detailed and complex for an ordinary mind to comprehend.",
+      "c": "Earthly pursuits are insignificant, and they are the primary reason for the disenchantment of society with spirituality.",
+      "d": "The deeper pursuit for any person is the spiritual side of life, and this side presents the true worth of human life."
+    },
+    "answer": "d",
+    "explanation": "The passage is primarily focused on ex plaining the value of spirituality and its role for an individual and society at large. It explores the benefits of exploring a spiritual life in detail by explaining its lay ered nature throughout the passage. Only option D aligns with this line of thought.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 13,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. At the recent summit, the PM took credit for the expansion of forests, which, ac cording to the national pledge under the Paris Agreement, will serve as a carbon sink of 2.5 bn to 3 bn tonnes of carbon dioxide equivalent by 2030. This is a key goal, given that it has multiple benefits, protecting biodiversity, influencing the climate system, and providing resources for communities. But it is fraught with uncertainty. The Centre has questioned the veracity of State afforestation data and said only a fourth of the claims they made were deemed credible. Clearly, without a cohesive policy on verifiable afforestation, the carbon sink approach may yield poor dividends, with questions hanging over the spending. Transport related emissions, which are a major component of the whole, have risen sharply in the unlock phase of the pan demic as people prefer personal vehi cles, but the issue received little support from States which failed to reorder cities for cycling and pedestrianisation. Large scale agriculture insurance against cli mate disasters also needs attention. In the year that remains before countries meet at the UN Climate Change con ference in Glasgow in 2021, India needs to focus on future emissions and plan green investments that qualify for global climate funding.",
+    "options": {
+      "a": "Indian cities have become centres of carbon emission, making the climate situation worse for India as a whole.",
+      "b": "India needs to work on verifiable af forestation implementation and ad dress some policy challenges to low er emissions before going back to the UN Climate Change Conference.",
+      "c": "There is a grave crisis in the form of a lack of co-operation between States and the Centre when it comes to planning for a greener future.",
+      "d": "India is performing remarkably bet ter than its peers in achieving its emission targets, not by cutting down emissions but by planting more trees."
+    },
+    "answer": "b",
+    "explanation": "The first half of the paragraph talks about the need for verifiable afforestation and greater accountability of States in do ing so. The latter half talks about major policy issues which need to be checked before India presents its performance at the 2021 UN Climate Change Conference. Only option B encapsulates these two ideas precisely.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 14,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Before the invention of writing, com munication was almost always per son-to-person: people met with one another to transfer ideas, designs and technologies. It is one of archaeology’s great tasks to understand how this hap pened. By excavating artefacts, archaeol ogists can examine the spread of a new pottery design, say, or the flourishing of a particular type of stone tool. Here, ar chaeologists might refer to ‘diffusion’ among the groups, a vague 19th-century term suggesting that the movement of cultural practices between peoples was an uncomplicated process, like ink mov ing across blotter paper. But this is far too simplistic.",
+    "options": {
+      "a": "The passage talks about cultural transmission in the age when lan guages and the concept of writing were unknown.",
+      "b": "The author observes that archaeol ogy lacks a well-developed body of theory for understanding how ideas spread from one group to another.",
+      "c": "The author points out how, even be fore the introduction of a common way of communication, the move ment of culture was not unheard of.",
+      "d": "The passage elaborates on the works of archaeologists and their impor tance in creating an understanding of the development of mankind."
+    },
+    "answer": "b",
+    "explanation": "A major part of the passage talks about the findings of archaeologists pertaining to the spread of culture in the early lives of the human species, but the last line conclusion that the author is drawing re of the passage clarifies the implication of the author, who is of the opinion that the archaeologists’ approach towards the said study was wrong. Only option B correctly states this structure of the paragraph.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 15,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Hediger found that the space around an animal could be partitioned into zones, nested within one another, and meas urable down to a matter of centimetres. The outermost circle is what is known as flight distance: if a lion is far enough away, a zebra will continue to graze wari ly, but any closer than that, the zebra will try to escape. Closer still is the defence distance: pass that line and the zebra attacks rather than flee. Finally, there is the critical distance: if the predator is too close, there is nothing to do but freeze, play dead, and hope for the best. While different species of wild animals have different limits, Hediger discovered that they are remarkably consistent within a species. He also offered a new definition of a tame animal, as one that no longer treats humans as a significant threat, and so reduces its flight distance for hu mans to zero.",
+    "options": {
+      "a": "The author tries to explain how a tame animal is different and allows humans to get close enough to touch.",
+      "b": "The author analyses that humans also protect themselves from poten tial threats by keeping them at a dis tance like all animals.",
+      "c": "The author is investigating the sys tematic flight response as it exists in all species.",
+      "d": "The author observes that an animal’s f light reaction is directly proportion al to the distance of the potential threat."
+    },
+    "answer": "c",
+    "explanation": "The author makes an observation of how systematic the flight reactions of ani mals are. Only option C states that kind of investigative approach towards the re sponses of all the species. Option D is narrow. Options A and B do not contain the main idea.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 16,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. During the first half of the 20th cen tury, the critical perception of Dickens kept changing, as exemplified by a pair of magnificent essays that appeared in 1940: one by George Orwell and one by Edmund Wilson. (Lionel Trilling on “Little Dorrit” would follow.) Orwell, although naturally more concerned with Dickens’s political and social stances—Dickens, af ter all, was famous for his savage attacks on institutions like Parliament—was also responsive to the genius of the writing, while Wilson focused more on the emo tional, or psychic, the duality of Dickens’s vision of life. Both critics, however, writ ing 70 years after his death, were not merely proclaiming but assuming his greatness. “It is the purpose of this es say”, Wilson wrote, “to show that we may f ind in Dickens’s work today a complexity and a depth … an intellectual and artistic interest which makes Dickens loom very large in the whole perspective of the lit erature of the West”. Here is a judgment that would have bewildered the gran dees of the not-so-distant Bloomsbury generation, authorities like E. M. Forster and Virginia Woolf, both of whom found Dickens’ characters of no psychological interest — although Woolf did confess to a weakness for ‘David Copperfield’. Indeed, she reluctantly acknowledged that “we remodel our psychological ge ography when we read Dickens”.",
+    "options": {
+      "a": "Dickens’ greatness was accepted and acknowledged by both Orwell and Wilson, most importantly by his con temporaries such as Virginia Woolf and Forster.",
+      "b": "Essays by Orwell and Wilson showed that they both assumed Dickens’ greatness, but the Bloomsbury writ ers appear confused by his greatness.",
+      "c": "Virginia Woolf was impressed great ly by Dickens and yet would be con fused by the appreciation garnered by him from writers such as Orwell and Wilson.",
+      "d": "Forster and others of his generation have flayed the works of Dickens and others of his generation."
+    },
+    "answer": "b",
+    "explanation": "A is incorrect because Woolf and Forster are not Dickens’ contemporaries. B is the best summary as it mentions those that praise Dickens as well as those who don’t. C is incorrect as it specifically mentions only Woolf and leaves out Forster as a detractor of Dickens. D is incorrect as it mentions others of Dickens’ generation, which is not there in the passage.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 17,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. That the earth is a representative of the whole universe and is set in dynamic mo tion is realised both in the Eastern and Western thinking, and is not a matter for deep deliberation. Both the occident and the orient have influenced each other in arriving at the idea. But advancement in modern earth science has something more to contribute in giving us details of the earth which made its frame amenable for life to enter. The primary geochemi cal differentiation of the earth dividing it into an external shell of crust, the middle shell of the mantle, and the inner shell of the core is something salutary. This has not happened in any other member of the solar family or if it had happened it is not complete in all respect to have produced a geomagnetic field as has been done by the earth. As a result of the generation of a geomagnetic field by the virtue of which the surface of the earth is having solar light filtered of all harmful types of rays like x-rays, a protective field for life to manifest on the earth was created. In this sense, the importance of the gener ation of the electromagnetic field of the earth is something superb.",
+    "options": {
+      "a": "Modern Earth Science has been able to elucidate the fact of how the elec tromagnetic field of the earth has allowed filtration of harmful rays, thereby leading to life.",
+      "b": "Eastern and Western thinking have helped us understand how the growth of life has occurred due to the geomagnetic field.",
+      "c": "The movement of the Earth has led to the geomagnetic field being pro duced and subsequently the produc tion of life on Earth.",
+      "d": "Geomagnetic field has allowed the growth of humans on earth and this is due to modern earth sciences."
+    },
+    "answer": "a",
+    "explanation": "A is correct as it sums up the thought mentioned in the passage. B is incorrect as the growth of life is incorrectly as cribed to Eastern/Western thinking. C is incorrect as it mentions that the move ment of Earth has led to the creation of geo-magnetic fields. D is incorrect as it mentions only the growth of humans and not of all life.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 18,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. What happens to us naturally contrasts with what we do. But, in his paper ‘Moral Luck’ (1981), the British philosopher Bernard Williams conjures the exam ple of a lorry driver who hits and kills a child. The driver didn’t kill the child due to being drunk or driving carelessly. He was just unlucky. In such a case, as Williams later put it in his book Shame and Necessity (1993): ‘The terrible thing that happened to him, through no fault of his own, was that he did those things’. He hit and killed the child. Luck can do more than just happen to us; it can af fect what we do. Or, to put it another way: what we do is not fully in our con trol. Williams gave a name to an emotion that can accompany doing bad things through bad luck: agent-regret, which is different from remorse.",
+    "options": {
+      "a": "The author talks about the role that doing bad things play in our lives, in contrast to the role of bad luck, which makes things happen to us.",
+      "b": "The author talks about the analysis made by the philosopher Williams about the emotions experienced by humans when a bad thing happens.",
+      "c": "The author talks about the analysis made by the philosopher Williams basis the role of bad luck and how it influences the actions and emotions of humans.",
+      "d": "The author is trying to reflect on the common perception about the bad luck agent, which makes humans re gret their actions."
+    },
+    "answer": "c",
+    "explanation": "The beginning of the passage points out the premise and the passage proceeds with the observation of the analysis drawn by Bernard Williams, which contradicts the idea put forth in the first sentence.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 19,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Imagine being raised among atheists and f irmly believing that God doesn’t exist. You realise that, had you grown up in a reli gious community, you would almost cer tainly have believed in God. Furthermore, we can imagine that, had you grown up a believer, you would have been exposed to all the considerations that you take to be relevant to the question of whether God exists: you would have learned sci ence and history, and would have heard all the same arguments for and against the existence of God. The difference is that you would interpret this evidence differently. Divergences in belief result from the fact that people weigh the ev idence for and against theism in varying ways. It’s not as if pooling resources and having a conversation would result in one side convincing the other—we wouldn’t have had centuries of religious conflict if things were so simple. Rather, each side will insist that the balance of considera tions supports its position.",
+    "options": {
+      "a": "The author talks about the impor tance of the beliefs maintained in the community in which we are born and their effects on our outlooks.",
+      "b": "The author is trying to point out a simple solution to the problems and splits the divergent ideas created within society.",
+      "c": "The author targets the two different ideologies followed by people con cerning belief in God and lays down the reasoning for the same.",
+      "d": "The author points out the importance of perceiving things in a manner that reduces the divergence between ide ologies of different people."
+    },
+    "answer": "a",
+    "explanation": "The passage puts forth a hypothetical situation to make the reader analyse the garding the effects of the belief system followed by the community in which a person is born.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 20,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Another established pattern is that, while chemobrain is frequently reported dur ing and after chemotherapy or radiation therapy, it is rare following surgery alone. The reasons for this are unclear. One pos sibility is the higher stress levels caused by chemotherapy and radiation thera py (as opposed to surgery alone) might add to any pre-treatment stress-relat ed mental difficulties. The absence of chemobrain in about half of those who receive treatment for cancer might be because their cognition was not already affected by stress. This would also ex plain why women who have pre-existing depression and anxiety are more likely to experience chemobrain symptoms.",
+    "options": {
+      "a": "The author talks about the after-ef fects of chemotherapy or radiation therapy which can lead to cognitive impairment.",
+      "b": "The author discusses the cognitive impairment caused by chemotherapy and observes that the surgery itself cannot be held responsible for the same.",
+      "c": "The author discusses the effects of high-stress levels on people surviv ing cancer by going through radiation therapy.",
+      "d": "The author concludes that wom en have a higher chance of getting the ‘chemobrain’ after undergoing chemotherapy."
+    },
+    "answer": "b",
+    "explanation": "The author is laying down a possibility that the loss of cognition, prior to the therapy, due to stress adds to the reason for cognitive impairment caused by the radiation therapy.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 21,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Only one woman gets a chapter in Giorgio Vasari’s The Lives of the Artists, the 16th-century text that established a can on of Renaissance art, that is Properzia de’ Rossi, a sculptor from Bologna, into whose section Vasari also crammed the handful of other women he judged wor thy of note, including the Florentine nun Plautilla Nelli, whose Last Supper has recently been restored, and Sofonisba Anguissola, who had a successful career as a portraitist at the court of Philip II of Spain. Whereas, in literature, numerous Italian women wrote prose and poetry in the 15th and 16th centuries. The best known is Vittoria Colonna, whose prom inence is in part due to her friendship with a famous man, Michelangelo.",
+    "options": {
+      "a": "Women’s contribution in the Renaissance depended upon regu lating their sexuality, economic and political roles, education, and expec tations of their culture.",
+      "b": "Most aspects of the Renaissance were overwhelmingly male, and women barely carved out space for themselves in its wider cultural sphere.",
+      "c": "The structural, institutional, and ide ological developments during the Renaissance made things worse for women.",
+      "d": "The Renaissance was a rebirth of in terest in classical Greek and Roman culture, submerged in the patriarchy of medieval Christianity."
+    },
+    "answer": "b",
+    "explanation": "The passage clearly talks about the con tributions made by the women in the Renaissance period in comparison to the male members’ contributions. Women artists were hardly recognised, whereas women’s standing in literature was rela tively better.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 22,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. In 1945, in an extraordinary essay en titled “Organised Guilt and Universal Responsibility”, German-Jewish political theorist Hannah Arendt warned that it would not be easy to tell the good from the bad German. The Nazis themselves had made it infernally difficult to dis tinguish heroes from villains, with dis sidents forced by their police state into f leeting gestures and words of resistance they could not prove. More important, virtually all Germans—even dissident ones—were implicated in an enormous administrative horror. No one could be an open anti-fascist in Germany and sur vive, while those who stayed colluded in ways small and large—even when they were not directly involved. Yet Arendt made her most arresting case in favour of an even wider circle of responsibili ty at a moment when easy vengeance beckoned.",
+    "options": {
+      "a": "Differentiating a good German from a bad one may be extremely diffi cult, says Arendt in her path breaking essay.",
+      "b": "In her superb essay, Arendt reflects that it may be difficult to distinguish among different kinds of Germans mainly due to the difficulty of pin pointing the bad ones.",
+      "c": "Arendt, in her essay on guilt and re sponsibility, warns the reader of the difficulty in distinguishing the good ones from the bad ones, keeping in mind the fact that there was a big circle of responsibility.",
+      "d": "Arendt has been able to pinpoint exactly the Germans who are to be blamed for the Nazi atrocities."
+    },
+    "answer": "c",
+    "explanation": "The correct answer is C. The passage talks of an essay by Arendt, in which she writes about the onus of crimes on all Germans chiefly because there was no way to identify good ones from bad ones. D is incorrect according to the passage. A and B are partially correct.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 23,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Hundreds of thousands of bowel can cer patients stand to benefit from new research which found the recommend ed duration of chemotherapy treatment could be halved, sparing them possible nerve damage without harming their long-term survival. A global clinical trial involving nearly 13,000 patients in hospi tals across the US, Europe, and Asia has, in part, overturned existing standards which have recommended patients have six months of chemotherapy. In patients with stage three colon cancer, where the disease had spread from the initial tu mour to the lymph nodes, a three-month regimen appeared to be just as effective for many patients.",
+    "options": {
+      "a": "According to research, a change in the duration of cancer chemotherapy could save hundreds of thousands from nerve damage.",
+      "b": "According to research, changes in the standard cancer chemotherapy would save many without harm.",
+      "c": "According to research, shortening the duration of colon cancer chemo therapy could save several people from nerve damage.",
+      "d": "According to research, the duration of cancer chemotherapy could be re duced and prevent nerve damage in several patients."
+    },
+    "answer": "c",
+    "explanation": "Options A and B are incorrect since they are not specific. They state ‘change in the duration’, while the passage states ‘reduction in the duration’. C and D are close options. D is incorrect because it mentions ‘cancer’, while the passage specifies the type of cancer. This is prop erly mentioned in C.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 24,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Carrying to term a pregnancy against one’s will is punishment enough- in fact, it can amount to torture, accord ing to the United Nations Human Rights Council. But the Ohio bill would not only cut off access to the procedure, it would also open the door to criminal charges against both abortion provid ers and women seeking the procedure. One of the Republican co-sponsors of the legislation, State Representative Ron Hood, said it would be up to prosecutors to decide whether to charge a woman or a doctor and what those charges would be. But they could be severe. Under the bill, an ‘unborn human’ would be consid ered a person under state criminal hom icide statutes. Thus, a prosecutor could decide to charge a woman who ended a pregnancy with murder. In Ohio, mur der is punishable by life in prison or the death penalty.",
+    "options": {
+      "a": "Considering the death of an unborn child as murder, a law in Ohio bans the procedure of abortion by crimi nalising it.",
+      "b": "Considering the death of an unborn child as homicide, a law in Ohio has banned the procedure of abortion, advocating severe punishment for the doctor and the woman.",
+      "c": "Considering the death of an unborn child as murder, the Ohio bill will ban the procedure of abortion, with se vere punishment for the doctor and the woman.",
+      "d": "Considering the death of an unborn child as murder, the bill in Ohio will criminalise the act of abortion."
+    },
+    "answer": "d",
+    "explanation": "Options A and B are incorrect because they use the wrong tense. The bill hasn’t been accepted yet. So we can’t call it a law. Option C is incorrect because it states that the punishment will be for both the woman and the doctor; howev er, the case is that it will be for either of para-summary the two. The word ‘severe’ makes it fur ther incorrect. D is the only option that properly summarises the paragraph.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 25,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. In history, those members of the aristoc racy and the church-owned the means of production, and the peasants worked for the aristocracy. With the onset of the Industrial Revolution, Marx thought that he would see more of the working poor rise financially and socially. However, this did not materialise. In the industri al society, the aristocracy was replaced by the capitalists (also known as the bourgeoisie). These were the people who owned businesses with the goal of earn ing a profit, and the working class was replaced by the proletariat, the people who laboured for wages. Marx believed that this system was inherently unfair. Under capitalism, Marx believed that the workers would become poorer and poor er and experience alienation.",
+    "options": {
+      "a": "Marx believed in the concept of aris tocracy and vehemently opposed its transformation into capitalism.",
+      "b": "Marx hoped that the gap between the ruling class and the working class would be bridged with the advent of capitalism.",
+      "c": "Marx’s assumption that the industri al society would be beneficial for the working class proved false because of capitalist ideology.",
+      "d": "Marx failed to acknowledge the strength of the bourgeoisie in the in dustrial society."
+    },
+    "answer": "c",
+    "explanation": "Option C is the correct answer as it summarises the fallacy in Marx’s under standing of the working of industrial so ciety under the capitalist ideology. Other options A and B are factually incorrect.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 26,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. The magic of the Hollywood style at its best (and of all the cinema which fell within its sphere of influence) arose, not exclusively, but in one important aspect, from its skilled and satisfying manipu lation of visual pleasure. Unchallenged, mainstream films coded the erotic into the language of the dominant patriarchal order. In the highly developed Hollywood cinema, it was only through these codes that the alienated subject, torn in his im aginary memory by a sense of loss, by the terror of potential lack in phantasy, came near to finding a glimpse of satisfaction: through its formal beauty and its play on his own formative obsessions.",
+    "options": {
+      "a": "Manipulation of visual pleasure has ushered in the best era in Hollywood.",
+      "b": "The magic of the Hollywood style is best reflected by the visual rep resentation of the erotic language of the dominant patriarchal order.",
+      "c": "Like everything else in Hollywood, even the concept of fantasy is de f ined by the dominant patriarchal obsession.",
+      "d": "The Hollywood style became effec tive by intelligently manipulating visual pleasure for the audience."
+    },
+    "answer": "d",
+    "explanation": "The main points of the paragraph are: Hollywood knows how to present a cer tain kind of visual imagery; this imagery reflects the inner desire of the audience. The author is not too negative. In fact, the tone is quite neutral as it appears to be just a precursor to the main point the author would mention later. Option A – This is not a summary but an extreme and illogical conclusion. Option B – This unnecessarily makes the tone positive, whereas the theme mentioned is negative. The author is not praising the dominant patriarchal order in the paragraph. Option C – ‘Like everything else’ makes the scope of the paragraph illogical. Option D – This is the correct answer.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 27,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. In revolutionary situations, a single event can sometimes trigger the final leap from hesitation to irrevocable action. Such a moment came in January 1776 when a recent British immigrant, Thomas Paine, published an incendiary pamphlet, ‘Common Sense’, eloquently calling for independence. “Everything that is right or reasonable pleads for separation”, Paine declared. “The blood of the slain, the weeping voice of nature cries, ’tis time to part”. Appealing to the American sense of destiny, he proclaimed: “The cause of America is in great measure the cause of all mankind…”",
+    "options": {
+      "a": "Thomas Paine paved the way for the independence of America through his incendiary speeches.",
+      "b": "America was built by the revolution ary writing of Thomas Paine, a recent British immigrant.",
+      "c": "The American struggle for independ ence found a boost in the shape of Thomas Paine’s writing.",
+      "d": "Thomas Paine proves the point that in every revolution, a small step tak en by a person proves catastrophi cally significant."
+    },
+    "answer": "c",
+    "explanation": "We can understand the main idea of the paragraph: the American struggle for in dependence was bolstered by Paine’s writing. The author quotes Paine to show his significance in the movement. So, option C should be the answer.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 28,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. The economic upheaval wrought by Covid and geopolitical tensions with China threaten to disrupt capital flows to the start-up ecosystem. A recent re port from the Parliamentary Standing Committee on Finance suggests that investments in unlisted securities be exempted from LTCG tax for a mini mum of two years and that a Securities Transaction Tax be levied to ensure par ity with listed shares. It further flags the disparity in tax treatment between for eign and domestic investors in PE/VC funds, where foreign investors get away with minimal tax incidence by routing their money through low-tax regimes. Next, echoing a long-standing demand of the PE/VC industry, it calls for domes tic pension funds, banks, and insurers to raise their allocations to AIFs. There’s a good case for the Centre to consider a no-LTCG regime, given the risks involved, but, whether a two-year period would suffice is debatable. Encouraging more PE/VC players to manage their funds out of India by ushering in parity on income tax and GST treatment is welcome too. But the Centre must think twice before acceding to calls for domestic pension funds, insurers and banks to increase their allocations to start-ups, given that many of these institutions are still taking baby steps in listed equities and bonds.",
+    "options": {
+      "a": "The author discusses that the status of capital flow into the start-up econ omy looks positive and considers the inputs made by the Parliamentary Standing Committee on Finance to further strengthen it.",
+      "b": "The author brings into light the pos sible reduction in investments in the start-up sector by foreign investors and seeks to inform the reader about the initiatives being taken by the Government at the central level.",
+      "c": "The author doubts the future of unlisted companies, specifical ly the start-ups, and suggests that the recommendations made by the Parliamentary Standing Committee on Finance regarding the levy of Securities Transaction Tax can be fruitful.",
+      "d": "The author discusses the possi ble future of the start-up sector and analyses the report from the Parliamentary Standing Committee on Finance, partially agreeing with made therein."
+    },
+    "answer": "d",
+    "explanation": "The author discusses the possible future of the start-up sector and analyses the report from the Parliamentary Standing Committee on Finance, partially agree ing with the efficiency of the suggestions made therein. The last option lays down the gist of the paragraph most aptly as the author is analysing the report and commenting on the same, only partially agreeing with the committee’s recommendations. Therefore, option D is the correct summary.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 29,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Among the earliest strategic policy ana lysts to draw attention to the diplomat ic benefits of Indian cinema’s overseas popularity was none other than the guru of strategic affairs, K. Subrahmanyam. It was in 1990 that American political sci entist Joseph Nye coined the phrase ‘soft power’ exploring the US’s global cultur al influence that added to its economic, technological and military power. “When one country gets other countries to want what it wants” summed up Nye that would be its ‘co-optive or soft power’, as opposed to its ‘hard or command power of ordering others to do what it wants’. If cinema or music can make a coun try popular in another, that would be its soft power. Readers from my generation would be familiar with Gina Lollobrigida’s Buona Sera, Mrs. Campbell, and Stanley Kramer’s film version of Robert Crichton’s The Secret of Santa Vittoria, films that aimed to project American popularity in Italy. While some in Washington DC un derstood the many external diplomat ic uses of Hollywood’s soft power, there have been others who have sought to malign the film industry in pursuit of their own domestic political agenda. The most infamous of them all was Senator Joseph McCarthy who took it upon him self to purge Hollywood of alleged com munist influence.",
+    "options": {
+      "a": "The use of the soft powers by a coun try to coerce others into providing it with what it needs is where the mu sic and cinema industries come into the picture.",
+      "b": "The Indian Government, not unlike the U.S. government, uses one of its richest industries to manipulate the citizens, the industry, and the other countries for its own benefits.",
+      "c": "The influential music and cinema in dustries of a country can work as a unique persuasion tool used by po litical parties and governments to further their cause.",
+      "d": "The use of soft powers goes back to the nineties but is still in its nascent stage and has not been picked up by many countries outside of the U.S. and India."
+    },
+    "answer": "c",
+    "explanation": "The influential music and cinema indus tries of a country can work as a unique persuasion tool used by political parties and governments to further their cause. Option C is the correct answer as it sum marises the notion stated in the passag es regarding the usage of the entertain ment industry as a tool by the political institutions to further their cause.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 30,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. This paper breaks new ground by building an annual income series based on British workers employed and paid by the year rather than by the day. Our revised labour incomes differ considerably from the previous series. The divergences suggest that existing estimates of workers’ annu al labour incomes based on daily wage rates and guesstimates of annual labour supplies overestimate medieval incomes but underestimate incomes during the Industrial Revolution. Our new estimates not only downscale the medieval ‘Golden Age of Labour’ that followed in the wake of the Black Death when almost half of Britain’s population perished, but they also push the take-off into modern eco nomic growth back more than 200 years, from the nineteenth century to the late sixteenth century. Indeed, our income estimates continue to increase during the seventeenth century’s advances in intellectual understanding of the natural world and further through the techno logical progress of the classical years of the Industrial Revolution. This contrasts with the early modern Malthusian pla teau of stagnant incomes exhibited by the previous series based on daily wage rates. However, the revised chronology of economic growth coincides with the re cently revised evolution of Britain’s GDP per capita.",
+    "options": {
+      "a": "The new series rectifies an error in wages in the medieval income, the industrial revolution, and the eco nomic growth in the eras.",
+      "b": "The new series focuses on wages by creating an annual income series rather than by taking day by day into account.",
+      "c": "The revised chronology of the eco nomic growth of two eras is accom panied by way of calculation of the wages in the two eras.",
+      "d": "Contrast the income estimates of the 17th century and that of the me dieval era and juxtapose them with the recently revised GDP of Britain."
+    },
+    "answer": "a",
+    "explanation": "Follow the process of elimination. Option D is eliminated as it just talks about the contrast being made where as the author even rectifies some of the earlier problems. Option C is eliminated. Though this op tion considers the economic growth of two eras, it fails to acknowledge the cor rection made. Option B is ruled out as it just talks about one aspect of the passage and leaves out the second. Option A takes both the points into ac count i.e., the rectification of calculation of wages and economic growth of the two eras.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 31,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. In accounting for the persistent impact of the civil exam we first test the hypoth esis that the exam had bred a culture of valuing education which was internalised by at least the educated elite families (and accordingly transmitted across gen erations). To do so we take advantage of a nationally representative social survey, the 2010 Chinese Family Panel Survey (CFPS), and construct variables to meas ure the effect of the respondents’ an cestral achievements in the jinshi exam on their attitudes toward the importance of learning and education as a determi nant of social status. After controlling for both genetic and cultural transmission of family human capital (as measured by various IQ test scores, years of educa tion, and income), we find that ances tral jinshi density (measured separate ly along the patrilineal and matrilineal lines) has a significantly positive effect on the offspring’s attitude toward the importance of education in determining social status. Moreover, these respond ents also want the government to spend more on education. Those respondents who were parents expected their chil dren to receive more education in gener al and devoted more time to supervising their children’s homework (by watching less TV themselves). Perhaps because of this stronger parental ethic, their chil dren performed better in class, had low er rates of absenteeism, and spent more time studying. All these augur well with the hypothesis regarding the transmis sion of a culture of valuing education within families.",
+    "options": {
+      "a": "Children, in China, whose parents are educated and hail from elite back grounds, perform better and have a high success ratio in exams.",
+      "b": "The jinshi exam requires not only the students but also parents to perform the best in education and this starts from the early stages of development.",
+      "c": "Families with stronger parental eth ics take better care of the studies of their children from early stages and push their children to study and per form better.",
+      "d": "The jinshi exam requires families to be very disciplined towards the stud ies of their children and this forces children to perform better."
+    },
+    "answer": "c",
+    "explanation": "Option A is eliminated as hailing from elite backgrounds does not ensure the best for children. Option B is ruled out as this option shifts the focus towards exams and not to wards education and parenting. Option D is ruled out as this option, too, just focuses on the jinshi test.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 32,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Asking whether a governing agent is le gitimate is to ask whether that agent has the right to make and impose certain de cisions on others and whether the agent has the standing to make those deci sions in a way that results in changing the normative situation (the rights and duties) of those subject to them. In this respect, legitimacy is relevantly different from other values, including justice and efficiency, which concern either the sub stantive content of certain norms—for example, whether they are fair—or their expected benefits and costs. This is not to say that legitimacy is the only value that matters. In cases in which privatiz ing certain responsibilities would lead to massive gains in terms of, say, distribu tive justice that could not be achieved otherwise, these gains may well override considerations of legitimacy and thus also the case for constitutional limits. But legitimacy should enjoy a certain pri ority. In many cases, we may have suffi cient reasons to limit outsourcing even in the presence of some other gains.",
+    "options": {
+      "a": "Does a government agent have the right to decide on behalf of the government?",
+      "b": "Should we limit outsourcing to certain f ields, or can it be used everywhere.",
+      "c": "The ways and means of obtaining distributive justice can be achieved through outsourcing.",
+      "d": "The government agent is the best representative of the government and should be allowed to take deci sions on behalf of the government."
+    },
+    "answer": "b",
+    "explanation": "The passage talks about the legitimacy of the government agent and how there may be certain occasions when it must be restricted. So, B is the correct answer.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 33,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. But the battles over health care, edu cation, and other goods underway today express a very different view of public goods, one grounded not in economic terms of efficiency and production but rather in moral and political concepts. In this framework, ‘public goods’ are those essential to enabling human success and well-being. Let’s call this the democratic conception of public goods. It is a demo cratic conception in the substantive and aspirational sense of ‘democracy’: these are goods that we owe to one another in a shared democratic society. In turn, this suggests that ensuring equal access to these goods is a matter of public con cern and public obligation.",
+    "options": {
+      "a": "A public good must be only defined in terms of economic terms.",
+      "b": "A public good is not grounded in eco nomic terms.",
+      "c": "A government must democratise all public goods.",
+      "d": "A public good is accessible to all and not grounded in economic terms."
+    },
+    "answer": "d",
+    "explanation": "Option A can be eliminated because of the word ‘only’. Option B does not con tain the keyword ‘democracy’. Option C sounds a bit extreme because of the word ‘must’. Hence, D is the answer as it talks about democratizing public goods.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 37,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Whether our memories stretch back 80 years or just a decade or two, the epi sodes that resurface serve as a sort of Rorschach test, revealing what we value and the kinds of experiences we cher ish. If you like to recall Chuck E Cheese birthday parties, you likely prize the se curity of a big, gregarious community, while memories of making chalk draw ings with your best friend hint at a de sire for deeper, more sustained bonds. ‘Experiences are not just what happens to us’, writes Batcho. ‘They are the raw material we use in shaping our identity, our self’, Nostalgia, then, is a means of reclaiming that raw material, making in timate contact with it as though sinking our hands into clay.",
+    "options": {
+      "a": "Looking back at memories helps an individual to relive past events and overwhelms them with a sense of nostalgia.",
+      "b": "A lot can be learnt from the memo ries of a human being to the extent of defining what a person likes and his or her personality.",
+      "c": "Nostalgia is like sinking our hands into clay and experiencing the con nection with every particle therein.",
+      "d": "The childhood life of an individual helps define the kind of person he becomes."
+    },
+    "answer": "b",
+    "explanation": "Option C is the correct answer as it talks about stronger parental ethics, parents taking care of the education of their chil dren, and children performing better be cause of this.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 38,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. As the state was a vast and complex or ganisation involving thousands of con scious and unconscious acts of daily cooperation by millions of citizens, they did not usually notice that they in fact sustained it and were morally responsi ble for its actions. And if they did, they excused themselves on the grounds that each of them was only an insignificant cog in a mighty wheel. Shastri consid ered this a dangerous fallacy. A mighty river was made up of individual drops, each of which contributed to its creation; the state was no different. Further, as a moral being, every citizen had a duty to ask how he personally contributed to the maintenance of the state and whether he was happy about it. Citizens were re sponsible for their actions and their re sponsibility was in no way diminished by what others did or failed to do.",
+    "options": {
+      "a": "Citizens do not understand their re sponsibility and act irrationally. This was decried by Shastri, who felt that the acts of citizens govern the state and hence they are significant.",
+      "b": "Citizens do not usually regard their actions as significant in the context of the running of the state. Shastri disagreed and instead felt that the individual acts did contribute to the running of the state, that citizens should be aware of this, and that they should be responsible for their actions.",
+      "c": "People of the state regard their ac confidence—certain steps taken in tions as insignificant, considering the vastness and complexity of the state. Shastri was vehemently opposed to this idea and held that though indi vidual actions are insignificant, the citizens must understand that they contributed something to the main tenance of the state.",
+      "d": "Citizens are very well aware that even though what they contribute towards the maintenance of the state is not significant, the state cannot be run without their participation. Shastri says that citizens benefit from the state’s existence and hence should assume responsibility for its proper functioning."
+    },
+    "answer": "b",
+    "explanation": "The key points stated in the given para graph are: The citizens of the state did not realise that they were morally responsible for the state. They excused themselves on the grounds that each of them was only an insignifi cant cog in a mighty wheel. Shastri considered this a dangerous fallacy. Every citizen had a duty to ask how he personally contributed to the mainte nance of the state. Only option B incorporates all the key points. Option A adds unstated informa tion to it, i.e., act irrationally. Option C claims that Shastri too believed that the contribution of each individual in the running of the state is insignifi cant, which goes against the central idea of the paragraph. Option D distorts the argument made in the paragraph.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 39,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Détente cannot be taken forward by waving conditionalities and ultimatums in the face of the other. The productive and progressive approach is to take all contentious issues on board, tackle the less difficult problems and get them out of the way, engage the ex-antagonist on the more complicated issues and mean while let relations develop all around. This must be done in the areas of trade, investment, economic cooperation, cul tural relations, and sport, but above all, in people-to-people relations. The clos ing of the gap on the issue of the gas pipeline seems propitious. The unprece dented grant of Pakistani visas to eight een Israeli journalists, to visit important centres in the state of Punjab, is a fine gesture that should help to improve the atmosphere between Israel and Pakistan.",
+    "options": {
+      "a": "Détente cannot be carried forward by striking antagonistic postures but by adopting conciliatory meas ures to solve outstanding issues. Improvements should be made on various fronts and the more tractable issues should be tackled to develop the recent past augur well for Israel Pakistan ties.",
+      "b": "Easing tensions do not come about by proposing conditions and ultima tums but rather by adopting a give and-take policy. Though the more complicated issues must be solved immediately, the less complicated issues must also be taken up to find a lasting solution. That Israel and Pakistan agree on the gas pipeline issue is a sign of détente.",
+      "c": "Détente does not come by introduc ing conditionalities but by solving the issues at hand. The less contentious issues can be solved easily and im provement in other fields such as trade etc contribute to detente sig nificantly. However, this should not be at the cost of people-to-people relations, which is the cornerstone of lasting peace.",
+      "d": "Détente between warring nations improves by solving contentious is sues and improving bilateral ties in the field of trade, etc. Solving the gas pipeline issue and the issue of visas for Israeli journalists are steps in the right direction."
+    },
+    "answer": "a",
+    "explanation": "The key points stated in the given para graph are: Détente cannot be taken forward by waving conditionalities and ultimatums in the face of the other. Take all contentious issues on board, tackle the less difficult problems, and get them out of the way, This must be done in the areas of trade, investment, economic cooperation, peo ple-to-people relations, etc. The closing of the gap on the issue of the gas pipeline seems propitious. Only option A incorporates all the key points. Option B distorts the second key point. Option C adds unstated information re garding the third key point. Option D does not incorporate the com plete essence of the first key point.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 40,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. The traditional teaching of the medi cal profession requires a doctor to do everything legitimate in his power to try to help his patient. This is the Hippocratic Oath of medicine and the best possible treatment must be given irrespective of whether or not the doctor likes the pa tient or considers him or her feckless or ill because of self-inflicted disease or injury, or a confirmed and even vicious criminal. In our contemporary market economy, with new and very expensive ‘high-tech’ medicine and surgery, doctors are repeat edly being reminded by those responsible for managing healthcare that the funds available are limited and the best treat ment cannot be available to all.",
+    "options": {
+      "a": "According to medical ethics, a doctor must extend the best treatment to a patient whether he likes or dislikes him, even if he is a vicious criminal whose illness is because of self-in f licted injury. But due to expensive medicine and surgery, the best treat ment is not available to all.",
+      "b": "According to medical ethos, a doc tor must give the best treatment to his patient even if he is a notorious criminal or whether his illness is due to self-inflicted injury or disease.",
+      "c": "Medical ethics demand that a doctor extend the best treatment to a pa tient irrespective of whether he likes the patient or not. But unfortunate ly, the best treatment is extended to only those who are wealthy.",
+      "d": "According to medical ethics, a doctor should extend the best treatment to a patient, whether he likes him or not. But expensive medicine does not permit a doctor to extend the same type of treatment to all due to a paucity of funds."
+    },
+    "answer": "d",
+    "explanation": "The key points stated in the given para graph are: The traditional teaching of the med ical profession requires a doctor to do everything legitimate in his power to try to help his patient. The best possible treatment must be given irrespective of whether or not the doctor likes the patient. The funds available are limited and the best treatment cannot be available to all. Option A and option D are quite close with regard to their implication. But option A does not include the lack of funds that led to the unavailability of the best treatment. Therefore, option D is the most suitable summary among the four options.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 41,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Scientists from the Pune-based Centre for Genetic and Molecular Biology (CGMB) and the Asian Institute of Gastroenterology, Hyderabad, analysed various genes linked to pancreatitis. While one of the mutated genes (PUSA1) was earlier linked to the disease, the second mutated gene PUSRA1 (catalyt ic trypsinogen), which plays a key role in the digestion of proteins, was for the f irst time shown to be playing a role in disease pathogenesis in Indians. It was also found that the onset of the disease was earlier in individuals having only the PUSA1 gene as compared to those having only PUSRA1.",
+    "options": {
+      "a": "PUSRA1 gene mutation is the ma jor cause of pancreatitis disease in Indians.",
+      "b": "Pancreatitis disease sets in when mutated genes PUSA1 and PUSRA1 are present in a person.",
+      "c": "PUSA1 gene mutation is the predom inant cause of pancreatitis disease in Indians.",
+      "d": "PUSA1 gene mutation affects the di gestion of proteins, thereby causing pancreatitis disease in Indians."
+    },
+    "answer": "d",
+    "explanation": "The key points stated in the given para graph are: Mutated genes (PUSA1) were earlier linked to the disease. It was discovered that a second mutated gene played a key role too. PUSRA1 (catalytic trypsinogen) was for the first time shown to be playing a role in disease pathogenesis in Indians. The onset of the disease was earlier in individuals having only the PUSA1 gene as compared to those having only PUSRA1. As per the third key point, PUSA1 was proven catalytic in the early onset of pancreatitis in Indians. Only option 4 states this conclusion correctly.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 42,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Even though the economy is on a roll and major businesses are expected to go on a hiring spree, there are definitely hushed murmurs in the corporate corridors re garding a phenomenon that is troubling the Indian business scenario. A majority of business leaders are concerned about the unavailability of a skilled workforce. Most industry experts would agree that the education sector needs major re forms to ensure the creation of a work force that has the expertise and can in novate. While academic debate revolves around the number of years for the ideal engineering curriculum, industry experts insist on the necessity for it to be fast and fit to purpose. To this end, leading players from the industry have started to collaborate with industry associations to offer solutions through initiatives and ventures like skill-based training pro grammes, finishing school sessions, and joint workshops held by experts in the industry and academia.",
+    "options": {
+      "a": "Without collaborating with the in dustry, engineering colleges cannot improve their curriculum.",
+      "b": "Major businesses in India are disillu sioned with the available workforce.",
+      "c": "The root of the problem the Indian industry faces today is the unavaila bility of an ideal workforce suited for its needs due to our outdated engi neering curriculum.",
+      "d": "The education sector in India needs revamping."
+    },
+    "answer": "c",
+    "explanation": "The key points stated in the given para graph are: A majority of business leaders are con cerned about the unavailability of a skilled workforce. Most industry experts would agree that the education sector needs major reforms This is required for ensuring the creation of a workforce that has the expertise and can innovate. Leading players from the industry have started to collaborate with industry as sociations to offer solutions. Option A takes an extreme sentiment that has not been stated in the para graph. Therefore, it is incorrect. Option B, too, brings in external informa tion; hence, it is incorrect. Option C incorporates all the key points precisely. Option D is too broad and misses out on the paragraph’s central argument; hence, it is incorrect.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 43,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Sending out a dual message to Pakistan, the Indian government said that it would continue to engage with Pakistan to en sure it makes progress on the Pathankot investigation, but it also made it clear that the Sharif government would have to show sincerity, as it is from their ter ritory that the maximum attacks come.",
+    "options": {
+      "a": "The Indian government is ready to engage with Pakistan to make pro gress on the Pathankot issue, but it is also cautious of the attacks that come from Pakistan.",
+      "b": "The Indian government is back to be ing engaged with Pakistan to make progress on the Pathankot investi gation and is making it clear to the Sharif government that they have to be sincere as the maximum attacks come from Pakistan.",
+      "c": "The Indian government is continu ing to engage with Pakistan on the Pathankot investigation, but it also emphasises the Sharif government’s sincerity in tackling the issue as it is from their territory that the maxi mum attacks happen.",
+      "d": "The government continues to engage with Pakistan on the Pathankot in vestigation, but it is also emphasiz ing that the Sharif government has to show sincerity as it is from their terri tory that the maximum attacks come."
+    },
+    "answer": "d",
+    "explanation": "The key points stated in the given para graph are: The Indian government said that it would continue to engage with Pakistan to ensure that it made progress on the Pathankot investigation. But it also made it clear that the Sharif government would have to show sincerity, as it was from their territory that the maximum attacks came. Option A distorts the second key point. Option C states ‘Sharif government’s sin cerity’, which distorts the implication of the second key point. Option B misses out on the conditionality of agreeing to continue engagement that has been implied in the given paragraph.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 44,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. All pathbreakers are seen, first and foremost, in terms of their predeces sors. Julius Caesar wept comparing his own deeds in his early thirties with those of Alexander the Great. Jesus, in the Gospels, was explicitly compared with Elijah from the Old Testament. And Newton, in lessening his own role as a discoverer of nature’s laws, claimed to stand on the shoulders of giants.",
+    "options": {
+      "a": "All pathbreakers are seen in relation to their predecessors, such as Julius Caesar, Jesus, and Newton.",
+      "b": "Pathbreakers such as Julius Caesar, Jesus, and Newton are repeatedly compared to their predecessors.",
+      "c": "All pathbreakers, such as Julius Caesar, Jesus, and Newton, are seen in relation to their predecessors.",
+      "d": "Pathbreakers such as Julius Caesar, Jesus, and Newton had to accept be ing compared to their predecessors."
+    },
+    "answer": "c",
+    "explanation": "The way that A is framed suggests that Julius Caesar, Jesus, and Newton were the predecessors, not the pathbreakers, so A is incorrect. ‘Repeatedly compared’ is not an idea that comes across in the paragraph, so B is not an accurate sum mary. Neither is it stated that the path breakers ‘had to accept being compared to their predecessors’, just that they were compared. So 4 can be ruled out as well. Only C is a fully correct summary. Hence, C is the correct answer.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 45,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Estuaries are areas of water and shoreline where rivers meet the ocean or another large body of water, such as one of the Great Lakes. Organisms that live in estu aries must be adapted to these dynamic environments, where there are variations in water chemistry including salinity, as well as physical changes like the rise and fall of tides. Despite these challenges, es tuaries are also very productive ecosys tems. They receive nutrients from both bodies of water and can support a variety of life. Because of their access to food, water, and shipping routes, people often live near estuaries which can impact the health of the ecosystem.",
+    "options": {
+      "a": "Estuaries, the areas where rivers meet the ocean, are very produc tive and diverse ecosystems because they receive nutrients from rivers as well as oceans.",
+      "b": "Organisms that live near estuaries need to be very adaptive because of their changing nature.",
+      "c": "Estuaries are very dynamic, as chem ical and physical changes are very frequent in them.",
+      "d": "Estuaries are very diverse ecosys tems, and they can support a variety of life; people often live near estu aries which can impact the health of the ecosystem."
+    },
+    "answer": "a",
+    "explanation": "Option A covers most of the important ideas discussed in the passage. Option B only covers the changing nature of estuaries; hence, it is not a proper summary. Option C only covers the point that estu aries are very dynamic. Option D covers most of the points but does not define what estuaries are. In the paragraph, the definition of estuaries has been highlighted. Hence, an accurate summary must define estuaries and only then talk of their attributes.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 46,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Let’s start with adults. Unlike children, adults can appreciate the valuable pro jects and relationships in their lives even when positive emotions are lacking. This is because adults are the sorts of crea tures who can endorse many aspects of their lives merely due to how well they fit within their overall conception of what a worthwhile life looks like. A neurotic au thor who writes brilliant novels despite f inding the process painful can still en dorse the project of writing under stress and anxiety because she knows that these negative emotions will render the work deeper than it would otherwise be. A brain surgeon operating on the worst types of cancers knows that the stakes in her job are too high for her to approach life in a carefree manner. She is willing to trade carefreeness for a life of achieve ment in medicine.",
+    "options": {
+      "a": "The author discusses the life of an adult and describes the emotional tactics that an adult employ to live a valuable life.",
+      "b": "The author distinguishes between a child and an adult to portray that adults are better equipped to deal with emotional upheavals.",
+      "c": "The author talks about adults and how their ability to work, in spite of the absence of negative emotions, makes their lives worthwhile.",
+      "d": "The author draws a comparison be tween an adult’s life and a child’s life in the way both handle their emotions."
+    },
+    "answer": "d",
+    "explanation": "The passage’s beginning clearly points out that the author is making compar isons between adults and children and the second and third lines, along with the examples, shows that the parameter is their ability to handle the lack of posi tive emotions. Only option D bears these key points.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 47,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. Human beings are self-conscious crea tures: we can conceptualise ourselves as psychological beings, forming beliefs about who and what we are. We also have identities: self-beliefs that are sourc es of meaning, purpose, and value, and that help to constrain our choices and actions. In addition to being able to think about ourselves, self-conscious beings can recognise that we are the objects of other people’s thoughts. This opens up the possibility of a conflict between our own identities and how we are perceived by others. This potential for conflict gives us unique power over each other and also makes us uniquely vulnerable: only self-conscious beings can kill with a glance or die of embarrassment. Our vulnerability to how others regard us might create obligations to try to regard others in some of the ways they desire— ways that are consonant with their own identities.",
+    "options": {
+      "a": "The author states that self-con sciousness drives humans closer to one another to the extent that we become dependent on each other to maintain our identities.",
+      "b": "The author comments on the psy chological behaviours of human be ings, as is driven by their self-con scious nature.",
+      "c": "The author tries to explain that human beings are social creatures which can clearly be identified from our char acteristic of being self-conscious.",
+      "d": "The author infers that there is a con stant conflict between the identities of human beings, which stems from their self-conscious nature."
+    },
+    "answer": "b",
+    "explanation": "Only the second option summarises the discussion made in the passage, whereas the other options focus only on one specif ic aspect or some parts of the discussion.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 48,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. A society that is divided, particularly on caste and communal lines, is less like ly to produce a countrywide unified re sponse to the social and gender question. The articulation of a response, in such a society, may remain fragmentary, despite the fact that these questions do have a human and universal content. The protest response to defend the normative con tent in the face of the growing injustice and oppression, however, has remained confined to the social groups such as women, Dalits, minorities, and Adivasis. These groups may have demographically but thinly spread across India, but their fundamental questions, such as injustice and inequality, have found articulation mostly within these groups. Thus, the Bharat bandh call of August 2018, or the countrywide protest against the dilution of the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989 primarily remained restricted to the so cially oppressed castes.",
+    "options": {
+      "a": "A divided society is unable to bear the burden of toiling for the op pressed and so is relatively uneasy about protests of agricultural nature.",
+      "b": "To get a universal response to social or gender issues, we need a society that is undivided. These must be fol lowed by bandhs etc., to protest the gross exploitation of the poor.",
+      "c": "An undivided society is the one that can respond to social issues, and yet such protests are limited to some groups only.",
+      "d": "An undivided society is the only one that can respond to gender issues for which bandhs are called frequently."
+    },
+    "answer": "c",
+    "explanation": "The correct summary will include two things. 1. That an undivided society will be able to respond to social/gender questions 2. Protests are generally done for a limit ed set of groups. So option C is the best choice. The nearest choice D is incor rect as it does not mention part 2 of the argument. 1 is irrelevant as it mentions agricultural protests. B is irrelevant as it mentions exploitation of the poor which is not relevant again.",
+    "topic": "para-summary",
+    "section": "VARC"
+  },
+  {
+    "id": 49,
+    "passage" : "",
+    "ImageID" : "",
+    "question": "Choose the best one. For thousands of years, living people breathed, dead people didn’t, and no one knew why. The explanations that passed for medicine during that time sound ab surd now. The early Greeks, most notably Homer, believed that humans had two souls—one immortal, in the head, and one mortal, in the chest—and that a ba by’s first breath drew in that mortal soul. The last exhale released it. Later Greeks offered more logical, but still inaccu rate, theories, grounded in the belief that breathing regulated a literal fire inside the body. Breathing cooled that fire, like a computer’s fan. Aristotle wrote that we inhale because the heart’s heat expands the lungs, and air from breathing would then reduce ‘the excess of the fire’. This focus on body heat isn’t so surprising. In those days, and for nearly 2,000 years af ter, few sources of warmth existed: sun light, humans, animals, and fire.",
+    "options": {
+      "a": "The growth of medicine as a field of study and how it progressed over the centuries has much to do with fire and its existence.",
+      "b": "The evolution in the field of health care and medicine, as accomplished by the Greeks and others, had fire as the key factor.",
+      "c": "The different streams of thought that were considered to be the prac tice of medicine over the centuries and how they were reduced to one element of fire.",
+      "d": "The reasons for breathing and man ifold and breathing is one of the im portant sources of heat for the body due to the paucity of sources of warmth available to humans."
+    },
+    "answer": "c",
+    "explanation": "The passage mentions different types of beliefs about medicine and also how these beliefs were based on the pres ence of fire in a person. So option C is the correct answer. A is incorrect as it shows the correlation between fire and medicine. B is incorrect as it mentions that fire was the key factor in the evo lution of medicine. D is incorrect as it mentions the reasons for breathing.",
+    "topic": "para-summary",
+    "section": "VARC"
+  }
+  
+  
+
+]

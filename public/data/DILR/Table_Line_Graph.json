@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "passage": "The table gives the number of graduates employed in different fields and their average salaries from 2012 to 2016. Note: Employment percentages are rounded to the nearest integer.",
+    "ImageID": "image/DILR/one/one.png",
+    "question": "What was the approximate absolute difference between students getting jobs in marketing vs. finance over the given period?",
+    "options": {
+      "a": "760",
+      "b": "810",
+      "c": "830",
+      "d": "800"
+    },
+    "answer": "c",
+    "explanation": "Marketing jobs: (800×0.36) + (650×0.48) + (1100×0.43) + (1200×0.37) + (1050×0.32) = 1,853. Finance jobs: (800×0.12) + (650×0.17) + (1100×0.23) + (1200×0.19) + (1050×0.32) = 1,023. Difference = 1,853 - 1,023 = 830.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 2,
+    "passage": "The table gives the number of graduates employed in different fields and their average salaries from 2012 to 2016. Note: Employment percentages are rounded to the nearest integer.",
+    "ImageID": "image/DILR/one/one.png",
+    "question": "In 2016, by how much (in Rs. thousands) did total salary for finance exceed software?",
+    "options": {
+      "a": "1,482",
+      "b": "1,560",
+      "c": "1,600",
+      "d": "1,670"
+    },
+    "answer": "a",
+    "explanation": "Finance total salary: 1,050 × 0.32 × 9,810 = ₹32,96,160. Software total salary: 1,050 × 0.20 × 8,640 = ₹18,14,400. Difference = ₹14,81,760 (≈ ₹1,482 thousand).",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 3,
+    "passage": "The table gives the number of graduates employed in different fields and their average salaries from 2012 to 2016. Note: Employment percentages are rounded to the nearest integer.",
+    "ImageID": "image/DILR/one/one.png",
+    "question": "Which year had maximum percentage increase in graduates over the previous year?",
+    "options": {
+      "a": "2013",
+      "b": "2014",
+      "c": "2015",
+      "d": "2016"
+    },
+    "answer": "b",
+    "explanation": "2014 increase: (1,100 - 650)/650 × 100 = 69.23%. 2015 increase: (1,200 - 1,100)/1,100 × 100 = 9.1%. 2014 shows the highest increase.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 4,
+    "passage": "The table gives the number of graduates employed in different fields and their average salaries from 2012 to 2016. Note: Employment percentages are rounded to the nearest integer.",
+    "ImageID": "image/DILR/one/one.png",
+    "question": "Which year had maximum percentage increase in finance salary over the previous year?",
+    "options": {
+      "a": "2013",
+      "b": "2015",
+      "c": "2014",
+      "d": "2016"
+    },
+    "answer": "c",
+    "explanation": "2013 increase: (6,380 - 5,450)/5,450 × 100 = 17%. 2014 increase: (7,550 - 6,380)/6,380 × 100 = 18.34%. 2015 increase: (8,920 - 7,550)/7,550 × 100 = 18.15%. 2014 has the highest increase.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 5,
+    "passage": "Summer camp events are categorized into five groups with different scoring systems. Final score is the average of group scores (each scaled to 100). Cumulative points are the sum across all events.",
+    "ImageID": "image/DILR/one/two.png",
+    "question": "If B and G have the same final score, find B’s points in Swimming.",
+    "options": {
+      "a": "91",
+      "b": "92",
+      "c": "93",
+      "d": "94"
+    },
+    "answer": "b",
+    "explanation": "G's final score is 92.4. For B, solving the equation: 91 (Adventure) + 92 (Motor) + (94 + Swimming)/2 (Water) + 92 (Underwater) + 94 (Extreme) = 92.4 × 5. Swimming = 92.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 6,
+    "passage": "Summer camp events are categorized into five groups with different scoring systems. Final score is the average of group scores (each scaled to 100). Cumulative points are the sum across all events.",
+    "ImageID": "image/DILR/one/two.png",
+    "question": "If D’s cumulative points increase by 20 for maximum final score, what is his max in Water Diving?",
+    "options": {
+      "a": "94",
+      "b": "98",
+      "c": "92",
+      "d": "96"
+    },
+    "answer": "d",
+    "explanation": "Maximize points in groups with highest impact: Motor Sports (+2), Underwater Activities (+8+7=15). Remaining 3 points go to Water Sports. Water Diving increases from 93 to 96.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 7,
+    "passage": "Summer camp events are categorized into five groups with different scoring systems. Final score is the average of group scores (each scaled to 100). Cumulative points are the sum across all events.",
+    "ImageID": "image/DILR/one/two.png",
+    "question": "What is the max increase in cumulative points for I to raise final score by 2?",
+    "options": {
+      "a": "37",
+      "b": "27",
+      "c": "31",
+      "d": "24"
+    },
+    "answer": "a",
+    "explanation": "Maximize points in Extreme Sports (+28 points → +1.4 to final score). Additional +9 points in Adventure Sports needed for remaining +0.6 to final score. Total increase: 37 points.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 8,
+    "passage": "Summer camp events are categorized into five groups with different scoring systems. Final score is the average of group scores (each scaled to 100). Cumulative points are the sum across all events.",
+    "ImageID": "image/DILR/one/two.png",
+    "question": "If C’s cumulative points increase by 32, which statement is definitely false?",
+    "options": {
+      "a": "Max final score can be 97.4",
+      "b": "Final score can increase by exactly 2",
+      "c": "C can have the highest final score",
+      "d": "C can have equal average in all groups"
+    },
+    "answer": "d",
+    "explanation": "Equal group averages require minimum 45 additional points (impossible with +32). Other statements are possible with strategic point distribution.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 9,
+    "passage": "Courier business: International ($150M) and Domestic ($70M). Land segment includes road/rail; Agnel Express operates only in Land and has 30% Land share.",
+    "ImageID": "image/DILR/one/a9_12.png",
+    "question": "What is the Air:Land ratio for International business?",
+    "options": {
+      "a": "8:1",
+      "b": "6:1",
+      "c": "4:1",
+      "d": "7:1"
+    },
+    "answer": "c",
+    "explanation": "Total Land segment: Agnel's total revenue ($30M) ÷ 30% = $100M. International Land: $100M - $70M (Domestic) = $30M. International Air: $150M - $30M = $120M. Ratio = 120:30 = 4:1.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 10,
+    "passage": "Courier business: International ($150M) and Domestic ($70M). Land segment includes road/rail; Agnel Express operates only in Land and has 30% Land share.",
+    "ImageID": "image/DILR/one/a9_12.png",
+    "question": "Fed Ex has $15M Land in International. Who has highest Land segment share?",
+    "options": {
+      "a": "Agnel Express",
+      "b": "Fed Ex",
+      "c": "DHL",
+      "d": "Blue Dart"
+    },
+    "answer": "a",
+    "explanation": "Agnel: $30M total Land. Fed Ex: $15M (Intl) + $10.5M (Domestic) = $25.5M. DHL max: $17.5M (Domestic) + $6M (Intl) = $23.5M. Agnel has the highest.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 11,
+    "passage": "Courier business: International ($150M) and Domestic ($70M). Land segment includes road/rail; Agnel Express operates only in Land and has 30% Land share.",
+    "ImageID": "image/DILR/one/a9_12.png",
+    "question": "DHL buys Homepack. What is max domestic business moved by rail for the new group?",
+    "options": {
+      "a": "$15.5M",
+      "b": "$20M",
+      "c": "$30M",
+      "d": "$24.5M"
+    },
+    "answer": "d",
+    "explanation": "New group domestic share: 25% (DHL) + 10% (Homepack) = 35% of $70M = $24.5M. Assuming all domestic moved by rail is possible.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 12,
+    "passage": "Courier business: International ($150M) and Domestic ($70M). Land segment includes road/rail; Agnel Express operates only in Land and has 30% Land share.",
+    "ImageID": "image/DILR/one/a9_12.png",
+    "question": "Which company has max combined (Domestic + International) revenue?",
+    "options": {
+      "a": "Blue Dart",
+      "b": "Fed Ex",
+      "c": "DHL",
+      "d": "Agnel Express"
+    },
+    "answer": "c",
+    "explanation": "DHL: 28% of $150M + 25% of $70M = $42M + $17.5M = $59.5M. Fed Ex: $58.5M, Blue Dart: $47M, Agnel: $30M.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 13,
+    "passage": "10 employees in grades 1-10 (categories I:1-3, II:4-6, III:7-10). PVP depends on APR. Employees in same category have distinct APR.",
+    "ImageID": "image/DILR/one/13_16.png",
+    "question": "If X is in grade 8, what is the max possible grade for T?",
+    "options": {
+      "a": "10",
+      "b": "6",
+      "c": "5",
+      "d": "3"
+    },
+    "answer": "b",
+    "explanation": "If X is grade 8 (Cat III), P must be grade 10 (Cat III). T can be in grades 2,3,5,6. Max grade is 6.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 14,
+    "passage": "10 employees in grades 1-10 (categories I:1-3, II:4-6, III:7-10). PVP depends on APR. Employees in same category have distinct APR.",
+    "ImageID": "image/DILR/one/13_16.png",
+    "question": "If T received APR '4', what is T's PVP?",
+    "options": {
+      "a": "70",
+      "b": "90",
+      "c": "60",
+      "d": "40"
+    },
+    "answer": "c",
+    "explanation": "APR 4 in Cat I (S) and Cat II (U) already taken. T must be in Cat III → PVP = 60.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 15,
+    "passage": "10 employees in grades 1-10 (categories I:1-3, II:4-6, III:7-10). PVP depends on APR. Employees in same category have distinct APR.",
+    "ImageID": "image/DILR/one/13_16.png",
+    "question": "If R has APR '2' and T/W have APR '3', which pair cannot be in same category?",
+    "options": {
+      "a": "R, S, W",
+      "b": "R, S, T",
+      "c": "P, V, X, Y",
+      "d": "Q, U, R"
+    },
+    "answer": "d",
+    "explanation": "Q and U are in Cat II. R cannot be in Cat II (APR '2' conflict with Q). Thus Q, U, R cannot be together.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 16,
+    "passage": "10 employees in grades 1-10 (categories I:1-3, II:4-6, III:7-10). PVP depends on APR. Employees in same category have distinct APR.",
+    "ImageID": "image/DILR/one/13_16.png",
+    "question": "If V received APR '5', how many distinct grades could T belong to?",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "answer": "d",
+    "explanation": "T can be in grades 2,3,5,6,8,10 (6 grades). Grade 7 is taken by V, others are available.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 17,
+    "passage": "Line graph shows cost and profit for XYZ Ltd. (2011-2016). Revenue = Cost + Profit.",
+    "ImageID": "image/DILR/one/17-21.png",
+    "question": "Approximate average profit during the period?",
+    "options": {
+      "a": "₹196k",
+      "b": "₹225k",
+      "c": "₹216k",
+      "d": "₹208k"
+    },
+    "answer": "d",
+    "explanation": "Total profit: 100+200+200+300+150+300 = 1,250k. Average: 1,250k ÷ 6 ≈ ₹208k.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 18,
+    "passage": "Line graph shows cost and profit for XYZ Ltd. (2011-2016). Revenue = Cost + Profit.",
+    "ImageID": "image/DILR/one/17-21.png",
+    "question": "Year with max profit as % of cost?",
+    "options": {
+      "a": "2012",
+      "b": "2013",
+      "c": "2014",
+      "d": "2015"
+    },
+    "answer": "b",
+    "explanation": "2013: (200÷250)×100 = 80%. Higher than 2012 (66.67%), 2014 (75%), 2015 (37.5%), 2016 (75%).",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 19,
+    "passage": "Line graph shows cost and profit for XYZ Ltd. (2011-2016). Revenue = Cost + Profit.",
+    "ImageID": "image/DILR/one/17-21.png",
+    "question": "Revenue in 2012?",
+    "options": {
+      "a": "₹500",
+      "b": "₹5,00,000",
+      "c": "₹5,00,00,000",
+      "d": "None"
+    },
+    "answer": "b",
+    "explanation": "Cost = ₹300k, Profit = ₹200k → Revenue = ₹500k (i.e., ₹5,00,000).",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 20,
+    "passage": "Line graph shows cost and profit for XYZ Ltd. (2011-2016). Revenue = Cost + Profit.",
+    "ImageID": "image/DILR/one/17-21.png",
+    "question": "Year with max revenue?",
+    "options": {
+      "a": "2011",
+      "b": "2014",
+      "c": "2016",
+      "d": "Both (2) & (3)"
+    },
+    "answer": "d",
+    "explanation": "2014: 400k + 300k = ₹700k. 2016: 400k + 300k = ₹700k. Both are maximum.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 21,
+    "passage": "Line graph shows cost and profit for XYZ Ltd. (2011-2016). Revenue = Cost + Profit.",
+    "ImageID": "image/DILR/one/17-21.png",
+    "question": "Year with max profit increase over previous year?",
+    "options": {
+      "a": "2014",
+      "b": "2011",
+      "c": "2015",
+      "d": "2016"
+    },
+    "answer": "d",
+    "explanation": "2016 increase: 300k - 150k = ₹150k. Higher than 2011 (no previous), 2014 (100k), 2015 (-150k).",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 22,
+    "passage": "Dollar, Pound, Euro (A,B,C) fluctuate Mon-Fri. Conversion charges nil.",
+    "ImageID": "image/DILR/one/22_25.png",
+    "question": "Buy $ with ₹3,60,000 Mon, convert to ₹ Tue, then to £. How many £?",
+    "options": {
+      "a": "1,800",
+      "b": "9,000",
+      "c": "12,000",
+      "d": "16,000"
+    },
+    "answer": "b",
+    "explanation": "All currencies ↑25% Mon→Tue. ₹ received Tue: 3,60,000 × 1.25 = ₹4,50,000. If £ = A (₹50/Tue), £ = 4,50,000 ÷ 50 = 9,000.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 23,
+    "passage": "Dollar, Pound, Euro (A,B,C) fluctuate Mon-Fri. Conversion charges nil.",
+    "ImageID": "image/DILR/one/22_25.png",
+    "question": "Start Mon: ₹22,000. Max earnings in ≤4 transactions?",
+    "options": {
+      "a": "12,400",
+      "b": "14,000",
+      "c": "17,600",
+      "d": "16,400"
+    },
+    "answer": "c",
+    "explanation": "Convert ₹→B (Pound) Mon (₹80)→ Hold until Wed (₹120)→ Convert to ₹: ₹33,000. Convert ₹→A (Dollar) Thu (₹50)→ Convert to ₹ Fri (₹60): ₹39,600. Profit: 39,600 - 22,000 = ₹17,600.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 24,
+    "passage": "Dollar, Pound, Euro (A,B,C) fluctuate Mon-Fri. Conversion charges nil.",
+    "ImageID": "image/DILR/one/22_25.png",
+    "question": "If Pound→Euro rate=4, which statement CANNOT be true?",
+    "options": {
+      "a": "Pound→Euro Mon=0.5",
+      "b": "Dollar→Euro Tue=2",
+      "c": "Pound→Dollar Wed=2.18",
+      "d": "Euro→Pound Fri=0.25"
+    },
+    "answer": "a",
+    "explanation": "Pound→Euro = (INR/Pound) ÷ (INR/Euro). Rate=4 implies Pound > Euro. Option (a): 0.5 implies Pound < Euro, which contradicts since C (Euro) is always cheaper than B (Pound).",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  },
+  {
+    "id": 25,
+    "passage": "Dollar, Pound, Euro (A,B,C) fluctuate Mon-Fri. Conversion charges nil.",
+    "ImageID": "image/DILR/one/22_25.png",
+    "question": "If Pound=Dollar on ≥3 days, which ratio CANNOT be Pound:Euro?",
+    "options": {
+      "a": "2:1",
+      "b": "9:5",
+      "c": "4:3",
+      "d": "10:3"
+    },
+    "answer": "d",
+    "explanation": "A is Euro. Pound and Dollar are B/C. All ratios possible except 10:3 (e.g., Mon: B=80, A=40 → 2:1; Tue: B=100, A=55 → 1.81≈9:5; Wed: B=120, A=30 → 4:1; Fri: B=80, A=15 → 16:3). 10:3 ≈3.33 not observed.",
+    "topic": "Table & Line Graph",
+    "section": "DILR"
+  }
+]

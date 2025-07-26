@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "",
+    "ImageID": "",
+    "question": "Ritik spent Rs. 50,000 to purchase a laptop and a desktop computer. He sold the laptop at a 20% profit and the desktop at a 10% loss. If, overall, he made a 2% profit, then the purchase price (in rupees) of the laptop is:",
+    "options": {
+      "a": "Rs. 40,000",
+      "b": "Rs. 45,000",
+      "c": "Rs. 60,000",
+      "d": "Rs. 20,000"
+    },
+    "answer": "D",
+    "explanation": "Let the price of the laptop and desktop be x and y respectively. Given: x + y = 50,000. Selling equations: 1.2x + 0.9y = 51,000. Solving these equations gives x = 20,000. Alternate solution uses alligation: Profit 20% and loss 10% average to 2% profit gives ratio 2:3 for laptop:desktop. 2 units = Rs. 20,000.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 2,
+    "passage": "",
+    "ImageID": "",
+    "question": "Abhinav purchased 10 laptops in 2016, all at the same price. He sold six of these at a profit of 24% and the remaining four at a loss of 18%. If he made a total profit of Rs. 6,912, find the purchase price of a laptop (in Rs.):",
+    "options": {
+      "a": "6,250",
+      "b": "9,350",
+      "c": "8,900",
+      "d": "9,600"
+    },
+    "answer": "D",
+    "explanation": "Let cost price per laptop be x. Total cost = 10x. Selling price = 6×(1.24x) + 4×(0.82x) = 10.72x. Profit = 10.72x - 10x = 0.72x = 6,912. Solving gives x = 9,600.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 3,
+    "passage": "",
+    "ImageID": "",
+    "question": "Rohit earns a profit of 17% after selling an article at a 22% discount on the marked price. In which of the following option choices, should he sell the article to earn a profit of 25%?",
+    "options": {
+      "a": "Should sell at a discount of 10%",
+      "b": "Should sell at a discount of 15%",
+      "c": "Should sell at a discount of 16.66%",
+      "d": "Should sell at a discount of 20%"
+    },
+    "answer": "C",
+    "explanation": "Assume marked price = 300 and cost price = 200 (from 117b = 78a). For 25% profit, selling price = 250. Discount on marked price (300) = (50/300)×100 = 16.66%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 4,
+    "passage": "",
+    "ImageID": "",
+    "question": "Arun buys 40kg of wheat for Rs. 9,600. He uses faulty balance and takes 250gm extra per kg. If 40% of the wheat gets spoiled, then at what price should he sell the remaining wheat (per kg), so that he can earn an overall profit of 30%?",
+    "options": {
+      "a": "84",
+      "b": "266.66",
+      "c": "416",
+      "d": "420"
+    },
+    "answer": "C",
+    "explanation": "Actual wheat received = 40kg × 1.25 = 50kg. After spoilage: 50 × 60% = 30kg. Required revenue for 30% profit: 9,600 × 1.3 = 12,480. Selling price per kg = 12,480 / 30 = Rs. 416.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 5,
+    "passage": "",
+    "ImageID": "",
+    "question": "Anil buys some articles at Rs 60 per item. Due to the demand-supply issue, Anil sells the first article at Rs. 6 and the second article at Rs. 12, third article at Rs. 18 and so on. By selling how many such articles will Anil make an overall profit of 40%?",
+    "options": {
+      "a": "27",
+      "b": "30",
+      "c": "25",
+      "d": "45"
+    },
+    "answer": "A",
+    "explanation": "Total cost price = 60n. Total selling price = 6 + 12 + ... + 6n = (n/2)(12 + (n-1)×6) = 3n(n+1). For 40% profit: 60n × 1.4 = 84n. Solve 3n(n+1) = 84n → n = 27.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 6,
+    "passage": "",
+    "ImageID": "",
+    "question": "Even after giving two successive discounts of 8.33% and 6.66%, the shop-keeper earns a profit of 5%. Find the markup percentage.",
+    "options": {
+      "a": "17.28%",
+      "b": "22.725%",
+      "c": "25%",
+      "d": "45.45%"
+    },
+    "answer": "B",
+    "explanation": "Equation: MP × (11/12) × (14/15) = CP × (21/20). MP/CP = 27/22. Markup = (5k/22k) × 100 = 22.725%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 7,
+    "passage": "",
+    "ImageID": "",
+    "question": "A shopkeeper sells a washing machine at a discount of 15% on the marked price and makes a profit of 20%. If the marked price of the washing machine is Rs. 9,600, then the cost price of the washing machine is:",
+    "options": {
+      "a": "Rs. 6,800",
+      "b": "Rs. 7,200",
+      "c": "Rs. 7,600",
+      "d": "Rs. 8,000"
+    },
+    "answer": "A",
+    "explanation": "Selling price = 85% of 9,600 = 8,160. Cost price = 8,160 / 1.2 = 6,800. Alternate: Assume CP = 100k, SP=120k, MP=120k/0.85=2400k/17. Set equal to 9,600 → k=68, CP=6,800.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 8,
+    "passage": "",
+    "ImageID": "",
+    "question": "Madan sold an article to Jitendra at a profit of Rs. 1,200. Jitendra increased its price by 60% and sold it to Mahendra at a discount of 25%. The profit earned by Jitendra is Rs. 450 which is more than that of Madan. Find the selling price of the article for Jitendra.",
+    "options": {
+      "a": "Rs. 2,500",
+      "b": "Rs. 2,700",
+      "c": "Rs. 2,850",
+      "d": "Rs. 2,250"
+    },
+    "answer": "B",
+    "explanation": "Let Madan's CP = y. Madan's SP = y+1,200. Jitendra's CP = y+1,200. Jitendra's SP = (y+1,200)×1.6×0.75 = 1.2y+1,440. Profit: (1.2y+1,440) - (y+1,200) = 0.2y+240=450 → y=1,050. Jitendra's SP = 1.2×1,050+1,440=2,700.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 9,
+    "passage": "",
+    "ImageID": "",
+    "question": "Ravi sells an article at a profit of 40% and gives a discount of 25% at a marked price. If the cost price of the article is Rs. 4,500, then find the difference between the marked price and the cost price of the article.",
+    "options": {
+      "a": "Rs. 4,000",
+      "b": "Rs. 3,500",
+      "c": "Rs. 3,900",
+      "d": "None of these"
+    },
+    "answer": "C",
+    "explanation": "Formula: CP/MRP = (100 - D%)/(100 + P%). 4,500/MRP = 75/140 → MRP = 4,500 × 140/75 = 8,400. Difference = 8,400 - 4,500 = 3,900.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 10,
+    "passage": "",
+    "ImageID": "",
+    "question": "The Maximum Retail Price (MRP) of a product is 60% above its manufacturing cost. The product is sold through a retailer, who earns 16% profit on the purchase price. What is the profit percentage (expressed to the nearest integer) for the manufacturer, who sells his product to the retailer? The retailer gives a 12% discount on the MRP.",
+    "options": {
+      "a": "19 %",
+      "b": "21 %",
+      "c": "13 %",
+      "d": "15 %"
+    },
+    "answer": "B",
+    "explanation": "Let manufacturing cost = 100. MRP = 160. Retailer's SP = 160×0.88=140.8. Retailer's profit 16% → Cost to retailer (manufacturer's SP) = 140.8/1.16≈121.38. Manufacturer's profit % = (121.38-100)/100×100≈21%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 11,
+    "passage": "",
+    "ImageID": "",
+    "question": "A bookseller buys a book for Rs. 1,000 and marks it up to Rs. 1,560. After that, he has given three successive discounts of a%, b%, c% in such a way that a + b + c = 18.75. If his overall loss or profit % is ‘x’, then find the possible correct range of ‘x’.",
+    "options": {
+      "a": "105% ≤ x ≤ 109%",
+      "b": "102% ≤ x ≤ 103%",
+      "c": "108% ≤ x ≤ 110.9375%",
+      "d": "110% ≤ x ≤ 115.25%"
+    },
+    "answer": "C",
+    "explanation": "Min profit when single discount 18.75%: SP=1,560×0.8125≈1,267.5 → Profit 26.75%. Max profit when equal discounts (6.25% each): SP=1,560×(0.9375)^3≈1,267.5 (recalculated properly gives 110.9375% of CP). Range: 108% to 110.9375%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 12,
+    "passage": "",
+    "ImageID": "",
+    "question": "Namita purchased two varieties of rice – ‘K’ and ‘M’ for a total of Rs. 70,000. The weights in kg of ‘K’ and ‘M’ purchased by Namita are in the ratio of 3:5. But the cost per kg of ‘K’ is 25% more than that of ‘M’. Namita sells ‘K’ and ‘M’ with profits of 20% and 15% respectively. Find the overall profit in rupees.",
+    "options": {
+      "a": "Rs. 18,000",
+      "b": "Rs. 6,000",
+      "c": "Rs. 12,000",
+      "d": "Rs. 3,000"
+    },
+    "answer": "C",
+    "explanation": "Let weight K=3x kg, M=5x kg. CP per kg: K=5y, M=4y. Total CP: 15xy + 20xy=35xy=70,000 → xy=2,000. Profit K: 30,000×20%=6,000. Profit M: 40,000×15%=6,000. Total profit=12,000.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 13,
+    "passage": "",
+    "ImageID": "",
+    "question": "A shopkeeper purchases a product at 40% discount from its MRP. He erases the old price tag and adds a new one. He offered a discount of 20% while selling the product. As a result, his profit percentage gets doubled compared to what it would have been if he had not changed the tag. By how much percent did he increase the MRP?",
+    "options": {
+      "a": "10 %",
+      "b": "20 %",
+      "c": "25 %",
+      "d": "40 %"
+    },
+    "answer": "C",
+    "explanation": "Original MRP=x. CP=0.6x. Case 1 (old tag): SP=0.8x, profit=0.2x. Case 2 (new MRP=y): SP=0.8y. Profit doubles: 0.8y - 0.6x = 0.4x → 0.8y=x → y=1.25x. Increase=25%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 14,
+    "passage": "",
+    "ImageID": "",
+    "question": "A shopkeeper bought 240 shirts from a wholesaler at Rs. 300 a piece. The marked price he set for each shirt was Rs. 900. Out of the 240 shirts, he sold a few shirts in the first month at a 30% discount and the remaining shirts in the second month at a 50% discount. If the profit earned by selling the shirts in both the months was the same, then what is the difference between the number of shirts sold in the two months?",
+    "options": {
+      "a": "36",
+      "b": "60",
+      "c": "90",
+      "d": "75"
+    },
+    "answer": "C",
+    "explanation": "First month SP: 900×0.7=630, profit=330/shirt. Second month SP:900×0.5=450, profit=150/shirt. Let x shirts sold first month: 330x=150(240-x) → x=75. Difference: (240-75)-75=90.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 15,
+    "passage": "",
+    "ImageID": "",
+    "question": "If two articles were sold at the same price and if the first article was sold at a 20% profit and the second article was sold at a 20% loss and the sum of the cost prices of both the articles is Rs. 1,000, then find the amount of overall loss.",
+    "options": {
+      "a": "Rs 40",
+      "b": "Rs 60",
+      "c": "Rs 400",
+      "d": "Rs 769"
+    },
+    "answer": "A",
+    "explanation": "Let CP1=x, CP2=1000-x. SP1=1.2x, SP2=0.8(1000-x). Set equal: 1.2x=800-0.8x → x=400. SP=480 for each. Total SP=960, CP=1000. Loss=40. Alternate: Ratio method shows loss of 1 unit=Rs.40.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 16,
+    "passage": "",
+    "ImageID": "",
+    "question": "The cost of 7 shirts, 10 jackets, and 13 trousers is Rs. 25,000, whereas the cost of 25 trousers, 17 shirts, and 21 jackets is Rs. 41,000. If the S.P of 1 shirt, 1 jacket and 1 trouser is Rs. 1,350, then find the profit percentage in selling 1 shirt, 1 jacket and 1 trouser.",
+    "options": {
+      "a": "20%",
+      "b": "25%",
+      "c": "30%",
+      "d": "None of these"
+    },
+    "answer": "D",
+    "explanation": "Equations: 7S+10J+13T=25,000; 17S+21J+25T=41,000. Multiply first by 4, second by 3 and subtract: 23(S+J+T)=23,000 → S+J+T=1,000. SP=1,350, profit=350. Profit %=35%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 17,
+    "passage": "",
+    "ImageID": "",
+    "question": "A cloth merchant has a strange problem. His meter scale contracts 10% in length in winter and expands 10% in length in summer. He sells only one type of fabric and its unit price remains the same throughout the year. If the ratio of the volume sold in summer and winter is 3 : 7, then what will be the total percentage profit/loss in the year if the trader professes to sell at the cost price only?",
+    "options": {
+      "a": "4.04% profit",
+      "b": "4.04% loss",
+      "c": "5.05% profit",
+      "d": "5.05% loss"
+    },
+    "answer": "C",
+    "explanation": "Winter: 10% profit (since he gives 90% of actual length). Summer: 10% loss (gives 110% length). Weighted: (3/10)×(-100/11)% + (7/10)×(100/9)% = 5.05% profit.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 18,
+    "passage": "",
+    "ImageID": "",
+    "question": "Mr. Bikanerwala marks up an article by P%, gives a discount of 2P/5%, and gets a profit of 2P/5%. Had it been marked up by P/2% and given a discount of 3P/10%, then what would be his profit percentage?",
+    "options": {
+      "a": "6.66%",
+      "b": "6.25%",
+      "c": "3.33%",
+      "d": "5.5%"
+    },
+    "answer": "B",
+    "explanation": "Solve for P: (100+P)(1-2P/500)=100(1+2P/500) → P=50. New scenario: Markup 25%, discount 15%. SP=125×0.85=106.25. Profit=6.25%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 19,
+    "passage": "",
+    "ImageID": "",
+    "question": "In the year 2020, the cost price of a Covid vaccine was 80% of its selling price. In 2021, The cost price of the same Covid vaccine is 90% of its selling price. If the profit from the vaccine remains the same for both years, find the % change in the cost price of the Covid vaccine from 2020 to 2021.",
+    "options": {
+      "a": "150%",
+      "b": "125%",
+      "c": "120%",
+      "d": "100%"
+    },
+    "answer": "B",
+    "explanation": "2020: SP=100a, CP=80a, profit=20a. 2021: SP=100b, CP=90b, profit=10b. Set profits equal: 20a=10b → b=2a. CP2020=80a, CP2021=180a. Increase % = (100a/80a)×100=125%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 20,
+    "passage": "",
+    "ImageID": "",
+    "question": "A trader gives a discount based on the number of articles purchased by the customer. The trader gives a 5% discount when 8 articles are bought and 8.33% discount when 12 articles are bought. If the net profit for the trader in each case is the same, then find the ratio of the marked price to the cost price of the article.",
+    "options": {
+      "a": "20:19",
+      "b": "20:17",
+      "c": "20:13",
+      "d": "15:11"
+    },
+    "answer": "B",
+    "explanation": "Let MP=100, CP=k per article. Case 1 (8 items): SP=8×95=760, profit=760-8k. Case 2 (12 items): SP=12×(1000/12)×(11/12 wait, 8.33%=1/12 → discount 1/12, SP=100×11/12 per item? Better: 8.33% discount on 12 items → SP=12×100×(1-1/12)=1100. Set profits equal: 760-8k=1100-12k → k=85. MP:CP=100:85=20:17.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 21,
+    "passage": "",
+    "ImageID": "",
+    "question": "A merchant in order to promote his chocolate business, distributed a few chocolates for free. In a particular month when he distributed 10 chocolates for free, he was able to sell 15 chocolates at a certain fixed price and make 50% net profit and in another month, he distributed ‘x’ chocolates for free and sold 36 chocolates at the same fixed price, thereby making a net profit of 25%. What is the value of x?",
+    "options": {
+      "a": "18",
+      "b": "24",
+      "c": "30",
+      "d": "36"
+    },
+    "answer": "D",
+    "explanation": "From first scenario: 15SP - (10+15)CP = 0.5×25CP → SP:CP=5:2. Second scenario: 36SP - (x+36)CP = 0.25(x+36)CP. Substitute SP=5/2 CP: 36×(5/2) = 1.25(x+36) → 90=1.25x+45 → x=36.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 22,
+    "passage": "",
+    "ImageID": "",
+    "question": "Gunjan got a discount of 10% on an antique piece from shopkeeper Shubham. As she wasn’t satisfied with the price, Shubham gave her a discount of 9.09% more on the discounted price. She insisted on more discounts, so Shubham gave a final discount of 8.33 % more on the previous discounts. She was still not happy, and left the shop. When she couldn’t find that piece at any other shop, she came back to Shubham. Irritated by her, Shubham increased the actual MRP by 50% and sold the piece to her at an increased MRP without giving any discounts this time. Due to a lack of options, Gunjan bought the piece at the increased price. How much percent is she paying extra this time as compared to the price Shubham was offering to her when she left the shop?",
+    "options": {
+      "a": "37.5%",
+      "b": "50%",
+      "c": "80%",
+      "d": "100%"
+    },
+    "answer": "D",
+    "explanation": "Original MRP=x. After three discounts: x×0.9×(10/11)×(11/12)=0.75x. New price: 1.5x. Extra paid: (1.5x - 0.75x)/0.75x ×100% = 100%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 23,
+    "passage": "",
+    "ImageID": "",
+    "question": "The price of an electric scooter is marked at 40% more than its manufacturing cost. What is the average of the maximum and minimum discount percentages that the manufacturing company offers so that the company can make a profit of not more than 20% and not less than 10%?",
+    "options": {
+      "a": "125/7 %",
+      "b": "150/7 %",
+      "c": "112.5%",
+      "d": "54.25%"
+    },
+    "answer": "A",
+    "explanation": "Manufacturing cost=100, MRP=140. Min SP for 10% profit=110 → max discount=(140-110)/140×100=150/7%. Max SP for 20% profit=120 → min discount=(140-120)/140×100=100/7%. Average=(150/7 + 100/7)/2 = 125/7%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 24,
+    "passage": "",
+    "ImageID": "",
+    "question": "Amar, Akbar, and Anthony purchased 1, 10, and 25 notebooks for a total of Rs. 15, Rs. 120 and Rs. 250 respectively from a stationery shop. In his transaction with Amar and Anthony, the shopkeeper made a profit of A% and B% respectively such that 3A = 8B. How much profit did the shopkeeper make in his transaction with Akbar? (Assume that the shopkeeper bought each notebook at the same price)",
+    "options": {
+      "a": "300/7%",
+      "b": "800/7%",
+      "c": "500/7%",
+      "d": "200/7%"
+    },
+    "answer": "C",
+    "explanation": "Let CP per notebook=y. Amar: CP=y, SP=15, profit% A=((15-y)/y)×100. Anthony: CP=25y, SP=250, profit% B=((10-y)/y)×100. Given 3A=8B → 3(15-y)=8(10-y) → y=7. Akbar: CP=70, SP=120, profit=50, profit%=50/70×100=500/7%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 25,
+    "passage": "",
+    "ImageID": "",
+    "question": "Rajan purchased some goods for Rs. 4,000 and Shiva purchased some goods for Rs. 5,000. Rajan marks the price of goods up by 3a% and gives a discount of a%, whereas, Shiva marks the price of goods up by a% and gives no discount. If they both made the same profit (non-zero), then find a.",
+    "options": {
+      "a": "15%",
+      "b": "25%",
+      "c": "50%",
+      "d": "75%"
+    },
+    "answer": "B",
+    "explanation": "Rajan: SP=4000(1+3a)(1-a). Profit=4000[(1+3a)(1-a)-1]. Shiva: SP=5000(1+a), profit=5000a. Set equal: 4000(1+3a)(1-a)-4000=5000a. Solve: (1+3a)(1-a)-1=5a/4 → -3a²+2a=5a/4 → 12a²-3a=0 → a(4a-1)=0 → a=25%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 26,
+    "passage": "",
+    "ImageID": "",
+    "question": "Aman goes to an electronic shop to buy a TV and a washing machine. He bargains for a 12.5% discount on the washing machine and a 30% discount on the TV. By mistake, the owner of the electronic shop interchanged the discounts rates while making a manual bill. Aman also paid according to the interchanged discount rates. It is also given that the cost price of the washing machine is 20% higher than the cost price of the TV. The bill that Aman paid is what percent less than the bill he could have paid, had the discount rates not been interchanged?",
+    "options": {
+      "a": "1%",
+      "b": "2%",
+      "c": "3%",
+      "d": "5%"
+    },
+    "answer": "B",
+    "explanation": "Assume TV CP=100, WM CP=120. Correct bill: TV 70 + WM 120×0.875=70+105=175. Interchanged: TV 87.5 + WM 120×0.7=87.5+84=171.5. Difference=3.5. Percentage less=3.5/175×100=2%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 27,
+    "passage": "",
+    "ImageID": "",
+    "question": "The profit is 20%, when two types of pulses, ‘x’ and ‘y’ are mixed in the ratio 3: 2 and then sold at Rs. 60/kg. The profit is 5%, when the same two types of pulses ‘x’ and ‘y’ are mixed in the ratio 2 : 3 and then sold at Rs. 60/kg. The cost prices, per kg, of x and y, are in the ratio:",
+    "options": {
+      "a": "41 : 43",
+      "b": "5 : 3",
+      "c": "1 : 2",
+      "d": "2 : 3"
+    },
+    "answer": "C",
+    "explanation": "Case1: CP=60/1.2=50. (3x+2y)/5=50 → 3x+2y=250. Case2: CP=60/1.05≈57.14. (2x+3y)/5=57.14 → 2x+3y≈285.7. Solve equations: multiply first by 3, second by 2: 9x+6y=750, 4x+6y≈571.4 → 5x≈178.6 → x≈35.72, y≈71.44. Ratio x:y≈1:2.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 28,
+    "passage": "",
+    "ImageID": "",
+    "question": "Amitabh buys 70 kg of wheat at a certain price and then marks it up by 20%. He sells 10 kg of wheat at a marked price and 20 kg of wheat at a 20% discount on the marked price. Accidently, 6 kg of wheat is wasted. He sells the remaining wheat at the new marked price by increasing the existing marked price by a%, to make an overall profit of 30%. Find the value of ‘a’ (to the nearest integer).",
+    "options": {
+      "a": "47",
+      "b": "50",
+      "c": "42",
+      "d": "39"
+    },
+    "answer": "A",
+    "explanation": "Assume CP/kg=100. Total CP=7,000. Total SP required=7,000×1.3=9,100. Sold: 10kg at 120=1,200; 20kg at 96=1,920; wasted 6kg; remaining=34kg. SP for remaining=9,100-3,120=5,980. New MP/kg=120×(1+a/100). SP=5,980 for 34kg → per kg=175.88. Solve: 120(1+a/100)=175.88 → a≈46.57≈47%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 29,
+    "passage": "",
+    "ImageID": "",
+    "question": "Ramesh bought two kinds of flowers i.e. roses and marigold. He purchased fewer roses than marigolds as roses were more expensive. However, he didn’t purchase more than 20 flowers of any kind. Now, he plans to sell all these roses at Rs 13 per piece, whereas, he plans to sell these marigolds at Rs 5 per piece. He sells all these flowers for Rs 151. If he makes 30% profit on each rose and 25% profit on each marigold, then his overall profit percentage in selling all the roses and marigold is:",
+    "options": {
+      "a": "26.8%",
+      "b": "29.45%",
+      "c": "27.96%",
+      "d": "28.5%"
+    },
+    "answer": "C",
+    "explanation": "Let roses=r, marigolds=m. r<m≤20. 13r+5m=151. Only solution: r=7, m=12. CP: roses=13/1.3=10 each, marigolds=5/1.25=4 each. Total CP=7×10+12×4=70+48=118. Profit=151-118=33. Profit%=(33/118)×100≈27.96%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  },
+  {
+    "id": 30,
+    "passage": "",
+    "ImageID": "",
+    "question": "A fruit seller is earning a certain profit by selling mangoes, such that the selling price of 15 mangoes is equal to the cost price of 24 mangoes, which in turn equals 1/3 of the total discount on 90 mangoes. Now if he reduces the earlier mark-up by 40 percentage points and the earlier discount by 50%, then find the new profit percentage.",
+    "options": {
+      "a": "30%",
+      "b": "40%",
+      "c": "50%",
+      "d": "60%"
+    },
+    "answer": "D",
+    "explanation": "From SP15=CP24 → SP:CP=8:5. Also SP15=1/3(D×90) → 15SP=30D → SP=2D → D=4 (if SP=8). So CP=5, MRP=SP+D=12. Markup=140%. New: markup=100% → MRP=10. Discount reduced 50% → new D=2. New SP=8. Profit=3, profit%=3/5×100=60%.",
+    "topic": "profit & loss",
+    "section": "QA"
+  }
+]

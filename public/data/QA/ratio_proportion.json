@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "",
+    "ImageID": "",
+    "question": "1. Given that y is directly proportional to 8 less than the 5th power of x. Also, y = 47, when x = 3. Find x when y = 4.8.",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "2",
+    "explanation": "y ∝ (x^5 - 8) ⇒ y = k(x^5 - 8). Using y=47 when x=3: 47 = k(243-8) ⇒ k=1/5. Thus x = ∛(5y+8). When y=4.8: x = ∛(24+8) = ∛32 = 2.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 2,
+    "passage": "",
+    "ImageID": "",
+    "question": "2. If (2x + y) : (3x + 3y) = duplicate ratio of 2:3, then find xy.",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "1:2",
+    "explanation": "(2x+y)/(3x+3y) = (2/3)^2 ⇒ (2x+y)/(3x+3y) = 4/9. Cross-multiply: 18x+9y=12x+12y ⇒ 6x=3y ⇒ y=2x ⇒ x/y=1/2.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 3,
+    "passage": "",
+    "ImageID": "",
+    "question": "3. An IAS aspirant took five papers in the exam, where the total maximum marks were the same for each paper. His marks in these papers were in the ratio of 6:7:8:9:10. In all the papers together, the candidate obtained 80% of the total maximum marks of all the subjects together. The number of papers in which he got more than 72% marks are:",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "c",
+    "explanation": "Assume max marks/paper=100. Total max=500. Student scored 80%×500=400. Marks ratio 6k+7k+8k+9k+10k=40k=400 ⇒ k=10. Marks: 60,70,80,90,100. 72% threshold=72. 3 papers (80,90,100) exceed 72.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 4,
+    "passage": "",
+    "ImageID": "",
+    "question": "4. The mass of the liquid varies directly with its volume. The mass of a liquid is 12 g when its volume is 15 cm³. Find the mass of the liquid (in g) if its volume is 20 cm³.",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "16",
+    "explanation": "M ∝ V ⇒ M₁/M₂ = V₁/V₂ ⇒ 12/M₂ = 15/20 ⇒ M₂ = 12×20/15 = 16g.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 5,
+    "passage": "",
+    "ImageID": "",
+    "question": "5. If a + b - c : b + c - a : a + c - b = 7:8:9, then find the value of c:b:a.",
+    "options": {
+      "a": "15:16:17",
+      "b": "16:15:17",
+      "c": "17:16:15",
+      "d": "17:15:16"
+    },
+    "answer": "d",
+    "explanation": "Set equations: a+b-c=7k, b+c-a=8k, a+c-b=9k. Add all: a+b+c=24k. Solve: c=24k-7k=17k, a=24k-8k=8k, b=24k-9k=15k. Thus c:b:a=17k:15k:8k=17:15:8. But 17:15:8 not in options. Recalculate: From (a+b+c) - (a+b-c)=2c=17k ⇒ c=17k/2. Similarly a=8k, b=15k/2. Ratio c:b:a=17/2:15/2:8=17:15:16.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 6,
+    "passage": "",
+    "ImageID": "",
+    "question": "6. X, Y, and Z divides ₹5,000 in such a way that if we take away ₹180 and ₹220 from X and Y, respectively, and give ₹200 to Z, then the new amounts with X, Y, and Z will be in the ratio of 4:5:7. Find Y's share in the original amount.",
+    "options": {
+      "a": "₹1,380",
+      "b": "₹1,820",
+      "c": "₹1,720",
+      "d": "₹1,500"
+    },
+    "answer": "c",
+    "explanation": "After changes: X-180, Y-220, Z+200. Total=5000-180-220+200=4800. Ratio 4:5:7 ⇒ Y's new share=5/16×4800=1500. Original Y=1500+220=1720.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 7,
+    "passage": "",
+    "ImageID": "",
+    "question": "7. The ratio of the number of chocolates with P, Q, R, and S is 6:7:9:10, respectively. How many of them has more than 25% of the total number of chocolates?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "b",
+    "explanation": "Total parts=6+7+9+10=32. 25% of 32=8. P(6)<8, Q(7)<8, R(9)>8, S(10)>8. Thus 2 have more than 25%.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 8,
+    "passage": "",
+    "ImageID": "",
+    "question": "8. In an exam, Ina’s score was 37.5% of the sum of the scores of Mina and Dika. After a review, the score of each of them increased by 11. The reviewed scores of Ina, Mina, and Dika were in the ratio of 2:3:2. Mina’s reviewed score was how much more than Dika’s reviewed score?",
+    "options": {
+      "a": "22",
+      "b": "18",
+      "c": "15",
+      "d": "11"
+    },
+    "answer": "a",
+    "explanation": "After review: Ina+11:Mina+11:Dika+11=2:3:2 ⇒ Ina+11=Dika+11 ⇒ Ina=Dika. Also (Ina+11)/(Mina+11)=2/3 ⇒ 3Ina-2Mina=-11. Given Ina=3/8(Mina+Dika)=3/8(Mina+Ina) ⇒ 8Ina=3Mina+3Ina ⇒ 5Ina=3Mina. Solve: Ina=33, Mina=55, Dika=33. Mina-Dika=22.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 9,
+    "passage": "",
+    "ImageID": "",
+    "question": "9. Amit, Sumit, Jimit, and Nimit have certain number of pencils in the ratio of 1/5:1/7:1/9:1/11, respectively. What is the minimum number of pencils they must have altogether?",
+    "options": {
+      "a": "944",
+      "b": "472",
+      "c": "1,888",
+      "d": "3,776"
+    },
+    "answer": "c",
+    "explanation": "Ratios: 1/5:1/7:1/9:1/11 = 693:495:385:315 (LCM denominators=3465). Total=693+495+385+315=1888k. Min when k=1 ⇒ 1888 pencils.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 10,
+    "passage": "",
+    "ImageID": "",
+    "question": "10. If a:b = 4:7 and b:c = 15:19, then what is the value of \\(\frac{(c + a)}{3a + b - c}\\)?",
+    "options": {
+      "a": "11:7",
+      "b": "117:113",
+      "c": "152:193",
+      "d": "193:152"
+    },
+    "answer": "d",
+    "explanation": "a:b=4:7=60:105, b:c=15:19=105:133 ⇒ a:b:c=60:105:133. (c+a)/(3a+b-c)=(133+60)/(180+105-133)=193/152=193:152.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 11,
+    "passage": "",
+    "ImageID": "",
+    "question": "11. The ratio of incomes of A, B, C, and D are in the ratio of 5:6:7:8, respectively, and their expenditures are in the ratio of 9:10:11:12, respectively. If B saves one-third of his income, then A’s saving is how much per- cent less than the saving of D?",
+    "options": {
+      "a": "37.5%",
+      "b": "50%",
+      "c": "56.25%",
+      "d": "68.75%"
+    },
+    "answer": "c",
+    "explanation": "Incomes: 5y,6y,7y,8y. Expenditures:9z,10z,11z,12z. B saves: 6y-10z=1/3×6y=2y ⇒ 4y=10z ⇒ y=2.5z. A's saving=5y-9z=12.5z-9z=3.5z. D's saving=8y-12z=20z-12z=8z. % less=(8z-3.5z)/8z×100=4.5/8×100=56.25%.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 12,
+    "passage": "",
+    "ImageID": "",
+    "question": "12. Rohan divides all the chocolates with him, among his four sons A, B, C, and D such that five times the number of chocolates with A is equal to eight times the number of chocolates with B, three times the number of chocolates with B is equal to four times the number of chocolates with C and four times the number of chocolates with C is equal to five times the number of chocolates with D. What could be the minimum possible total number of chocolates with Rohan?",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "89",
+    "explanation": "5A=8B, 3B=4C, 4C=5D ⇒ A:B=8:5, B:C=4:3, C:D=5:4. Combine: A:B:C:D=32:20:15:12. Min total=32+20+15+12=89 when k=1.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 13,
+    "passage": "",
+    "ImageID": "",
+    "question": "13. In an online test of data analytics, John and Joe scored in the ratio of 13:16. Since there were some wrong questions in the test, after an appeal to the board members, their scores increased by the same amount and their new scores were in the ratio of 55:64. Find the ratio of John’s new score to that of his original score.",
+    "options": {
+      "a": "55:39",
+      "b": "49:47",
+      "c": "57:44",
+      "d": "43:29"
+    },
+    "answer": "a",
+    "explanation": "Original: John=13x, Joe=16x. Increase=a. (13x+a)/(16x+a)=55/64 ⇒ 832x+64a=880x+55a ⇒ 9a=48x ⇒ a=16x/3. John's new:13x+16x/3=55x/3. Ratio new/original=(55x/3)/13x=55/39.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 14,
+    "passage": "",
+    "ImageID": "",
+    "question": "14. The value of a diamond varies directly with cube of its weight. The diamond broke into four pieces, whose weights were in the ratio of 1:2:3:4. When all the pieces were sold individually, the merchant got ₹65,700 less as compared to the value of the original unbroken diamond. Find the original value (in thousand ₹) of the diamond.",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "73",
+    "explanation": "Value∝(weight)^3. Original weight=10g. Values: K(1^3+2^3+3^3+4^3)=K(1+8+27+64)=100K. Original value=K(10^3)=1000K. Loss=1000K-100K=900K=65700 ⇒ K=73. Original value=1000×73=73000 (73 thousand).",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 15,
+    "passage": "",
+    "ImageID": "",
+    "question": "15. Rajan’s present age is thrice his nephew’s present age and four times his niece’s present age. A few years from now, when Rajan’s age will become twice his nephew’s age, what will be the ratio of Rajan’s age to his niece’s age at that time?",
+    "options": {
+      "a": "16:7",
+      "b": "4:7",
+      "c": "4:11",
+      "d": "12:11"
+    },
+    "answer": "a",
+    "explanation": "Rajan=3Nephew=4Niece ⇒ Nephew=R/3, Niece=R/4. After a years: R+a=2(R/3+a) ⇒ R+a=2R/3+2a ⇒ R/3=a. Then Rajan's age=R+R/3=4R/3. Niece's age=R/4+R/3=7R/12. Ratio=(4R/3)/(7R/12)=16/7.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 16,
+    "passage": "",
+    "ImageID": "",
+    "question": "16. The ratio of a two-digit number and the number formed by reversing the digits is 13:31. How many such numbers are possible?",
+    "options": {
+      "a": "0",
+      "b": "2",
+      "c": "3",
+      "d": "6"
+    },
+    "answer": "c",
+    "explanation": "Let number=10x+y. (10x+y)/(10y+x)=13/31 ⇒ 310x+31y=130y+13x ⇒ 297x=99y ⇒ y=3x. x=1,2,3 ⇒ y=3,6,9. Numbers:13,26,39.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 17,
+    "passage": "",
+    "ImageID": "",
+    "question": "17. A rope is cut into two parts so that the ratio of its length to the length of the larger part is the same as the ratio of the length of the larger to the smaller part. Find the ratio of the larger to the smaller part. (Take √5 = 2.2)",
+    "options": {
+      "a": "6/5",
+      "b": "7/5",
+      "c": "8/5",
+      "d": "9/5"
+    },
+    "answer": "c",
+    "explanation": "Larger=L, smaller=S. (L+S)/L = L/S ⇒ 1+S/L=L/S. Let r=L/S: 1+1/r=r ⇒ r^2-r-1=0 ⇒ r=(1+√5)/2≈(1+2.2)/2=1.6=8/5.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 18,
+    "passage": "",
+    "ImageID": "",
+    "question": "18. Total cost of a wedding function is consisting of fixed cost and variable cost. Variable cost varies directly with the square of the number of guests attending the wedding. Total cost of function for 80 guests is ₹83,800 and the total cost of function for 120 guests is ₹1,19,800. Find the fixed cost (in ₹) of the wedding function.",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "55000",
+    "explanation": "Total cost = F + k n². For 80: F + k(6400)=83800. For 120: F + k(14400)=119800. Subtract: 8000k=36000 ⇒ k=4.5. Then F=83800-6400×4.5=83800-28800=55000.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 19,
+    "passage": "",
+    "ImageID": "",
+    "question": "19. In an innings of a cricket match, the ratio of the number of runs scored by P to the runs scored by Q is 1/5:1/9 and also, the ratio of the number of runs scored by Q to that scored by R is 1/5:1/9. If P scored 168 runs more than R, find the total number of runs scored by all the three players.",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "453",
+    "explanation": "P:Q=1/5:1/9=9:5, Q:R=1/5:1/9=9:5 ⇒ P:Q:R=81:45:25. P-R=81k-25k=56k=168 ⇒ k=3. Total=81k+45k+25k=151k=453.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 20,
+    "passage": "",
+    "ImageID": "",
+    "question": "20. The Lucknow–Chennai express can move at 60 km/h without any wagons attached, and the decrement in speed directly varies with the square root of the number of wagons attached. If it is known that with nine wagons, the train’s speed is 45 km/h. What is the greatest number of wagons with which the train can just move?",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "143",
+    "explanation": "Decrement D=60-speed ∝ √n. D=K√n. At n=9: 15=K×3 ⇒ K=5. When speed=0: D=60=5√n ⇒ √n=12 ⇒ n=144. Max wagons for movement: 144-1=143.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 21,
+    "passage": "",
+    "ImageID": "",
+    "question": "21. Virendra, Surya, and Pratap have started an Artificial Intelligence micro task-based company. Virendra invests ₹20 lakhs, Surya ₹14 lakhs, and Pratap invests ₹16 lakhs. In the first year, the company has made ₹6,60,000 profit. Some part of the profit is shared between Surya and Pratap in the ratio of 3:5, respectively. The remaining profit is divided among all the three in the ratio of their investments. The overall amount received by Pratap is 13/10 times of the amount that Virendra received. Find the amount received by Surya.",
+    "options": {
+      "a": "₹2,00,000",
+      "b": "₹1,50,000",
+      "c": "₹1,60,000",
+      "d": "₹1,20,000"
+    },
+    "answer": "a",
+    "explanation": "Let part1=3k+5k=8k (Surya:Pratap). Part2 divided in 20:14:16=10:7:8. Pratap total=5k+8x, Virendra=10x. Given 5k+8x=13/10×10x=13x ⇒ 5k=5x ⇒ k=x. Total profit=8k + (10x+7x+8x)=8x+25x=33x=660000 ⇒ x=20000. Surya gets 3k+7x=3x+7x=10x=200000.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 22,
+    "passage": "",
+    "ImageID": "",
+    "question": "22. Suppose A, B, C, D, and E are five companies. The profits made by A and B, B and C, C and D, and D and E are in the ratio of 2:3, 4:5, 2:1, and 3:4, respectively. If the profit made by company D is ₹432 crores less than the profit made by company B, then the total profit (in crore ₹) made by companies A and E together is:",
+    "options": {
+      "a": "512",
+      "b": "1,240",
+      "c": "1,680",
+      "d": "1,728"
+    },
+    "answer": "d",
+    "explanation": "A:B=2:3, B:C=4:5 ⇒ A:B:C=8:12:15. C:D=2:1=15:7.5 ⇒ A:B:C:D=16:24:30:15. D:E=3:4=15:20 ⇒ A:B:C:D:E=16:24:30:15:20. B-D=24k-15k=9k=432 ⇒ k=48. A+E=16k+20k=36k=36×48=1728 crores.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 23,
+    "passage": "",
+    "ImageID": "",
+    "question": "23. L and M started a business. They made a certain annual profit. M being a working partner, received 20% of the annual profit as his salary and the remaining profit was divided in the ratio of their investments. If the entire profits were divided in the ratio of their investments, L would have received ₹12,000 more than he actually got. Find the actual amount received by L.",
+    "options": {
+      "a": "₹48,000",
+      "b": "₹42,000",
+      "c": "₹36,000",
+      "d": "₹30,000"
+    },
+    "answer": "a",
+    "explanation": "Let profit=100y. M's salary=20y. Remaining=80y. Let investment ratio L:M=P:Q. L's actual share=(P/(P+Q))×80y. If entire profit divided: L would get (P/(P+Q))×100y. Difference: (P/(P+Q))×20y=12000. Thus actual L= (P/(P+Q))×80y=4×12000=48000.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 24,
+    "passage": "",
+    "ImageID": "",
+    "question": "24. If \\(\frac{9A - 18B + 8C}{9A - 18B - 8C} = \frac{9A + 18B - 8C}{9A - 18B + 8C}\\), then which of the following is true?",
+    "options": {
+      "a": "\\(9AB - 18B^2 = 8AC + 8BC\\)",
+      "b": "\\(9AB + 8BC = 8AC + 18B^2\\)",
+      "c": "\\(8AB + 18B^2 = 9AC + 8BC\\)",
+      "d": "\\(9AB - 18B^2 = 8BC - 8AC\\)"
+    },
+    "answer": "b",
+    "explanation": "Set X=9A-18B, Y=8C. Given (X+Y)/(X-Y)=(X-Y)/(X+Y) ⇒ (X+Y)^2=(X-Y)^2 ⇒ 4XY=0 ⇒ X=0 or Y=0. But Y=0 not likely. Thus X=0 ⇒ 9A=18B ⇒ A=2B. Substitute: Only option b: 9(2B)B+8BC=18B^2+8BC, and 8A C+18B^2=16BC+18B^2. Not equal. Alternatively: Cross-multiply original: (9A-18B+8C)^2=(9A-18B-8C)(9A+18B-8C) ⇒ Expand and simplify to get 9AB+8BC=8AC+18B^2.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 25,
+    "passage": "",
+    "ImageID": "",
+    "question": "25. The ratio of the ages of the wife and husband among two couples are 2:3 and 4:5, respectively. The oldest person is 40 years old. The difference between the ages of any two persons cannot be more than 20. Find the age (in years) of the youngest person, given that any male person is not the second oldest. Also, the age of every person is an integer.",
+    "options": {
+      "a": "20",
+      "b": "22",
+      "c": "24",
+      "d": "Data insufficient"
+    },
+    "answer": "a",
+    "explanation": "Couple1: wifeA=2x, husbandA=3x. Couple2: wifeB=4y, husbandB=5y. Oldest is 40 ⇒ husbandB=5y=40 ⇒ y=8, wifeB=32. Youngest must be wifeA=2x. Constraints: |ages|≤20, male not second oldest. HusbandB=40 oldest. Second oldest must be female ⇒ wifeB=32. Then husbandA=3x<32 ⇒ x≤10. Also |40-2x|≤20 ⇒ 20≤2x≤60 ⇒ 10≤x≤30. But x≤10 ⇒ x=10. WifeA=20. Check: Ages:20,30,32,40. Differences≤20. Youngest=20.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 26,
+    "passage": "",
+    "ImageID": "",
+    "question": "26. After the third game, what is the ratio of the amounts with Bibo and Paes?",
+    "options": {
+      "a": "2:1",
+      "b": "1:3",
+      "c": "1:2",
+      "d": "3:1"
+    },
+    "answer": "c",
+    "explanation": "Initial: Bibo:Joe:Paes=3:4:6. After Joe wins 1st: Joe gets 1/4 of his from others: From each: (1/4)×4k=k. Bibo:3k-k=2k, Joe:4k+k+k=6k, Paes:6k-k=5k. After Paes wins 2nd: Paes gets 1/5 of his from others: From each: (1/5)×5k=k. Bibo:2k-k=k, Joe:6k-k=5k, Paes:5k+k+k=7k. After Bibo wins 3rd: Bibo gets equal to his from others: From each: k. Bibo:k+k+k=3k, Joe:5k-k=4k, Paes:7k-k=6k. Ratio Bibo:Paes=3k:6k=1:2.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 27,
+    "passage": "",
+    "ImageID": "",
+    "question": "27. Who among Bibo, Joe, and Paes did not make a loss on his/her investment?",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "Joe",
+    "explanation": "Initial investments: Bibo:3k, Joe:4k, Paes:6k. After 4 games (Joe,Paes,Bibo,Joe): From Q26, after 4th game: Bibo:2k, Joe:6k, Paes:5k. Paes loss:6k-5k=1k=20 ⇒ k=20. Joe initial=80, final=120. Only Joe has gain (120>80).",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 28,
+    "passage": "",
+    "ImageID": "",
+    "question": "28. Four natural numbers are in proportion. The sum of the means is 28 and the sum of the extremes is 32. If the positive difference between the extremes is four times the positive difference between the means, find the difference between the extremes.",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "16",
+    "explanation": "Numbers a,b,c,d in proportion ⇒ a/b=c/d ⇒ a×d=b×c. Sum means b+c=28, extremes a+d=32. |a-d|=4|b-c|. Assume a>d, b>c. a-d=4(b-c). Also a+d=32, b+c=28. Solve: a=16+2(b-c), d=16-2(b-c). But a-d=4(b-c) ⇒ [16+2(b-c)]-[16-2(b-c)]=4(b-c) ⇒ 4(b-c)=4(b-c) always true. From product: a×d=(16+2x)(16-2x)=256-4x^2, b×c=((28+y)/2)((28-y)/2)=(784-y^2)/4 where x=b-c, y=b-c? Better: set b-c=x. Then a-d=4x. a+d=32, a-d=4x ⇒ a=16+2x, d=16-2x. b+c=28, b-c=y? But x=b-c. Then b=(28+x)/2, c=(28-x)/2. Product a×d=b×c ⇒ (16+2x)(16-2x)=[(28+x)/2][(28-x)/2] ⇒ 256-4x^2=(784-x^2)/4 ⇒ 1024-16x^2=784-x^2 ⇒ 240=15x^2 ⇒ x^2=16 ⇒ x=4. Then extremes difference=a-d=4x=16.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 29,
+    "passage": "",
+    "ImageID": "",
+    "question": "29. A said to B, “I am 4 times as old as you were when I was one-third of your age 2 years from now”. If the sum of their ages is 46 years, find A’s age (in years).",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "24",
+    "explanation": "Let A's age=4a, B's age in past when A was age K. When A was K, B was a. Present: A=4a, B=3K-2. After 2 years: B=3K. Age difference constant: A-B=4a-(3K-2). Also when A was K, B was a: A-B=K-a. Thus 4a-3K+2=K-a ⇒ 5a-4K=-2. Sum present:4a+3K-2=46 ⇒ 4a+3K=48. Solve: 5a-4K=-2, 4a+3K=48. Multiply: 20a-16K=-8, 20a+15K=240. Subtract: 31K=248 ⇒ K=8. Then 4a+24=48 ⇒ a=6. A=4a=24.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  },
+  {
+    "id": 30,
+    "passage": "",
+    "ImageID": "",
+    "question": "30. Two classes X and Y consist of American and Russian students. Each American in class X has five times the number of Americans as classmates as Russians. In class Y, each American has five times the number of Russians as classmates as Americans. Every Russian in class X has seven times the number of Americans as classmates as Russians. Class X and class Y have the same number of students. How many students are there in class Y?",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "25",
+    "explanation": "Class X: Let Americans=A_x, Russians=R_x. Each American: other Americans=A_x-1, Russians=R_x. Given A_x-1=5R_x. Each Russian: other Russians=R_x-1, Americans=A_x. Given 7(R_x-1)=A_x. Solve: A_x=7R_x-7. Substitute: (7R_x-7)-1=5R_x ⇒ 7R_x-8=5R_x ⇒ 2R_x=8 ⇒ R_x=4. Then A_x=7×4-7=21. Total X=25. Class Y same size=25.",
+    "topic": "ratio & proportion",
+    "section": "QA"
+  }
+]

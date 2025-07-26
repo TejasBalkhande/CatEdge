@@ -1,0 +1,83 @@
+{
+  "passages": [
+    {
+      "id": "P1",
+      "text": "Directions for Questions 37 to 39:\nAnswer these questions based on the following information. There are 250 integers a1, a2,… a250, not all of them necessarily different. Let the greatest integer of these 250 integers be referred to as Max, and the smallest integer be referred to as Min. The integers a1 through a124 form sequence A and the rest form sequence B. Each member of A is less than or equal to each member of B."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "A car after traveling 18 km from A develops a problem. After that, it proceeds at 3/4th its original speed and reaches city B 2 hours late. If the total distance between A and B is 66 km, what is the original speed of the car?",
+      "options": {
+        "a": "25",
+        "b": "30",
+        "c": "20",
+        "d": "None of these"
+      },
+      "answer": "b",
+      "topic": "Time-Speed-Distance",
+      "difficulty": "Easy",
+      "section": "QA"
+    },
+    {
+      "id": 37,
+      "passage_id": "P1",
+      "question": "All values in A are changed in sign, while those in B remain unchanged. Which of the following statements is true?",
+      "options": {
+        "a": "Every member of A is greater than or equal to every member of B.",
+        "b": "Max is in A.",
+        "c": "If all numbers originally in A and B had the same sign, then after the change of sign, the largest number of A and B is in A.",
+        "d": "None of these."
+      },
+      "answer": "c",
+      "topic": "Number Series",
+      "difficulty": "Medium",
+      "section": "QA"
+    },
+    {
+      "id": 38,
+      "passage_id": "P1",
+      "passage": "Directions for Questions 37 to 39: Answer these questions based on the following information. … Each member of A is less than or equal to each member of B.",
+      "question": "Elements of A are in ascending order, and those of B are in descending order. a124 and a125 are interchanged. Then which of the following statements is true?",
+      "options": {
+        "a": "A continues to be in ascending order.",
+        "b": "B continues to be in descending order.",
+        "c": "A continues to be in ascending order and B in descending order.",
+        "d": "None of the above."
+      },
+      "answer": "d",
+      "topic": "Number Series",
+      "difficulty": "Medium",
+      "section": "QA"
+    },
+    {
+      "id": 3,
+      "question": "Mr. and Mrs. Shah travel from City A to City B starting at the same time. Mr. Shah takes 5 hours, and Mrs. Shah takes 4 hours. If Mr. Shah leaves 1 hour earlier and they meet at some point, how far is City B?",
+      "options": {
+        "a": "200 km",
+        "b": "100 km",
+        "c": "400 km",
+        "d": "300 km"
+      },
+      "answer": "a",
+      "topic": "Time-Speed-Distance",
+      "difficulty": "Easy",
+      "section": "QA"
+    },
+    {
+      "id": 4,
+      "question": "A group of five friends – P, Q, R, S, and T – are sitting in a row. P is not at the ends, and Q is to the left of S. R is to the right of P. Who is sitting at the right end?",
+      "options": {
+        "a": "Q",
+        "b": "T",
+        "c": "R",
+        "d": "S"
+      },
+      "answer": "d",
+      "topic": "Linear Arrangement",
+      "difficulty": "Easy",
+      "section": "DILR"
+    }
+  ]
+}

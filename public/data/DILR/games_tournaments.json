@@ -1,0 +1,403 @@
+[
+  {
+    "id": 1,
+    "passage": "Sixteen teams have been invited to participate in the ABC Gold Cup cricket tournament. The tournament is conducted in two stages. In the first stage, the teams are divided into two groups. Each group consists of eight teams, each team playing with every other team in its group exactly once. At the end of the first stage, the top four teams from each group advance to the second stage while the rest are eliminated. The second stage comprises of several rounds. Every round involves exactly one match for every team. The winner of a match in a round advances to the next round, while the loser is eliminated. The team that remains undefeated in the second stage is declared the winner and claims the Gold Cup.\n\nThe tournament rules are such that each match results in a winner and a loser with no possibility of a tie. In the first stage, a team earns one point for each win and no points for a loss. At the end of the first stage, teams in each group are ranked on the basis of total points to determine the qualifiers advancing to the next stage. Ties are resolved by a series of complex tie-breaking rules so that exactly four teams from each group advance to the next stage.",
+    "ImageID": "",
+    "question": "What is the total number of matches played in the tournament?",
+    "options": {
+      "a": "28",
+      "b": "55",
+      "c": "63",
+      "d": "56"
+    },
+    "answer": "c",
+    "explanation": "There are 8 teams in each group. Each team plays every other team once, so the number of matches per group is \\( \\binom{8}{2} = 28 \\). With two groups, the first stage has 56 matches. The second stage is a knockout with 8 teams, requiring 7 matches (since each match eliminates one team). Total matches = 56 + 7 = 63.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 2,
+    "passage": "Sixteen teams have been invited to participate in the ABC Gold Cup cricket tournament. The tournament is conducted in two stages. In the first stage, the teams are divided into two groups. Each group consists of eight teams, each team playing with every other team in its group exactly once. At the end of the first stage, the top four teams from each group advance to the second stage while the rest are eliminated. The second stage comprises of several rounds. Every round involves exactly one match for every team. The winner of a match in a round advances to the next round, while the loser is eliminated. The team that remains undefeated in the second stage is declared the winner and claims the Gold Cup.\n\nThe tournament rules are such that each match results in a winner and a loser with no possibility of a tie. In the first stage, a team earns one point for each win and no points for a loss. At the end of the first stage, teams in each group are ranked on the basis of total points to determine the qualifiers advancing to the next stage. Ties are resolved by a series of complex tie-breaking rules so that exactly four teams from each group advance to the next stage.",
+    "ImageID": "",
+    "question": "The minimum number of wins needed for a team in the first stage to guarantee its advancement to the next stage is",
+    "options": {
+      "a": "5",
+      "b": "6",
+      "c": "7",
+      "d": "4"
+    },
+    "answer": "b",
+    "explanation": "With 5 wins, it's possible to have five teams each with 5 wins in a group (total matches = 28, and points distributed such that five teams have 5 wins). Since only four teams advance, 5 wins may not guarantee advancement. With 6 wins, it's impossible to have more than four teams with 6+ wins (as total wins per group = 28). Thus, 6 wins guarantee advancement.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 3,
+    "passage": "Sixteen teams have been invited to participate in the ABC Gold Cup cricket tournament. The tournament is conducted in two stages. In the first stage, the teams are divided into two groups. Each group consists of eight teams, each team playing with every other team in its group exactly once. At the end of the first stage, the top four teams from each group advance to the second stage while the rest are eliminated. The second stage comprises of several rounds. Every round involves exactly one match for every team. The winner of a match in a round advances to the next round, while the loser is eliminated. The team that remains undefeated in the second stage is declared the winner and claims the Gold Cup.\n\nThe tournament rules are such that each match results in a winner and a loser with no possibility of a tie. In the first stage, a team earns one point for each win and no points for a loss. At the end of the first stage, teams in each group are ranked on the basis of total points to determine the qualifiers advancing to the next stage. Ties are resolved by a series of complex tie-breaking rules so that exactly four teams from each group advance to the next stage.",
+    "ImageID": "",
+    "question": "What is the highest number of wins for a team in the first stage in spite of which it could be eliminated at the end of first stage?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "4",
+      "d": "5"
+    },
+    "answer": "d",
+    "explanation": "A team with 5 wins can be eliminated if there are five teams in the group each with 5 wins (total group matches = 28). Since only four teams advance, one team with 5 wins will be eliminated. Teams with 6+ wins cannot be eliminated, as it's impossible to have five teams with 6+ wins.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 4,
+    "passage": "Sixteen teams have been invited to participate in the ABC Gold Cup cricket tournament. The tournament is conducted in two stages. In the first stage, the teams are divided into two groups. Each group consists of eight teams, each team playing with every other team in its group exactly once. At the end of the first stage, the top four teams from each group advance to the second stage while the rest are eliminated. The second stage comprises of several rounds. Every round involves exactly one match for every team. The winner of a match in a round advances to the next round, while the loser is eliminated. The team that remains undefeated in the second stage is declared the winner and claims the Gold Cup.\n\nThe tournament rules are such that each match results in a winner and a loser with no possibility of a tie. In the first stage, a team earns one point for each win and no points for a loss. At the end of the first stage, teams in each group are ranked on the basis of total points to determine the qualifiers advancing to the next stage. Ties are resolved by a series of complex tie-breaking rules so that exactly four teams from each group advance to the next stage.",
+    "ImageID": "",
+    "question": "What is the number of matches in the second stage of the tournament?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "4",
+      "d": "7"
+    },
+    "answer": "d",
+    "explanation": "The second stage has 8 teams in a knockout format. Quarterfinals: 4 matches (eliminates 4 teams), Semifinals: 2 matches (eliminates 2 teams), Final: 1 match (eliminates 1 team). Total matches = 4 + 2 + 1 = 7.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 5,
+    "passage": "Sixteen teams have been invited to participate in the ABC Gold Cup cricket tournament. The tournament is conducted in two stages. In the first stage, the teams are divided into two groups. Each group consists of eight teams, each team playing with every other team in its group exactly once. At the end of the first stage, the top four teams from each group advance to the second stage while the rest are eliminated. The second stage comprises of several rounds. Every round involves exactly one match for every team. The winner of a match in a round advances to the next round, while the loser is eliminated. The team that remains undefeated in the second stage is declared the winner and claims the Gold Cup.\n\nThe tournament rules are such that each match results in a winner and a loser with no possibility of a tie. In the first stage, a team earns one point for each win and no points for a loss. At the end of the first stage, teams in each group are ranked on the basis of total points to determine the qualifiers advancing to the next stage. Ties are resolved by a series of complex tie-breaking rules so that exactly four teams from each group advance to the next stage.",
+    "ImageID": "",
+    "question": "How many teams got eliminated after winning exactly one match in the second stage of the tournament?",
+    "options": {
+      "a": "4",
+      "b": "5",
+      "c": "2",
+      "d": "7"
+    },
+    "answer": "c",
+    "explanation": "In the second stage: First round (8 teams, 4 matches): 4 winners advance, 4 losers eliminated with 0 wins. Second round (4 teams, 2 matches): 2 winners advance, 2 losers eliminated with 1 win each. Final round (2 teams, 1 match): 1 winner, 1 loser eliminated with 2 wins. Thus, 2 teams eliminated after exactly one win.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 6,
+    "passage": "Certain number of players participated in a tournament. Each player was categorised as either a 'Pro' or an 'Amateur'. An 'Amateur' would immediately turn 'Pro' once he had played exactly 3 matches with 'Pro' players in the tournament. There were 3 rounds in the tournament. At the end of Round 3 it was found that each player had now turned a 'Pro'. No player left the tournament before the completion of Round 3.\n\nHere, P₁, P₂, A₁, A₂, N₁ and N₂ represent missing values in the table.\nFurther, the following information is given below:\n1. Each match involved one 'Pro' and one 'Amateur' player.\n2. It is not necessary that each player played a match in every Round.\n3. At the end of Round 1, the number of 'Amateur' players was half of the number of 'Pro' players.\n4. There were exactly 3 more 'Pro' players at the beginning of Round 2 as compared to the beginning of Round 1.",
+    "ImageID": "image/DILR/nine/6-8.png",
+    "question": "How many matches were played in the tournament?",
+    "options": {
+      "a": "30",
+      "b": "21",
+      "c": "24",
+      "d": "Cannot be determined"
+    },
+    "answer": "c",
+    "explanation": "Total players = 15 (from Round 3: 12 Pros + 3 Amateurs). From conditions: Round 1: P₁ = 7, A₁ = 8; Round 2: P₂ = 10, A₂ = 5. Each Amateur must play exactly 3 matches to become Pro, so total matches = 3 × initial Amateurs = 3 × 8 = 24.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 7,
+    "passage": "Certain number of players participated in a tournament. Each player was categorised as either a 'Pro' or an 'Amateur'. An 'Amateur' would immediately turn 'Pro' once he had played exactly 3 matches with 'Pro' players in the tournament. There were 3 rounds in the tournament. At the end of Round 3 it was found that each player had now turned a 'Pro'. No player left the tournament before the completion of Round 3.\n\nHere, P₁, P₂, A₁, A₂, N₁ and N₂ represent missing values in the table.\nFurther, the following information is given below:\n1. Each match involved one 'Pro' and one 'Amateur' player.\n2. It is not necessary that each player played a match in every Round.\n3. At the end of Round 1, the number of 'Amateur' players was half of the number of 'Pro' players.\n4. There were exactly 3 more 'Pro' players at the beginning of Round 2 as compared to the beginning of Round 1.",
+    "ImageID": "image/DILR/nine/6-8.png",
+    "question": "What can be the maximum possible difference between any two possible values of N₂?",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "answer": "c",
+    "explanation": "Total matches = 24, so N₁ + N₂ = 10. N₂ max occurs when N₁ is minimized. Minimum N₁ = 2 (if two Amateurs play 2 matches in Round 1 and 1 in Round 2). Then N₂ = 8. N₂ min = 3 (if three Amateurs play one match each in Round 3). Max difference = 8 - 3 = 5.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 8,
+    "passage": "Certain number of players participated in a tournament. Each player was categorised as either a 'Pro' or an 'Amateur'. An 'Amateur' would immediately turn 'Pro' once he had played exactly 3 matches with 'Pro' players in the tournament. There were 3 rounds in the tournament. At the end of Round 3 it was found that each player had now turned a 'Pro'. No player left the tournament before the completion of Round 3.\n\nHere, P₁, P₂, A₁, A₂, N₁ and N₂ represent missing values in the table.\nFurther, the following information is given below:\n1. Each match involved one 'Pro' and one 'Amateur' player.\n2. It is not necessary that each player played a match in every Round.\n3. At the end of Round 1, the number of 'Amateur' players was half of the number of 'Pro' players.\n4. There were exactly 3 more 'Pro' players at the beginning of Round 2 as compared to the beginning of Round 1.",
+    "ImageID": "image/DILR/nine/6-8.png",
+    "question": "Which of the following cannot be TRUE? I. \\( N_1 - N_2 = 4 \\) II. \\( N_1 - N_2 = 6 \\) III. \\( N_1 - N_2 = 3 \\)",
+    "options": {
+      "a": "Only I",
+      "b": "Only II",
+      "c": "Only III",
+      "d": "Both II and III"
+    },
+    "answer": "d",
+    "explanation": "N₁ + N₂ = 10, N₁ and N₂ are integers. N₁ ranges from 2 to 7. I: N₁=7, N₂=3 is possible. II: N₁=8, N₂=2 is invalid (N₁ max=7). III: N₁=6.5, N₂=3.5 is invalid (must be integers). Thus, II and III cannot be true.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 9,
+    "passage": "In a sports event, six teams (A, B, C, D, E and F) are competing against each other. Matches are scheduled in two stages. Each team plays three matches in stage – I and two matches in Stage – II. No team plays against the same team more than once in the event. No ties are permitted in any of the matches. The observations after the completion of Stage – I and Stage – II are as given below.\n\nStage-I:\n- One team won all the three matches.\n- Two teams lost all the matches.\n- D lost to A but won against C and F.\n- E lost to B but won against C and F.\n- B lost at least one match.\n- F did not play against the top team of Stage-I.\n\nStage-II:\n- The leader of Stage-I lost the two matches in Stage-II.\n- Of the two teams at the bottom after Stage-I, one team won both matches, while the other lost both matches.\n- One more team lost both matches in Stage-II.",
+    "ImageID": "",
+    "question": "The two teams that defeated the leader of Stage-I are:",
+    "options": {
+      "a": "F & D",
+      "b": "E & F",
+      "c": "B & D",
+      "d": "E & D"
+    },
+    "answer": "b",
+    "explanation": "Stage-I leader is A (won all 3). In Stage-II, A lost to E and F (as per Stage-II conditions and matchup constraints).",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 10,
+    "passage": "In a sports event, six teams (A, B, C, D, E and F) are competing against each other. Matches are scheduled in two stages. Each team plays three matches in stage – I and two matches in Stage – II. No team plays against the same team more than once in the event. No ties are permitted in any of the matches. The observations after the completion of Stage – I and Stage – II are as given below.\n\nStage-I:\n- One team won all the three matches.\n- Two teams lost all the matches.\n- D lost to A but won against C and F.\n- E lost to B but won against C and F.\n- B lost at least one match.\n- F did not play against the top team of Stage-I.\n\nStage-II:\n- The leader of Stage-I lost the two matches in Stage-II.\n- Of the two teams at the bottom after Stage-I, one team won both matches, while the other lost both matches.\n- One more team lost both matches in Stage-II.",
+    "ImageID": "",
+    "question": "The only team(s) that won both matches in Stage-II is (are):",
+    "options": {
+      "a": "B",
+      "b": "E & F",
+      "c": "A, E & F",
+      "d": "B, E & F"
+    },
+    "answer": "d",
+    "explanation": "B won against C and D in Stage-II. E won against A and D. F won against A and C. Thus, B, E, and F won both matches in Stage-II.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 11,
+    "passage": "In a sports event, six teams (A, B, C, D, E and F) are competing against each other. Matches are scheduled in two stages. Each team plays three matches in stage – I and two matches in Stage – II. No team plays against the same team more than once in the event. No ties are permitted in any of the matches. The observations after the completion of Stage – I and Stage – II are as given below.\n\nStage-I:\n- One team won all the three matches.\n- Two teams lost all the matches.\n- D lost to A but won against C and F.\n- E lost to B but won against C and F.\n- B lost at least one match.\n- F did not play against the top team of Stage-I.\n\nStage-II:\n- The leader of Stage-I lost the two matches in Stage-II.\n- Of the two teams at the bottom after Stage-I, one team won both matches, while the other lost both matches.\n- One more team lost both matches in Stage-II.",
+    "ImageID": "",
+    "question": "The teams that won exactly two matches in the event are:",
+    "options": {
+      "a": "A, D & F",
+      "b": "D & F",
+      "c": "E & F",
+      "d": "D, E & F"
+    },
+    "answer": "b",
+    "explanation": "D: Won 2 in Stage-I (C,F), lost both in Stage-II → total 2 wins. F: Lost all in Stage-I, won 2 in Stage-II (A,C) → total 2 wins. A: Won 3 in Stage-I, lost both in Stage-II → 3 wins. Others have more or fewer wins.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 12,
+    "passage": "In a sports event, six teams (A, B, C, D, E and F) are competing against each other. Matches are scheduled in two stages. Each team plays three matches in stage – I and two matches in Stage – II. No team plays against the same team more than once in the event. No ties are permitted in any of the matches. The observations after the completion of Stage – I and Stage – II are as given below.\n\nStage-I:\n- One team won all the three matches.\n- Two teams lost all the matches.\n- D lost to A but won against C and F.\n- E lost to B but won against C and F.\n- B lost at least one match.\n- F did not play against the top team of Stage-I.\n\nStage-II:\n- The leader of Stage-I lost the two matches in Stage-II.\n- Of the two teams at the bottom after Stage-I, one team won both matches, while the other lost both matches.\n- One more team lost both matches in Stage-II.",
+    "ImageID": "",
+    "question": "The team(s) with the most wins in the event is (are):",
+    "options": {
+      "a": "A",
+      "b": "A & C",
+      "c": "B & E",
+      "d": "E"
+    },
+    "answer": "c",
+    "explanation": "B: 2 wins in Stage-I (E,F) + 2 wins in Stage-II (C,D) → 4 wins. E: 2 wins in Stage-I (C,F) + 2 wins in Stage-II (A,D) → 4 wins. A has 3 wins, others have fewer.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 13,
+    "passage": "Two players A and B are playing a game of matchsticks. Any player can pick 1, 2 or 3 sticks in his turn. The player who picks the last stick always loses. Assume that both the players play intelligently.",
+    "ImageID": "",
+    "question": "If there were 10 matchsticks in all and A starts the game, then how many matchsticks should he pick in his first move in order to always ensure a win?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "He can never win"
+    },
+    "answer": "a",
+    "explanation": "A should leave a multiple of 4 + 1 stick for B. Starting with 10, A picks 1, leaving 9. Now B faces 9 sticks (which is 4×2 +1). Whatever B picks (1,2,3), A can respond to leave 5 sticks. Then A leaves 1 stick for B's last move.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 14,
+    "passage": "Two players A and B are playing a game of matchsticks. Any player can pick 1, 2 or 3 sticks in his turn. The player who picks the last stick always loses. Assume that both the players play intelligently.",
+    "ImageID": "",
+    "question": "A starts the game and there are 10 matchsticks. If the option of picking 3 sticks is not exercisable, then how many should he pick in his first move in order to ensure a win?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "Either (1) or (2)",
+      "d": "He can never win"
+    },
+    "answer": "d",
+    "explanation": "Without picking 3, A can only pick 1 or 2. If A picks 1, leaves 9. B picks 2, leaves 7. A must pick 1 or 2. If A picks 1, B picks 2 to leave 4. A must pick 1 or 2, leaving 3 or 2 for B. B then leaves 1 for A to pick. Similarly, other moves lead to A losing.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 15,
+    "passage": "Two players A and B are playing a game of matchsticks. Any player can pick 1, 2 or 3 sticks in his turn. The player who picks the last stick always loses. Assume that both the players play intelligently.",
+    "ImageID": "",
+    "question": "In question 12, if in his first chance, A picks up 2, then how many would B pick in his first move in order to win?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "Either 1 or 2",
+      "d": "B can never win"
+    },
+    "answer": "a",
+    "explanation": "A picks 2, leaving 8. B should pick 1 to leave 7. Now A is forced to leave 4-6 sticks. B then leaves 4 sticks (multiple of 4). A must pick 1-3, leaving 1-3 for B. B picks all but one, leaving 1 for A.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 16,
+    "passage": "Two players A and B are playing a game of matchsticks. Any player can pick 1, 2 or 3 sticks in his turn. The player who picks the last stick always loses. Assume that both the players play intelligently.",
+    "ImageID": "",
+    "question": "If there were 16 matchsticks and the rule of the game was that anybody picking the last stick wins then which of the following is always true?",
+    "options": {
+      "a": "The person who starts can never win.",
+      "b": "The person who starts will always pick 2 matchsticks.",
+      "c": "The person who plays second can never win.",
+      "d": "The person who plays second always picks 1 matchsticks."
+    },
+    "answer": "a",
+    "explanation": "16 is divisible by 4. The second player can always mirror the first player's moves (if A picks k, B picks 4-k). After 4 rounds, 16 sticks are picked, and B picks the last stick. Thus, the starter (A) cannot win.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 17,
+    "passage": "Four football teams – Arsenal, Milan, Barcelona and Lyon – played in the Emirates Cup. Each team played all the other teams exactly once during the tournament. A win earns a team 3 points, a draw earns 1 and a loss earns no points. Each team scored 3 goals in the Emirates Cup. Arsenal won the Cup with maximum points followed by Milan and then Barcelona. If no game ended in a draw, then how many goals were scored in the game between Barcelona and Lyon?",
+    "ImageID": "",
+    "question": "How many goals were scored in the game between Barcelona and Lyon?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4",
+      "e": "5"
+    },
+    "answer": "e",
+    "explanation": "Arsenal won all 3 games (9 pts), Milan 2 wins (6 pts), Barcelona 1 win (3 pts), Lyon 0 wins (0 pts). Goals: Arsenal won each game 1-0 (3 goals). Milan: Won one game 2-1 and another 1-0. Barcelona beat Lyon, and Lyon scored more goals against Milan than Barcelona. Barcelona-Lyon: Total goals for Barcelona in tournament = 3, so scored 3 vs Lyon. Lyon conceded 3 to Barcelona and 3 to Arsenal, but scored 1 vs Milan. Thus Barcelona-Lyon: 3-2 (5 goals).",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 18,
+    "passage": "The organizers of Indian Wells Tournament decided to seed (rank) all the 128 tennis players as per their ATP rankings. The highest ranked tennis player was seeded 1, the second highest was seeded 2 and so on. The tournament consisted of the conventional 6 knockout (loser of the match gets exited from the tournament) stages – Round I, Round II, Round III, Round IV, Quarter Finals and Semi Finals, before the Finals.\n\nIn the first round, Match 1 was between the highest seeded player and the lowest seeded player, Match 2 was between the second highest seeded player and the second lowest seeded player and so on.\n\nIn the second round, the winner of Match 1 in the first round plays with the winner of Match 64 of the first round and this match is termed as Match 1 of the Round II.\n\nA similar pattern is followed in the subsequent rounds.\nAn upset is a match where a lower seeded player defeats a higher seeded player.",
+    "ImageID": "",
+    "question": "What was the total number of matches played in the tournament?",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "127",
+    "explanation": "In a knockout tournament with 128 players, number of matches = 128 - 1 = 127 (since each match eliminates one player).",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 19,
+    "passage": "The organizers of Indian Wells Tournament decided to seed (rank) all the 128 tennis players as per their ATP rankings. The highest ranked tennis player was seeded 1, the second highest was seeded 2 and so on. The tournament consisted of the conventional 6 knockout (loser of the match gets exited from the tournament) stages – Round I, Round II, Round III, Round IV, Quarter Finals and Semi Finals, before the Finals.\n\nIn the first round, Match 1 was between the highest seeded player and the lowest seeded player, Match 2 was between the second highest seeded player and the second lowest seeded player and so on.\n\nIn the second round, the winner of Match 1 in the first round plays with the winner of Match 64 of the first round and this match is termed as Match 1 of the Round II.\n\nA similar pattern is followed in the subsequent rounds.\nAn upset is a match where a lower seeded player defeats a higher seeded player.",
+    "ImageID": "",
+    "question": "If there were no upsets in the tournament, who played against the player seeded 25th in Round III?",
+    "options": {
+      "a": "7th",
+      "b": "5th",
+      "c": "14th",
+      "d": "None of these"
+    },
+    "answer": "d",
+    "explanation": "With no upsets, the top 32 seeds reach Round III. Seed 25 would play seed 8 (since matches are paired as (1,32), (2,31), ..., (8,25), ..., (16,17)). Thus, opponent is seed 8.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 20,
+    "passage": "The organizers of Indian Wells Tournament decided to seed (rank) all the 128 tennis players as per their ATP rankings. The highest ranked tennis player was seeded 1, the second highest was seeded 2 and so on. The tournament consisted of the conventional 6 knockout (loser of the match gets exited from the tournament) stages – Round I, Round II, Round III, Round IV, Quarter Finals and Semi Finals, before the Finals.\n\nIn the first round, Match 1 was between the highest seeded player and the lowest seeded player, Match 2 was between the second highest seeded player and the second lowest seeded player and so on.\n\nIn the second round, the winner of Match 1 in the first round plays with the winner of Match 64 of the first round and this match is termed as Match 1 of the Round II.\n\nA similar pattern is followed in the subsequent rounds.\nAn upset is a match where a lower seeded player defeats a higher seeded player.",
+    "ImageID": "",
+    "question": "In the third round, match of the player seeded 5th was an upset, which of the following cannot be the seed of the player who defeated him?",
+    "options": {
+      "a": "37",
+      "b": "69",
+      "c": "92",
+      "d": "101"
+    },
+    "answer": "b",
+    "explanation": "Seed 5's possible opponents in Round III: Without upsets, would be seed 28. With upsets, could be seeds from the bracket that feeds into that match: seeds 28, 37, 92, 101. Seed 69 is not in this bracket (belongs to a different quarter).",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 21,
+    "passage": "The organizers of Indian Wells Tournament decided to seed (rank) all the 128 tennis players as per their ATP rankings. The highest ranked tennis player was seeded 1, the second highest was seeded 2 and so on. The tournament consisted of the conventional 6 knockout (loser of the match gets exited from the tournament) stages – Round I, Round II, Round III, Round IV, Quarter Finals and Semi Finals, before the Finals.\n\nIn the first round, Match 1 was between the highest seeded player and the lowest seeded player, Match 2 was between the second highest seeded player and the second lowest seeded player and so on.\n\nIn the second round, the winner of Match 1 in the first round plays with the winner of Match 64 of the first round and this match is termed as Match 1 of the Round II.\n\nA similar pattern is followed in the subsequent rounds.\nAn upset is a match where a lower seeded player defeats a higher seeded player.",
+    "ImageID": "",
+    "question": "If the player seeded 52nd went on to win the tournament, then what is the minimum number of upsets in the tournament?",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "6",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "explanation": "Seed 52 must defeat 6 higher-seeded opponents to win (R1: seed 77, R2: seed 13/116, R3: seed 5/124, R4: seed 4/125, QF: seed 1/128, SF: seed 3/126, F: seed 2/127). Minimum 6 upsets required.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 22,
+    "passage": "The organizers of Indian Wells Tournament decided to seed (rank) all the 128 tennis players as per their ATP rankings. The highest ranked tennis player was seeded 1, the second highest was seeded 2 and so on. The tournament consisted of the conventional 6 knockout (loser of the match gets exited from the tournament) stages – Round I, Round II, Round III, Round IV, Quarter Finals and Semi Finals, before the Finals.\n\nIn the first round, Match 1 was between the highest seeded player and the lowest seeded player, Match 2 was between the second highest seeded player and the second lowest seeded player and so on.\n\nIn the second round, the winner of Match 1 in the first round plays with the winner of Match 64 of the first round and this match is termed as Match 1 of the Round II.\n\nA similar pattern is followed in the subsequent rounds.\nAn upset is a match where a lower seeded player defeats a higher seeded player.",
+    "ImageID": "",
+    "question": "If the only upsets took place in the quarterfinals (for all the matches), what is the seed of the winner of the tournament?",
+    "options": {
+      "a": "3",
+      "b": "5",
+      "c": "6",
+      "d": "Cannot be determined"
+    },
+    "answer": "b",
+    "explanation": "With no upsets before QF, top 8 seeds reach QF. If all QF are upsets, seeds 5,6,7,8 win. SF: seed 5 vs 8, seed 6 vs 7. Final: seed 5 vs 6. Since no upset in SF/F, seed 5 wins (higher seed wins).",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 23,
+    "passage": "In a target shooting competition, a person is allowed to shoot at four targets successively, then followed by the next competitor. When all have finished one such round, the process is repeated. If a target is hit, the shooter is awarded two points. If he misses the target, the others are awarded one point each. The first person who gets 60 points wins the competition. In a contest between A, B and C, the final score card is \\( A = 60 \\), \\( B = 53 \\), \\( C = 43 \\). Out of a total of 78 shots fired, 43 hit the target.",
+    "ImageID": "",
+    "question": "Who was the second person to shoot?",
+    "options": {
+      "a": "A",
+      "b": "B",
+      "c": "C",
+      "d": "Either A or B"
+    },
+    "answer": "a",
+    "explanation": "Total shots = 78. Shooting sequence: cycles in sets of 12 shots (4 shots per person per round). 78 shots = 6 full rounds (72 shots) + 6 extra shots. The first shooter gets 28 shots, second 26, third 24. Solving score equations: C must be first shooter (28 shots), A second (26 shots), B third (24 shots).",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 24,
+    "passage": "In a target shooting competition, a person is allowed to shoot at four targets successively, then followed by the next competitor. When all have finished one such round, the process is repeated. If a target is hit, the shooter is awarded two points. If he misses the target, the others are awarded one point each. The first person who gets 60 points wins the competition. In a contest between A, B and C, the final score card is \\( A = 60 \\), \\( B = 53 \\), \\( C = 43 \\). Out of a total of 78 shots fired, 43 hit the target.",
+    "ImageID": "",
+    "question": "How many targets did A hit?",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "17",
+    "explanation": "A hit 17 targets: A's shots = 26, hits = 17, misses = 9. A's score = 2×17 + (B's misses + C's misses). Total equations yield A hit 17.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  },
+  {
+    "id": 25,
+    "passage": "In a target shooting competition, a person is allowed to shoot at four targets successively, then followed by the next competitor. When all have finished one such round, the process is repeated. If a target is hit, the shooter is awarded two points. If he misses the target, the others are awarded one point each. The first person who gets 60 points wins the competition. In a contest between A, B and C, the final score card is \\( A = 60 \\), \\( B = 53 \\), \\( C = 43 \\). Out of a total of 78 shots fired, 43 hit the target.",
+    "ImageID": "",
+    "question": "How many targets did B miss?",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "answer": "10",
+    "explanation": "B's misses = 10: B's shots = 24, hits = 14, misses = 10. Confirmed by score equations and total constraints.",
+    "topic": "Games & Tournament",
+    "section": "DILR"
+  }
+]

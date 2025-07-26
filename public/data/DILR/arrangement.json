@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "An aeroplane has 5 intermediate stops on its route. The aeroplane starts from stop 1 and then stops at stop 2, stop 3, stop 4, stop 5, stop 6 and stop 7 (in that order). Stop 1 and stop 7 are called terminal stops. In its return journey, the aeroplane starts from stop 7 and returns to stop 1, stopping at all the above intermediate stops in the reverse order. The stops are at seven airports: Khujuraho, Barangal, Sindh, Kangi, Manthoo, Khurshi and Thansu, not necessarily in that order.\nSome additional information is also available:\n\nI. The aeroplane stops at exactly two stops between Manthoo and Sindh.\nII. Immediately before Barangal, the aeroplane stops at Khurshi.\nIII. The airport at Kangi is not one of the terminal stops.",
+    "ImageID": "",
+    "question": "In case stop 4 is at Khujuraho, which among the following must be true?",
+    "options": {
+      "a": "Either Khurshi or Barangal is one of the terminal stops.",
+      "b": "Kangi must be the stop 3.",
+      "c": "Manthoo must be one of the terminal stops.",
+      "d": "Both (1) and (3)"
+    },
+    "answer": "a",
+    "explanation": "When stop 4 is Khujuraho, all possible arrangements show that either Khurshi or Barangal must be a terminal stop (stop 1 or 7). Options (b) and (c) are not always true, as Kangi can be at stop 5 and Manthoo need not be terminal.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 2,
+    "passage": "An aeroplane has 5 intermediate stops on its route. The aeroplane starts from stop 1 and then stops at stop 2, stop 3, stop 4, stop 5, stop 6 and stop 7 (in that order). Stop 1 and stop 7 are called terminal stops. In its return journey, the aeroplane starts from stop 7 and returns to stop 1, stopping at all the above intermediate stops in the reverse order. The stops are at seven airports: Khujuraho, Barangal, Sindh, Kangi, Manthoo, Khurshi and Thansu, not necessarily in that order.\nSome additional information is also available:\n\nI. The aeroplane stops at exactly two stops between Manthoo and Sindh.\nII. Immediately before Barangal, the aeroplane stops at Khurshi.\nIII. The airport at Kangi is not one of the terminal stops.",
+    "ImageID": "",
+    "question": "If Thansu is stop 2, which among the following cannot be the Khurshi airport?",
+    "options": {
+      "a": "Stop 5",
+      "b": "Stop 3",
+      "c": "Stop 4",
+      "d": "Stop 3 and Stop 4"
+    },
+    "answer": "d",
+    "explanation": "If Thansu is stop 2, Khurshi cannot be at stop 3 or 4. At stop 3, Barangal would be at stop 4, making it impossible to place Manthoo and Sindh with exactly two stops between them. Similarly, at stop 4, Barangal would be at stop 5, which also violates the conditions.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 3,
+    "passage": "An aeroplane has 5 intermediate stops on its route. The aeroplane starts from stop 1 and then stops at stop 2, stop 3, stop 4, stop 5, stop 6 and stop 7 (in that order). Stop 1 and stop 7 are called terminal stops. In its return journey, the aeroplane starts from stop 7 and returns to stop 1, stopping at all the above intermediate stops in the reverse order. The stops are at seven airports: Khujuraho, Barangal, Sindh, Kangi, Manthoo, Khurshi and Thansu, not necessarily in that order.\nSome additional information is also available:\n\nI. The aeroplane stops at exactly two stops between Manthoo and Sindh.\nII. Immediately before Barangal, the aeroplane stops at Khurshi.\nIII. The airport at Kangi is not one of the terminal stops.",
+    "ImageID": "",
+    "question": "After leaving the terminal stop during the return journey, the third place where the aeroplane stopped is the Kangi airport. How many possible positions (out of the seven stops) can Thansu airport occupy in the return journey?",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "answer": "b",
+    "explanation": "In the return journey, the third stop after the terminal (stop 7) corresponds to stop 5 in the onward journey. With Kangi at stop 5, Thansu can occupy 4 possible positions (stop 1, 2, 5, or 7 in onward journey) while satisfying all conditions.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 4,
+    "passage": "Each of the 10 persons namely A, Q, R, Z, M, N, P, B, K and L are wearing a shirt. The colour of each shirt is one out of blue, green and red. There are ten chairs placed in a row. The chairs are consecutively numbered 1, 2, 3, 4…9 and 10 from left to right in that order. These ten persons have to sit on the chairs such that there is only one person in each chair. The number of persons wearing a green and a blue shirt is 2 and 3 respectively.\n\nAdditional Information:\n1. No two persons wearing blue shirts sit on consecutively numbered chairs.\n2. Among the persons wearing red shirts, exactly three persons always is sitting together while the remaining two never.\n3. A person wearing a blue shirt and a person wearing a green shirt never is sitting on consecutively numbered chairs.\n4. A person wearing a green shirt cannot sit on chairs numbered 2 or 9.\n5. Persons wearing red shirt are not sitting at extreme end.",
+    "ImageID": "image/DILR/six/4-7.png",
+    "question": "Which of the arrangements done by Mr. Crazy is not consistent with the information stated under \"Additional Information\"?",
+    "options": {
+      "a": "I",
+      "b": "VI",
+      "c": "III",
+      "d": "V"
+    },
+    "answer": "a",
+    "explanation": "Arrangement I has a blue-shirted person (A) at chair 7, but blue shirts cannot sit at positions 2, 4, 7, or 9. Also, blue shirts must be at ends (chairs 1 and 10), which is violated here.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 5,
+    "passage": "Each of the 10 persons namely A, Q, R, Z, M, N, P, B, K and L are wearing a shirt. The colour of each shirt is one out of blue, green and red. There are ten chairs placed in a row. The chairs are consecutively numbered 1, 2, 3, 4…9 and 10 from left to right in that order. These ten persons have to sit on the chairs such that there is only one person in each chair. The number of persons wearing a green and a blue shirt is 2 and 3 respectively.\n\nAdditional Information:\n1. No two persons wearing blue shirts sit on consecutively numbered chairs.\n2. Among the persons wearing red shirts, exactly three persons always is sitting together while the remaining two never.\n3. A person wearing a blue shirt and a person wearing a green shirt never is sitting on consecutively numbered chairs.\n4. A person wearing a green shirt cannot sit on chairs numbered 2 or 9.\n5. Persons wearing red shirt are not sitting at extreme end.",
+    "ImageID": "image/DILR/six/4-7.png",
+     "question": "Which of the following persons is wearing a blue shirt?",
+    "options": {
+      "a": "R",
+      "b": "K",
+      "c": "L",
+      "d": "N"
+    },
+    "answer": "d",
+    "explanation": "A, B, and N always occupy chairs 1 and 10 (the ends) in all valid arrangements, and these positions must be blue shirts. Hence, N wears a blue shirt.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 6,
+    "passage": "Each of the 10 persons namely A, Q, R, Z, M, N, P, B, K and L are wearing a shirt. The colour of each shirt is one out of blue, green and red. There are ten chairs placed in a row. The chairs are consecutively numbered 1, 2, 3, 4…9 and 10 from left to right in that order. These ten persons have to sit on the chairs such that there is only one person in each chair. The number of persons wearing a green and a blue shirt is 2 and 3 respectively.\n\nAdditional Information:\n1. No two persons wearing blue shirts sit on consecutively numbered chairs.\n2. Among the persons wearing red shirts, exactly three persons always is sitting together while the remaining two never.\n3. A person wearing a blue shirt and a person wearing a green shirt never is sitting on consecutively numbered chairs.\n4. A person wearing a green shirt cannot sit on chairs numbered 2 or 9.\n5. Persons wearing red shirt are not sitting at extreme end.",
+    "ImageID": "image/DILR/six/4-7.png",
+     "question": "Which of the following persons is wearing a green shirt?",
+    "options": {
+      "a": "K",
+      "b": "A",
+      "c": "R",
+      "d": "P"
+    },
+    "answer": "a",
+    "explanation": "K and L are the only persons who can occupy non-restricted middle chairs (not 2 or 9) and must be green shirts to satisfy all conditions. Hence, K wears a green shirt.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 7,
+    "passage": "Each of the 10 persons namely A, Q, R, Z, M, N, P, B, K and L are wearing a shirt. The colour of each shirt is one out of blue, green and red. There are ten chairs placed in a row. The chairs are consecutively numbered 1, 2, 3, 4…9 and 10 from left to right in that order. These ten persons have to sit on the chairs such that there is only one person in each chair. The number of persons wearing a green and a blue shirt is 2 and 3 respectively.\n\nAdditional Information:\n1. No two persons wearing blue shirts sit on consecutively numbered chairs.\n2. Among the persons wearing red shirts, exactly three persons always is sitting together while the remaining two never.\n3. A person wearing a blue shirt and a person wearing a green shirt never is sitting on consecutively numbered chairs.\n4. A person wearing a green shirt cannot sit on chairs numbered 2 or 9.\n5. Persons wearing red shirt are not sitting at extreme end.",
+    "ImageID": "image/DILR/six/4-7.png",
+     "question": "Which of the following is not a permissible group of four persons such that the number of persons wearing a red, a green and a blue shirt is 2, 1 and 1 respectively?",
+    "options": {
+      "a": "A, P, L and R",
+      "b": "N, Q, K and Z",
+      "c": "K, A, N and Z",
+      "d": "B, L, M and Q"
+    },
+    "answer": "c",
+    "explanation": "Option (c) has two blue shirts (A and N) but only one blue shirt is allowed in the group. The other options have exactly 2 red, 1 green, and 1 blue shirt.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 8,
+    "passage": "Alord received a large order for stitching school uniforms from Mayflower School and Little Flower School. He has two cutters who will cut the fabric, five tailors who will do the stitching, and two assistants to stitch the buttons and button holes.\n\nEach of these 9 persons work for 10 hrs in a day. Each of the Mayflower uniform requires 20 min for cutting the fabric, 1 hr for stitching, and 15 min for stitching buttons and button holes, whereas the Little Flower uniform requires 30 min, 1 hr, and 30 min respectively for these activities.\n\nFollowing steps are followed, to complete the work: Step I: Cutter will cut fabric. Step II: Tailor will do the stitching. Step III: Assistant will stitch the buttons and button holes.",
+    "ImageID": "",
+    "question": "What is the maximum number of Little Flower uniforms that Alord can make in a day?",
+    "options": {
+      "a": "Not provided",
+      "b": "Not provided",
+      "c": "Not provided",
+      "d": "Not provided"
+    },
+    "answer": "c",
+    "explanation": "The limiting factor is the assistants: each uniform requires 30 min of assistant work. With 2 assistants working 10 hours (1200 min total), maximum uniforms = 1200 / 30 = 40. The answer grid indicates option (3) is correct.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 9,
+    "passage": "Alord received a large order for stitching school uniforms from Mayflower School and Little Flower School. He has two cutters who will cut the fabric, five tailors who will do the stitching, and two assistants to stitch the buttons and button holes.\n\nEach of these 9 persons work for 10 hrs in a day. Each of the Mayflower uniform requires 20 min for cutting the fabric, 1 hr for stitching, and 15 min for stitching buttons and button holes, whereas the Little Flower uniform requires 30 min, 1 hr, and 30 min respectively for these activities.\n\nFollowing steps are followed, to complete the work: Step I: Cutter will cut fabric. Step II: Tailor will do the stitching. Step III: Assistant will stitch the buttons and button holes.",
+    "ImageID": "",
+    "question": "What is the maximum number of Mayflower uniforms that Alord can make in a day?",
+    "options": {
+      "a": "Not provided",
+      "b": "Not provided",
+      "c": "Not provided",
+      "d": "Not provided"
+    },
+    "answer": "a",
+    "explanation": "The limiting factor is the tailors: each uniform requires 1 hour of tailoring. With 5 tailors working 10 hours (50 hours total), maximum uniforms = 50. The answer grid indicates option (1) is correct.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 10,
+    "passage": "Alord received a large order for stitching school uniforms from Mayflower School and Little Flower School. He has two cutters who will cut the fabric, five tailors who will do the stitching, and two assistants to stitch the buttons and button holes.\n\nEach of these 9 persons work for 10 hrs in a day. Each of the Mayflower uniform requires 20 min for cutting the fabric, 1 hr for stitching, and 15 min for stitching buttons and button holes, whereas the Little Flower uniform requires 30 min, 1 hr, and 30 min respectively for these activities.\n\nFollowing steps are followed, to complete the work: Step I: Cutter will cut fabric. Step II: Tailor will do the stitching. Step III: Assistant will stitch the buttons and button holes.",
+    "ImageID": "",
+    "question": "On a particular day, Alord decided to make 20 Little Flower uniforms. How many Mayflower uniforms can be made on that day?",
+    "options": {
+      "a": "Not provided",
+      "b": "Not provided",
+      "c": "Not provided",
+      "d": "Not provided"
+    },
+    "answer": "a",
+    "explanation": "After 20 Little Flower uniforms: Cutters used 10 hr, tailors 20 hr, assistants 10 hr. Remaining: cutters 10 hr, tailors 30 hr, assistants 10 hr. Mayflower uniforms limited by tailors (1 hr/uniform): 30 uniforms. The answer grid indicates option (1) is correct.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 11,
+    "passage": "Alord received a large order for stitching school uniforms from Mayflower School and Little Flower School. He has two cutters who will cut the fabric, five tailors who will do the stitching, and two assistants to stitch the buttons and button holes.\n\nEach of these 9 persons work for 10 hrs in a day. Each of the Mayflower uniform requires 20 min for cutting the fabric, 1 hr for stitching, and 15 min for stitching buttons and button holes, whereas the Little Flower uniform requires 30 min, 1 hr, and 30 min respectively for these activities.\n\nFollowing steps are followed, to complete the work: Step I: Cutter will cut fabric. Step II: Tailor will do the stitching. Step III: Assistant will stitch the buttons and button holes.",
+    "ImageID": "",
+    "question": "If Alord decides to make 30 Little Flower uniforms only and no other uniform on a particular day, how many total man-hours will remain unutilised? (Man-hours for a task = number of men who can do the task × number of hours for task)",
+    "options": {
+      "a": "Not provided",
+      "b": "Not provided",
+      "c": "Not provided",
+      "d": "Not provided"
+    },
+    "answer": "b",
+    "explanation": "Man-hours used: Cutters = 30 × 0.5 = 15, Tailors = 30 × 1 = 30, Assistants = 30 × 0.5 = 15. Total available: Cutters 20, Tailors 50, Assistants 20. Unutilized: (20-15) + (50-30) + (20-15) = 5 + 20 + 5 = 30 man-hours. The answer grid indicates option (2) is correct.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 12,
+    "passage": "Alord received a large order for stitching school uniforms from Mayflower School and Little Flower School. He has two cutters who will cut the fabric, five tailors who will do the stitching, and two assistants to stitch the buttons and button holes.\n\nEach of these 9 persons work for 10 hrs in a day. Each of the Mayflower uniform requires 20 min for cutting the fabric, 1 hr for stitching, and 15 min for stitching buttons and button holes, whereas the Little Flower uniform requires 30 min, 1 hr, and 30 min respectively for these activities.\n\nFollowing steps are followed, to complete the work: Step I: Cutter will cut fabric. Step II: Tailor will do the stitching. Step III: Assistant will stitch the buttons and button holes.",
+    "ImageID": "",
+    "question": "What is the maximum total number of uniforms Alord can complete in a day if he has to deliver at least 15 uniforms to both the schools everyday?",
+    "options": {
+      "a": "Not provided",
+      "b": "Not provided",
+      "c": "Not provided",
+      "d": "Not provided"
+    },
+    "answer": "d",
+    "explanation": "Make 15 Little Flower and 35 Mayflower uniforms. Resource usage: Little Flower (15 uniforms): Cutters 7.5 hr, Tailors 15 hr, Assistants 7.5 hr. Mayflower (35 uniforms): Cutters 11.67 hr, Tailors 35 hr, Assistants 8.75 hr. Total within limits. Any other combination yields ≤50 uniforms. The answer grid indicates option (4) is correct.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 13,
+    "passage": "Six friends namely Brigesh, Vijay, Shishir, Ujjawal, Jeetu and Narayan planned to watch the 3rd ODI of the on-going cricket match series between India Vs Pakistan in Kanpur. They decided to board from New Delhi to Kanpur on a certain day. Each of the friend board a different train on the same day between 7:45 pm to 11:30 pm. The trains were namely Shramshakti Express, Licchavi Express, Mahabodhi Express, Shivganga Express, Purushottam Express and Gorakhdham Express. The timings for the departure of the trains were 8:00 pm, 9:40 pm, 8:30 pm, 10:20 pm, 11:15pm and 9:10 pm (not necessarily in the same order). Further, it is given that:\n(i) Shishir and Vijay departed at at an interval of 30 minutes. Ujjawal and Jeetu departed at an interval of 40 minutes.\n(ii) Brijesh departed from Purushottam Express and the one who departed at last did not board by Licchavi.\n(iii) Gorakhdham and Shramshakti departed at an interval of 30 minutes\n(iv) Jeetu and Shishir departed from Shivganga and Shramshakti respectively.\n(v) Ujjawal departed immediately after Brijesh who departed at 9:10 pm.",
+    "ImageID": "",
+    "question": "Among all the given trains, “Licchavi Express” departed at",
+    "options": {
+      "a": "9:40 pm",
+      "b": "9:10 pm",
+      "c": "10:20 pm",
+      "d": "11:15 pm"
+    },
+    "answer": "a",
+    "explanation": "From conditions: Brijesh (Purushottam) at 9:10 pm, Ujjawal immediately after at 9:40 pm. Licchavi departs at 9:40 pm (Ujjawal's train).",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 14,
+    "passage": "Six friends namely Brigesh, Vijay, Shishir, Ujjawal, Jeetu and Narayan planned to watch the 3rd ODI of the on-going cricket match series between India Vs Pakistan in Kanpur. They decided to board from New Delhi to Kanpur on a certain day. Each of the friend board a different train on the same day between 7:45 pm to 11:30 pm. The trains were namely Shramshakti Express, Licchavi Express, Mahabodhi Express, Shivganga Express, Purushottam Express and Gorakhdham Express. The timings for the departure of the trains were 8:00 pm, 9:40 pm, 8:30 pm, 10:20 pm, 11:15pm and 9:10 pm (not necessarily in the same order). Further, it is given that:\n(i) Shishir and Vijay departed at at an interval of 30 minutes. Ujjawal and Jeetu departed at an interval of 40 minutes.\n(ii) Brijesh departed from Purushottam Express and the one who departed at last did not board by Licchavi.\n(iii) Gorakhdham and Shramshakti departed at an interval of 30 minutes\n(iv) Jeetu and Shishir departed from Shivganga and Shramshakti respectively.\n(v) Ujjawal departed immediately after Brijesh who departed at 9:10 pm.",
+    "ImageID": "",
+    "question": "Who was the last friend to depart?",
+    "options": {
+      "a": "Vijay",
+      "b": "Ujjawal",
+      "c": "Narayan",
+      "d": "Shishir"
+    },
+    "answer": "c",
+    "explanation": "Narayan departs last at 11:15 pm on Mahabodhi Express (since last departure cannot be Licchavi).",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 15,
+    "passage": "Six friends namely Brigesh, Vijay, Shishir, Ujjawal, Jeetu and Narayan planned to watch the 3rd ODI of the on-going cricket match series between India Vs Pakistan in Kanpur. They decided to board from New Delhi to Kanpur on a certain day. Each of the friend board a different train on the same day between 7:45 pm to 11:30 pm. The trains were namely Shramshakti Express, Licchavi Express, Mahabodhi Express, Shivganga Express, Purushottam Express and Gorakhdham Express. The timings for the departure of the trains were 8:00 pm, 9:40 pm, 8:30 pm, 10:20 pm, 11:15pm and 9:10 pm (not necessarily in the same order). Further, it is given that:\n(i) Shishir and Vijay departed at at an interval of 30 minutes. Ujjawal and Jeetu departed at an interval of 40 minutes.\n(ii) Brijesh departed from Purushottam Express and the one who departed at last did not board by Licchavi.\n(iii) Gorakhdham and Shramshakti departed at an interval of 30 minutes\n(iv) Jeetu and Shishir departed from Shivganga and Shramshakti respectively.\n(v) Ujjawal departed immediately after Brijesh who departed at 9:10 pm.",
+    "ImageID": "",
+    "question": "Which was the last train, out of the given six, to depart from ‘New Delhi’ to ‘Kanpur’ ?",
+    "options": {
+      "a": "Purushottam Express",
+      "b": "Mahabodi Express",
+      "c": "Shivganga Express",
+      "d": "Gorakhdham Express"
+    },
+    "answer": "b",
+    "explanation": "Mahabodhi Express departs last at 11:15 pm (carrying Narayan).",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 16,
+    "passage": "There are 8 friends – J, K, L, M, N, O, P and Q – who are sitting in a circle. It is also known that:\ni. Q is sitting to the immediate right of N.\nii. O is sitting opposite to K, who has 2 people sitting between J and himself.\niii. L is sitting opposite N and second to the left of O.\niv. O and M are neighbours.",
+    "ImageID": "",
+    "question": "Who is sitting to the immediate right of K?",
+    "options": {
+      "a": "Q",
+      "b": "P",
+      "c": "L",
+      "d": "J"
+    },
+    "answer": "b",
+    "explanation": "Arrangement: Positions clockwise: J, P, K, (gap), O, M, (gap), L, N, Q. P is immediately right of K.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 17,
+    "passage": "There are 8 friends – J, K, L, M, N, O, P and Q – who are sitting in a circle. It is also known that:\ni. Q is sitting to the immediate right of N.\nii. O is sitting opposite to K, who has 2 people sitting between J and himself.\niii. L is sitting opposite N and second to the left of O.\niv. O and M are neighbours.",
+    "ImageID": "",
+    "question": "Who is sitting opposite to Q?",
+    "options": {
+      "a": "P",
+      "b": "J",
+      "c": "M",
+      "d": "J or M"
+    },
+    "answer": "d",
+    "explanation": "Q sits between N and J. Opposite to Q is either J or M, depending on the starting point. Both satisfy the conditions.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 18,
+    "passage": "There are 8 friends – J, K, L, M, N, O, P and Q – who are sitting in a circle. It is also known that:\ni. Q is sitting to the immediate right of N.\nii. O is sitting opposite to K, who has 2 people sitting between J and himself.\niii. L is sitting opposite N and second to the left of O.\niv. O and M are neighbours.",
+    "ImageID": "",
+    "question": "Who is sitting 2 seats to the left of L?",
+    "options": {
+      "a": "K",
+      "b": "O",
+      "c": "M",
+      "d": "Q"
+    },
+    "answer": "a",
+    "explanation": "Two seats left of L is K (positions: L, then N, then K moving clockwise).",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 19,
+    "passage": "There are 8 friends – J, K, L, M, N, O, P and Q – who are sitting in a circle. It is also known that:\ni. Q is sitting to the immediate right of N.\nii. O is sitting opposite to K, who has 2 people sitting between J and himself.\niii. L is sitting opposite N and second to the left of O.\niv. O and M are neighbours.",
+    "ImageID": "",
+    "question": "If J switches his place with the person opposite him, then who of the following cannot be neighbour of J?",
+    "options": {
+      "a": "Q",
+      "b": "P",
+      "c": "O",
+      "d": "All of these"
+    },
+    "answer": "d",
+    "explanation": "After swapping, J moves opposite. Original neighbors of J (P and Q) are no longer adjacent. O was never adjacent to J. Hence, none of Q, P, or O can be neighbors.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 20,
+    "passage": "A circular field, with inner radius of 10 meters and outer radius of 20 meters, was divided into five successive stages for ploughing. The ploughing of each stages was handed over to a different farmer.\n1. Farmers are referred to by following symbols: F1, F2, F3, F4, F5.\n2. The points between different stages of project are referred to by the following symbols: P1, P2, P3, P4, P5, not necessarily in the order.\n3. Farmer F5 was given the work of ploughing stage starting at point P4.\n4. The stage from point P5 to point P3 was not the first stage.\n5. Farmer F4 was given the work of the fourth stage.\n6. Stage 3 finished at point P1, and the work of which was not given to farmer F1.\n7. Farmer F3 was given work of stage ending at point P5.",
+    "ImageID": "",
+    "question": "For which farmer was P2 a finishing point?",
+    "options": {
+      "a": "F1",
+      "b": "F2",
+      "c": "F3",
+      "d": "F5"
+    },
+    "answer": "d",
+    "explanation": "Stage 5 (F5) starts at P4 and ends at P2. Hence, P2 is the finishing point for F5.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 21,
+    "passage": "A circular field, with inner radius of 10 meters and outer radius of 20 meters, was divided into five successive stages for ploughing. The ploughing of each stages was handed over to a different farmer.\n1. Farmers are referred to by following symbols: F1, F2, F3, F4, F5.\n2. The points between different stages of project are referred to by the following symbols: P1, P2, P3, P4, P5, not necessarily in the order.\n3. Farmer F5 was given the work of ploughing stage starting at point P4.\n4. The stage from point P5 to point P3 was not the first stage.\n5. Farmer F4 was given the work of the fourth stage.\n6. Stage 3 finished at point P1, and the work of which was not given to farmer F1.\n7. Farmer F3 was given work of stage ending at point P5.",
+    "ImageID": "",
+    "question": "Which were the starting and finish points of stage 2?",
+    "options": {
+      "a": "P2 and P5",
+      "b": "P5 and P3",
+      "c": "P3 and P1",
+      "d": "P5 and P4"
+    },
+    "answer": "b",
+    "explanation": "Stage 2 starts at P5 and finishes at P3 (as deduced from the sequence: Stage 1: P2→P5, Stage 2: P5→P3).",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 22,
+    "passage": "A circular field, with inner radius of 10 meters and outer radius of 20 meters, was divided into five successive stages for ploughing. The ploughing of each stages was handed over to a different farmer.\n1. Farmers are referred to by following symbols: F1, F2, F3, F4, F5.\n2. The points between different stages of project are referred to by the following symbols: P1, P2, P3, P4, P5, not necessarily in the order.\n3. Farmer F5 was given the work of ploughing stage starting at point P4.\n4. The stage from point P5 to point P3 was not the first stage.\n5. Farmer F4 was given the work of the fourth stage.\n6. Stage 3 finished at point P1, and the work of which was not given to farmer F1.\n7. Farmer F3 was given work of stage ending at point P5.",
+    "ImageID": "",
+    "question": "Which was the starting point for Farmer F3?",
+    "options": {
+      "a": "P2",
+      "b": "P3",
+      "c": "P4",
+      "d": "P1"
+    },
+    "answer": "a",
+    "explanation": "Farmer F3 ploughed Stage 1, which starts at P2 (and ends at P5).",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 23,
+    "passage": "A circular field, with inner radius of 10 meters and outer radius of 20 meters, was divided into five successive stages for ploughing. The ploughing of each stages was handed over to a different farmer.\n1. Farmers are referred to by following symbols: F1, F2, F3, F4, F5.\n2. The points between different stages of project are referred to by the following symbols: P1, P2, P3, P4, P5, not necessarily in the order.\n3. Farmer F5 was given the work of ploughing stage starting at point P4.\n4. The stage from point P5 to point P3 was not the first stage.\n5. Farmer F4 was given the work of the fourth stage.\n6. Stage 3 finished at point P1, and the work of which was not given to farmer F1.\n7. Farmer F3 was given work of stage ending at point P5.",
+    "ImageID": "",
+    "question": "Which was the finish point for farmer F2?",
+    "options": {
+      "a": "P1",
+      "b": "P2",
+      "c": "P3",
+      "d": "P4"
+    },
+    "answer": "a",
+    "explanation": "Farmer F2 ploughed Stage 3, which finishes at P1.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 24,
+    "passage": "A process consists of interchanging the letters at the position given within brackets, for example, (1, 2) means that letters in positions 1 and 2 are interchanged. The whole process may be an interchange of one or more pairs of letters.",
+    "ImageID": "image/DILR/six/24-27.png",
+     "question": "If a process is a combination of (1, 2), (2, 3), (5, 4) and (4, 3) in succession, how many minimum number of such processes in succession need to occur so that all the letters comeback to their original positions?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "5"
+    },
+    "answer": "d",
+    "explanation": "The positions cycle every 5 processes. After 5 executions, letters return to original positions. Fewer executions (1-4) do not restore original positions.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 25,
+    "passage": "A process consists of interchanging the letters at the position given within brackets, for example, (1, 2) means that letters in positions 1 and 2 are interchanged. The whole process may be an interchange of one or more pairs of letters.",
+    "ImageID": "image/DILR/six/24-27.png",
+     "question": "If a process is a combination of (1, 2), (2, 3), (5, 4) and (4, 3) in succession, how many letters out of the 5 would be at their original position when the process is executed 101 times successively?",
+    "options": {
+      "a": "0",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "a",
+    "explanation": "After 100 executions (multiple of 5), positions reset. After 101 executions (equivalent to 1 execution), no letter is in original position (positions become: b, d, c, a, e).",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 26,
+    "passage": "A process consists of interchanging the letters at the position given within brackets, for example, (1, 2) means that letters in positions 1 and 2 are interchanged. The whole process may be an interchange of one or more pairs of letters.",
+    "ImageID": "image/DILR/six/24-27.png",
+     "question": "If a process is a combination of (1, 2); (2, 4); (5, 4) in succession, which letter will be at the position 1 when the process is executed 100 times successively?",
+    "options": {
+      "a": "a",
+      "b": "e",
+      "c": "d",
+      "d": "c"
+    },
+    "answer": "a",
+    "explanation": "The cycle repeats every 4 processes. After 100 executions (multiple of 4), positions reset. Thus position 1 has 'a'.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 27,
+    "passage": "A process consists of interchanging the letters at the position given within brackets, for example, (1, 2) means that letters in positions 1 and 2 are interchanged. The whole process may be an interchange of one or more pairs of letters.",
+    "ImageID": "image/DILR/six/24-27.png",
+     "question": "If a process is a combination of (1, 2); (2, 3); (3, 4); (4, 2); (4, 1); (3, 1); (3, 2); (2, 4) and (1, 4) in succession, the intermediate processes are redundant except the exchange of letters at the positions",
+    "options": {
+      "a": "(1, 2)",
+      "b": "(2, 3)",
+      "c": "(1, 4)",
+      "d": "(1, 3)"
+    },
+    "answer": "d",
+    "explanation": "The entire sequence simplifies to swapping positions 1 and 3. Other exchanges cancel out or are redundant.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 28,
+    "passage": "Divide a circle into eight equal parts and number them in clockwise order from 1 to 8. Assume that you are at 1 with a score 1. You can move only in one of the three directions - one slot clockwise, one slot anticlockwise, or diagonally across. If you move a step clockwise, you add the number of the slot you move to your current score for a new score. If you move a step anticlockwise, you add the number in that slot but subtract 2 from the total to get a new score. If you move diagonally across, you add that number but subtract 3 from the total to get a new score.",
+    "ImageID": "",
+    "question": "Your maximum score after the third move can be",
+    "options": {
+      "a": "12",
+      "b": "16",
+      "c": "20",
+      "d": "13"
+    },
+    "answer": "c",
+    "explanation": "Path: Start at 1 (score=1). Move anticlockwise to 8 (score=1+8-2=7). Move anticlockwise to 7 (score=7+7-2=12). Move clockwise to 8 (score=12+8=20).",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 29,
+    "passage": "Divide a circle into eight equal parts and number them in clockwise order from 1 to 8. Assume that you are at 1 with a score 1. You can move only in one of the three directions - one slot clockwise, one slot anticlockwise, or diagonally across. If you move a step clockwise, you add the number of the slot you move to your current score for a new score. If you move a step anticlockwise, you add the number in that slot but subtract 2 from the total to get a new score. If you move diagonally across, you add that number but subtract 3 from the total to get a new score.",
+    "ImageID": "",
+    "question": "Assuming a clockwise move as the first move, then the score you can not get the first three moves is",
+    "options": {
+      "a": "7",
+      "b": "10",
+      "c": "13",
+      "d": "9"
+    },
+    "answer": "a",
+    "explanation": "After first clockwise move to position 2: score=1+2=3. Possible scores after three moves: Minimum 3 (e.g., 3→6→9), but 7 is impossible. Paths yield 8,9,10,13 but not 7.",
+    "topic": "arrangement",
+    "section": "DILR"
+  },
+  {
+    "id": 30,
+    "passage": "Divide a circle into eight equal parts and number them in clockwise order from 1 to 8. Assume that you are at 1 with a score 1. You can move only in one of the three directions - one slot clockwise, one slot anticlockwise, or diagonally across. If you move a step clockwise, you add the number of the slot you move to your current score for a new score. If you move a step anticlockwise, you add the number in that slot but subtract 2 from the total to get a new score. If you move diagonally across, you add that number but subtract 3 from the total to get a new score.",
+    "ImageID": "",
+    "question": "If you make three moves, you can get a score of",
+    "options": {
+      "a": "8",
+      "b": "9",
+      "c": "10",
+      "d": "Any of the above"
+    },
+    "answer": "d",
+    "explanation": "8: Path D→C→D (Diagonal, Clockwise, Diagonal). 9: Path C→D→A (Clockwise, Diagonal, Anticlockwise). 10: Path C→C→C (all Clockwise). Hence all scores are achievable.",
+    "topic": "arrangement",
+    "section": "DILR"
+  }
+]

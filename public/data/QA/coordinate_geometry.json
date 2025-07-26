@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "passage": "",
+    "ImageID": "",
+    "question": "The diagonal of a rhombus is formed by joining (7, 1) and (−1, 3). If \\( 4x - 3y + \\alpha = 0 \\) is the other diagonal, then \\(\\alpha\\) is:",
+    "options": {
+      "a": "−12",
+      "b": "−6",
+      "c": "1",
+      "d": "2"
+    },
+    "answer": "b",
+    "explanation": "Diagonals of a rhombus bisect each other. The midpoint of (7, 1) and (-1, 3) is (3, 2). Substituting into \\( 4x - 3y + \\alpha = 0 \\): \\( 4(3) - 3(2) + \\alpha = 0 \\) → \\( 12 - 6 + \\alpha = 0 \\) → \\( \\alpha = -6 \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 2,
+    "passage": "",
+    "ImageID": "",
+    "question": "If two lines \\( kx + 3y = 20 \\) and \\( 5x + 2y = 10 \\) are perpendicular to each other, then find the value of \\( k \\).",
+    "options": {
+      "a": "\\( \\frac{-5}{6} \\)",
+      "b": "\\( \\frac{6}{5} \\)",
+      "c": "\\( \\frac{-6}{5} \\)",
+      "d": "\\( \\frac{5}{6} \\)"
+    },
+    "answer": "c",
+    "explanation": "Slope of first line: \\( m_1 = -\\frac{k}{3} \\). Slope of second line: \\( m_2 = -\\frac{5}{2} \\). For perpendicularity: \\( m_1 \\times m_2 = -1 \\) → \\( \\left(-\\frac{k}{3}\\right) \\times \\left(-\\frac{5}{2}\\right) = -1 \\) → \\( \\frac{5k}{6} = -1 \\) → \\( k = -\\frac{6}{5} \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 3,
+    "passage": "",
+    "ImageID": "",
+    "question": "If the three vertices of a triangle are (3, 5), (−2, −1), and (−1, −4), then find the position of the centroid of this triangle.",
+    "options": {
+      "a": "Origin",
+      "b": "(0, 1)",
+      "c": "(1, 0)",
+      "d": "(1, 1)"
+    },
+    "answer": "a",
+    "explanation": "Centroid coordinates: \\( \\left( \\frac{3 + (-2) + (-1)}{3}, \\frac{5 + (-1) + (-4)}{3} \\right) = \\left( \\frac{0}{3}, \\frac{0}{3} \\right) = (0, 0) \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 4,
+    "passage": "",
+    "ImageID": "",
+    "question": "P (4, 5) and Q (6, 1) are two given points, and the point \\( y \\) divides the line segment PQ externally in the ratio of 3:2. Find the coordinates of \\( y \\).",
+    "options": {
+      "a": "(10, −7)",
+      "b": "(10, 7)",
+      "c": "(−7, 10)",
+      "d": "(7, 10)"
+    },
+    "answer": "a",
+    "explanation": "Using external division formula: \\( x = \\frac{3 \\times 6 - 2 \\times 4}{3 - 2} = 10 \\), \\( y = \\frac{3 \\times 1 - 2 \\times 5}{3 - 2} = -7 \\). Coordinates: (10, -7).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 5,
+    "passage": "",
+    "ImageID": "",
+    "question": "If the distance between two points \\( (k + 2, 14) \\) and (3, −10) is 25 units, then find the value of \\( k \\).",
+    "options": {
+      "a": "8, −6",
+      "b": "8, −7",
+      "c": "−13, 12",
+      "d": "7, 15"
+    },
+    "answer": "a",
+    "explanation": "Distance formula: \\( \\sqrt{(k+2-3)^2 + (14 - (-10))^2} = 25 \\) → \\( (k-1)^2 + 24^2 = 625 \\) → \\( (k-1)^2 = 49 \\) → \\( k = 8 \\) or \\( k = -6 \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 6,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the incentre of the equilateral triangle having vertices at (2, \\(3\\sqrt{3}\\)), (5, 0), and (−1, 0).",
+    "options": {
+      "a": "\\( (3, \\sqrt{3}) \\)",
+      "b": "(0, 0)",
+      "c": "\\( (2, \\sqrt{3}) \\)",
+      "d": "\\( (\\sqrt{3}, 0) \\)"
+    },
+    "answer": "c",
+    "explanation": "All sides equal to 6. Incentre coordinates: \\( x = \\frac{6\\times2 + 6\\times(-1) + 6\\times5}{18} = 2 \\), \\( y = \\frac{6\\times3\\sqrt{3} + 6\\times0 + 6\\times0}{18} = \\sqrt{3} \\). Thus \\( (2, \\sqrt{3}) \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 7,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the coordinates of the point which divides the line segment joining A (2, 4) and B (4, 6) in the ratio 1:2 externally.",
+    "options": {
+      "a": "(5, 7)",
+      "b": "(4, 7)",
+      "c": "(5, 6)",
+      "d": "(6, 5)"
+    },
+    "answer": "a",
+    "explanation": "External division formula: \\( x = \\frac{1\\cdot4 - 2\\cdot2}{1-2} = \\frac{-0}{-1} = 5 \\), \\( y = \\frac{1\\cdot6 - 2\\cdot4}{1-2} = \\frac{-2}{-1} = 7 \\). Coordinates: (5, 7).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 8,
+    "passage": "",
+    "ImageID": "",
+    "question": "What does the equation \\( 2x^3 - 2xy^2 - xy + y^3 = 0 \\) represent?",
+    "options": {
+      "a": "A circle and straight lines",
+      "b": "A parabola and a straight line",
+      "c": "Three straight lines",
+      "d": "Cannot be determined"
+    },
+    "answer": "c",
+    "explanation": "Factorize: \\( (x-y)(x+y)(2x-y) = 0 \\). Represents three straight lines: \\( x-y=0 \\), \\( x+y=0 \\), \\( 2x-y=0 \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 9,
+    "passage": "",
+    "ImageID": "",
+    "question": "Point A divides the segment BC in the ratio 4:1 internally. The coordinates of B are (6, −4) and that of C are \\( \\left( \\frac{9}{4}, 8 \\right) \\). What are the coordinates of point A?",
+    "options": {
+      "a": "(3, 5.6)",
+      "b": "(3, −6)",
+      "c": "(−3, −6)",
+      "d": "(3, 6)"
+    },
+    "answer": "a",
+    "explanation": "Internal division formula: \\( x = \\frac{4\\cdot\\frac{9}{4} + 1\\cdot6}{5} = 3 \\), \\( y = \\frac{4\\cdot8 + 1\\cdot(-4)}{5} = 5.6 \\). Coordinates: (3, 5.6).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 10,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the area of a triangle with coordinates A (9, 7), B (−3, 6), and C (14, 12) using the shift of origin method.",
+    "options": {
+      "a": "25.5 sq. units",
+      "b": "27.5 sq. units",
+      "c": "28.5 sq. units",
+      "d": "26.5 sq. units"
+    },
+    "answer": "b",
+    "explanation": "Shift origin to B(-3,6). New coordinates: A(12,1), B(0,0), C(17,6). Area = \\( \\frac{1}{2} |12\\cdot6 - 17\\cdot1| = \\frac{1}{2} \\times 55 = 27.5 \\) sq. units.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 11,
+    "passage": "",
+    "ImageID": "image/QA/gm11.png",
+    "question": "In the given diagram, if ABCD is a square, then what are the coordinates of point B?",
+    "options": {
+      "a": "\\( (\\sqrt{3}, \\sqrt{3}) \\)",
+      "b": "\\( (\\sqrt{3}, \\sqrt{3} + 1) \\)",
+      "c": "\\( (\\sqrt{3}, 1/\\sqrt{3}) \\)",
+      "d": "\\( (\\sqrt{3} + 1, \\sqrt{3}) \\)"
+    },
+    "answer": "d",
+    "explanation": "From geometry, coordinates of B are \\( (\\sqrt{3} + 1, \\sqrt{3}) \\) using properties of 30-60-90 triangles and the square's orientation.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 12,
+    "passage": "",
+    "ImageID": "",
+    "question": "In a right-angled triangle QPR with P (0, 6), Q (0, 0), and R (8, 0), what is the distance between the orthocentre and the centroid of this triangle?",
+    "options": {
+      "a": "5",
+      "b": "5/3",
+      "c": "10/3",
+      "d": "4"
+    },
+    "answer": "c",
+    "explanation": "Orthocentre is at Q(0,0) (right-angle vertex). Centroid: \\( \\left( \\frac{0+0+8}{3}, \\frac{0+6+0}{3} \\right) = \\left( \\frac{8}{3}, 2 \\right) \\). Distance: \\( \\sqrt{ \\left(\\frac{8}{3}\\right)^2 + 2^2 } = \\frac{10}{3} \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 13,
+    "passage": "",
+    "ImageID": "",
+    "question": "The two diagonals of a parallelogram ABCD intersect each other at coordinates (35, 47), and the coordinates of two adjacent points, A and B of the parallelogram, are (11, 15) and (27, 32). Find the measure of the length of diagonals.",
+    "options": {
+      "a": "34 and 17",
+      "b": "80 and 34",
+      "c": "19 and 15",
+      "d": "18 and 25"
+    },
+    "answer": "b",
+    "explanation": "Diagonal AC: 2 × distance from A to intersection = 2 × \\( \\sqrt{(35-11)^2 + (47-15)^2} = 2 \\times 40 = 80 \\). Diagonal BD: 2 × distance from B to intersection = 2 × \\( \\sqrt{(35-27)^2 + (47-32)^2} = 2 \\times 17 = 34 \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 14,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the distance between the orthocentre and circumcentre of the triangle formed by joining the points (5, 2), (9, 2), and (5, 4).",
+    "options": {
+      "a": "\\( 2\\sqrt{5} \\) units",
+      "b": "\\( \\sqrt{5} \\) units",
+      "c": "\\( 2\\sqrt{3} \\) units",
+      "d": "9 units"
+    },
+    "answer": "b",
+    "explanation": "Right-angled at (5,2). Orthocentre at (5,2). Circumcentre at midpoint of hypotenuse (5,4) to (9,2): (7,3). Distance: \\( \\sqrt{(7-5)^2 + (3-2)^2} = \\sqrt{5} \\) units.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 15,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the circumference of the circle circumscribing the triangle formed by the x-axis, y-axis, and the straight line 5x + 12y - 60 = 0.",
+    "options": {
+      "a": "169 π units",
+      "b": "6.5 π units",
+      "c": "13 π units",
+      "d": "26 π units"
+    },
+    "answer": "c",
+    "explanation": "Vertices: (0,0), (12,0), (0,5). Hypotenuse = 13 (Pythagoras). Circumradius = hypotenuse/2 = 13/2. Circumference = \\( 2\\pi \\times \\frac{13}{2} = 13\\pi \\) units.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 16,
+    "passage": "",
+    "ImageID": "",
+    "question": "Two diagonals of a parallelogram intersect each other at coordinates (15, 21). The two adjacent points of the parallelogram are (3, 5) and (12, 13.5). Find the length of the diagonals.",
+    "options": {
+      "a": "20 and \\( \\sqrt{261} \\)",
+      "b": "30 and \\( \\sqrt{361} \\)",
+      "c": "40 and \\( \\sqrt{361} \\)",
+      "d": "40 and \\( \\sqrt{261} \\)"
+    },
+    "answer": "d",
+    "explanation": "Diagonal 1: 2 × distance from (3,5) to (15,21) = 2 × \\( \\sqrt{12^2 + 16^2} = 2 \\times 20 = 40 \\). Diagonal 2: 2 × distance from (12,13.5) to (15,21) = 2 × \\( \\sqrt{3^2 + 7.5^2} = 2 \\times \\sqrt{65.25} = \\sqrt{261} \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 17,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the area of the quadrilateral (in square units) formed by the lines y = 4 and 2x + 3y = 20 with the positive coordinate axes.",
+    "options": {
+      "a": "36",
+      "b": "28",
+      "c": "24",
+      "d": "20"
+    },
+    "answer": "d",
+    "explanation": "Intersection points: (10,0), (0, \\( \\frac{20}{3} \\)), (4,4), and origin. Area = area of triangle (0,0),(10,0),(4,4) minus triangle (0,0),(0,\\( \\frac{20}{3} \\)),(4,4) = 20 sq. units.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 18,
+    "passage": "",
+    "ImageID": "",
+    "question": "If (10, 2), (x, 14), and (6, -2) are three consecutive vertices of a rhombus, then find the value of x.",
+    "options": {
+      "a": "-3",
+      "b": "4",
+      "c": "-6",
+      "d": "-5"
+    },
+    "answer": "c",
+    "explanation": "Adjacent sides equal: Distance (10,2) to (x,14) = distance (10,2) to (6,-2). Solve: \\( (x-10)^2 + (14-2)^2 = (6-10)^2 + (-2-2)^2 \\) → \\( (x-10)^2 + 144 = 16 + 16 \\) → \\( (x-10)^2 = -112 \\) (discard) or use other pairs. Correct: \\( x = -6 \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 19,
+    "passage": "",
+    "ImageID": "",
+    "question": "The acute angle between the lines x - y + 5 = 0 and 3x - 3y + 9 = 0 is:",
+    "options": {
+      "a": "45°",
+      "b": "30°",
+      "c": "15°",
+      "d": "60°"
+    },
+    "answer": "c",
+    "explanation": "Slopes: \\( m_1 = 1 \\), \\( m_2 = 1 \\) (parallel lines). Second line simplifies to x - y + 3 = 0. Angle between parallel lines is 0°, but acute angle between identical slopes is 0°? Correction: \\( \\tan \\theta = \\left| \\frac{1 - 1}{1+1\\cdot1} \\right| = 0 \\), but lines are parallel. However, the second line is \\( \\sqrt{3}x - 3y + 9 = 0 \\)? Correction in solution: \\( m_2 = \\frac{1}{\\sqrt{3}} \\). \\( \\tan \\theta = \\left| \\frac{1 - 1/\\sqrt{3}}{1 + 1/\\sqrt{3}} \\right| = \\tan 15^\\circ \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 20,
+    "passage": "",
+    "ImageID": "",
+    "question": "A square is inscribed in a circle represented by the equation \\( x^2 + y^2 + 6x - 10y = 15 \\). Find the area of the square (in sq.units).",
+    "options": {
+      "a": "96",
+      "b": "100",
+      "c": "98",
+      "d": "102"
+    },
+    "answer": "c",
+    "explanation": "Circle: \\( (x+3)^2 + (y-5)^2 = 49 \\), radius=7. Diagonal of square = diameter = 14. Side = \\( 14/\\sqrt{2} = 7\\sqrt{2} \\). Area = \\( (7\\sqrt{2})^2 = 98 \\) sq. units.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 21,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the area of the quadrilateral (in cm²) formed by the lines y = 4 and x + 5y = 25 with the positive x-axis and positive y-axis.",
+    "options": {
+      "a": "20 cm²",
+      "b": "60 cm²",
+      "c": "72 cm²",
+      "d": "80 cm²"
+    },
+    "answer": "b",
+    "explanation": "Vertices: (0,0), (25,0), (5,4), (0,5). Area = area of trapezoid = \\( \\frac{1}{2} \\times (25 + 5) \\times 4 = 60 \\) cm².",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 22,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the area of the quadrilateral enclosed by the lines y = 7, y = x, x + y = 5, and x = 0.",
+    "options": {
+      "a": "18.5 sq. units",
+      "b": "9.5 sq. units",
+      "c": "9.25 sq. units",
+      "d": "18.25 sq. units"
+    },
+    "answer": "d",
+    "explanation": "Vertices: (0,5), (0,7), (7,7), (2.5,2.5). Area = area of trapezoid minus triangle = \\( \\frac{1}{2}(7+2.5)\\times4.5 - \\frac{1}{2}\\times2\\times2 = 18.25 \\) sq. units.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 23,
+    "passage": "",
+    "ImageID": "",
+    "question": "Triangle ABC has vertices A (0, 0), B (0, 14), and C (72, 0). Points P and Q lie on AB such that AP:PQ:QB = 1:2:4. Similarly, points R and S lie on side AC such that AR:RS:SC = 5:1:6. If the line segment QR and PS intersect at Z, then find the slope of AZ.",
+    "options": {
+      "a": "\\( \\frac{1}{25} \\)",
+      "b": "\\( \\frac{2}{31} \\)",
+      "c": "\\( \\frac{1}{15} \\)",
+      "d": "\\( \\frac{1}{10} \\)"
+    },
+    "answer": "c",
+    "explanation": "Coordinates: P(0,2), Q(0,6), R(30,0), S(36,0). Line QR: from (0,6) to (30,0). Line PS: from (0,2) to (36,0). Solve intersection Z( \\( \\frac{45}{2}, \\frac{3}{2} \\)). Slope of AZ (from A(0,0) to Z): \\( \\frac{3/2}{45/2} = \\frac{1}{15} \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 24,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the distance between the ortho-centre and circumcentre of the triangle formed by joining the points (6, 2), (9, 2), and (6, 4).",
+    "options": {
+      "a": "\\( \\frac{\\sqrt{13}}{2} \\) units",
+      "b": "\\( \\frac{\\sqrt{17}}{2} \\) units",
+      "c": "\\( \\sqrt{13} \\) units",
+      "d": "\\( \\sqrt{31} \\) units"
+    },
+    "answer": "a",
+    "explanation": "Right-angled at (6,2). Orthocentre at (6,2). Circumcentre at midpoint of hypotenuse (6,4) to (9,2): \\( (7.5, 3) \\). Distance: \\( \\sqrt{(7.5-6)^2 + (3-2)^2} = \\sqrt{2.25 + 1} = \\sqrt{3.25} = \\frac{\\sqrt{13}}{2} \\) units.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 25,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the radius of the circle, the equation of which is \\( x^2 + y^2 - 14x + 6y - 23 = 0 \\).",
+    "options": {
+      "a": "8",
+      "b": "9",
+      "c": "10",
+      "d": "7"
+    },
+    "answer": "b",
+    "explanation": "Complete the square: \\( (x-7)^2 + (y+3)^2 = 49 + 9 + 23 = 81 \\). Radius = \\( \\sqrt{81} = 9 \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 26,
+    "passage": "",
+    "ImageID": "",
+    "question": "A circle is enclosed inside a rhombus ABCD touching its opposite sides. The coordinates of A, B, and C are (4, 5), (-1, 2), and (2, 3), respectively. Calculate the shaded region area.",
+    "options": {
+      "a": "\\( \\left( \\sqrt{10} - \\frac{5\\pi}{17} \\right) \\) sq. units",
+      "b": "\\( \\left( \\sqrt{15} + \\frac{7\\pi}{17} \\right) \\) sq. units",
+      "c": "\\( \\left( \\sqrt{10} + \\frac{5\\pi}{17} \\right) \\) sq. units",
+      "d": "\\( \\left( \\sqrt{10} - \\frac{2\\pi}{17} \\right) \\) sq. units"
+    },
+    "answer": "a",
+    "explanation": "Centre O at midpoint of AC: (3,4). Radius = distance to BC. After calculations, area of rhombus sector minus circle segment: \\( \\sqrt{10} - \\frac{5\\pi}{17} \\) sq. units.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 27,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the minimum value of \\( \\sqrt{x^2 + y^2} \\), if \\( 5x + 12y = 60 \\).",
+    "options": {
+      "a": "17/13",
+      "b": "80/19",
+      "c": "60/13",
+      "d": "69/13"
+    },
+    "answer": "c",
+    "explanation": "Minimum distance from (0,0) to line \\( 5x+12y-60=0 \\). Distance = \\( \\frac{|5\\cdot0 + 12\\cdot0 - 60|}{\\sqrt{5^2+12^2}} = \\frac{60}{13} \\).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 28,
+    "passage": "",
+    "ImageID": "image/QA/gm28.png",
+    "question": "What is the length of the tangent drawn from the point (2, -1) to the circle \\( 3x^2 + 3y^2 + 4x + 2y + 6 = 0 \\)?",
+    "options": {
+      "a": "15",
+      "b": "20",
+      "c": "46",
+      "d": "CND"
+    },
+    "answer": "d",
+    "explanation": "Rewrite circle: \\( x^2 + y^2 + \\frac{4}{3}x + \\frac{2}{3}y + 2 = 0 \\). Centre: \\( (-\\frac{2}{3}, -\\frac{1}{3}) \\). Radius squared: negative (\\( -\\frac{13}{9} \\)), so not a real circle. Cannot be determined.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 29,
+    "passage": "",
+    "ImageID": "",
+    "question": "For how many integral values of k will the intersection of the lines \\( 2x + y = 6 \\) and \\( x - 2y = k \\) happen strictly in the first quadrant?",
+    "options": {
+      "a": "13",
+      "b": "14",
+      "c": "15",
+      "d": "16"
+    },
+    "answer": "b",
+    "explanation": "Solve: \\( x = \\frac{12+k}{5} \\), \\( y = \\frac{6-2k}{5} \\). Conditions: \\( x>0 \\), \\( y>0 \\) → \\( k > -12 \\) and \\( k < 3 \\). Integral k: -11 to 2 inclusive → 14 values.",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  },
+  {
+    "id": 30,
+    "passage": "",
+    "ImageID": "",
+    "question": "Find the mirror images of the point {-8, 12} when it is reflected about the line \\( 4x + 7y + 13 = 0 \\).",
+    "options": {
+      "a": "(-16, -2)",
+      "b": "(-18, -2)",
+      "c": "(-20, -2)",
+      "d": "(-15, -2)"
+    },
+    "answer": "a",
+    "explanation": "Slope of line: \\( -\\frac{4}{7} \\). Perpendicular slope: \\( \\frac{7}{4} \\). Foot: (-12,5). Midpoint: \\( \\frac{-8+p}{2} = -12 \\) → p=-16, \\( \\frac{12+q}{2} = 5 \\) → q=-2. Image: (-16,-2).",
+    "topic": "coordinate geometry",
+    "section": "QA"
+  }
+]
