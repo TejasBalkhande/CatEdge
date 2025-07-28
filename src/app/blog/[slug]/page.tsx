@@ -2,9 +2,18 @@
 
 import { Post } from '../../../../types';
 import Link from 'next/link';
+import { headers } from 'next/headers';
+
+async function getBaseUrl() {
+  const headersList = await headers();
+  const host = headersList.get('host');
+  const protocol = headersList.get('x-forwarded-proto') || 'http';
+  return `${protocol}://${host}`;
+}
 
 async function getPost(slug: string): Promise<{ post: Post }> {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/posts/${slug}`, {
+  const baseUrl = await getBaseUrl();
+  const res = await fetch(`${baseUrl}/api/posts/${slug}`, {
     cache: 'no-store',
   });
 
@@ -37,16 +46,15 @@ export default async function BlogDetailPage({ params }: { params: { slug: strin
             <div className="bg-indigo-600 w-8 h-8 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">CE</span>
             </div>
-            <Link href = "/">
-              <span className="text-xl font-bold text-indigo-800">CATPrepEdge</span>
-              </Link>
+            <Link href="/">
+              <span className="text-xl font-bold text-indigo-800 cursor-pointer">CATPrepEdge</span>
+            </Link>
           </div>
           <div className="hidden md:flex space-x-6">
-            <a href="#" className="text-gray-700 hover:text-indigo-600 font-medium">Home</a>
-            <a href="#" className="text-gray-700 hover:text-indigo-600 font-medium">Practice</a>
-            <a href="#" className="text-gray-700 hover:text-indigo-600 font-medium">Mock Tests</a>
-            <a href="#" className="text-gray-700 hover:text-indigo-600 font-medium">Analytics</a>
-            <a href="#" className="text-gray-700 hover:text-indigo-600 font-medium">IIM Info</a>
+            <Link href="/" className="text-gray-700 hover:text-indigo-600 font-medium">Home</Link>
+            <Link href="/mock-test" className="text-gray-700 hover:text-indigo-600 font-medium">Mock Tests</Link>
+            <Link href="/mock-test" className="text-gray-700 hover:text-indigo-600 font-medium">Analytics</Link>
+            <Link href="/colleges" className="text-gray-700 hover:text-indigo-600 font-medium">IIM Info</Link>
           </div>
           <button className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors">
             Get Started

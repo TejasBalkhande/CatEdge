@@ -499,7 +499,7 @@ export default function Home() {
             <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
               <LayoutGrid className="w-6 h-6 text-white" />
             </div>
-            import Link from 'next/link';
+            import Link from &apos;next/link&apos;;
             <Link href="/">
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
                 CATPrepEdge

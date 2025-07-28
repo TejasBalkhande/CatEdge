@@ -14,7 +14,8 @@ export async function GET(
     const postSnapshot = await getDocs(postQuery);
 
     if (postSnapshot.empty) {
-      return new NextResponse('Post not found', { status: 404 });
+      // Updated to JSON error response
+      return NextResponse.json({ error: 'Post not found' }, { status: 404 });
     }
 
     const postDoc = postSnapshot.docs[0];
@@ -30,6 +31,7 @@ export async function GET(
     return NextResponse.json({ post: fullPost });
   } catch (error) {
     console.error('Error fetching post:', error);
-    return new NextResponse('Internal Server Error', { status: 500 });
+    // Updated to JSON error response
+    return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
 }

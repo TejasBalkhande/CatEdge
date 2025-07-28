@@ -1,4 +1,3 @@
-// src/app/library/page.tsx
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -100,7 +99,7 @@ export default function LibraryPage() {
 
   // Apply filters
   useEffect(() => {
-    let result = filteredMetadata;
+    let result = [...filteredMetadata];
     
     // Apply search filter
     if (searchQuery) {
@@ -215,11 +214,13 @@ export default function LibraryPage() {
             <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
               <LayoutGrid className="w-6 h-6 text-white" />
             </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">CATPrepEdge</span>
+            <Link href="/">
+              <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">CATPrepEdge</span>
+            </Link>
           </motion.div>
           
           <div className="hidden md:flex space-x-6">
-            <a 
+            <Link 
               href="/"
               className="flex items-center text-gray-400 hover:text-cyan-400 font-medium transition-colors group"
             >
@@ -227,8 +228,8 @@ export default function LibraryPage() {
                 <LayoutGrid className="w-4 h-4" />
               </span>
               Home
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="#"
               className="flex items-center text-cyan-400 font-medium transition-colors group"
             >
@@ -236,7 +237,7 @@ export default function LibraryPage() {
                 <BookOpen className="w-4 h-4" />
               </span>
               Library
-            </a>
+            </Link>
           </div>
           
           {/* Mobile Menu Button */}
@@ -459,7 +460,7 @@ export default function LibraryPage() {
               <BookOpen className="w-16 h-16 text-cyan-400 mx-auto mb-4" />
               <h3 className="text-xl font-bold text-white mb-2">No PDFs Found</h3>
               <p className="text-gray-400 mb-6">
-                Try adjusting your search or filters to find what you're looking for.
+                Try adjusting your search or filters to find what you&apos;re looking for.
               </p>
               <button
                 className="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-medium rounded-xl shadow-lg hover:shadow-cyan-500/30 transition-all"
@@ -508,22 +509,22 @@ export default function LibraryPage() {
               <h3 className="text-lg font-semibold text-white mb-6">Resources</h3>
               <ul className="space-y-4">
                 <li>
-                  <a href="/library" className="flex items-center hover:text-cyan-400 transition-colors">
+                  <Link href="/library" className="flex items-center hover:text-cyan-400 transition-colors">
                     <BookOpen className="mr-3 w-4 h-4 text-cyan-400" />
                     PDF Library
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center hover:text-cyan-400 transition-colors">
+                  <Link href="#" className="flex items-center hover:text-cyan-400 transition-colors">
                     <FileText className="mr-3 w-4 h-4 text-cyan-400" />
                     Previous Papers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center hover:text-cyan-400 transition-colors">
+                  <Link href="#" className="flex items-center hover:text-cyan-400 transition-colors">
                     <BarChart3 className="mr-3 w-4 h-4 text-cyan-400" />
-                    Analysis & Reports
-                  </a>
+                    Analysis &amp; Reports
+                  </Link>
                 </li>
               </ul>
             </div>

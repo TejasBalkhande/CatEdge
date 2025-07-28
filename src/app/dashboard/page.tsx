@@ -5,18 +5,53 @@ import { useRouter } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
 import Link from 'next/link';
 
+// Define TypeScript interfaces
+interface User {
+  fullName: string;
+  email: string;
+  role: 'free' | 'premium';
+  createdAt: string;
+}
+
+interface RazorpayResponse {
+  razorpay_payment_id: string;
+  razorpay_order_id: string;
+  razorpay_signature: string;
+}
+
 // Declare Razorpay globally
 declare global {
   interface Window {
-    Razorpay: any;
+    Razorpay: new (options: RazorpayOptions) => RazorpayInstance;
   }
+}
+
+interface RazorpayOptions {
+  key: string | undefined;
+  amount: number;
+  currency: string;
+  name: string;
+  description: string;
+  order_id: string;
+  handler: (response: RazorpayResponse) => void;
+  prefill: {
+    name: string;
+    email: string;
+  };
+  theme: {
+    color: string;
+  };
+}
+
+interface RazorpayInstance {
+  open: () => void;
 }
 
 export default function Dashboard() {
   const { isAuthenticated, logout } = useAuth();
   const router = useRouter();
 
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
@@ -50,16 +85,21 @@ export default function Dashboard() {
   }, [isAuthenticated]);
 
   const loadRazorpayScript = () => {
-    return new Promise((resolve) => {
+    return new Promise<void>((resolve) => {
       const script = document.createElement('script');
       script.src = 'https://checkout.razorpay.com/v1/checkout.js';
       script.async = true;
-      script.onload = resolve;
+      script.onload = () => resolve();
       document.body.appendChild(script);
     });
   };
 
   const upgradeToPremium = async () => {
+    if (!user) {
+      alert('User data not available');
+      return;
+    }
+
     try {
       if (!window.Razorpay) {
         await loadRazorpayScript();
@@ -77,14 +117,14 @@ export default function Dashboard() {
         return;
       }
 
-      const options = {
+      const options: RazorpayOptions = {
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
         amount: order.amount,
         currency: 'INR',
         name: 'CATPrepEdge',
         description: 'Premium Plan Upgrade',
         order_id: order.id,
-        handler: async function (response: any) {
+        handler: async function (response: RazorpayResponse) {
           const verificationResponse = await fetch('/api/verify-payment', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -104,8 +144,8 @@ export default function Dashboard() {
           }
         },
         prefill: {
-          name: user?.fullName || '',
-          email: user?.email || '',
+          name: user.fullName,
+          email: user.email,
         },
         theme: {
           color: '#00CFFF',
@@ -143,7 +183,6 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-blue-950">
-
       {/* Fixed Nav - Full Width Fix */}
       <nav className="bg-black/30 backdrop-blur-md border-b border-gray-800 shadow-xl w-full">
         <div className="w-full flex justify-between items-center h-16 px-4 sm:px-6 lg:px-8">
@@ -205,7 +244,7 @@ export default function Dashboard() {
               </div>
             </div>
 
-            {/* Upgrade Section
+            {/* Upgrade Section */}
             {user?.role === 'free' && (
               <div className="border-t border-gray-700 pt-10">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
@@ -224,10 +263,10 @@ export default function Dashboard() {
                   </button>
                 </div>
               </div>
-            )} */}
+            )}
 
             {/* Premium Features */}
-            {/* {user?.role === 'premium' && (
+            {user?.role === 'premium' && (
               <div className="border-t border-gray-700 pt-10">
                 <h2 className="text-2xl font-bold text-cyan-400 mb-6">Premium Features</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -245,7 +284,7 @@ export default function Dashboard() {
                   ))}
                 </div>
               </div>
-            )} */}
+            )}
           </div>
         </div>
       </main>

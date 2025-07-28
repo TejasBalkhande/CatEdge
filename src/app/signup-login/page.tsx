@@ -1,17 +1,29 @@
-// src/app/signup-login/page.tsx
 'use client';
 
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
 import Link from 'next/link';
+
+// Define TypeScript interfaces
+interface AuthFormData {
+  fullName: string;
+  email: string;
+  password: string;
+  confirmPassword: string;
+}
+
+interface AuthResponse {
+  token?: string;
+  message?: string;
+}
 
 export default function AuthPage() {
   const router = useRouter();
   const { setIsAuthenticated } = useAuth();
 
   const [isLogin, setIsLogin] = useState(true);
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<AuthFormData>({
     fullName: '',
     email: '',
     password: '',
@@ -21,14 +33,14 @@ export default function AuthPage() {
   const [loading, setLoading] = useState(false);
   const [authError, setAuthError] = useState('');
 
-  const validate = () => {
+  const validate = (): boolean => {
     const newErrors: Record<string, string> = {};
     
-    if (!isLogin && !formData.fullName) {
+    if (!isLogin && !formData.fullName.trim()) {
       newErrors.fullName = 'Full name is required';
     }
     
-    if (!formData.email) {
+    if (!formData.email.trim()) {
       newErrors.email = 'Email is required';
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       newErrors.email = 'Email is invalid';
@@ -48,7 +60,7 @@ export default function AuthPage() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
     
@@ -56,31 +68,22 @@ export default function AuthPage() {
     setAuthError('');
 
     try {
-      let response: Response;
-      let data: any;
+      const endpoint = isLogin ? '/api/login' : '/api/signup';
+      const body = isLogin 
+        ? { email: formData.email, password: formData.password }
+        : { 
+            fullName: formData.fullName, 
+            email: formData.email, 
+            password: formData.password 
+          };
 
-      if (isLogin) {
-        response = await fetch('/api/login', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            email: formData.email,
-            password: formData.password
-          })
-        });
-      } else {
-        response = await fetch('/api/signup', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            fullName: formData.fullName,
-            email: formData.email,
-            password: formData.password
-          })
-        });
-      }
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
 
-      data = await response.json();
+      const data: AuthResponse = await response.json();
 
       if (response.ok) {
         if (data.token) {
@@ -166,8 +169,8 @@ export default function AuthPage() {
               
               <div className="pt-4 border-t border-gray-700">
                 <p className="text-gray-400 italic">
-                  "CATPrepEdge transformed my preparation strategy with actionable insights and 
-                  comprehensive resources that went beyond standard PYQs."
+                  &quot;CATPrepEdge transformed my preparation strategy with actionable insights and 
+                  comprehensive resources that went beyond standard PYQs.&quot;
                 </p>
                 <p className="text-cyan-400 mt-2">- IIM Ahmedabad Aspirant</p>
               </div>
@@ -238,92 +241,92 @@ export default function AuthPage() {
                 </label>
                 <input
                   id="password"
-                  name="password"
-                  type="password"
-                  autoComplete={isLogin ? 'current-password' : 'new-password'}
-                  value={formData.password}
-                  onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-                  className={`w-full px-4 py-3 bg-gray-700/40 backdrop-blur-sm ${
-                    errors.password ? 'border-red-500' : 'border-gray-600'
-                  } rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent text-white placeholder-gray-500 transition-all duration-300`}
-                  placeholder="Enter your password"
-                />
-                {errors.password && <p className="mt-2 text-sm text-red-400">{errors.password}</p>}
-              </div>
-              
-              {!isLogin && (
-                <div>
-                  <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-400 mb-2">
-                    Confirm Password
-                  </label>
-                  <input
-                    id="confirmPassword"
-                    name="confirmPassword"
+                    name="password"
                     type="password"
-                    autoComplete="new-password"
-                    value={formData.confirmPassword}
-                    onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
+                    autoComplete={isLogin ? 'current-password' : 'new-password'}
+                    value={formData.password}
+                    onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                     className={`w-full px-4 py-3 bg-gray-700/40 backdrop-blur-sm ${
-                      errors.confirmPassword ? 'border-red-500' : 'border-gray-600'
+                      errors.password ? 'border-red-500' : 'border-gray-600'
                     } rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent text-white placeholder-gray-500 transition-all duration-300`}
-                    placeholder="Confirm your password"
+                    placeholder="Enter your password"
                   />
-                  {errors.confirmPassword && <p className="mt-2 text-sm text-red-400">{errors.confirmPassword}</p>}
+                  {errors.password && <p className="mt-2 text-sm text-red-400">{errors.password}</p>}
                 </div>
-              )}
+                
+                {!isLogin && (
+                  <div>
+                    <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-400 mb-2">
+                      Confirm Password
+                    </label>
+                    <input
+                      id="confirmPassword"
+                      name="confirmPassword"
+                      type="password"
+                      autoComplete="new-password"
+                      value={formData.confirmPassword}
+                      onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
+                      className={`w-full px-4 py-3 bg-gray-700/40 backdrop-blur-sm ${
+                        errors.confirmPassword ? 'border-red-500' : 'border-gray-600'
+                      } rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent text-white placeholder-gray-500 transition-all duration-300`}
+                      placeholder="Confirm your password"
+                    />
+                    {errors.confirmPassword && <p className="mt-2 text-sm text-red-400">{errors.confirmPassword}</p>}
+                  </div>
+                )}
+                
+                <div>
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="w-full py-3.5 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-medium rounded-lg hover:from-cyan-500 hover:to-blue-600 transition-all duration-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500/50 disabled:opacity-70 shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40 group"
+                  >
+                    {loading ? (
+                      <span className="flex items-center justify-center">
+                        <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        Processing...
+                      </span>
+                    ) : isLogin ? (
+                      <span className="group-hover:scale-105 transition-transform">Sign In</span>
+                    ) : (
+                      <span className="group-hover:scale-105 transition-transform">Create Account</span>
+                    )}
+                  </button>
+                </div>
+              </form>
               
-              <div>
+              <div className="mt-8 text-center">
                 <button
-                  type="submit"
-                  disabled={loading}
-                  className="w-full py-3.5 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-medium rounded-lg hover:from-cyan-500 hover:to-blue-600 transition-all duration-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500/50 disabled:opacity-70 shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40 group"
+                  onClick={() => setIsLogin(!isLogin)}
+                  className="font-medium text-cyan-400 hover:text-cyan-300 transition-all duration-300 hover:underline"
                 >
-                  {loading ? (
-                    <span className="flex items-center justify-center">
-                      <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                      </svg>
-                      Processing...
-                    </span>
-                  ) : isLogin ? (
-                    <span className="group-hover:scale-105 transition-transform">Sign In</span>
-                  ) : (
-                    <span className="group-hover:scale-105 transition-transform">Create Account</span>
-                  )}
+                  {isLogin 
+                    ? "Don&apos;t have an account? Create one" 
+                    : "Already have an account? Sign in"}
                 </button>
               </div>
-            </form>
-            
-            <div className="mt-8 text-center">
-              <button
-                onClick={() => setIsLogin(!isLogin)}
-                className="font-medium text-cyan-400 hover:text-cyan-300 transition-all duration-300 hover:underline"
-              >
-                {isLogin 
-                  ? "Don't have an account? Create one" 
-                  : "Already have an account? Sign in"}
-              </button>
-            </div>
-            
-            <div className="mt-8 pt-6 border-t border-gray-700">
-              <p className="text-gray-500 text-center text-sm">
-                By signing up, you agree to our 
-                <a href="#" className="text-cyan-400 hover:text-cyan-300 ml-1 transition-colors">Terms of Service</a> and 
-                <a href="#" className="text-cyan-400 hover:text-cyan-300 ml-1 transition-colors">Privacy Policy</a>
-              </p>
+              
+              <div className="mt-8 pt-6 border-t border-gray-700">
+                <p className="text-gray-500 text-center text-sm">
+                  By signing up, you agree to our 
+                  <a href="#" className="text-cyan-400 hover:text-cyan-300 ml-1 transition-colors">Terms of Service</a> and 
+                  <a href="#" className="text-cyan-400 hover:text-cyan-300 ml-1 transition-colors">Privacy Policy</a>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </main>
-      
-      {/* Footer */}
-      <footer className="bg-black/30 backdrop-blur-md border-t border-gray-800 py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gray-500">© {new Date().getFullYear()} CATPrepEdge. All rights reserved.</p>
-          <p className="mt-2 text-gray-600 text-sm">The ultimate CAT preparation platform for MBA aspirants</p>
-        </div>
-      </footer>
-    </div>
-  );
+        </main>
+        
+        {/* Footer */}
+        <footer className="bg-black/30 backdrop-blur-md border-t border-gray-800 py-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p className="text-gray-500">© {new Date().getFullYear()} CATPrepEdge. All rights reserved.</p>
+            <p className="mt-2 text-gray-600 text-sm">The ultimate CAT preparation platform for MBA aspirants</p>
+          </div>
+        </footer>
+      </div>
+    );
 }

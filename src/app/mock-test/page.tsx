@@ -5,15 +5,39 @@ import { Book, BarChart, User, Settings, Moon, Sun, Calendar } from 'lucide-reac
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
+// Define types
+interface TopicProgress {
+  section: string;
+  topic: string;
+  attempted: number;
+  correct: number;
+}
 
-// Define type for section progress
-type SectionProgress = {
+interface SectionProgress {
   VARC: number;
   DILR: number;
   QA: number;
-};
+}
 
-const CAT_Mock_Test = {
+interface ProgressData {
+  questionsSolved: number;
+  topicsCompleted: number;
+  masteryLevel: number;
+  sectionProgress: SectionProgress;
+}
+
+interface Section {
+  section_name: string;
+  topics: string[];
+}
+
+interface CATMockTest {
+  VARC: Section;
+  DILR: Section;
+  QA: Section;
+}
+
+const CAT_Mock_Test: CATMockTest = {
   VARC: {
     section_name: "Verbal Ability & Reading Comprehension",
     topics: [
@@ -62,8 +86,8 @@ const MockTestPage = () => {
   const router = useRouter();
   const [activeSection, setActiveSection] = useState<string | null>(null);
   const [darkMode, setDarkMode] = useState(true);
-  const [userProgress, setUserProgress] = useState<any[]>([]);
-  const [progressData, setProgressData] = useState({
+  const [userProgress, setUserProgress] = useState<TopicProgress[]>([]);
+  const [progressData, setProgressData] = useState<ProgressData>({
     questionsSolved: 0,
     topicsCompleted: 0,
     masteryLevel: 0,
@@ -71,7 +95,7 @@ const MockTestPage = () => {
       VARC: 0,
       DILR: 0,
       QA: 0
-    } as SectionProgress
+    }
   });
 
   useEffect(() => {
@@ -79,7 +103,7 @@ const MockTestPage = () => {
       try {
         const response = await fetch('/api/user/progress');
         if (response.ok) {
-          const data = await response.json();
+          const data: TopicProgress[] = await response.json();
           setUserProgress(data);
         }
       } catch (error) {
@@ -93,20 +117,21 @@ const MockTestPage = () => {
   // Calculate progress when userProgress changes
   useEffect(() => {
     const calculateSectionProgress = (section: string) => {
-      const sectionProgress = userProgress.filter((p: any) => p.section === section);
+      const sectionProgress = userProgress.filter(p => p.section === section);
       
       if (sectionProgress.length === 0) return 0;
       
-      const totalTopics = CAT_Mock_Test[section as keyof typeof CAT_Mock_Test].topics.length;
+      const sectionKey = section as keyof CATMockTest;
+      const totalTopics = CAT_Mock_Test[sectionKey].topics.length;
       const completedTopics = sectionProgress.filter(
-        (p: any) => p.attempted > 0
+        p => p.attempted > 0
       ).length;
       
       return Math.round((completedTopics / totalTopics) * 100);
     };
 
     // Calculate overall stats
-    const topicsCompleted = userProgress.filter((p: any) => p.attempted > 0).length;
+    const topicsCompleted = userProgress.filter(p => p.attempted > 0).length;
     const questionsSolved = userProgress.reduce((sum, p) => sum + p.attempted, 0);
     
     // Calculate total topics for mastery level
@@ -159,12 +184,17 @@ const MockTestPage = () => {
           <div className="flex items-center">
             <Book className={`w-8 h-8 mr-2 ${darkMode ? 'text-cyan-400' : 'text-blue-600'}`} />
             <Link href="/">
-            <span className="text-xl font-bold">CATPrepEdge</span>
+              <span className="text-xl font-bold">CATPrepEdge</span>
             </Link>
           </div>
           
           <nav className="hidden md:flex space-x-8">
-            <a href="/" className={`font-medium ${darkMode ? 'text-cyan-400' : 'text-blue-600'}`}>Home</a>
+            <Link 
+              href="/" 
+              className={`font-medium ${darkMode ? 'text-cyan-400' : 'text-blue-600'}`}
+            >
+              Home
+            </Link>
             <a 
               href="#sections" 
               onClick={(e) => {
@@ -318,9 +348,7 @@ const MockTestPage = () => {
                   {/* Only show topics for the active section */}
                   {activeSection === sectionKey && (
                     <motion.div 
-                      className={`px-6 pb-6 pt-0 ${
-                        darkMode ? 'border-t border-gray-700' : 'border-t border-gray-200'
-                      }`}
+                      className={`px-6 pb-6 pt-0 ${darkMode ? 'border-t border-gray-700' : 'border-t border-gray-200'}`}
                       initial={{ opacity: 0, height: 0 }}
                       animate={{ opacity: 1, height: 'auto' }}
                       transition={{ duration: 0.3 }}
@@ -329,7 +357,8 @@ const MockTestPage = () => {
                         Topics in this section:
                       </h4>
                       <div className="grid grid-cols-1 gap-3">
-                        {sectionData.topics.map((topic, index) => (
+                        {/* Fixed: Added type annotations for topic and index */}
+                        {sectionData.topics.map((topic: string, index: number) => (
                           <motion.div
                             key={index}
                             className={`px-4 py-3 rounded-lg flex items-center cursor-pointer transition-all ${
@@ -493,7 +522,7 @@ const MockTestPage = () => {
       </main>
 
       <footer className={`mt-12 py-8 text-center ${darkMode ? 'text-gray-500' : 'text-gray-600'}`}>
-        <p>© 2023 CATPrepEdge. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} CATPrepEdge. All rights reserved.</p>
       </footer>
     </div>
   );

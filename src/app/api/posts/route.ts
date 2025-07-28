@@ -7,11 +7,38 @@ import {
   where,
   orderBy,
   addDoc,
-  serverTimestamp
+  serverTimestamp,
+  QueryConstraint
 } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 
-// GET: fetch with optional filters, sorting & pagination
+interface Post {
+  id: string;
+  title: string;
+  slug: string;
+  content: string;
+  excerpt: string;
+  author: string;
+  authorImage: string;
+  image: string;
+  category: string;
+  featured: boolean;
+  createdAt: Date | string;
+}
+
+interface PostInput {
+  title: string;
+  slug: string;
+  content: string;
+  excerpt: string;
+  author: string;
+  authorImage: string;
+  image: string;
+  category: string;
+  featured: boolean;
+  createdAt?: any; // Firestore FieldValue for serverTimestamp
+}
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
@@ -22,7 +49,7 @@ export async function GET(request: NextRequest) {
     const category = searchParams.get('category') || '';
 
     const postsRef = collection(db, 'posts');
-    const constraints: any[] = [];
+    const constraints: QueryConstraint[] = [];
 
     if (category) {
       constraints.push(where('category', '==', category));
@@ -41,20 +68,31 @@ export async function GET(request: NextRequest) {
 
     const q = query(postsRef, ...constraints);
     const snapshot = await getDocs(q);
-    const allPosts = snapshot.docs.map(doc => ({
-      id: doc.id,
-      ...doc.data()
-    }));
+    const allPosts = snapshot.docs.map(doc => {
+      const data = doc.data();
+      return {
+        id: doc.id,
+        title: data.title || '',
+        slug: data.slug || '',
+        content: data.content || '',
+        excerpt: data.excerpt || '',
+        author: data.author || '',
+        authorImage: data.authorImage || '',
+        image: data.image || '',
+        category: data.category || 'General',
+        featured: data.featured || false,
+        createdAt: data.createdAt?.toDate?.() || new Date()
+      } as Post;
+    });
 
-    // categories list
+    // Get unique categories
     const categories = Array.from(
-      new Set(allPosts.map((p: any) => p.category || 'General'))
+      new Set(allPosts.map(p => p.category || 'General'))
     );
 
-    // featuredPosts (e.g. those with featured flag, or top 3 by date)
-    // Replace the featuredPosts filtering logic
+    // Fixed: Featured posts filtering logic
     const featuredPosts = allPosts
-      .filter((p: any) => p.featured === true) // Ensure strict boolean comparison
+      .filter(p => p.featured === true)
       .slice(0, 3);
 
     const start = (page - 1) * limit;
@@ -77,7 +115,6 @@ export async function GET(request: NextRequest) {
   }
 }
 
-// POST: create a new blog post
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -100,11 +137,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const newPost = {
+    const newPost: PostInput = {
       title,
       slug,
       content,
-      excerpt: excerpt || content.substring(0, 100) + '...',
+      excerpt: excerpt || `${content.substring(0, 100)}...`,
       author,
       authorImage: authorImage || '',
       image: image || '',
@@ -116,7 +153,7 @@ export async function POST(request: NextRequest) {
     const docRef = await addDoc(collection(db, 'posts'), newPost);
 
     return NextResponse.json(
-      { id: docRef.id, ...newPost },
+      { id: docRef.id, slug: newPost.slug },
       { status: 201 }
     );
   } catch (err) {

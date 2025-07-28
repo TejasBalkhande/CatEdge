@@ -1,20 +1,49 @@
 // models/User.ts
-import mongoose from 'mongoose';
+import mongoose, { Document, Schema, Model } from 'mongoose';
 
-const progressSchema = new mongoose.Schema({
-  section: { type: String, required: true }, // VARC, DILR, QA
+// Define interface for Progress
+export interface IProgress {
+  section: string;  // VARC, DILR, QA
+  topic: string;
+  attempted: number;
+  correct: number;
+}
+
+// Define interface for User document
+export interface IUser extends Document {
+  fullName: string;
+  email: string;
+  password: string;
+  role: 'free' | 'premium';
+  progress: IProgress[];
+  createdAt: Date;
+}
+
+// Progress Schema
+const progressSchema = new Schema<IProgress>({
+  section: { type: String, required: true },
   topic: { type: String, required: true },
   attempted: { type: Number, default: 0 },
   correct: { type: Number, default: 0 },
 });
 
-const userSchema = new mongoose.Schema({
+// User Schema
+const userSchema = new Schema<IUser>({
   fullName: { type: String, required: true },
   email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
-  role: { type: String, enum: ['free', 'premium'], default: 'free' },
-  progress: [progressSchema], // Array of progress objects
+  role: { 
+    type: String, 
+    enum: ['free', 'premium'], 
+    default: 'free' 
+  },
+  progress: [progressSchema],
   createdAt: { type: Date, default: Date.now }
 });
 
-export default mongoose.models.User || mongoose.model('User', userSchema);
+// Create the model
+const UserModel: Model<IUser> = 
+  mongoose.models.User as Model<IUser> || 
+  mongoose.model<IUser>('User', userSchema);
+
+export default UserModel;

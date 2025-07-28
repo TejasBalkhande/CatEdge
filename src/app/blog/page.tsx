@@ -1,4 +1,3 @@
-//src\app\blog\page.tsx
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -7,17 +6,33 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useAuth } from '@/context/AuthContext';
 
+interface BlogPost {
+  id: string;
+  title: string;
+  slug: string;
+  content: string;
+  excerpt: string;
+  author: string;
+  authorImage: string;
+  image: string;
+  category: string;
+  featured: boolean;
+  createdAt: string | Date | { seconds: number } | { toDate: () => Date };
+}
+
+interface BlogData {
+  posts: BlogPost[];
+  total: number;
+  categories: string[];
+  featuredPosts: BlogPost[];
+}
+
 export default function BlogPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [blogData, setBlogData] = useState<{
-    posts: any[];
-    total: number;
-    categories: string[];
-    featuredPosts: any[];
-  } | null>(null);
+  const [blogData, setBlogData] = useState<BlogData | null>(null);
   const { isAuthenticated, logout } = useAuth();
 
   const page = parseInt(searchParams.get('page') || '1', 10);
@@ -40,7 +55,7 @@ export default function BlogPage() {
 
         const res = await fetch(`/api/posts?${query}`);
         if (!res.ok) throw new Error('Failed to fetch posts');
-        const data = await res.json();
+        const data: BlogData = await res.json();
         setBlogData(data);
         setError(null);
       } catch (err) {
@@ -67,21 +82,25 @@ export default function BlogPage() {
 
   const totalPages = blogData ? Math.ceil(blogData.total / limit) : 0;
 
-  const formatDate = (timestamp: any) => {
+  const formatDate = (timestamp: BlogPost['createdAt']) => {
     if (!timestamp) return '';
     
     // Handle Firestore Timestamp objects
     let date;
-    if (timestamp.seconds) {
-      date = new Date(timestamp.seconds * 1000);
+    if (typeof timestamp === 'object' && 'seconds' in timestamp) {
+      date = new Date((timestamp as { seconds: number }).seconds * 1000);
     } 
     // Handle Firestore Timestamp objects with toDate method
-    else if (timestamp.toDate) {
-      date = timestamp.toDate();
+    else if (typeof timestamp === 'object' && 'toDate' in timestamp) {
+      date = (timestamp as { toDate: () => Date }).toDate();
     } 
-    // Handle ISO strings
+    // Handle ISO strings and Date objects
     else if (typeof timestamp === 'string') {
       date = new Date(timestamp);
+    }
+    // Handle Date objects
+    else if (timestamp instanceof Date) {
+      date = timestamp;
     }
     // Fallback to current date
     else {
@@ -111,8 +130,8 @@ export default function BlogPage() {
       <nav className="bg-white/90 backdrop-blur-md border-b border-gray-200 shadow-sm w-full sticky top-0 z-50">
         <div className="w-full flex justify-between items-center h-16 px-4 sm:px-6 lg:px-8">
           <Link href="/">
-          <div className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-800 to-blue-900 bg-clip-text text-transparent">
-            CATPrepEdge
+            <div className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-800 to-blue-900 bg-clip-text text-transparent">
+              CATPrepEdge
             </div>
           </Link>
           <div className="flex items-center space-x-4">
@@ -262,7 +281,7 @@ export default function BlogPage() {
                           </Link>
                         </h3>
                         <p className="text-gray-700 text-sm mb-3 line-clamp-3">
-                          {post.excerpt || post.content.substring(0, 150) + '...'}
+                          {post.excerpt || `${post.content.substring(0, 150)}...`}
                         </p>
                         <div className="flex items-center pt-3 border-t border-gray-100">
                           {post.authorImage && (
@@ -401,7 +420,7 @@ export default function BlogPage() {
                 </div>
               </div>
 
-              {/* Progress Tracking Widget - NEW SECTION */}
+              {/* Progress Tracking Widget */}
               <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-xl border border-indigo-200 shadow-sm p-5">
                 <div className="flex items-center mb-2">
                   <div className="bg-white/80 border border-indigo-300 rounded-lg p-2 mr-3">
@@ -514,8 +533,6 @@ export default function BlogPage() {
                   </button>
                 </Link>
               </div>
-
-              
             </div>
           </div>
         </div>
