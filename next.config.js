@@ -1,19 +1,19 @@
+// next.config.js
+const { withCloudflarePagesAdapter } = require('@cloudflare/next-on-pages/next-config');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    ignoreDuringBuilds: true, // 👈 Add this line
+    ignoreDuringBuilds: true,
   },
-  // Configure remote image domains
   images: {
     domains: [
-      'raw.githubusercontent.com', // GitHub raw file hosting
-      'i.postimg.cc',              // Postimages.org
+      'raw.githubusercontent.com',
+      'i.postimg.cc',
     ],
   },
 };
 
-if (process.env.NODE_ENV === 'production') {
-  module.exports = require('@cloudflare/next-on-pages/next-config')(nextConfig);
-} else {
-  module.exports = nextConfig;
-}
+module.exports = process.env.NODE_ENV === 'production' 
+  ? withCloudflarePagesAdapter(nextConfig) 
+  : nextConfig;
