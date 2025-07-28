@@ -14,6 +14,7 @@ const nextConfig = {
   },
 };
 
-module.exports = process.env.NODE_ENV === 'production' 
-  ? withCloudflarePagesAdapter(nextConfig) 
-  : nextConfig;
+module.exports =
+  process.env.NODE_ENV === 'production'
+    ? withCloudflarePagesAdapter(nextConfig)
+    : nextConfig;
