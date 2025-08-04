@@ -15,9 +15,14 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState('all');
   const [searchValue, setSearchValue] = useState('');
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [isClient, setIsClient] = useState(false);
   const router = useRouter();
   const searchRef = useRef<HTMLFormElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   // Real dates for CAT exam timeline
   const today = new Date();
@@ -45,7 +50,7 @@ export default function Home() {
     });
   };
 
-  // Calculate registration progress percentage
+  // Calculate registration progress percentage with consistent rounding
   const registrationProgress = () => {
     const totalDuration = catRegistrationEnd.getTime() - catRegistrationStart.getTime();
     const elapsed = today.getTime() - catRegistrationStart.getTime();
@@ -53,7 +58,8 @@ export default function Home() {
     if (today < catRegistrationStart) return 0;
     if (today > catRegistrationEnd) return 100;
     
-    return Math.min(100, Math.max(0, (elapsed / totalDuration) * 100));
+    const progress = (elapsed / totalDuration) * 100;
+    return Math.round(progress * 100) / 100; // Round to 2 decimal places
   };
 
   // Update the timeline stages with real dates
@@ -98,7 +104,6 @@ export default function Home() {
   const navLinks = [
     { name: 'Home', href: '#', icon: <Book className="w-4 h-4" /> },
     { name: 'Library', href: '/library', icon: <BookOpen className="w-4 h-4" /> },
-    { name: 'Blog', href: '/blog', icon: <FileText className="w-4 h-4" /> },
     { name: 'Colleges', href: '/colleges', icon: <GraduationCap className="w-4 h-4" /> },
     { name: 'Mock Tests', href: '/mock-test', icon: <Award className="w-4 h-4" /> },
   ];
@@ -146,7 +151,7 @@ export default function Home() {
     { id: 'all', name: 'All PYQs' },
     { id: 'qa', name: 'Quantitative Aptitude' },
     { id: 'varc', name: 'Verbal Ability' },
-    { id: 'lrdi', name: 'Logical Reasoning' },
+    { id: 'dilr', name: 'Logical Reasoning' },
   ];
 
   // Define section topics for filtering
@@ -172,162 +177,152 @@ export default function Home() {
     ]
   };
 
-  const pyqPapers = [
-    { 
-      year: 'CAT 2023', 
-      difficulty: 'Hard', 
-      questions: 66,
-      time: '120 mins',
-      topics: ['Algebra', 'Geometry', 'Reading Comprehension'],
-      color: 'bg-gradient-to-r from-blue-600 to-cyan-600',
-      tags: ['CAT', '2023', 'Quantitative', 'Verbal']
-    },
-    { 
-      year: 'CAT 2022', 
-      difficulty: 'Moderate', 
-      questions: 66,
-      time: '120 mins',
-      topics: ['Profit & Loss', 'Para Jumbles', 'Data Interpretation'],
-      color: 'bg-gradient-to-r from-purple-600 to-indigo-600',
-      tags: ['CAT', '2022', 'Quantitative', 'Logical']
-    },
-    { 
-      year: 'CAT 2021', 
-      difficulty: 'Hard', 
-      questions: 66,
-      time: '120 mins',
-      topics: ['Number System', 'Vocabulary', 'Seating Arrangement'],
-      color: 'bg-gradient-to-r from-teal-600 to-emerald-600',
-      tags: ['CAT', '2021', 'Quantitative', 'Verbal', 'Logical']
-    },
-    { 
-      year: 'CAT 2020', 
-      difficulty: 'Moderate', 
-      questions: 76,
-      time: '120 mins',
-      topics: ['Percentages', 'Grammar', 'Blood Relations'],
-      color: 'bg-gradient-to-r from-violet-600 to-fuchsia-600',
-      tags: ['CAT', '2020', 'Quantitative', 'Verbal', 'Logical']
-    },
-  ];
+ const pyqPapers = [
+  { 
+    year: 'CAT 2022', 
+    difficulty: 'Hard', 
+    questions: 66,
+    time: '120 mins',
+    topics: ['previous year', 'CAT 2022', 'question paper', 'practice'],
+    color: 'bg-gradient-to-r from-blue-600 to-cyan-600',
+    tags: ['previous year', 'CAT 2022', 'question paper', 'practice']
+  },
+  { 
+    year: 'CAT 2021', 
+    difficulty: 'Moderate', 
+    questions: 66,
+    time: '120 mins',
+    topics: ['previous year', 'CAT 2021', 'question paper', 'practice'],
+    color: 'bg-gradient-to-r from-purple-600 to-indigo-600',
+    tags: ['previous year', 'CAT 2021', 'question paper', 'practice']
+  },
+  { 
+    year: 'CAT 2020', 
+    difficulty: 'Hard', 
+    questions: 76,
+    time: '120 mins',
+    topics: ['previous year', 'CAT 2020', 'question paper', 'practice'],
+    color: 'bg-gradient-to-r from-teal-600 to-emerald-600',
+    tags: ['previous year', 'CAT 2020', 'question paper', 'practice']
+  }
+];
 
-  // Topic resources for each section
-  const sectionResources = {
-    qa: [
-      {
-        id: 1,
-        title: "Percentage Concepts",
-        description: "Complete guide to percentage calculations with practice problems",
-        topics: ["Percentage", "Formulas"],
-        difficulty: "Intermediate",
-        time: "45 mins",
-        color: "from-blue-500 to-cyan-500"
-      },
-      {
-        id: 2,
-        title: "Algebra Fundamentals",
-        description: "Linear equations, quadratic equations and inequalities",
-        topics: ["Algebra", "Equations"],
-        difficulty: "Beginner",
-        time: "60 mins",
-        color: "from-purple-500 to-indigo-500"
-      },
-      {
-        id: 3,
-        title: "Geometry Masterclass",
-        description: "Triangles, circles, polygons and coordinate geometry",
-        topics: ["Geometry", "Shapes"],
-        difficulty: "Advanced",
-        time: "90 mins",
-        color: "from-teal-500 to-emerald-500"
-      },
-      {
-        id: 4,
-        title: "Probability & Statistics",
-        description: "Probability distributions and statistical analysis",
-        topics: ["Probability", "Statistics"],
-        difficulty: "Intermediate",
-        time: "75 mins",
-        color: "from-amber-500 to-orange-500"
-      }
-    ],
-    varc: [
-      {
-        id: 1,
-        title: "Reading Comprehension",
-        description: "Strategies for different types of RC passages",
-        topics: ["Comprehension", "Passages"],
-        difficulty: "Intermediate",
-        time: "50 mins",
-        color: "from-blue-500 to-cyan-500"
-      },
-      {
-        id: 2,
-        title: "Vocabulary Builder",
-        description: "Essential words, idioms and phrases for CAT",
-        topics: ["Vocabulary", "Idioms"],
-        difficulty: "Beginner",
-        time: "40 mins",
-        color: "from-purple-500 to-indigo-500"
-      },
-      {
-        id: 3,
-        title: "Grammar Essentials",
-        description: "Common grammatical rules and error spotting",
-        topics: ["Grammar", "Sentence Correction"],
-        difficulty: "Intermediate",
-        time: "55 mins",
-        color: "from-teal-500 to-emerald-500"
-      },
-      {
-        id: 4,
-        title: "Para Jumbles Mastery",
-        description: "Techniques to solve para jumble questions quickly",
-        topics: ["Para Jumbles", "Sentence Rearrangement"],
-        difficulty: "Advanced",
-        time: "45 mins",
-        color: "from-amber-500 to-orange-500"
-      }
-    ],
-    lrdi: [
-      {
-        id: 1,
-        title: "Data Interpretation",
-        description: "Interpreting tables, charts and graphs",
-        topics: ["Data Analysis", "Charts"],
-        difficulty: "Intermediate",
-        time: "60 mins",
-        color: "from-blue-500 to-cyan-500"
-      },
-      {
-        id: 2,
-        title: "Logical Puzzles",
-        description: "Solving complex logical reasoning puzzles",
-        topics: ["Puzzles", "Logic"],
-        difficulty: "Advanced",
-        time: "70 mins",
-        color: "from-purple-500 to-indigo-500"
-      },
-      {
-        id: 3,
-        title: "Seating Arrangements",
-        description: "Circular, linear and matrix arrangements",
-        topics: ["Arrangements", "Positions"],
-        difficulty: "Intermediate",
-        time: "65 mins",
-        color: "from-teal-500 to-emerald-500"
-      },
-      {
-        id: 4,
-        title: "Venn Diagrams & Sets",
-        description: "Set theory applications and venn diagrams",
-        topics: ["Sets", "Venn Diagrams"],
-        difficulty: "Beginner",
-        time: "40 mins",
-        color: "from-amber-500 to-orange-500"
-      }
-    ]
-  };
+const sectionResources = {
+  qa: [
+    {
+      id: 1,
+      title: "Indices and Surds",
+      description: "Comprehensive material on exponents and roots",
+      topics: ["indices", "surds", "exponents", "mathematics"],
+      difficulty: "Intermediate",
+      time: "45 mins",
+      color: "from-blue-500 to-cyan-500"
+    },
+    {
+      id: 2,
+      title: "Logarithms",
+      description: "Complete guide to logarithmic functions and properties",
+      topics: ["logarithms", "algebra", "mathematics", "quantitative"],
+      difficulty: "Beginner",
+      time: "60 mins",
+      color: "from-purple-500 to-indigo-500"
+    },
+    {
+      id: 3,
+      title: "Mensuration",
+      description: "Study of area, volume and geometric measurements",
+      topics: ["mensuration", "area", "volume", "geometry"],
+      difficulty: "Advanced",
+      time: "90 mins",
+      color: "from-teal-500 to-emerald-500"
+    },
+    {
+      id: 4,
+      title: "Sequence and Series",
+      description: "Patterns in numerical sequences and series summations",
+      topics: ["sequence", "series", "mathematics", "quantitative"],
+      difficulty: "Intermediate",
+      time: "75 mins",
+      color: "from-amber-500 to-orange-500"
+    }
+  ],
+  varc: [
+    {
+      id: 1,
+      title: "Reading comprehension advanced",
+      description: "Advanced techniques for complex passages",
+      topics: ["reading comprehension", "advanced", "english", "verbal ability"],
+      difficulty: "Intermediate",
+      time: "50 mins",
+      color: "from-blue-500 to-cyan-500"
+    },
+    {
+      id: 2,
+      title: "Reading comprehension basic",
+      description: "Foundational skills for passage analysis",
+      topics: ["reading comprehension", "basic", "english", "verbal ability"],
+      difficulty: "Beginner",
+      time: "40 mins",
+      color: "from-purple-500 to-indigo-500"
+    },
+    {
+      id: 3,
+      title: "Para Jumbles",
+      description: "Techniques for sentence rearrangement",
+      topics: ["para jumbles", "sentence rearrangement", "english", "verbal ability"],
+      difficulty: "Intermediate",
+      time: "55 mins",
+      color: "from-teal-500 to-emerald-500"
+    },
+    {
+      id: 4,
+      title: "Para Summary",
+      description: "Skills for effective passage summarization",
+      topics: ["para summary", "summarization", "english", "verbal ability"],
+      difficulty: "Advanced",
+      time: "45 mins",
+      color: "from-amber-500 to-orange-500"
+    }
+  ],
+  dilr: [
+    {
+      id: 1,
+      title: "Cubes and Dices",
+      description: "Visual reasoning with 3D shapes",
+      topics: ["visual reasoning", "cubes", "dices", "3D shapes"],
+      difficulty: "Intermediate",
+      time: "60 mins",
+      color: "from-blue-500 to-cyan-500"
+    },
+    {
+      id: 2,
+      title: "Games and Tournaments",
+      description: "Scheduling and tournament analysis",
+      topics: ["games", "tournaments", "scheduling", "logical reasoning"],
+      difficulty: "Advanced",
+      time: "70 mins",
+      color: "from-purple-500 to-indigo-500"
+    },
+    {
+      id: 3,
+      title: "Mathematical Operations and Input Output",
+      description: "Function-based reasoning problems",
+      topics: ["mathematical operations", "input output", "functions", "reasoning"],
+      difficulty: "Intermediate",
+      time: "65 mins",
+      color: "from-teal-500 to-emerald-500"
+    },
+    {
+      id: 4,
+      title: "Venn Diagrams And Syllogism",
+      description: "Logic problems with set relationships",
+      topics: ["venn diagrams", "syllogism", "logical reasoning", "sets"],
+      difficulty: "Beginner",
+      time: "40 mins",
+      color: "from-amber-500 to-orange-500"
+    }
+  ]
+};
 
   const colleges = [
     { institute: 'IIM Ahmedabad', category: 'General', percentile: 99.5, fees: '₹23L' },
@@ -499,13 +494,11 @@ export default function Home() {
             <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
               <LayoutGrid className="w-6 h-6 text-white" />
             </div>
-            import Link from &apos;next/link&apos;;
             <Link href="/">
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
                 CATPrepEdge
               </span>
             </Link>
-
           </div>
 
           {/* Desktop Navigation */}
@@ -1000,154 +993,160 @@ export default function Home() {
         </section>
 
         {/* Exam Calendar Section */}
-<section id="cat-timeline" className="container mx-auto px-4 py-6 md:py-20">
-  <div className="text-center mb-8 md:mb-16">
-    <h2 className="text-2xl md:text-4xl font-bold text-white mb-2 md:mb-4">CAT Exam Journey</h2>
-    <p className="text-base md:text-xl text-gray-400">Your roadmap to CAT success</p>
-  </div>
+        <section id="cat-timeline" className="container mx-auto px-4 py-6 md:py-20">
+          <div className="text-center mb-8 md:mb-16">
+            <h2 className="text-2xl md:text-4xl font-bold text-white mb-2 md:mb-4">CAT Exam Journey</h2>
+            <p className="text-base md:text-xl text-gray-400">Your roadmap to CAT success</p>
+          </div>
 
-  {/* Mobile Timeline (vertical) */}
-  <div className="md:hidden relative py-8">
-    {/* Vertical progress line */}
-    <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-gray-800 via-cyan-500 to-gray-800 z-0 transform -translate-x-1/2"></div>
-    
-    <div className="relative space-y-12">
-      {timelineStages.map((stage, index) => (
-        <div key={index} className="relative z-10 flex flex-col items-center">
-          {/* Date bubble */}
-          <div className="w-16 h-16 rounded-full bg-gradient-to-br from-gray-900 to-gray-950 border-2 border-cyan-500 flex items-center justify-center mb-3 shadow-lg">
-            <div className={`w-12 h-12 rounded-full bg-gradient-to-r ${stage.color} flex items-center justify-center shadow-inner`}>
-              {stage.icon}
+          {/* Mobile Timeline (vertical) */}
+          <div className="md:hidden relative py-8">
+            {/* Vertical progress line */}
+            <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-gray-800 via-cyan-500 to-gray-800 z-0 transform -translate-x-1/2"></div>
+            
+            <div className="relative space-y-12">
+              {timelineStages.map((stage, index) => (
+                <div key={index} className="relative z-10 flex flex-col items-center">
+                  {/* Date bubble */}
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-gray-900 to-gray-950 border-2 border-cyan-500 flex items-center justify-center mb-3 shadow-lg">
+                    <div className={`w-12 h-12 rounded-full bg-gradient-to-r ${stage.color} flex items-center justify-center shadow-inner`}>
+                      {stage.icon}
+                    </div>
+                  </div>
+                  
+                  {/* Content container */}
+                  <div className="w-full bg-gray-900/80 rounded-xl p-4 border border-gray-700 backdrop-blur-sm shadow-lg">
+                    {/* Date */}
+                    <div className="text-cyan-400 font-medium mb-1 text-center text-sm">{stage.date}</div>
+                    
+                    {/* Title */}
+                    <h3 className="text-lg font-bold text-white text-center mb-2">{stage.title}</h3>
+                    
+                    {/* Description */}
+                    <p className="text-gray-300 text-sm text-center">{stage.description}</p>
+                  </div>
+                  
+                  {/* Progress arrow (downward) */}
+                  {index < timelineStages.length - 1 && (
+                    <div className="absolute left-1/2 top-full transform -translate-x-1/2 -translate-y-1/2">
+                      <div className="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg">
+                        <ArrowDown className="w-4 h-4 text-white" />
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Desktop Timeline (horizontal) */}
+          <div className="hidden md:block relative py-12">
+            {/* Progress line */}
+            <div className="absolute left-0 right-0 top-1/2 transform -translate-y-1/2 h-1 bg-gradient-to-r from-gray-800 via-cyan-500 to-gray-800 z-0"></div>
+            
+            <div className="relative flex justify-between">
+              {timelineStages.map((stage, index) => (
+                <div key={index} className="relative z-10 flex flex-col items-center w-1/5">
+                  {/* Progress connector */}
+                  {index > 0 && (
+                    <div className="absolute left-0 top-1/2 w-full h-1 bg-cyan-500 transform -translate-y-1/2 -z-10"></div>
+                  )}
+                  
+                  {/* Date bubble */}
+                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-gray-900 to-gray-950 border-2 border-cyan-500 flex items-center justify-center mb-4 shadow-lg">
+                    <div className={`w-16 h-16 rounded-full bg-gradient-to-r ${stage.color} flex items-center justify-center shadow-inner`}>
+                      {stage.icon}
+                    </div>
+                  </div>
+                  
+                  {/* Date */}
+                  <div className="text-cyan-400 font-medium mb-1 text-sm">{stage.date}</div>
+                  
+                  {/* Title */}
+                  <h3 className="text-lg font-bold text-white text-center mb-2">{stage.title}</h3>
+                  
+                  {/* Description */}
+                  <p className="text-gray-300 text-sm text-center">{stage.description}</p>
+                  
+                  {/* Progress arrow */}
+                  {index < 4 && (
+                    <div className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2">
+                      <div className="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg">
+                        <ArrowRight className="w-4 h-4 text-white" />
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
           
-          {/* Content container */}
-          <div className="w-full bg-gray-900/80 rounded-xl p-4 border border-gray-700 backdrop-blur-sm shadow-lg">
-            {/* Date */}
-            <div className="text-cyan-400 font-medium mb-1 text-center text-sm">{stage.date}</div>
-            
-            {/* Title */}
-            <h3 className="text-lg font-bold text-white text-center mb-2">{stage.title}</h3>
-            
-            {/* Description */}
-            <p className="text-gray-300 text-sm text-center">{stage.description}</p>
-          </div>
-          
-          {/* Progress arrow (downward) */}
-          {index < timelineStages.length - 1 && (
-            <div className="absolute left-1/2 top-full transform -translate-x-1/2 -translate-y-1/2">
-              <div className="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg">
-                <ArrowDown className="w-4 h-4 text-white" />
+          {/* Current status indicator */}
+          <div className="mt-12 md:mt-20 p-4 md:p-6 bg-gradient-to-r from-gray-900 to-gray-950 rounded-2xl border border-cyan-500/30 shadow-xl">
+            <div className="flex flex-col md:flex-row items-center">
+              <div className="mb-4 md:mb-0 md:mr-8">
+                <div className="bg-gradient-to-r from-cyan-600 to-blue-600 p-3 md:p-4 rounded-xl inline-block shadow-lg">
+                  <div className="text-3xl md:text-4xl font-bold text-white">
+                    {isClient ? (
+                      daysUntilRegistration > 0 ? daysUntilRegistration : 
+                      daysUntilRegistrationEnds > 0 ? daysUntilRegistrationEnds : 
+                      daysUntilExam
+                    ) : 0}
+                  </div>
+                  <div className="text-white text-xs md:text-sm">
+                    {isClient ? (
+                      daysUntilRegistration > 0 ? 'Days Until Registration' : 
+                      daysUntilRegistrationEnds > 0 ? 'Days Left to Apply' : 
+                      'Days Until Exam'
+                    ) : 'Loading...'}
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex-1 w-full md:w-auto">
+                <h3 className="text-lg md:text-xl font-bold text-white mb-2">
+                  Current Status: <span className="text-cyan-400">
+                    {isClient ? (
+                      today < catRegistrationStart ? 'Upcoming' : 
+                      today <= catRegistrationEnd ? 'Registration Open' : 
+                      'Preparation Phase'
+                    ) : 'Loading...'}
+                  </span>
+                </h3>
+                
+                {isClient && (today >= catRegistrationStart && today <= catRegistrationEnd) && (
+                  <div className="w-full bg-gray-800 rounded-full h-3 md:h-4 mb-3 md:mb-4 shadow-inner">
+                    <div 
+                      className="bg-gradient-to-r from-cyan-500 to-blue-500 h-3 md:h-4 rounded-full shadow-md" 
+                      style={{ width: `${registrationProgress()}%` }}
+                    ></div>
+                  </div>
+                )}
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
+                  <div className="bg-gray-800/70 p-2 md:p-3 rounded-lg border border-gray-700">
+                    <div className="text-cyan-400 text-xs md:text-sm">Next Deadline</div>
+                    <div className="text-white font-medium text-sm md:text-base">
+                      {formatDate(catRegistrationEnd)}
+                    </div>
+                  </div>
+                  <div className="bg-gray-800/70 p-2 md:p-3 rounded-lg border border-gray-700">
+                    <div className="text-cyan-400 text-xs md:text-sm">Applications Submitted</div>
+                    <div className="text-white font-medium text-sm md:text-base">
+                      {Math.round(42500 * (registrationProgress() / 100)).toLocaleString()} / 250,000
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="mt-4 md:mt-0 md:ml-8 w-full md:w-auto">
+                <button className="w-full md:w-auto px-4 py-2 md:px-6 md:py-3 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-xl font-medium hover:opacity-90 transition-opacity flex items-center justify-center shadow-lg hover:shadow-cyan-500/20">
+                  Apply Now <ArrowRight className="w-4 h-4 ml-2" />
+                </button>
               </div>
             </div>
-          )}
-        </div>
-      ))}
-    </div>
-  </div>
-
-  {/* Desktop Timeline (horizontal) */}
-  <div className="hidden md:block relative py-12">
-    {/* Progress line */}
-    <div className="absolute left-0 right-0 top-1/2 transform -translate-y-1/2 h-1 bg-gradient-to-r from-gray-800 via-cyan-500 to-gray-800 z-0"></div>
-    
-    <div className="relative flex justify-between">
-      {timelineStages.map((stage, index) => (
-        <div key={index} className="relative z-10 flex flex-col items-center w-1/5">
-          {/* Progress connector */}
-          {index > 0 && (
-            <div className="absolute left-0 top-1/2 w-full h-1 bg-cyan-500 transform -translate-y-1/2 -z-10"></div>
-          )}
-          
-          {/* Date bubble */}
-          <div className="w-20 h-20 rounded-full bg-gradient-to-br from-gray-900 to-gray-950 border-2 border-cyan-500 flex items-center justify-center mb-4 shadow-lg">
-            <div className={`w-16 h-16 rounded-full bg-gradient-to-r ${stage.color} flex items-center justify-center shadow-inner`}>
-              {stage.icon}
-            </div>
           </div>
-          
-          {/* Date */}
-          <div className="text-cyan-400 font-medium mb-1 text-sm">{stage.date}</div>
-          
-          {/* Title */}
-          <h3 className="text-lg font-bold text-white text-center mb-2">{stage.title}</h3>
-          
-          {/* Description */}
-          <p className="text-gray-300 text-sm text-center">{stage.description}</p>
-          
-          {/* Progress arrow */}
-          {index < 4 && (
-            <div className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2">
-              <div className="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg">
-                <ArrowRight className="w-4 h-4 text-white" />
-              </div>
-            </div>
-          )}
-        </div>
-      ))}
-    </div>
-  </div>
-  
-  {/* Current status indicator */}
-  <div className="mt-12 md:mt-20 p-4 md:p-6 bg-gradient-to-r from-gray-900 to-gray-950 rounded-2xl border border-cyan-500/30 shadow-xl">
-    <div className="flex flex-col md:flex-row items-center">
-      <div className="mb-4 md:mb-0 md:mr-8">
-        <div className="bg-gradient-to-r from-cyan-600 to-blue-600 p-3 md:p-4 rounded-xl inline-block shadow-lg">
-          <div className="text-3xl md:text-4xl font-bold text-white">
-            {daysUntilRegistration > 0 ? daysUntilRegistration : 
-            daysUntilRegistrationEnds > 0 ? daysUntilRegistrationEnds : 
-            daysUntilExam}
-          </div>
-          <div className="text-white text-xs md:text-sm">
-            {daysUntilRegistration > 0 ? 'Days Until Registration' : 
-            daysUntilRegistrationEnds > 0 ? 'Days Left to Apply' : 
-            'Days Until Exam'}
-          </div>
-        </div>
-      </div>
-      
-      <div className="flex-1 w-full md:w-auto">
-        <h3 className="text-lg md:text-xl font-bold text-white mb-2">
-          Current Status: <span className="text-cyan-400">
-            {today < catRegistrationStart ? 'Upcoming' : 
-              today <= catRegistrationEnd ? 'Registration Open' : 
-              'Preparation Phase'}
-          </span>
-        </h3>
-        
-        {(today >= catRegistrationStart && today <= catRegistrationEnd) && (
-          <div className="w-full bg-gray-800 rounded-full h-3 md:h-4 mb-3 md:mb-4 shadow-inner">
-            <div 
-              className="bg-gradient-to-r from-cyan-500 to-blue-500 h-3 md:h-4 rounded-full shadow-md" 
-              style={{ width: `${registrationProgress()}%` }}
-            ></div>
-          </div>
-        )}
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
-          <div className="bg-gray-800/70 p-2 md:p-3 rounded-lg border border-gray-700">
-            <div className="text-cyan-400 text-xs md:text-sm">Next Deadline</div>
-            <div className="text-white font-medium text-sm md:text-base">
-              {formatDate(catRegistrationEnd)}
-            </div>
-          </div>
-          <div className="bg-gray-800/70 p-2 md:p-3 rounded-lg border border-gray-700">
-            <div className="text-cyan-400 text-xs md:text-sm">Applications Submitted</div>
-            <div className="text-white font-medium text-sm md:text-base">
-              {Math.round(42500 * (registrationProgress() / 100)).toLocaleString()} / 250,000
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div className="mt-4 md:mt-0 md:ml-8 w-full md:w-auto">
-        <button className="w-full md:w-auto px-4 py-2 md:px-6 md:py-3 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-xl font-medium hover:opacity-90 transition-opacity flex items-center justify-center shadow-lg hover:shadow-cyan-500/20">
-          Apply Now <ArrowRight className="w-4 h-4 ml-2" />
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
+        </section>
       </main>
 
       {/* Footer */}
