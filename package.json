@@ -10,7 +10,7 @@
     "workerd": "1.20250408.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=18.x"
   },
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
