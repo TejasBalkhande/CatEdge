@@ -1,12 +1,11 @@
+//src\app\library\page.tsx
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { BookOpen, Search, X, Filter, Download, ArrowRight, LayoutGrid } from 'lucide-react';
+import { BookOpen, Search, X, Filter, Download, ArrowRight, LayoutGrid, FileText, BarChart3 } from 'lucide-react';
 import metadata from '@/data/metadata.json';
-import { FileText } from 'lucide-react';
-import { BarChart3 } from 'lucide-react';
 import Link from 'next/link';
 
 interface PDFMetadata {
@@ -68,7 +67,7 @@ function decodeURIComponentSafe(value: string | null): string {
   }
 }
 
-export default function LibraryPage() {
+function LibraryContent() {
   const searchParams = useSearchParams();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSection, setSelectedSection] = useState<string>('all');
@@ -653,5 +652,18 @@ export default function LibraryPage() {
         </motion.div>
       )}
     </div>
+  );
+}
+
+// Main component with Suspense boundary
+export default function LibraryPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-950 flex items-center justify-center">
+        <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-cyan-500"></div>
+      </div>
+    }>
+      <LibraryContent />
+    </Suspense>
   );
 }

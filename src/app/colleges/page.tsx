@@ -6,8 +6,16 @@ import { useAuth } from '@/context/AuthContext';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Building2, Search, Filter, ArrowRight, BarChart3, Briefcase, BookOpen, LayoutGrid } from 'lucide-react';
-
+import { 
+  Building2, 
+  Search, 
+  Filter, 
+  ArrowRight, 
+  BarChart3, 
+  Briefcase, 
+  BookOpen, 
+  LayoutGrid 
+} from 'lucide-react'; 
 interface CollegeData {
   id: string;
   name: string;

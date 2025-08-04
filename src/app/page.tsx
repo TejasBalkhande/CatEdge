@@ -4,7 +4,30 @@ import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Search, BookOpen, ArrowDown, Calendar, BarChart3, Download, ArrowRight, Bell, Book, Award, User, Bookmark, ClipboardList, GraduationCap, MessageSquare, Star, FileText, Clock, Percent, LayoutGrid } from 'lucide-react';
+import { 
+  Menu, 
+  X, 
+  Search, 
+  BookOpen, 
+  ArrowDown, 
+  Calendar, 
+  BarChart3, 
+  Download, 
+  ArrowRight, 
+  Bell, 
+  Book, 
+  Award, 
+  User, 
+  Bookmark, 
+  ClipboardList, 
+  GraduationCap, 
+  MessageSquare, 
+  Star, 
+  FileText, 
+  Clock, 
+  Percent, 
+  LayoutGrid 
+} from 'lucide-react';
 import { useMemo } from 'react'; 
 import { useAuth } from '@/context/AuthContext';
 

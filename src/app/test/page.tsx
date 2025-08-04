@@ -1,10 +1,11 @@
 // src/app/test/page.tsx
 'use client';
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
+
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
 import { useRouter } from 'next/navigation';
@@ -32,7 +33,8 @@ type UserAnswer = {
   status: 'answered' | 'marked' | 'unanswered' | 'not-visited';
 };
 
-const TestPage = () => {
+// Create a separate component for the content that uses useSearchParams
+const TestContent = () => {
   const searchParams = useSearchParams();
   const topicParam = searchParams.get('topic') || '';
   const sectionParam = searchParams.get('section') || '';
@@ -423,7 +425,6 @@ const TestPage = () => {
                         height={300}
                         className="object-contain rounded-md max-h-64"
                       />
-
                   </div>
                 </div>
               </div>
@@ -710,6 +711,22 @@ const TestPage = () => {
         </div>
       </footer>
     </div>
+  );
+};
+
+// The main page component that wraps the content in Suspense
+const TestPage = () => {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-cyan-500 mx-auto mb-6"></div>
+          <p className="text-lg font-medium">Loading test session...</p>
+        </div>
+      </div>
+    }>
+      <TestContent />
+    </Suspense>
   );
 };
 
