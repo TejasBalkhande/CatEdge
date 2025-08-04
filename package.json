@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx @cloudflare/next-on-pages",
+    "build": "next build",
+    "postbuild": "npx @cloudflare/next-on-pages",
     "start": "next start",
     "lint": "next lint",
-    "cf-build": "npm run build && npm run cf-pages",
-    "cf-pages": "next build",
-    "deploy": "npm run build && wrangler pages deploy .vercel/output/static"
+    "cf-build": "npm run build && npm run postbuild",
+    "deploy": "npm run build && npm run postbuild && wrangler pages deploy .vercel/output/static"
   },
   "dependencies": {
     "axios": "^1.7.2",
