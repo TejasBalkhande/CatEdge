@@ -4,4 +4,5 @@ module.exports = class CacheHandler {
   async get() {}
   async set() {}
   async revalidateTag() {}
+  
 };
