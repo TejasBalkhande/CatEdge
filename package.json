@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+
+    "cf-build": "npm run build && npm run postbuild",
     "build": "next build",
-    "postbuild": "npx @cloudflare/next-on-pages",
+    "postbuild": "npx @cloudflare/next-on-pages --build-command \"npm run vercel-build\"",
+    "vercel-build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cf-build": "npm run build && npm run postbuild",
     "deploy": "npm run build && npm run postbuild && wrangler pages deploy .vercel/output/static"
   },
   "dependencies": {
