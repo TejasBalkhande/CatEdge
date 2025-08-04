@@ -5,3 +5,6 @@ node_compat = true
 
 [build]
 command = "npm run build && npm run cf-pages"
+
+[pages]
+pages_build_output_dir = ".vercel/output/static"

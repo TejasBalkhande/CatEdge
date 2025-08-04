@@ -1,11 +1,15 @@
-//src\app\api\user\route.ts
+// src/app/api/user/route.ts
 import { NextResponse } from 'next/server';
 import { getSession } from '../../../../utils/auth';
 import User from '../../../../models/User';
 import dbConnect from '../../../../lib/dbConnect';
 
+// REMOVE THESE LINES:
+// export const dynamic = 'force-dynamic';
+// export const revalidate = 0;
+
 export async function GET() {
-  const session = await getSession(); // Add await here
+  const session = await getSession();
   if (!session) {
     return NextResponse.json({ message: 'Unauthorized' }, { status: 401 });
   }
