@@ -9,6 +9,9 @@
     "undici": "5.28.5",
     "workerd": "1.20250408.0"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "build": "next build",

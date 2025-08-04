@@ -2,9 +2,8 @@ import { NextResponse } from 'next/server';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 
-// FIX: Use correct type for route params
 export async function GET(
-  _: Request, // Replace NextRequest with Request
+  request: Request,
   { params }: { params: { slug: string } }
 ) {
   try {

@@ -5,6 +5,9 @@ import Link from 'next/link';
 
 // Updated base URL detection
 function getBaseUrl() {
+  if (typeof window !== 'undefined') {
+    return window.location.origin;
+  }
   return process.env.NEXT_PUBLIC_API_URL || `http://localhost:${process.env.PORT || 3000}`;
 }
 
@@ -74,7 +77,7 @@ export default async function BlogDetailPage({ params }: { params: { slug: strin
           <div className="hidden md:flex space-x-6">
             <Link href="/" className="text-gray-700 hover:text-indigo-600 font-medium">Home</Link>
             <Link href="/mock-test" className="text-gray-700 hover:text-indigo-600 font-medium">Mock Tests</Link>
-            <Link href="/mock-test" className="text-gray-700 hover:text-indigo-600 font-medium">Analytics</Link>
+            <Link href="/analytics" className="text-gray-700 hover:text-indigo-600 font-medium">Analytics</Link>
             <Link href="/colleges" className="text-gray-700 hover:text-indigo-600 font-medium">IIM Info</Link>
           </div>
           <button className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors">
@@ -119,6 +122,7 @@ export default async function BlogDetailPage({ params }: { params: { slug: strin
                   src={post.image} 
                   alt={post.title} 
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
             )}
