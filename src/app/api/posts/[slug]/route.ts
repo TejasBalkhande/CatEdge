@@ -1,11 +1,10 @@
-// src/app/api/posts/[slug]/route.ts
-
 import { NextResponse } from 'next/server';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 
+// FIX: Use correct type for route params
 export async function GET(
-  request: Request,
+  _: Request, // Replace NextRequest with Request
   { params }: { params: { slug: string } }
 ) {
   try {
@@ -20,13 +19,15 @@ export async function GET(
 
     const postDoc = postSnapshot.docs[0];
     const data = postDoc.data();
+    
+    const createdAt = data.createdAt?.toDate?.()?.toISOString() || new Date().toISOString();
 
     return NextResponse.json({
       post: {
         id: postDoc.id,
         ...data,
         content: data.fullContent ?? data.content ?? '',
-        createdAt: data.createdAt?.toDate().toISOString() || new Date().toISOString(),
+        createdAt,
       }
     });
   } catch (e) {
