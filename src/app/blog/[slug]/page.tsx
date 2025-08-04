@@ -2,17 +2,14 @@
 
 import { Post } from '../../../../types';
 import Link from 'next/link';
-import { headers } from 'next/headers';
 
-async function getBaseUrl() {
-  const headersList = await headers();
-  const host = headersList.get('host');
-  const protocol = headersList.get('x-forwarded-proto') || 'http';
-  return `${protocol}://${host}`;
+// Updated base URL detection
+function getBaseUrl() {
+  return process.env.NEXT_PUBLIC_API_URL || `http://localhost:${process.env.PORT || 3000}`;
 }
 
 async function getPost(slug: string): Promise<{ post: Post }> {
-  const baseUrl = await getBaseUrl();
+  const baseUrl = getBaseUrl();
   const res = await fetch(`${baseUrl}/api/posts/${slug}`, {
     cache: 'no-store',
   });
@@ -22,20 +19,44 @@ async function getPost(slug: string): Promise<{ post: Post }> {
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const { post } = await getPost(params.slug);
-  return {
-    title: post.title,
-    description: post.excerpt || post.title,
-    openGraph: {
+  try {
+    const { post } = await getPost(params.slug);
+    return {
       title: post.title,
       description: post.excerpt || post.title,
-      images: [post.image],
-    },
-  };
+      openGraph: {
+        title: post.title,
+        description: post.excerpt || post.title,
+        images: [post.image],
+      },
+    };
+  } catch (e) {
+    return {
+      title: 'Post Not Found',
+      description: 'The requested post could not be found',
+    };
+  }
 }
 
 export default async function BlogDetailPage({ params }: { params: { slug: string } }) {
-  const { post } = await getPost(params.slug);
+  let post: Post | null = null;
+  
+  try {
+    const data = await getPost(params.slug);
+    post = data.post;
+  } catch (error) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div className="container mx-auto px-4 py-32 text-center">
+          <h1 className="text-3xl font-bold text-red-600 mb-4">Post Not Found</h1>
+          <p className="text-gray-700 mb-8">The requested post could not be loaded.</p>
+          <Link href="/" className="text-indigo-600 hover:underline">
+            Return to Homepage
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
