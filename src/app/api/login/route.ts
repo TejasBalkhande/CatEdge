@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import User from '../../../../models/User';
+import User, { IUser } from '../../../../models/User';
 import dbConnect from '../../../../lib/dbConnect';
 import { comparePasswords, generateToken } from '../../../../utils/auth';
 
@@ -9,8 +9,8 @@ export async function POST(request: Request) {
   try {
     const { email, password } = await request.json();
     
-    // Find user
-    const user = await User.findOne({ email });
+    // Find user with explicit type
+    const user: IUser | null = await User.findOne({ email });
     if (!user) {
       return NextResponse.json({ message: 'Invalid credentials' }, { status: 401 });
     }
@@ -21,7 +21,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ message: 'Invalid credentials' }, { status: 401 });
     }
     
-    // Generate JWT
+    // Generate JWT - now _id is properly typed
     const token = generateToken(user._id.toString(), user.role);
     
     // Set cookie

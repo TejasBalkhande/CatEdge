@@ -1,5 +1,4 @@
-// models/User.ts
-import mongoose, { Document, Schema, Model } from 'mongoose';
+import mongoose, { Document, Schema, Model, Types } from 'mongoose';
 
 // Define interface for Progress
 export interface IProgress {
@@ -11,6 +10,7 @@ export interface IProgress {
 
 // Define interface for User document
 export interface IUser extends Document {
+  _id: Types.ObjectId; // Explicitly define _id
   fullName: string;
   email: string;
   password: string;

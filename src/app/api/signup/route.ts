@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import User from '../../../../models/User';
+import User, { IUser } from '../../../../models/User';
 import dbConnect from '../../../../lib/dbConnect';
 import { generateToken, hashPassword } from '../../../../utils/auth';
 
@@ -10,7 +10,7 @@ export async function POST(request: Request) {
     const { fullName, email, password } = await request.json();
     
     // Check if user exists
-    const existingUser = await User.findOne({ email });
+    const existingUser: IUser | null = await User.findOne({ email });
     if (existingUser) {
       return NextResponse.json({ message: 'User already exists' }, { status: 400 });
     }
@@ -18,11 +18,17 @@ export async function POST(request: Request) {
     // Hash password
     const hashedPassword = await hashPassword(password);
     
-    // Create new user
-    const user = new User({ fullName, email, password: hashedPassword, role: 'free' });
+    // Create new user with explicit type
+    const user: IUser = new User({ 
+      fullName, 
+      email, 
+      password: hashedPassword, 
+      role: 'free' 
+    });
+    
     await user.save();
     
-    // Generate JWT
+    // Generate JWT - now _id is properly typed
     const token = generateToken(user._id.toString(), user.role);
     
     // Set cookie
