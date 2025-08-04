@@ -15,7 +15,7 @@
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "build": "next build",
-    "cf-pages": "NEXT_PUBLIC_UNDICI_VERSION=5.28.5 npx @cloudflare/next-on-pages@1",
+    "cf-pages": "next-on-pages",
     "dev": "next dev --turbopack",
     "start": "next start",
     "lint": "next lint",
@@ -55,6 +55,7 @@
     "eslint": "^9.0.0",
     "eslint-config-next": "15.4.2",
     "tailwindcss": "^4.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "wrangler": "^4.27.0"
   }
 }

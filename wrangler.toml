@@ -1,0 +1,7 @@
+name = "catedge"
+compatibility_date = "2025-08-04"
+main = "server.js"
+node_compat = true
+
+[build]
+command = "npm run build && npm run cf-pages"
