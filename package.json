@@ -14,12 +14,12 @@
   },
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
+    "dev": "next dev",
     "build": "next build",
     "cf-pages": "npx @cloudflare/next-on-pages@1",
-    "dev": "next dev",
+    "cf-build": "npm run build && npm run cf-pages",
     "start": "next start",
-    "lint": "next lint",
-    "cf-build": "npm run build && npm run cf-pages"
+    "lint": "next lint"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
