@@ -1,8 +1,5 @@
-// next.config.js
-const { withCloudflarePagesAdapter } = require('@cloudflare/next-on-pages/next-config');
-
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -13,8 +10,3 @@ const nextConfig = {
     ],
   },
 };
-
-module.exports =
-  process.env.NODE_ENV === 'production'
-    ? withCloudflarePagesAdapter(nextConfig)
-    : nextConfig;

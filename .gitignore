@@ -10,7 +10,7 @@
 .env.development
 
 # Config files with potential secrets
-next.config.*
+#next.config.*
 middleware.*
 
 # ==============
