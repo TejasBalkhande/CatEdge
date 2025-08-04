@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   output: 'standalone',
   experimental: {
     serverActions: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
   },
   images: {
     domains: [
@@ -14,3 +11,5 @@ module.exports = {
     ],
   },
 };
+
+module.exports = nextConfig;

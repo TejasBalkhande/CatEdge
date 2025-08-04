@@ -15,8 +15,8 @@
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "build": "next build",
-    "cf-pages": "next-on-pages",
-    "dev": "next dev --turbopack",
+    "cf-pages": "npx @cloudflare/next-on-pages@1",
+    "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
     "cf-build": "npm run build && npm run cf-pages"
