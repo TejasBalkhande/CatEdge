@@ -12,6 +12,8 @@ interface TopicProgress {
   topic: string;
   attempted: number;
   correct: number;
+
+  
 }
 
 interface SectionProgress {
