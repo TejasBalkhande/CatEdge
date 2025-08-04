@@ -7,15 +7,16 @@
     "esbuild": "0.24.3",
     "path-to-regexp": "6.2.3",
     "undici": "5.28.5",
-    "workerd": "1.20250712.0"
+    "workerd": "1.20250408.0"  
   },
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
-    "build": "NEXT_PUBLIC_UNDICI_VERSION=5.28.5 npx @cloudflare/next-on-pages@1",
+    "build": "next build",
+    "cf-pages": "NEXT_PUBLIC_UNDICI_VERSION=5.28.5 npx @cloudflare/next-on-pages@1",
     "dev": "next dev --turbopack",
-    "cf-build": "npx @cloudflare/next-on-pages@1",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cf-build": "npm run build && npm run cf-pages"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
