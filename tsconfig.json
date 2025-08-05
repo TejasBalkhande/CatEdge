@@ -7,9 +7,7 @@
     // explicitly include these ambient type packages
     "types": [
       "node",
-      "bcryptjs",
       "cookie",
-      "jsonwebtoken",
       "ms",
       "prop-types",
       "react",
