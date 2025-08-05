@@ -34,7 +34,7 @@ const collegesData: CollegeData[] = [
     name: "IIM Ahmedabad",
     location: "Ahmedabad, Gujarat",
     catCutoff: "99.5+ percentile",
-    fees: "₹23.5 Lakhs",
+    fees: "₹23.4 Lakhs",
     avgPackage: "₹34.5 LPA",
     topCompanies: ["McKinsey", "BCG", "Bain", "Google", "Amazon"],
     placementHighlights: [
