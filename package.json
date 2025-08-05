@@ -7,7 +7,7 @@
 
     "cf-build": "npm run build && npm run postbuild",
     "build": "next build",
-    "postbuild": "npx @cloudflare/next-on-pages --build-command \"npm run vercel-build\"",
+    "postbuild": "npx @cloudflare/next-on-pages",
     "vercel-build": "next build",
     "start": "next start",
     "lint": "next lint",
