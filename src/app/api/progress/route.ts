@@ -1,8 +1,9 @@
-// app/api/progress/route.ts
 import { NextResponse } from 'next/server';
 import User, { IUser, IProgress } from '../../../../models/User';
 import dbConnect from '../../../../lib/dbConnect';
 import { getSession } from '../../../../utils/auth';
+
+export const runtime = 'nodejs';
 
 interface ProgressPayload {
   section: string;
@@ -22,23 +23,19 @@ export async function POST(request: Request) {
     const payload: ProgressPayload = await request.json();
     const { section, topic, isCorrect } = payload;
     
-    // Find user and update progress
     const user: IUser | null = await User.findById(session.userId);
     if (!user) {
       return NextResponse.json({ message: 'User not found' }, { status: 404 });
     }
 
-    // Find existing progress for this topic
     const topicProgress: IProgress | undefined = user.progress.find(
       p => p.section === section && p.topic === topic
     );
 
     if (topicProgress) {
-      // Update existing progress
       topicProgress.attempted += 1;
       if (isCorrect) topicProgress.correct += 1;
     } else {
-      // Create new progress entry
       const newProgress: IProgress = {
         section,
         topic,

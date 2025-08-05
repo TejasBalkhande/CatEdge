@@ -1,12 +1,9 @@
-// src/app/api/user/route.ts
 import { NextResponse } from 'next/server';
 import { getSession } from '../../../../utils/auth';
 import User from '../../../../models/User';
 import dbConnect from '../../../../lib/dbConnect';
 
-// REMOVE THESE LINES:
-// export const dynamic = 'force-dynamic';
-// export const revalidate = 0;
+export const runtime = 'nodejs';
 
 export async function GET() {
   const session = await getSession();

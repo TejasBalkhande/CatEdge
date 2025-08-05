@@ -1,10 +1,9 @@
-// app/api/user/progress/route.ts
 import { NextResponse } from 'next/server';
 import User from '../../../../../models/User';
 import dbConnect from '../../../../../lib/dbConnect';
 import { getSession } from '../../../../../utils/auth';
 
-// Add this configuration to prevent static export attempts
+export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
