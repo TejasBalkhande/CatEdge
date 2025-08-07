@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:cf": "next build && npx @cloudflare/next-on-pages --skip-build",
-    "deploy": "npm run build:cf && wrangler pages deploy .vercel/output/static",
+    "build:cf": "npx @cloudflare/next-on-pages",
+  "deploy": "npm run build:cf && wrangler pages deploy .vercel/output/static",
     "lint": "next lint",
     "clean": "Remove-Item -Recurse -Force node_modules,package-lock.json -ErrorAction SilentlyContinue"
   },
