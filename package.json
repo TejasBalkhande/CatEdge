@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "npx @cloudflare/next-on-pages",
-    "cf-build": "npm run build && npm run postbuild",
-    "deploy": "npm run cf-build && wrangler pages deploy .vercel/output/static",
+    "build:cf": "next build && npx @cloudflare/next-on-pages --skip-build",
+    "deploy": "npm run build:cf && wrangler pages deploy .vercel/output/static",
     "lint": "next lint",
     "clean": "Remove-Item -Recurse -Force node_modules,package-lock.json -ErrorAction SilentlyContinue"
   },
@@ -54,3 +53,6 @@
     "npm": ">=9.0.0"
   }
 }
+
+
+
