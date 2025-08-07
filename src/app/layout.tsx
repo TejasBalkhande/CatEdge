@@ -4,6 +4,9 @@ import "./globals.css";
 import Script from "next/script";
 import { AuthProvider } from "@/context/AuthContext";
 
+export const runtime = 'edge';
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: "Your App Name",
   description: "Your app description",

@@ -4,7 +4,6 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "typeRoots": ["./node_modules/@types", "./types"],
 
-    // explicitly include these ambient type packages
     "types": [
       "node",
       "cookie",
@@ -27,7 +26,6 @@
     "jsx": "preserve",
     "incremental": true,
 
-    // ✅ This is key!
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./*"]
@@ -36,13 +34,13 @@
     "plugins": [{ "name": "next" }]
   },
   "include": [
+    "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "app/**/*",
     "components/**/*",
     "lib/**/*",
     "models/**/*",
-    "next-env.d.ts",
     "types/**/*",
     "utils/**/*",
     ".next/types/**/*.ts"

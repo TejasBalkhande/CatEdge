@@ -10,6 +10,10 @@ import katex from 'katex';
 import 'katex/dist/katex.min.css';
 import { useRouter } from 'next/navigation';
 
+// Create typed motion components
+const MotionDiv = motion.div;
+const MotionButton = motion.button;
+
 type Question = {
   id: number;
   passage: string;
@@ -52,23 +56,6 @@ const TestContent = () => {
   const [userAnswers, setUserAnswers] = useState<UserAnswer[]>([]);
   const [timeRemaining, setTimeRemaining] = useState(60 * 60);
   const [testStarted, setTestStarted] = useState(false);
-
-  // Function to submit progress to backend
-  const submitProgress = async (question: Question, isCorrect: boolean) => {
-    try {
-      await fetch('/api/progress', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          section: question.section,
-          topic: question.topic,
-          isCorrect
-        })
-      });
-    } catch (error) {
-      console.error('Error updating progress:', error);
-    }
-  };
 
   // Custom LaTeX renderer using katex
   const renderLatex = (content: string) => {
@@ -188,11 +175,6 @@ const TestContent = () => {
 
   const handleOptionSelect = (option: string) => {
     if (!showExplanation) {
-      const isCorrect = option === currentQuestion.answer;
-      
-      // Submit progress to backend
-      submitProgress(currentQuestion, isCorrect);
-      
       setSelectedOption(option);
       
       const newUserAnswers = [...userAnswers];
@@ -312,7 +294,7 @@ const TestContent = () => {
     return (
       <div className={`min-h-screen flex items-center justify-center ${darkMode ? 'bg-gradient-to-br from-gray-900 to-gray-800 text-white' : 'bg-gradient-to-br from-gray-100 to-white text-gray-900'}`}>
         <div className="text-center">
-          <motion.div
+          <MotionDiv
             animate={{ rotate: 360, scale: [1, 1.2, 1] }}
             transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
             className="rounded-full h-16 w-16 border-t-4 border-b-4 mx-auto mb-6"
@@ -320,7 +302,7 @@ const TestContent = () => {
               borderTopColor: darkMode ? '#06b6d4' : '#2563eb',
               borderBottomColor: darkMode ? '#8b5cf6' : '#8b5cf6'
             }}
-          ></motion.div>
+          ></MotionDiv>
           <p className="text-lg font-medium">Loading questions...</p>
         </div>
       </div>
@@ -341,7 +323,7 @@ const TestContent = () => {
           <p className={`mb-6 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
             Trying to load: /data/{section}/{topic}.json
           </p>
-          <motion.button 
+          <MotionButton 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => window.location.reload()} 
@@ -352,7 +334,7 @@ const TestContent = () => {
             }`}
           >
             Try Again
-          </motion.button>
+          </MotionButton>
         </div>
       </div>
     );
@@ -446,7 +428,7 @@ const TestContent = () => {
             {hasOptions && (
               <div className="space-y-4 mb-8">
                 {Object.entries(currentQuestion.options).map(([key, value]) => (
-                  <motion.div
+                  <MotionDiv
                     key={key}
                     whileHover={{ scale: showExplanation ? 1 : 1.02 }}
                     whileTap={{ scale: showExplanation ? 1 : 0.98 }}
@@ -483,14 +465,14 @@ const TestContent = () => {
                         )}
                       </div>
                     </button>
-                  </motion.div>
+                  </MotionDiv>
                 ))}
               </div>
             )}
 
             {/* Show Answer button for questions without options */}
             {!hasOptions && !showExplanation && (
-              <motion.button
+              <MotionButton
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className={`w-full py-4 rounded-xl mb-6 ${
@@ -501,12 +483,12 @@ const TestContent = () => {
                 onClick={handleShowAnswer}
               >
                 Show Answer
-              </motion.button>
+              </MotionButton>
             )}
 
             {/* Explanation */}
             {showExplanation && (
-              <motion.div
+              <MotionDiv
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
                 transition={{ duration: 0.3 }}
@@ -551,7 +533,7 @@ const TestContent = () => {
                     )}
                   </div>
                 </div>
-              </motion.div>
+              </MotionDiv>
             )}
           </div>
         </div>
@@ -580,7 +562,7 @@ const TestContent = () => {
                 const isCurrent = index === currentQuestionIndex;
                 
                 return (
-                  <motion.button
+                  <MotionButton
                     key={index}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -590,7 +572,7 @@ const TestContent = () => {
                     onClick={() => handleQuestionNavigation(index)}
                   >
                     {index + 1}
-                  </motion.button>
+                  </MotionButton>
                 );
               })}
             </div>
@@ -625,7 +607,7 @@ const TestContent = () => {
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-between items-center gap-4">
             {/* Mark for Review Button */}
-            <motion.button
+            <MotionButton
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className={`px-4 py-2 rounded-lg flex items-center ${
@@ -650,11 +632,11 @@ const TestContent = () => {
                   Mark for Review
                 </>
               )}
-            </motion.button>
+            </MotionButton>
 
             {/* Previous/Next Buttons */}
             <div className="flex gap-2">
-              <motion.button
+              <MotionButton
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className={`px-4 py-2 rounded-lg flex items-center ${
@@ -669,9 +651,9 @@ const TestContent = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
                 Previous
-              </motion.button>
+              </MotionButton>
               
-              <motion.button
+              <MotionButton
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className={`px-4 py-2 rounded-lg flex items-center ${
@@ -685,11 +667,11 @@ const TestContent = () => {
                 <svg className="w-5 h-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
-              </motion.button>
+              </MotionButton>
             </div>
 
             {/* Submit Button */}
-                <motion.button
+                <MotionButton
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className={`px-6 py-2 rounded-lg flex items-center ${
@@ -698,7 +680,6 @@ const TestContent = () => {
                       : 'bg-emerald-600 text-white'
                   }`}
                   onClick={() => {
-                    // Add any submission logic here before navigation
                     router.push('/mock-test');
                   }}
                 >
@@ -706,7 +687,7 @@ const TestContent = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   Submit Test
-                </motion.button>
+                </MotionButton>
           </div>
         </div>
       </footer>

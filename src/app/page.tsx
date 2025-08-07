@@ -14,25 +14,19 @@ import {
   BarChart3, 
   Download, 
   ArrowRight, 
-  Bell, 
   Book, 
   Award, 
-  User, 
   Bookmark, 
   ClipboardList, 
   GraduationCap, 
-  MessageSquare, 
-  Star, 
   FileText, 
   Clock, 
   Percent, 
   LayoutGrid 
 } from 'lucide-react';
 import { useMemo } from 'react'; 
-import { useAuth } from '@/context/AuthContext';
 
 export default function Home() {
-  const { isAuthenticated } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [email, setEmail] = useState('');
   const [activeTab, setActiveTab] = useState('all');
@@ -541,18 +535,6 @@ const sectionResources = {
                 </a>
               ))}
             </div>
-
-            {/* Account Button */}
-            <Link href={isAuthenticated ? "/dashboard" : "/signup-login"}>
-              <motion.button
-                className="flex items-center text-gray-400 hover:text-cyan-400 transition-colors"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <User className="w-5 h-5 mr-2" />
-                {isAuthenticated ? "Dashboard" : "Account"}
-              </motion.button>
-            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -629,37 +611,6 @@ const sectionResources = {
                           </a>
                         </li>
                       ))}
-                    </ul>
-                  </div>
-
-                  {/* Account Section */}
-                  <div className="space-y-4">
-                    <h3 className="text-lg font-semibold text-cyan-400 border-b border-cyan-500/20 pb-2">
-                      Account
-                    </h3>
-                    <ul className="space-y-3">
-                      <li>
-                        <Link
-                          href={isAuthenticated ? "/dashboard" : "/signup-login"}
-                          className="flex items-center p-3 text-gray-300 hover:bg-gray-800 rounded-lg transition-colors"
-                          onClick={() => setMobileMenuOpen(false)}
-                        >
-                          <User className="mr-3 w-5 h-5 text-cyan-400" />
-                          <span className="font-medium">
-                            {isAuthenticated ? "Dashboard" : "Login / Signup"}
-                          </span>
-                        </Link>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="flex items-center p-3 text-gray-300 hover:bg-gray-800 rounded-lg transition-colors"
-                          onClick={() => setMobileMenuOpen(false)}
-                        >
-                          <Bookmark className="mr-3 w-5 h-5 text-cyan-400" />
-                          <span className="font-medium">Saved Resources</span>
-                        </a>
-                      </li>
                     </ul>
                   </div>
 
@@ -1239,14 +1190,10 @@ const sectionResources = {
               <h3 className="text-lg font-semibold text-white mb-6">Contact Us</h3>
               <address className="not-italic space-y-4">
                 <div className="flex items-start">
-                  <MessageSquare className="mr-3 mt-1 w-4 h-4 text-cyan-400" />
-                  <span>catprepdrive@gmail.com</span>
-                </div>
-                <div className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" className="mr-3 mt-1 w-4 h-4 text-cyan-400" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/>
                   </svg>
-                  <span>+91 98765 43210</span>
+                  <span>catprepdrive@gmail.com</span>
                 </div>
                 <div className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" className="mr-3 mt-1 w-4 h-4 text-cyan-400" viewBox="0 0 24 24" fill="currentColor">
